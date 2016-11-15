@@ -31,3 +31,20 @@ ul {
 	font-size: 14px;
 	text-align: justify;
 }
+
+figure {
+    display: inline-block;
+    border: 1px dotted gray;
+    margin: 20px; /* adjust as needed */
+    position: relative;
+    float: right;
+
+}
+figure img {
+    vertical-align: top;
+}
+figure figcaption {
+    border: 1px dotted blue;
+    text-align: center;
+    font-size: 8px;
+}
