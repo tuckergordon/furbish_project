@@ -28,7 +28,24 @@
 
 	<hr/>
 	<h3>Storyboarding for some of the possible questions</h3>
-
+	<img src="img/sketch.jpg" style="width: 700">
+	<p>
+		For our project, we're thinking about doing one "super-visualization" with many features. The main interface includes a map of Maine, a slider for selecting date ranges, a searchable dialog box, and a "town inspector" box. The goal of this visulization is to be able to explore where in Maine Furbish found specific flowers. By walking through each of the possible interactions, the functionality of each of these should become clear:
+	</p>
+	<ol>
+		<li>
+			The year slider allows a user to select a range of years that they want to explore. Only samples that occured within that range will appear in the visualization.
+		</li>
+		<li>
+			The search box has two tabs: one for searching by AH Scientific name, and the other for searching by common name. The user can search for a flower by name, and then check any results that they want to visualize (a picture of the flower from the collection may appear as well). Whenever a flower is checked, a dot will appear at all of the towns in which that flower was sampled (within the specified year range). If there is already a dot there (i.e. there has already been a flower checked with a sample there), the dot will increase in size.
+		</li>
+		<li>
+			If the user clicks on a town, the inspector box will populate with information about all of the checked flowers that have samples in that town. For each type of flower, the user will be able to see both the scientific and common names, the volume and pages in which it appears within the collection, the total number of samples, and the years in which the flower was sampled in that town.
+		</li>
+		<li>
+			Clicking on a town will also bring up a zoomed in image of the town
+		</li>
+	</ol>
 	<hr/>
 	<h3>Questions we have decided to pursue</h3>
 	<p>
