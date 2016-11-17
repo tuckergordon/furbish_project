@@ -3,6 +3,7 @@
 	<meta charset="utf-8">
 	<title>FP5: Final Project Progress Report</title>
 	<link rel="stylesheet" type="text/css" href="stylesheet.css">
+	<script type="text/javascript" src="d3/d3.v3.js"></script>
 </head>
 <body>
 	<h1>CSCI 3665: Interactive Data Visualization</h1>
@@ -17,9 +18,65 @@
 	</ul>
 	<hr/>
 	<h3>Progress on Goals:</h3>
-	<ul>
-		<li></li>
-	</ul>
+	
+	<script> 
+
+		var dataset = [];
+
+		d3.csv("kateFurbish.csv", function(error, data) {
+
+			if (error) {
+				console.log(error);
+			}
+			else {
+				dataset = data;
+				parseData();
+				// console.log(dataset);
+			}
+		});
+
+		function parseData() {
+
+			var flowerObjects = [];
+
+			for (var i = 0; i < dataset.length; i++) {
+				var row = dataset[i];
+				var flower = {};
+				flower["Volume"] = row["Volume"];
+				flower["Page"] = row["Page"];
+				flower["AH Scientific Name"] = row["AH Scientific Name"];
+				flower["AH Common Name"] = row["AH Common Name"];
+				flower["Dimensions"] = row["Dimensions (hxw, cm)"];
+				
+				var samples = [];
+
+				var colIndex = 1;
+
+				while(row["Place Name-" + colIndex + ""] != "") { //Would it be null or empty string?
+					var sample = {};
+					sample["places"] = row["Place Name-" + colIndex + ""]
+					sample["years"] = row["Year-" + colIndex + ""]
+					samples.push(sample);
+					colIndex++;
+				}
+
+				flower["samples"] = samples;
+
+				//Check for duplicates.		
+
+				flowerObjects.push(flower);
+
+			}
+			var link = document.createElement('a');
+			link.setAttribute('href', 'data:text/plain,' + JSON.stringify(flowerObjects) + '');
+			link.setAttribute('download', 'test.txt');
+			document.getElementsByTagName("body")[0].appendChild(link).click();
+			console.log(JSON.stringify(flowerObjects));
+
+		}
+
+	</script>
+
 	<hr/>
 	<h3>New Questions/Issues:</h3>
 	<ul>
