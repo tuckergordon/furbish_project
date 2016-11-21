@@ -18,17 +18,17 @@ function parseData() {
 	for (var i = 0; i < dataset.length; i++) {
 		var row = dataset[i];
 		var flower = {};
-		flower["Volume"] = row["Volume"];
-		flower["Page"] = row["Page"];
-		flower["AH Scientific Name"] = row["AH Scientific Name"];
-		flower["AH Common Name"] = row["AH Common Name"];
-		flower["Dimensions"] = row["Dimensions (hxw, cm)"];
+		flower["volume"] = row["Volume"];
+		flower["page"] = row["Page"];
+		flower["sciName"] = row["AH Scientific Name"];
+		flower["comName"] = row["AH Common Name"];
+		flower["dimensions"] = row["Dimensions (hxw, cm)"];
 		
 		var samples = [];
 
 		var colIndex = 1;
 
-		while(row["Place Name-" + colIndex + ""] != null) { //Would it be null or empty string?
+		while(row["Place Name-" + colIndex + ""] != "") {
 			var sample = {};
 			sample["places"] = row["Place Name-" + colIndex + ""]
 			sample["years"] = row["Year-" + colIndex + ""]
