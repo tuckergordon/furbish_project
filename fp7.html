@@ -1,0 +1,106 @@
+<html>
+<head>
+	<meta charset="utf-8">
+	<title>FP7: Final Project Progress Report</title>
+	<link rel="stylesheet" type="text/css" href="stylesheet.css">
+	<script type="text/javascript" src="d3/d3.v3.js"></script>
+</head>
+<body>
+	<h1>CSCI 3665: Interactive Data Visualization</h1>
+	<h2>FP5: Final Project Progress Report</h2>
+	<h3>Sophia Ardell, Marcus Christiansen, Tucker Gordon</h3>
+	<h3>November 17, 2016</h3>
+	<h3>Kate Furbish Collection</h3>
+	<hr/>
+	<h3>Goals for Completing the Project:</h3>
+	<ul>
+		<li></li>
+	</ul>
+	<hr/>
+	<h3>Progress on Goals:</h3>
+	<ul>
+		<li> Defined and described what visualization we intend to pursue. </li>
+		<li> Contacted Kat (the person we are creating the visualization for) and asked several questions about the data and regarding our visualization. </li>
+	</ul>
+	<hr/>
+	<h3>New Questions/Issues:</h3>
+	<ul>
+		<li>All of them! It's our first week!</li>
+	</ul>
+	<hr/>
+	<h3>Most Immediate Goals for the Following Week:</h3>
+	<ul>
+		<li>Cleaning data</li>
+		<ul> <li> Looking through the data, we have found several instances of misspellings and inconsistencies in how certain types of information are written (several different people have been involved in transfering Kate Furbish's work to an excel file, and they have used different methods to record that information). We want to go through the existing data and make changes to any misspellings and standardize how the information is recorded. This will allow us to parse the data much more easily and succesfully. </li> </ul>
+		<li>Reading in and parsing data</li>
+		<ul> 
+			<li> As this is a large data set, we are going to need to write a script that will parse the data and organize it in a format that we can use during the project. We are thinking of creating both flower and town structs to store the data, so during the parsing process, we will be creating a new instance of a flower struct whenever we encounter a new species of flora and a new instance of a town struct when we encounter a new town. To the flower struct, we will append:
+			
+			<ul>
+				<li> The volume it was found in, and on what page it was found. </li>
+				<li> The scientific name of the flora. </li>
+				<li> The revised scientific name of the flora. </li>
+				<li> The AH scientific name. </li>
+				<li> The AH common name.</li>
+				<li> The towns in which this species was found.</li>
+				<li> The number of instances of this flora was found. </li>
+				<li> When the flora instances were found. </li>
+			</ul>
+
+			To the town struct, we will append:
+
+			<ul>
+				<li> The name of the town </li>
+				<li> The flora that were found in that town </li>
+				<li> The number of each of the flora that were found in that town </li>
+				<li> The volume the flora were found in, and on what pages they were found. </li>
+				<li> When the flora instances were found. </li>
+			</ul>	
+
+			</li> 
+		</ul>
+		<li>Communicating plans/ideas for visualizations with Kat</li>
+		<ul> <li> As we are creating a visualization for a specific person, we want to contact this person again and discuss what they would like out of this visualization so that we can tailor our visualization to suit their needs. </li> </ul>
+	</ul>
+	<hr/>
+	<h3>Accounting for Individual Contributions:</h3>
+	<table>
+		<tr>
+			<th>Task</th>
+			<th>Sophie</th>
+			<th>Marcus</th>
+			<th>Tucker</th>
+		</tr>
+		<tr>
+			<td>Brainstorm questions and visualizations</td>
+			<td>33%</td>
+			<td>33%</td>
+			<td>33%</td>
+		</tr>
+		<tr>
+			<td>Writing write-ups</td>
+			<td>33%</td>
+			<td>33%</td>
+			<td>33%</td>
+		</tr>
+		<tr>
+			<td>Writing write-ups (Week 2)</td>
+			<td>33%</td>
+			<td>33%</td>
+			<td>33%</td>
+		</tr>
+		<tr>
+			<td>Cleaning data</td>
+			<td>100%</td>
+			<td>0%</td>
+			<td>0%</td>
+		</tr>
+		<tr>
+			<td>Parsing data</td>
+			<td>5%</td>
+			<td>47.5%</td>
+			<td>47.5%</td>
+		</tr>
+	</table>
+</body>
+</html>
