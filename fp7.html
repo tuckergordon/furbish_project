@@ -7,9 +7,9 @@
 </head>
 <body>
 	<h1>CSCI 3665: Interactive Data Visualization</h1>
-	<h2>FP5: Final Project Progress Report</h2>
+	<h2>FP7: Final Project Progress Report</h2>
 	<h3>Sophia Ardell, Marcus Christiansen, Tucker Gordon</h3>
-	<h3>November 17, 2016</h3>
+	<h3>November 22, 2016</h3>
 	<h3>Kate Furbish Collection</h3>
 	<hr/>
 	<h3>Goals for Completing the Project:</h3>
@@ -19,8 +19,11 @@
 	<hr/>
 	<h3>Progress on Goals:</h3>
 	<ul>
-		<li> Defined and described what visualization we intend to pursue. </li>
-		<li> Contacted Kat (the person we are creating the visualization for) and asked several questions about the data and regarding our visualization. </li>
+		<li>Had a very productive meeting with Kat Stefko</li>
+		<li>Cleaning data</li>
+			<ul> 
+				<li> Looking through the data, we have found several instances of misspellings and inconsistencies in how certain types of information are written (several different people have been involved in transfering Kate Furbish's work to an excel file, and they have used different methods to record that information). We want to go through the existing data and make changes to any misspellings and standardize how the information is recorded. This will allow us to parse the data much more easily and succesfully. </li>
+			</ul>
 	</ul>
 	<hr/>
 	<h3>New Questions/Issues:</h3>
@@ -30,8 +33,6 @@
 	<hr/>
 	<h3>Most Immediate Goals for the Following Week:</h3>
 	<ul>
-		<li>Cleaning data</li>
-		<ul> <li> Looking through the data, we have found several instances of misspellings and inconsistencies in how certain types of information are written (several different people have been involved in transfering Kate Furbish's work to an excel file, and they have used different methods to record that information). We want to go through the existing data and make changes to any misspellings and standardize how the information is recorded. This will allow us to parse the data much more easily and succesfully. </li> </ul>
 		<li>Reading in and parsing data</li>
 		<ul> 
 			<li> As this is a large data set, we are going to need to write a script that will parse the data and organize it in a format that we can use during the project. We are thinking of creating both flower and town structs to store the data, so during the parsing process, we will be creating a new instance of a flower struct whenever we encounter a new species of flora and a new instance of a town struct when we encounter a new town. To the flower struct, we will append:
