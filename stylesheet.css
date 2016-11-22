@@ -32,6 +32,12 @@ ul {
 	text-align: justify;
 }
 
+td {
+	font-family: "Times New Roman", Times, serif;
+	font-size: 14px;
+	text-align: justify;
+}
+
 figure {
     display: inline-block;
     border: 1px dotted gray;
