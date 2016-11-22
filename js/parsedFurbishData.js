@@ -1,3 +1,20 @@
+// Sophie Ardell, Marcus Christiansen, and Tucker Gordon
+// CSCI 3665
+// Project 2: Kate Furbish Collection
+// parsedFurbishData.js
+
+// This script simply holds a JSON-formatted object that is assigned to 
+// be the dataset for our project. It is a sorted (alphabetically by scientific name) 
+// array of flora objects, where each flora object has the following properties:
+
+//    -volume: the volume in which this flora first appears
+//    -page: the pages in the volume in which this flora first appears (this is a string, 
+//        and multiple pages will appear comma-delimited)
+//    -sciName: the scientific name of the flora
+//    -commonName: the common name of the flora
+//    -entries: an arraylist where each element contains the town and data of one Furbish's entries
+//          for that flora
+
 var dataset = [
   {
     "volume": "12",
