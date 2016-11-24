@@ -1,17 +1,16 @@
-<html>
+<!-- <html>
 <head>
-	<meta charset="utf-8">
-	<title>Search Dialog Test</title>
+	
 	<link rel="stylesheet" type="text/css" href="stylesheet.css">
 	<script type="text/javascript" src="js/list.min.js"></script>
 	<script type="text/javascript" src="list.fuzzysearch.min.js"></script>
 	<script type="text/javascript" src="js/parsedFurbishData.js"></script>
-	<script type="text/javascript" src="searchDialogTest.js"></script>
-	<!-- <script type="text/javascript" src="https://d3js.org/d3.v3.min.js"></script> -->
+	
+	<script type="text/javascript" src="https://d3js.org/d3.v3.min.js"></script>
 </head>
 <body>
 
-<div id="floraList">
+ <div id="floraList">
 	<ul class="list">
 		<li>
 			<h3 class="sciName"></h3>
@@ -20,6 +19,30 @@
 	</ul>
 </div>
 
+
+
+
+
+</body>
+</html> -->
+
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<title>Search Dialog Test</title>
+	<link rel="stylesheet" type="text/css" href="main.css">
+	<script type="text/javascript" src="js/jquery-3.1.1.min.js"></script>
+	<script type="text/javascript" src="js/list.min.js"></script>
+	<script type="text/javascript" src="js/parsedFurbishData.js"></script>
+</head>
+<body>
+
+<div id="sciSearchContainer">
+	<input type="text" id="sciSearchBar" onkeyup="searchFlora()" placeholder="Search for flora by scientific name.." title="Type in a flora">
+</div>
+
+<script type="text/javascript" src="searchDialogTest.js"></script>
 
 </body>
 </html>

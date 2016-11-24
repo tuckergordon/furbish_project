@@ -1,0 +1,46 @@
+* {
+ 	 box-sizing: border-box;
+}
+
+#sciSearchContainer {
+	width: 500px;
+	
+
+}
+
+#sciSearchBar {
+  	width: 100%;
+  	font-size: 16px;
+  	padding: 12px 20px 12px 40px;
+  	border: 1px solid #ddd;
+  	margin-bottom: 12px;
+}
+
+#sciList {
+	width: 100%;
+  	list-style-type: none;
+  	padding: 0;
+  	margin: 0;
+  	height: 400px;
+  	overflow-y: scroll;
+}
+
+#sciList li {
+  	border: 1px solid #ddd;
+  	margin-top: -1px; /* Prevent double borders */
+  	background-color: #f6f6f6;
+  	padding: 12px;
+  	text-decoration: none;
+  	font-size: 18px;
+  	color: black;
+  	display: block
+}
+
+#sciList .header {
+ 	 background-color: #e2e2e2;
+ 	 cursor: default;
+}
+
+#sciList li:hover:not(.header) {
+  	background-color: #eee;
+}
