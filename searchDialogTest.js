@@ -1,3 +1,5 @@
+var selectedFlora = [];
+
 function makeSciNameList() {
 	// Create the list element:
 	var list = document.createElement('ul');
@@ -18,6 +20,9 @@ function makeSciNameList() {
 		// }
 		// Create the list item
 		var flora = document.createElement('li');
+		flora.setAttribute("id", "" + dataset[i].sciName + "");
+
+		flora.setAttribute("onclick", "selectFlora('" + dataset[i].sciName + "')");
 
 		// Set its contents:
 		flora.appendChild(document.createTextNode(dataset[i].sciName));
@@ -56,6 +61,28 @@ function searchFlora() {
     } else if (!noResults){
     	$('#noResultMsg').hide();
     }
+}
+
+function selectFlora(floraID) {
+	var flora = document.getElementById(floraID);
+	if (isChecked(flora)) {
+		flora.setAttribute('checked', 'false');
+		flora.setAttribute("style", "background-color: white");
+		for (var i = 0; i < selectedFlora.length; i++) {
+			if (selectedFlora[i] == floraID) {
+				selectedFlora.splice(i, 1);
+				break;
+			}
+		}
+	} else {
+		flora.setAttribute('checked', 'true');
+		flora.setAttribute("style", "background-color: palegreen");
+		selectedFlora.push(floraID);
+	}
+}
+
+function isChecked(flora) {
+	return flora.getAttribute('checked') == 'true';
 }
 
 var noResultMsg = document.createElement('p');
