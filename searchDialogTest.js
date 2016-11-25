@@ -32,20 +32,37 @@ function makeSciNameList() {
 function searchFlora() {
     var input, filter, ul, li, p, i;
 
+    noResults = true;
+
     input = document.getElementById("sciSearchBar");
     filter = input.value.toUpperCase();
 
     ul = document.getElementById("sciList");
     li = ul.getElementsByTagName("li");
+
     for (i = 0; i < li.length; i++) {
         p = li[i].textContent;
         if (p.toUpperCase().indexOf(filter) > -1) {
             li[i].style.display = "";
+            noResults = false;
         } else {
             li[i].style.display = "none";
 
         }
     }
+
+    if (noResults && !$('#noResultMsg').is(':visible')) {
+    	$('#noResultMsg').show();
+    } else if (!noResults){
+    	$('#noResultMsg').hide();
+    }
 }
 
-$("#sciSearchBar").after(makeSciNameList());
+var noResultMsg = document.createElement('p');
+noResultMsg.setAttribute('id', 'noResultMsg');
+noResultMsg.setAttribute('display', 'none');
+noResultMsg.appendChild(document.createTextNode('No Results'));
+$("#sciSearchBar").after(noResultMsg);
+
+
+$("#noResultMsg").after(makeSciNameList()).hide();
