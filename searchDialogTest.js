@@ -1,10 +1,11 @@
 var selectedFlora = [];
 
-function makeSciList() {
+function makeLists() {
 	// Create the list element:
-	var list = document.getElementById('sciList');
+	var sciList = document.getElementById('sciList');
+	var sciSelectedList = document.getElementById('sciSelectedList');
 
-	var currFirstLetter = "";
+	// var currFirstLetter = "";
 
 	for (var i = 0; i < dataset.length; i++) {
 
@@ -19,15 +20,24 @@ function makeSciList() {
 		// }
 		// Create the list item
 		var flora = document.createElement('li');
-		flora.setAttribute("id", "" + dataset[i].sciName + "");
+		
 
+		flora.setAttribute("id", "" + dataset[i].sciName + "");
 		flora.setAttribute("onclick", "selectFlora('" + dataset[i].sciName + "')");
 
 		// Set its contents:
 		flora.appendChild(document.createTextNode(dataset[i].sciName));
 
 		// Add it to the list
-		list.appendChild(flora);
+		sciList.appendChild(flora);
+
+		var selectFlora = document.createElement('li');
+		selectFlora.setAttribute("id", "sel" + dataset[i].sciName + "");
+		selectFlora.appendChild(document.createTextNode(dataset[i].sciName));
+		selectFlora.setAttribute("onclick", "deselectFlora('" + "sel" + dataset[i].sciName + "')");
+		selectFlora.style.display = 'none';
+
+		sciSelectedList.appendChild(selectFlora);
 	}
 }
 
@@ -64,27 +74,34 @@ function searchFlora() {
 function selectFlora(floraID) {
 	var flora = document.getElementById(floraID);
 	if (isChecked(flora)) {
-		flora.setAttribute('checked', 'false');
-		flora.setAttribute("style", "background-color: white");
-		for (var i = 0; i < selectedFlora.length; i++) {
-			if (selectedFlora[i] == floraID) {
-				selectedFlora.splice(i, 1);
-				break;
-			}
-		}
+		deselectFlora(floraID);
 	} else {
 		flora.setAttribute('checked', 'true');
 		flora.setAttribute("style", "background-color: palegreen");
 		selectedFlora.push(floraID);
-		var selectedListItem = document.createElement('li');
-		selectedListItem.appendChild(document.createTextNode(floraID));
-		var selectedList = document.getElementById('sciSelectedList');
-		selectedList.appendChild(selectedListItem);
+		document.getElementById('sel' + floraID).style.display = 'block';
 	}
+}
+
+function deselectFlora(floraID) {
+	var flora = document.getElementById(floraID);
+	if (flora.parentElement.id != 'sciList') {
+		floraID = floraID.slice(3);
+		flora = document.getElementById(floraID);
+	}
+	flora.setAttribute('checked', 'false');
+	flora.setAttribute("style", "background-color: #f6f6f6");
+	for (var i = 0; i < selectedFlora.length; i++) {
+		if (selectedFlora[i] == floraID) {
+			selectedFlora.splice(i, 1);
+			break;
+		}
+	}
+	document.getElementById('sel' + floraID).style.display = 'none';
 }
 
 function isChecked(flora) {
 	return flora.getAttribute('checked') == 'true';
 }
 
-makeSciList();
+makeLists();
