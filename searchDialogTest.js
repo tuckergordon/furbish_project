@@ -1,9 +1,8 @@
 var selectedFlora = [];
 
-function makeSciNameList() {
+function makeSciList() {
 	// Create the list element:
-	var list = document.createElement('ul');
-	list.setAttribute("id", "sciList");
+	var list = document.getElementById('sciList');
 
 	var currFirstLetter = "";
 
@@ -30,7 +29,6 @@ function makeSciNameList() {
 		// Add it to the list
 		list.appendChild(flora);
 	}
-	return list;
 }
 
 // http://www.w3schools.com/howto/howto_js_filter_lists.asp
@@ -78,6 +76,10 @@ function selectFlora(floraID) {
 		flora.setAttribute('checked', 'true');
 		flora.setAttribute("style", "background-color: palegreen");
 		selectedFlora.push(floraID);
+		var selectedListItem = document.createElement('li');
+		selectedListItem.appendChild(document.createTextNode(floraID));
+		var selectedList = document.getElementById('sciSelectedList');
+		selectedList.appendChild(selectedListItem);
 	}
 }
 
@@ -85,11 +87,4 @@ function isChecked(flora) {
 	return flora.getAttribute('checked') == 'true';
 }
 
-var noResultMsg = document.createElement('p');
-noResultMsg.setAttribute('id', 'noResultMsg');
-noResultMsg.setAttribute('display', 'none');
-noResultMsg.appendChild(document.createTextNode('No Results'));
-$("#sciSearchBar").after(noResultMsg);
-
-
-$("#noResultMsg").after(makeSciNameList()).hide();
+makeSciList();

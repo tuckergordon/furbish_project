@@ -40,7 +40,15 @@
 
 <div id="sciSearchContainer">
 	<input type="text" id="sciSearchBar" onkeyup="searchFlora()" placeholder="Search for flora by scientific name.." title="Type in a flora">
+	<div id="sciSearchResults">
+		<div id='noResultMsg' style="display: none">No Results</div>
+		<ul id="sciList"></ul>
+	</div>
+	<div id="sciSearchSelected">
+		<ul id="sciSelectedList"></ul>
+	</div>
 </div>
+
 
 <script type="text/javascript" src="searchDialogTest.js"></script>
 
