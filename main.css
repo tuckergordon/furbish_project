@@ -56,15 +56,6 @@
   	display: block;
 }
 
-/*#sciList .header {
- 	 background-color: #e2e2e2;
- 	 cursor: default;
-}
-
-#sciList li:hover:not(.header) {
-  	background-color: #eee;
-}*/
-
 #sciList li:hover, #sciSelectedList li:hover {
   	background-color: #eee;
   	cursor: pointer;

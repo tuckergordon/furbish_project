@@ -26,19 +26,10 @@ function makeLists() {
 	var sciList = document.getElementById('sciList');
 	var sciSelectedList = document.getElementById('sciSelectedList');
 
-	// var currFirstLetter = "";
-
 	for (var i = 0; i < dataset.length; i++) {
 
 		var floraObject = dataset[i];
 
-		// if (floraObject.sciName[0] != currFirstLetter) {
-		// 	currFirstLetter = floraObject.sciName[0].toUpperCase();
-		// 	var header = document.createElement('li');
-		// 	header.setAttribute("class", "header");
-		// 	header.appendChild(document.createTextNode(currFirstLetter));
-		// 	list.appendChild(header);
-		// }
 		// Create the list item
 		var flora = document.createElement('li');
 		
@@ -126,3 +117,5 @@ function isChecked(flora) {
 }
 
 makeLists();
+// start with the scientific search tab open
+document.getElementById("defaultOpen").click();
