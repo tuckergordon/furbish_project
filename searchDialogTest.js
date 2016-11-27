@@ -25,6 +25,8 @@ function makeLists() {
 	// Create the list element:
 	var sciList = document.getElementById('sciList');
 	var sciSelectedList = document.getElementById('sciSelectedList');
+	var comList = document.getElementById('comList');
+	var comSelectedList = document.getElementById('comSelectedList');
 
 	for (var i = 0; i < dataset.length; i++) {
 
