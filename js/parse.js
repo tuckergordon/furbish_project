@@ -50,9 +50,24 @@ function parseData() {
 	for (var i = 0; i < dataset.length; i++) {
 		var row = dataset[i];
 
+		// removing the errant space character that some flora have at the end of
+		// their names
+		var sciName = row["AH Scientific Name"];
+		if (sciName.slice(sciName.length-1) == " ") {
+			sciName = sciName.slice(0, sciName.length-1);
+		}
+
+		var comName = row["AH Common Name"];
+		if (comName.slice(comName.length-1) == " ") {
+			comName = comName.slice(0, comName.length-1);
+		}
+
+		// put the common name in title case (e.g. "All First Letters Capitalized")
+		comName = toTitleCase(comName);
+
 		// check to see if the map already contains a flora with that name
 		// (this indicates that we have more entries to add to that flora's object)
-		if (row["AH Scientific Name"] in floraObjects) {
+		if (sciName in floraObjects) {
 			// loop through place and year columns until there
 			// are no more places left in that row
 			var colIndex = 1;
@@ -72,7 +87,7 @@ function parseData() {
 				}
 
 				// add the new entry to the list of entries of this flora object
-				floraObjects[row["AH Scientific Name"]]["entries"].push(entry);
+				floraObjects[sciName]["entries"].push(entry);
 
 				// now we need to concatenate the page number onto the string of page
 				// numbers of this flora object:
@@ -81,11 +96,11 @@ function parseData() {
 				var page = row["Page"];
 
 				// next, get the current page string
-				var currentPages = floraObjects[row["AH Scientific Name"]]["page"];
+				var currentPages = floraObjects[sciName]["page"];
 
 				// if this is a new page to report, concatenate it to the string
 				if (!currentPages.includes(page)) {
-					floraObjects[row["AH Scientific Name"]]["page"] += ", " + page + ""
+					floraObjects[sciName]["page"] += ", " + page + ""
 				}
 
 				// move on to the next place
@@ -97,8 +112,8 @@ function parseData() {
 			var flora = {};
 			flora["volume"] = row["Volume"];
 			flora["page"] = row["Page"];
-			flora["sciName"] = row["AH Scientific Name"];
-			flora["comName"] = row["AH Common Name"];
+			flora["sciName"] = sciName;
+			flora["comName"] = comName;
 			
 			// an arraylist of the entries for this flora
 			var entries = [];
@@ -126,7 +141,7 @@ function parseData() {
 			flora["entries"] = entries;	
 
 			// add the flora object to the map
-			floraObjects[row["AH Scientific Name"]] = flora;
+			floraObjects[sciName] = flora;
 		}
 	}
 
@@ -139,11 +154,14 @@ function parseData() {
 		floraObjectsArray.push(floraObjects[flora]);
 	}
 
-	// sort the array based on the scientific name
+	// sort the array firstly on common name, and secondly
+	// on scientific name
 	floraObjectsArray.sort(function(a, b) {
-		var aName = a.sciName;
-		var bName = b.sciName;
-		return (aName < bName) ? -1 : (aName > bName) ? 1 : 0;
+		if (a.comName < b.comName) return -1;
+		if (a.comName > b.comName) return 1;
+		if (a.sciName < b.sciName) return -1; 
+		if (a.sciName > b.sciName) return 1;
+		return 0;
 	});
 
 	// export the JSON string to a .txt file because it's too big to be printed to the console.
@@ -153,4 +171,12 @@ function parseData() {
 	link.setAttribute('href', 'data:text/plain,' + JSON.stringify(floraObjectsArray) + '');
 	link.setAttribute('download','example.txt');
 	document.getElementsByTagName("body")[0].appendChild(link).click();
+}
+
+// Function taken from:
+// http://stackoverflow.com/questions/4878756/javascript-how-to-capitalize-first-letter-of-each-word-like-a-2-word-city
+// takes a string and turns it into title case (e.g. "All First Letters Capitalized")
+function toTitleCase(str)
+{
+    return str.replace(/\w\S*/g, function(txt){return txt.charAt(0).toUpperCase() + txt.substr(1).toLowerCase();});
 }

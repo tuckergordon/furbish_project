@@ -15,8 +15,8 @@
 #sciSearchResults, #sciSearchSelected {
 	float: left;
 	border: solid #ddd;
-	border-width: 1px 0px 1px 0px;
-	width: 48%;
+	border-width: 1px 1px 1px 1px;
+	width: 47%;
   	list-style-type: none;
   	padding: 0;
   	margin-top: auto;
@@ -36,7 +36,8 @@
 }
 
 #sciList li, #sciSelectedList li {
-  	border: 1px solid #ddd;
+  	border: solid #ddd;
+  	border-width: 1px 0px 1px 0px;
   	margin-top: -1px; /* Prevent double borders */
   	background-color: #f6f6f6;
   	padding: 6px;
@@ -56,53 +57,4 @@
 	opacity: 0.8;
 	background-color: crimson;
 	cursor: pointer;
-}
-
-ul.tab {
-	width: 100%;
-    list-style-type: none;
-    margin: 0;
-    padding: 0;
-    overflow: hidden;
-    border: 1px solid #ccc;
-    background-color: #f1f1f1;
-}
-
-/* Float the list items side by side */
-ul.tab li {
-	width: 50%;
-	float: left;
-	text-align: center;
-}
-
-/* Style the links inside the list items */
-ul.tab li a {
-	width: 100%;
-    display: inline-block;
-    color: black;
-    text-align: center;
-    padding: 14px 0px 14px 0px;
-    text-decoration: none;
-    transition: 0.3s;
-    font-size: 17px;
-}
-
-/*http://www.w3schools.com/howto/tryit.asp?filename=tryhow_js_tabs_open*/
-
-/* Change background color of links on hover */
-ul.tab li a:hover {
-    background-color: #ddd;
-}
-
-/* Create an active/current tablink class */
-ul.tab li a:focus, .active {
-    background-color: #ccc;
-}
-
-/* Style the tab content */
-.tabcontent {
-    display: none;
-    padding: 6px 12px;
-    /*border: 1px solid #ccc;*/
-    /*border-top: none;*/
 }
