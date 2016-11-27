@@ -1,5 +1,5 @@
 #searchContainer {
-	width: 500px;
+	width: 600px;
 }
 
 #sciSearchBar {
@@ -27,16 +27,6 @@
 }
 
 #sciSearchSelected {
-	/*border: solid #ddd;
-	border-width: 1px 0px 1px 0px;
-	width: 48%;
-  	list-style-type: none;
-  	padding: 0;
-  	margin-top: auto;
-  	margin-right: 1%;
-  	margin-left: 1%;
-  	height: 400px;
-  	overflow-y: scroll;*/
   	float: right;
 }
 
@@ -54,11 +44,18 @@
   	font-size: 14px;
   	color: black;
   	display: block;
+  	/*min-height: 30px;*/
 }
 
-#sciList li:hover, #sciSelectedList li:hover {
+#sciList li:hover {
   	background-color: #eee;
   	cursor: pointer;
+}
+
+#sciSelectedList li:hover {
+	opacity: 0.8;
+	background-color: crimson;
+	cursor: pointer;
 }
 
 ul.tab {
