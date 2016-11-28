@@ -1,11 +1,74 @@
+<!-- <html>
+<head>
+	
+	<link rel="stylesheet" type="text/css" href="stylesheet.css">
+	<script type="text/javascript" src="js/list.min.js"></script>
+	<script type="text/javascript" src="list.fuzzysearch.min.js"></script>
+	<script type="text/javascript" src="js/parsedFurbishData.js"></script>
+	
+	<script type="text/javascript" src="https://d3js.org/d3.v3.min.js"></script>
+</head>
+<body>
+
+ <div id="floraList">
+	<ul class="list">
+		<li>
+			<h3 class="sciName"></h3>
+			<p class="comName"></p>
+		</li>
+	</ul>
+</div>
+
+
+
+
+
+</body>
+</html> -->
+
+<!DOCTYPE html>
 <html>
 <head>
 	<meta charset="utf-8">
 	<title>Search Dialog Test</title>
-	<link rel="stylesheet" type="text/css" href="stylesheet.css">
-	<script type="text/javascript" src="https://d3js.org/d3.v3.min.js"></script>
+	<link rel="stylesheet" type="text/css" href="main.css">
+	<script type="text/javascript" src="js/jquery-3.1.1.min.js"></script>
+	<script type="text/javascript" src="js/list.min.js"></script>
+	<script type="text/javascript" src="js/parsedFurbishData.js"></script>
 </head>
 <body>
-<script type="text/javascript" src="js/parse.js"></script>
+
+<div id="searchContainer">
+<!-- 	<ul class="tab">
+	  <li><a href="javascript:void(0)" class="tablinks" onclick="openTab(event, 'sciSearchContainer')"
+  			id="defaultOpen">Scientific Name</a></li>
+	  <li><a href="javascript:void(0)" class="tablinks" onclick="openTab(event, 'sciSearchContainer')">Common Name</a></li>
+	</ul> -->
+
+	<!-- <div id="sciSearchContainer" class="tabcontent"> -->
+		<input type="text" id="sciSearchBar" onkeyup="searchFlora()" placeholder="Search for flora by scientific name.." title="Type in a flora">
+		<div id="sciSearchResults">
+			<div id='noResultMsg' style="display: none">No Results</div>
+			<ul id="sciList"></ul>
+		</div>
+		<div id="sciSearchSelected">
+			<ul id="sciSelectedList"></ul>
+		</div>
+	<!-- </div> -->
+	<!-- <div id="comSearchContainer" class="tabcontent">
+		<input type="text" id="comSearchBar" onkeyup="searchFlora()" placeholder="Search for flora by common name.." title="Type in a flora">
+		<div id="comSearchResults">
+			<div id='noResultMsg' style="display: none">No Results</div>
+			<ul id="comList"></ul>
+		</div>
+		<div id="comSearchSelected">
+			<ul id="comSelectedList"></ul>
+		</div>
+	</div> -->
+
+</div>
+
+<script type="text/javascript" src="searchDialogTest.js"></script>
+
 </body>
 </html>
