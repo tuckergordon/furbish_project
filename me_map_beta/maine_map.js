@@ -69,10 +69,6 @@ based on falling into a certain range, will still be helpful.
 
 
 initalDrawMap();
-updateCounters();
-drawMap();
-
-
 
 function initalDrawMap() {
 
@@ -106,10 +102,12 @@ function initalDrawMap() {
       })
       .attr("d", path);
 
+    updateCounters();
+    drawMap();
 
   });
 
-  return allTowns;
+  // return allTowns;
   
 }
 
@@ -120,9 +118,9 @@ function drawMap() {
 
   console.log("trying to print keys");
 
-   for (var k in allTowns) {
-      console.log(k);
-    }
+   // for (var k in allTowns) {
+   //    console.log(k);
+   //  }
 
   console.log("success?")
 
@@ -184,9 +182,21 @@ function updateCounters() {
           break;
         }
       }
+
+      // console.log(flora["samples"]);
+
       for (var j = 0; j < flora["samples"].length; j++) {
+
+        // console.log(allTowns[]);
+
         var town = flora["samples"][j]["places"];
-        console.log(allTowns[town]);
+
+        if (town in allTowns) {
+          allTowns[town] += 1;
+        }
+        else {
+          console.log("doesn't work for: " + town);
+        }
       }
     }
 
