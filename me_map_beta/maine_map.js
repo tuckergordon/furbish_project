@@ -176,31 +176,46 @@ function drawMap() {
 function updateCounters() {
 
 
-
-
-  for (var i = selectedFlora.length - 1; i >= 0; i--) {
-    
-    var sciNameKey = selectedFlora[i];
-    var flora = dataset[0]; //set to arbitrary item in dataset initally
-    
-    //find which item in JSON we are looking for
-    for (var j = dataset.length - 1; j >= 0; j--) {
-      if (dataset[j].sciName === sciNameKey){
-        flora = dataset[j];
-        break;
+  var flora;
+    for (var i = 0; i < selectedFlora.length; i++) {
+      var sFlora = selectedFlora[i];
+      for (var j = 0; i < dataset.length ; j++) {
+        if (dataset[j].sciName == sFlora) {
+          flora = dataset[j];
+          break;
+        }
       }
-    };
+      for (var j = 0; j < flora["samples"].length; j++) {
+        var town = flora["samples"][j]["places"];
+        console.log(allTowns[town]);
+      }
+    }
+
+
+
+  // for (var i = selectedFlora.length - 1; i >= 0; i--) {
+    
+  //   var sciNameKey = selectedFlora[i];
+  //   var flora = dataset[0]; //set to arbitrary item in dataset initally
+    
+  //   //find which item in JSON we are looking for
+  //   for (var j = dataset.length - 1; j >= 0; j--) {
+  //     if (dataset[j].sciName === sciNameKey){
+  //       flora = dataset[j];
+  //       break;
+  //     }
+  //   };
     
 
 
-    for (var k = flora.samples.length - 1; k >= 0; k--) {
+  //   for (var k = flora.samples.length - 1; k >= 0; k--) {
       
-      var curTown = flora.samples[k].places;
+  //     var curTown = flora.samples[k].places;
 
-      //console.log(allTowns[curTown]);
+  //     //console.log(allTowns[curTown]);
 
 
-    };
+  //   };
 
 
    // var sampleDict = {};
