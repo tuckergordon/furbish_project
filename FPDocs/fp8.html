@@ -7,70 +7,91 @@
 </head>
 <body>
 	<h1>CSCI 3665: Interactive Data Visualization</h1>
-	<h2>FP7: Final Project Progress Report</h2>
+	<h2>FP8: Final Project Progress Report</h2>
 	<h3>Sophia Ardell, Marcus Christiansen, Tucker Gordon</h3>
-	<h3>November 22, 2016</h3>
+	<h3>November 29, 2016</h3>
 	<h3>Kate Furbish Collection</h3>
 	<hr/>
 	<h3>Goals for Completing the Project:</h3>
 	<ul>
-		<li><a href="./fp4.html">Link to goals</a></li>
+		<strong>Week 3 (Nov. 27 - Dec. 3)</strong>
+		<ul>
+			<li>Tucker finishes search box functionality</li>
+			<li>So far, Marcus has gotten dots to appear at every town in Maine, and Sophie got code working to add a counter to every town where a selected flora appears. This week, they'll merge the code so that the dots increase in size proportionally to how many selected flora are there/li>
+			<li>Start week 4 tasks if possible</li>
+		</ul>	
+	<br>
+	<strong>Week 4 (Dec. 4-10)</strong>
+		<ul>
+			<li>Integrate search box with map visualization</li>
+			<li>Build town inspection box and integrate with map and search box</li>
+			<li>Prepare presentation</li>
+		</ul>		
+	<br>
+	<strong>Week 5 (Dec. 11-18)</strong>
+		<ul>
+			<li>Implement feedback from classmates</li>
+			<li>Finish inspection box</li>
+			<li>Debug and clean code</li>
+			<li>Make everything look better!</li>
+		</ul>
 	</ul>
 	<hr/>
 	<h3>Progress on Goals:</h3>
 	<ul>
-		<li>Very productive meeting with Kat Stefko</li>
-		<ul>
-			<li>We discussed the current questions we were asking to see if she thought they were all relevant, and if there was anything we missed. She was satisfied, though had some additional questions that the dataset didn't have the capacity to examine (e.g. what path did Kate Furbish take) or wouldn't be best shown in a dynamic visualization (e.g. how did Kate Furbish's level of meticulousness vary over the years in her records).</li>
-			<li>We showed her our current design to see if this tool would optimally facilitate her research from a historian point of view. She is not able to offer a botanist point of view as she is a Special Collections librarian, but if we have more questions about the horticultural point of view, she is happy to connect us with staff at the Maine Botanical Gardens. She found our visualization satisfactory.</li>
-			<li>She gave us some of Furbish's drawings in case we want to include them in our visualization.</li>
-		</ul>
-		<li>Cleaning data</li>
-			<ul> 
-				<li>Looking through the data, we have found hundreds instances of misspellings, gaps, and inconsistencies in how certain types of information are written (several different people have been involved in transfering Kate Furbish's work to an excel file, and they have used different methods to record that information). Due to the uniqueness of most of the errors, we had to go through the existing data by hand, making changes to any misspellings and standardizing how the information is recorded. This will allow us to parse the data much more easily and succesfully.</li>
-				<li>We weren't expecting the dataset to need so much modification, so as she cleaned it, Sophie created 5 different versions of the file so the original was preserved and changes could be tracked easily.</li>
-			</ul>
-		<li>Reading in and parsing data</li>
-		<ul> 
-			<li> As this is a large data set, we wrote a script that will parse the data and organize it in a format that we can use during the project. We are thinking of creating both flower and town structs to store the data, so during the parsing process, we will be creating a new instance of a flower struct whenever we encounter a new species of flora and a new instance of a town struct when we encounter a new town. To the flower struct, we will append:
-			
+		<li>
+			Tucker: Built a search dialog for selecting flora
 			<ul>
-				<li> The volume it was found in, and on what page it was found. </li>
-				<li> The scientific name of the flora. </li>
-				<li> The revised scientific name of the flora. </li>
-				<li> The AH scientific name. </li>
-				<li> The AH common name.</li>
-				<li> The towns in which this species was found.</li>
-				<li> The number of instances of this flora was found. </li>
-				<li> When the flora instances were found. </li>
+				<li>
+					The search dialog (which can be seen <a href="./searchDialogTest.html">here</a>) allows the user to search for any flora in the dataset, either by common name or scientific name. Originally, this was going to be a tabbed layout, allowing the user to swtich between a "search by common name" tab and a "search by scientific name" tab. We felt that combining them would be a much more elegant solution.
+				</li>
+				<li>
+					If the user clicks on one of the flora, it will become highlighted green to show that it is selected. It will also appear in the right pane, which holds the flora that have been selected so far. If the user either clicks on the highlighted flora on the left, or clicks on it on the right, the flora will be removed from the right pane and also become unhighlighted on the left.
+				</li>
+				<li>
+					The steps for creating this were as follows:
+					<ol>
+						<li>
+							Get a basic HTML/CSS structure to put everything in (i.e. properly styled div containers)
+						</li>
+						<li>
+							Research to see find some examples of people doing something like this
+						</li>
+						<li>
+							Using the parsed dataset that we've created already, get a list of all the flora to appear
+						</li>
+						<li>
+							Make it so that when a user clicks a flora, it highlights, but also print out the name of it so that we know that's working
+						</li>
+						<li>
+							Get the search to work, so that as the user is typing a word, the results start to filter
+						</li>
+						<li>
+							Add in "no results" when there are no flora that match the search
+						</li>
+						<li>
+							Build a second, completely hidden list that will become the selected flora list
+						</li>
+						<li>
+							Sync up the two lists, so that whenever a flora is highlighted on the left, it will appear on the right. Then also implement functionality on both sides for removing them.
+						</li>
+					</ol>
+				</li>
 			</ul>
-
-			To the town struct, we will append:
-
-			<ul>
-				<li> The name of the town </li>
-				<li> The flora that were found in that town </li>
-				<li> The number of each of the flora that were found in that town </li>
-				<li> The volume the flora were found in, and on what pages they were found. </li>
-				<li> When the flora instances were found. </li>
-			</ul>	
-
-			</li> 
-		</ul>
+		</li>
 	</ul>
 	<hr/>
 	<h3>New Questions/Issues:</h3>
 	<ul>
-		<li>Is it possible to get images of the flowers to learn when the user selects one? After our conversation with Kat, it seems like this actually could be possible, though it might be out of the scope of this project.</li>
+		<li>The town names in the geojson file do not line up with the place names in our data. Our data has more places, and we need to adjust our parsing to remove spaces and punctuation</li>
 	</ul>
 	<hr/>
 	<h3>Most Immediate Goals for the Following Week:</h3>
 	<ul>
-			<li>Finish parsing data</li>
-			<li>Sophie and Marcus create map of Maine with dots on towns</li>
-			<li>Marcus adds in slider (should be just copy and pasting)</li>
-			<li>Tucker looks for search mechanisms and starts trying to implement one</li>
-		</ul>
+		<li>Tucker finishes search box functionality</li>
+		<li>So far, Marcus has gotten dots to appear at every town in Maine, and Sophie got code working to add a counter to every town where a selected flora appears. This week, they'll merge the code so that the dots increase in size proportionally to how many selected flora are there/li>
+		<li>Start week 4 tasks if possible</li>
+	</ul>
 	<hr/>
 	<h3>Accounting for Individual Contributions:</h3>
 	<table>
@@ -109,6 +130,30 @@
 			<td>5%</td>
 			<td>47.5%</td>
 			<td>47.5%</td>
+		</tr>
+		<tr>
+			<td>Building Search Dialog</td>
+			<td>0%</td>
+			<td>0%</td>
+			<td>100%</td>
+		</tr>
+		<tr>
+			<td>SOPHIE'S THING</td>
+			<td>90%</td>
+			<td>5%</td>
+			<td>5%</td>
+		</tr>
+		<tr>
+			<td>MARCUS'S THING</td>
+			<td>0%</td>
+			<td>100%</td>
+			<td>0%</td>
+		</tr>
+		<tr>
+			<td>Writing FP8 (Week 3)</td>
+			<td>33%</td>
+			<td>33%</td>
+			<td>33%</td>
 		</tr>
 	</table>
 </body>
