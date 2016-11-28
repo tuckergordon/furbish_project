@@ -36,6 +36,7 @@ var quantize = d3.scale.quantile()
 
 
 
+
 var projection = d3.geo.albersUsa()
                  .scale(6000)
                  .translate([-1500, 1200]);
@@ -68,21 +69,12 @@ based on falling into a certain range, will still be helpful.
 //need 2 functions: inital drawing of map, and updating map
 
 
-initalDrawMap();
+initalizeMap();
 
-function initalDrawMap() {
+function initalizeMap() {
 
   d3.json("METOWNS_POLY.geojson", function(error, METOWNS_POLY) {
 
-   /*var topo = topojson.feature(me, me.objects.me).features;
-
-   var town = svg.selectAll(".land").data(topo);
-
-    town.enter().insert("path")
-        .attr("class", "town")
-        .attr("d", path)
-        .attr("id", function(d,i) { return d.id; })
-        .style("fill", function(d,i) { return color(i) });*/
 
       map_svg.append("g")
           .attr("class", "town")
@@ -116,27 +108,12 @@ function initalDrawMap() {
 function drawMap() {
 
 
-  console.log("trying to print keys");
-
-   // for (var k in allTowns) {
-   //    console.log(k);
-   //  }
-
-  console.log("success?")
 
   map_svg.selectAll("path").remove();
 
   d3.json("METOWNS_POLY.geojson", function(error, METOWNS_POLY) {
 
-   /*var topo = topojson.feature(me, me.objects.me).features;
-
-   var town = svg.selectAll(".land").data(topo);
-
-    town.enter().insert("path")
-        .attr("class", "town")
-        .attr("d", path)
-        .attr("id", function(d,i) { return d.id; })
-        .style("fill", function(d,i) { return color(i) });*/
+     quantize.domain([0,1,2]);
 
       map_svg.append("g")
           .attr("class", "town")
@@ -200,98 +177,6 @@ function updateCounters() {
       }
     }
 
-
-
-//   var flora;
-//     for (var i = 0; i < selectedFlora.length; i++) {
-//       var sFlora = selectedFlora[i];
-//       for (var j = 0; i < dataset.length ; j++) {
-//         if (dataset[j].sciName == sFlora) {
-//           flora = dataset[j];
-//           break;
-//         }
-//       }
-//       for (var j = 0; j < flora["samples"].length; j++) {
-//         var town = flora["samples"][j]["places"];
-
-//         if (town in allTowns) {
-//           allTowns[town] += 1;
-//         }
-//         else {
-//           console.log("doesn't work for: " + town);
-//         }
-// //        console.log(allTowns[town]);
-//       }
-//     }
-
-
-
-  // for (var i = selectedFlora.length - 1; i >= 0; i--) {
-    
-  //   var sciNameKey = selectedFlora[i];
-  //   var flora = dataset[0]; //set to arbitrary item in dataset initally
-    
-  //   //find which item in JSON we are looking for
-  //   for (var j = dataset.length - 1; j >= 0; j--) {
-  //     if (dataset[j].sciName === sciNameKey){
-  //       flora = dataset[j];
-  //       break;
-  //     }
-  //   };
-    
-
-
-  //   for (var k = flora.samples.length - 1; k >= 0; k--) {
-      
-  //     var curTown = flora.samples[k].places;
-
-  //     //console.log(allTowns[curTown]);
-
-
-  //   };
-
-
-   // var sampleDict = {};
-
-    // //go through all samples for this JSON item, make it a dictionary
-    // for (var k = 0; k < flora.samples.length; k++) {
-
-    //   var curSample = flora.samples[k];
-      
-    //   sampleDict[curSample.places] = 0;
-
-    // }
-
-    // //go through all samples for this JSON item, create counters
-    // for (var k = 0; k < flora.samples.length; k++) {
-
-    //   var curSample = flora.samples[k];
-      
-    //   sampleDict[curSample.places] += 1;
-
-    // }
-
-    // console.log("allTowns");
-
-    // console.log(allTowns);
-
-    // for (var k in sampleDict) {
-
-    //   if(!(k in allTowns)) {
-    //     console.log(k + " is not in allTowns");
-
-    //   }
-    //   else {
-    //     allTowns[k] = sampleDict[k];
-    //   }
-
-
-    // }
-
-  // console.log(allTowns);
-
-
-  // };
 
 
 }
