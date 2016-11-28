@@ -175,7 +175,6 @@ function drawMap() {
 /* Will walk through */
 function updateCounters() {
 
-
   var flora;
     for (var i = 0; i < selectedFlora.length; i++) {
       var sFlora = selectedFlora[i];
@@ -190,6 +189,30 @@ function updateCounters() {
         console.log(allTowns[town]);
       }
     }
+
+
+
+//   var flora;
+//     for (var i = 0; i < selectedFlora.length; i++) {
+//       var sFlora = selectedFlora[i];
+//       for (var j = 0; i < dataset.length ; j++) {
+//         if (dataset[j].sciName == sFlora) {
+//           flora = dataset[j];
+//           break;
+//         }
+//       }
+//       for (var j = 0; j < flora["samples"].length; j++) {
+//         var town = flora["samples"][j]["places"];
+
+//         if (town in allTowns) {
+//           allTowns[town] += 1;
+//         }
+//         else {
+//           console.log("doesn't work for: " + town);
+//         }
+// //        console.log(allTowns[town]);
+//       }
+//     }
 
 
 
@@ -255,10 +278,10 @@ function updateCounters() {
 
     // }
 
-  console.log(allTowns);
+  // console.log(allTowns);
 
 
-  };
+  // };
 
 
 }
