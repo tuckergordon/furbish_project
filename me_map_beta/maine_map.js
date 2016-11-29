@@ -83,9 +83,7 @@ function initalizeMap() {
 
 
 function drawMap() {
-
-	console.log(allTowns.length);
-
+	
   map_svg.selectAll("path").remove();
 
   d3.json("METOWNS_POLY.geojson", function(error, METOWNS_POLY) {
@@ -113,6 +111,7 @@ function drawMap() {
       .attr("d", path);
 
       var test = [];
+      var townMap = {};
 
             map_svg.selectAll("circle")
               .data(METOWNS_POLY.features)
@@ -121,21 +120,20 @@ function drawMap() {
               .attr("fill", "red")
               .attr("cx", function(d) {
 
-             
-              // if (path.centroid(d)[0] > 1000 || path.centroid(d)[1] > 1000 || path.centroid(d)[0] < 0 || path.centroid(d)[1] < 0) {
-              // console.log("X: ", path.centroid(d)[0]);
-              // console.log("Y: ", path.centroid(d)[1]);
-              //TODO
-              var temp = [];
-              temp.push(path.centroid(d)[0]);
-              temp.push(path.centroid(d)[1]);
-              test.push(temp);
-              // }
-
-                     return path.centroid(d)[0];
+                if (!townMap[d.properties.TOWN]) { //Does not exist
+                  if (d.properties.TOWN != "null" || d.properties.TOWN != null) {
+                    townMap[d.properties.TOWN] = 1;
+                    var temp = [];
+                    temp.push(path.centroid(d)[0]);
+                    temp.push(path.centroid(d)[1]);
+                    temp.push(d.properties.TOWN);
+                    test.push(temp);
+                  }
+                }
+                  return path.centroid(d)[0];
                 })
                 .attr("cy", function(d) {
-                    return path.centroid(d)[1];
+                  return path.centroid(d)[1];
                 })
                 .attr("r", 5);
 
@@ -145,27 +143,20 @@ function drawMap() {
                 .append("circle")
                 .attr("fill", "red")
                 .attr("cx", function(d) {
-
-                  console.log(Object.keys(allTowns).length);
-                  console.log(test.length);
-
-                // console.log("X: ", d[0]);
                 return d[0];
                 })
-                .attr("cy", function(d) {
-                // console.log("Y: ", d[1]);
+                  .attr("cy", function(d) {
                 return d[1];
                 })
-                .attr("r",2);
-
+                  .attr("r",2)
+                .on("click", function(d) {
+                  console.log(d[2])
+                }); 
   });
-
 
 }
 
-
-
-  d3.select(self.frameElement).style("height", height + "px");
+d3.select(self.frameElement).style("height", height + "px");
 
 
 
