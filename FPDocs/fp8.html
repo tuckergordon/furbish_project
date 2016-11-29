@@ -17,7 +17,7 @@
 		<strong>Week 3 (Nov. 27 - Dec. 3)</strong>
 		<ul>
 			<li>Tucker finishes search box functionality</li>
-			<li>So far, Marcus has gotten dots to appear at every town in Maine, and Sophie got code working to add a counter to every town where a selected flora appears. This week, they'll merge the code so that the dots increase in size proportionally to how many selected flora are there/li>
+			<li>So far, Marcus has gotten dots to appear at every town in Maine, and Sophie got code working to add a counter to every town where a selected flora appears. This week, they'll merge the code so that the dots increase in size proportionally to how many selected flora are there</li>
 			<li>Start week 4 tasks if possible</li>
 		</ul>	
 	<br>
@@ -79,18 +79,41 @@
 				</li>
 			</ul>
 		</li>
+		<li>
+			Sophie: Built choropleth of Maine by town based on selected samples
+			<ul>
+				<li>The choropleth was implemented as the most efficient way to signal to us that our map visualization was dynamically working with our dataset. It can be seen <a href="http://www.bowdoin.edu/~sardell/furbish_project-sophie/me_map_beta/me.html">here</a>. The response is based on an array that will be created by the search dialog, which hold all samples (with their unique scientific name so we can easily look them up in the dataset) currently selected by the user. The town element fill varies based on the relative number of samples taken there. The success of this visualization will (ideally later this week) facillitate drawing dots on each town whose size will vary with number of samples.</li>
+				<li>The only current interaction is for clicking is for our team. If a town is clicked on, the code prints the town name and the number of samples in the town to the console. This function only exists for debugging.</li>
+				<li>
+					The steps for creating this were as follows:
+					<ol>
+						<li>Research examples of people implementing maps of states by towns using d3 and topojson.</li>
+						<li>Learn how and implement converting shape files from government websites into geojson files.</li>
+						<li>Go through previous group project to learn how my group members implemented the reading in of information to our choropleth and how they then drew it, as I had a minimal role in this component.</li>
+						<li>Create a placeholder array of some of the scientific names in our parsed dataset, which the code will later have the equivalent of when the search dialog is merged. This array represents flora the user selected.</li>
+						<li>Create an dictionary, where the keys are all towns that are going to be drawn on the map, and the values, which are all initially set to 0, will be the number of samples of the current flora selection that were taken in each town.</li>
+						<li>Create a function that counts how many samples of the current flora selection were taken in each town and updates the dictionary accordingly.</li>
+						<li>Re-learn how the quantile function works.</li>
+						<li>Draw choropleth, using the town dictionary to determine fill.</li>
+						<li>Create click function to make sure counters are being modified correctly.</li>
+					</ol>
+				</li>
+			</ul>
+		</li>
 	</ul>
 	<hr/>
 	<h3>New Questions/Issues:</h3>
 	<ul>
-		<li>The town names in the geojson file do not line up with the place names in our data. Our data has more places, and we need to adjust our parsing to remove spaces and punctuation</li>
+		<li>The town names in the geojson file do not line up with the place names in our data. Our data has more places (most of the "extra" ones are significant geographic points or counties), and we need to adjust our parsing to remove spaces and punctuation</li>
+		<li>When reading in the same information from the geojson in the same file, the code for the dots record over 1000 towns, while the code for the choropleth reads in approximately 900. This issue was just observed, so Marcus and Sophie have not examined how this phenomena </li>
 	</ul>
 	<hr/>
 	<h3>Most Immediate Goals for the Following Week:</h3>
 	<ul>
 		<li>Tucker finishes search box functionality</li>
-		<li>So far, Marcus has gotten dots to appear at every town in Maine, and Sophie got code working to add a counter to every town where a selected flora appears. This week, they'll merge the code so that the dots increase in size proportionally to how many selected flora are there/li>
-		<li>Start week 4 tasks if possible</li>
+		<li>So far, Marcus has gotten dots to appear at every town in Maine, and Sophie got code working to add a counter to every town where a selected flora appears. They just merged the codes so that the dots and the choropleth occur on the same map. They now need to wrap up the integration, then increase dot size proportionally to how many selected flora are there. They then need to make sure the click funcitonality is not affected for towns regardless of dot size.</li>
+		<li>While Tucker finishes the search box functionality, Sophie and Marcus will go forward with the town inspection box, including clarifying what will be shown after the click, determining its relationship to the larger map in the space of the web page, and how the zoom function will operate (i.e. will it be fixed or can the user vary it).</li>
+		<li>Start the rest of week 4 tasks if possible.</li>
 	</ul>
 	<hr/>
 	<h3>Accounting for Individual Contributions:</h3>
@@ -138,10 +161,10 @@
 			<td>100%</td>
 		</tr>
 		<tr>
-			<td>SOPHIE'S THING</td>
-			<td>90%</td>
-			<td>5%</td>
-			<td>5%</td>
+			<td>Sample-Dependent Choropleth</td>
+			<td>95%</td>
+			<td>2.5%</td>
+			<td>2.5%</td>
 		</tr>
 		<tr>
 			<td>MARCUS'S THING</td>
