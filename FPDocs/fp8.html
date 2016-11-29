@@ -1,0 +1,160 @@
+<html>
+<head>
+	<meta charset="utf-8">
+	<title>FP8: Final Project Progress Report</title>
+	<link rel="stylesheet" type="text/css" href="stylesheet.css">
+	<script type="text/javascript" src="d3/d3.v3.js"></script>
+</head>
+<body>
+	<h1>CSCI 3665: Interactive Data Visualization</h1>
+	<h2>FP8: Final Project Progress Report</h2>
+	<h3>Sophia Ardell, Marcus Christiansen, Tucker Gordon</h3>
+	<h3>November 29, 2016</h3>
+	<h3>Kate Furbish Collection</h3>
+	<hr/>
+	<h3>Goals for Completing the Project:</h3>
+	<ul>
+		<strong>Week 3 (Nov. 27 - Dec. 3)</strong>
+		<ul>
+			<li>Tucker finishes search box functionality</li>
+			<li>So far, Marcus has gotten dots to appear at every town in Maine, and Sophie got code working to add a counter to every town where a selected flora appears. This week, they'll merge the code so that the dots increase in size proportionally to how many selected flora are there/li>
+			<li>Start week 4 tasks if possible</li>
+		</ul>	
+	<br>
+	<strong>Week 4 (Dec. 4-10)</strong>
+		<ul>
+			<li>Integrate search box with map visualization</li>
+			<li>Build town inspection box and integrate with map and search box</li>
+			<li>Prepare presentation</li>
+		</ul>		
+	<br>
+	<strong>Week 5 (Dec. 11-18)</strong>
+		<ul>
+			<li>Implement feedback from classmates</li>
+			<li>Finish inspection box</li>
+			<li>Debug and clean code</li>
+			<li>Make everything look better!</li>
+		</ul>
+	</ul>
+	<hr/>
+	<h3>Progress on Goals:</h3>
+	<ul>
+		<li>
+			Tucker: Built a search dialog for selecting flora
+			<ul>
+				<li>
+					The search dialog (which can be seen <a href="../searchDialogTest.html">here</a>) allows the user to search for any flora in the dataset, either by common name or scientific name. Originally, this was going to be a tabbed layout, allowing the user to swtich between a "search by common name" tab and a "search by scientific name" tab. We felt that combining them would be a much more elegant solution.
+				</li>
+				<li>
+					If the user clicks on one of the flora, it will become highlighted green to show that it is selected. It will also appear in the right pane, which holds the flora that have been selected so far. If the user either clicks on the highlighted flora on the left, or clicks on it on the right, the flora will be removed from the right pane and also become unhighlighted on the left.
+				</li>
+				<li>
+					The steps for creating this were as follows:
+					<ol>
+						<li>
+							Get a basic HTML/CSS structure to put everything in (i.e. properly styled div containers)
+						</li>
+						<li>
+							Research to see find some examples of people doing something like this
+						</li>
+						<li>
+							Using the parsed dataset that we've created already, get a list of all the flora to appear
+						</li>
+						<li>
+							Make it so that when a user clicks a flora, it highlights, but also print out the name of it so that we know that's working
+						</li>
+						<li>
+							Get the search to work, so that as the user is typing a word, the results start to filter
+						</li>
+						<li>
+							Add in "no results" when there are no flora that match the search
+						</li>
+						<li>
+							Build a second, completely hidden list that will become the selected flora list
+						</li>
+						<li>
+							Sync up the two lists, so that whenever a flora is highlighted on the left, it will appear on the right. Then also implement functionality on both sides for removing them.
+						</li>
+					</ol>
+				</li>
+			</ul>
+		</li>
+	</ul>
+	<hr/>
+	<h3>New Questions/Issues:</h3>
+	<ul>
+		<li>The town names in the geojson file do not line up with the place names in our data. Our data has more places, and we need to adjust our parsing to remove spaces and punctuation</li>
+	</ul>
+	<hr/>
+	<h3>Most Immediate Goals for the Following Week:</h3>
+	<ul>
+		<li>Tucker finishes search box functionality</li>
+		<li>So far, Marcus has gotten dots to appear at every town in Maine, and Sophie got code working to add a counter to every town where a selected flora appears. This week, they'll merge the code so that the dots increase in size proportionally to how many selected flora are there/li>
+		<li>Start week 4 tasks if possible</li>
+	</ul>
+	<hr/>
+	<h3>Accounting for Individual Contributions:</h3>
+	<table>
+		<tr>
+			<th>Task</th>
+			<th>Sophie</th>
+			<th>Marcus</th>
+			<th>Tucker</th>
+		</tr>
+		<tr>
+			<td>Brainstorm questions and visualizations</td>
+			<td>33%</td>
+			<td>33%</td>
+			<td>33%</td>
+		</tr>
+		<tr>
+			<td>Writing write-ups</td>
+			<td>33%</td>
+			<td>33%</td>
+			<td>33%</td>
+		</tr>
+		<tr>
+			<td>Writing write-ups (Week 2)</td>
+			<td>33%</td>
+			<td>33%</td>
+			<td>33%</td>
+		</tr>
+		<tr>
+			<td>Cleaning data</td>
+			<td>100%</td>
+			<td>0%</td>
+			<td>0%</td>
+		</tr>
+		<tr>
+			<td>Parsing data</td>
+			<td>5%</td>
+			<td>47.5%</td>
+			<td>47.5%</td>
+		</tr>
+		<tr>
+			<td>Building Search Dialog</td>
+			<td>0%</td>
+			<td>0%</td>
+			<td>100%</td>
+		</tr>
+		<tr>
+			<td>SOPHIE'S THING</td>
+			<td>90%</td>
+			<td>5%</td>
+			<td>5%</td>
+		</tr>
+		<tr>
+			<td>MARCUS'S THING</td>
+			<td>0%</td>
+			<td>100%</td>
+			<td>0%</td>
+		</tr>
+		<tr>
+			<td>Writing FP8 (Week 3)</td>
+			<td>33%</td>
+			<td>33%</td>
+			<td>33%</td>
+		</tr>
+	</table>
+</body>
+</html>
