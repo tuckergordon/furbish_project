@@ -1,94 +1,118 @@
+// an array that will hold all the flora that are selected by the 
+// user for displaying on the map
 var selectedFlora = [];
 
-// function openTab(evt, searchContainer) {
-// 	// Declare all variables
-//     var i, tabcontent, tablinks;
-
-//     // Get all elements with class="tabcontent" and hide them
-//     tabcontent = document.getElementsByClassName("tabcontent");
-//     for (i = 0; i < tabcontent.length; i++) {
-//         tabcontent[i].style.display = "none";
-//     }
-
-//     // Get all elements with class="tablinks" and remove the class "active"
-//     tablinks = document.getElementsByClassName("tablinks");
-//     for (i = 0; i < tablinks.length; i++) {
-//         tablinks[i].className = tablinks[i].className.replace(" active", "");
-//     }
-
-//     // Show the current tab, and add an "active" class to the link that opened the tab
-//     document.getElementById(searchContainer).style.display = "block";
-//     evt.currentTarget.className += " active";
-// }
-
+// add all of the flora as <li> elements to the search results (searchList) and 
+// selected flora list (selectedList). All of the flora will be hidden in the
+// selected list until they are selected
 function makeLists() {
-	// Create the list element:
-	var sciList = document.getElementById('sciList');
-	var sciSelectedList = document.getElementById('sciSelectedList');
-	// var comList = document.getElementById('comList');
-	// var comSelectedList = document.getElementById('comSelectedList');
+	// get reference to the list elements
+	var searchList = document.getElementById('searchList');
+	var selectedList = document.getElementById('selectedList');
 
+	// iterate through the parsed dataset of flora (parsedFurbishData.js)
 	for (var i = 0; i < dataset.length; i++) {
 
-		// Create the list item
+		// ADDING ELEMENTS TO SEARCH RESULTS LIST
+
+		// create the list item
 		var flora = document.createElement('li');
-		// var displayName = dataset[i].comName + " (" + dataset[i].sciName + ")";
+
+		// create a span element that will wrap around the common name
+		// of the flora and make it bold
 		var comNameBold = document.createElement('span');
 		comNameBold.setAttribute('style', 'font-weight: bold');
 		comNameBold.appendChild(document.createTextNode(dataset[i].comName));
 
+		// create another span element that will wrap around the scientific name
+		// and italicize it
 		var sciNameItal = document.createElement('span');
 		sciNameItal.setAttribute('style', 'font-style: italic');
-		var sciNameParenth = " " + dataset[i].sciName;
-		sciNameItal.appendChild(document.createTextNode(sciNameParenth));
+		sciNameItal.appendChild(document.createTextNode(dataset[i].sciName));
 
-		flora.setAttribute("id", "" + dataset[i].sciName + "");
-		flora.setAttribute("onclick", "selectFlora('" + dataset[i].sciName + "')");
-
-		// Set its contents:
+		// set contents of the list element
 		flora.appendChild(comNameBold);
 		flora.appendChild(sciNameItal);
 
+		// set the id of the list element to be the scientific name of the flora.
+		// (remove quotes to make sure that there are no issues when using the id
+		// as a function parameter)
+		flora.setAttribute("id", "" + removeQuotes(dataset[i].sciName) + "");
+
+		// when the list element is clicked, this will call a function to select
+		// that flora
+		flora.setAttribute("onclick", "selectFlora('" + removeQuotes(dataset[i].sciName) + "')");
+		
 		// Add it to the list
-		sciList.appendChild(flora);
+		searchList.appendChild(flora);
+
+		// ADDING ELEMENTS TO SELECTED FLORA LIST
 
 		var selectFlora = document.createElement('li');
-		selectFlora.setAttribute("id", "sel" + dataset[i].sciName + "");
+
+		// adding "sel" to the scientific name for the id, to distinguish it from
+		// the same flora in the search results list
+		selectFlora.setAttribute("id", "sel" + removeQuotes(dataset[i].sciName) + "");
+
+		// add the bold common name and italic scientific name (must clone them, 
+		// otherwise the elements will be pulled from the first list)
 		selectFlora.appendChild(comNameBold.cloneNode(true));
 		selectFlora.appendChild(sciNameItal.cloneNode(true));
-		selectFlora.setAttribute("onclick", "deselectFlora('" + "sel" + dataset[i].sciName + "')");
+		selectFlora.setAttribute("onclick", "deselectFlora('" + "sel" + 
+									removeQuotes(dataset[i].sciName) + "')");
+		// start off by hiding all of the elements in the selected list, 
+		// since none are selected at the start
 		selectFlora.style.display = 'none';
 
-		sciSelectedList.appendChild(selectFlora);
+		// Add it to the list
+		selectedList.appendChild(selectFlora);
 	}
 }
 
+// Search function called repeatedly as the user types in the search bar.
+// It will look at what the user has typed so far, and will hide list elements
+// that do not contain the searched string. Note that this works no matter where
+// the string is in the list element. So, for example, if the user typed "at",
+// a result "cat" would show up.
+
+// This code is adopted from:
 // http://www.w3schools.com/howto/howto_js_filter_lists.asp
 function searchFlora() {
-    var input, filter, ul, li, p, i;
+    var input, ul, li, p, i;
 
+    // will be true if there are no results matching the search,
+    // which will cause "No results" to be displayed
     noResults = true;
 
-    input = document.getElementById("sciSearchBar");
-    filter = input.value.toUpperCase();
+    // get the search input, and make it upper case to avoid problems
+    input = document.getElementById("searchBar");
+    input = input.value.toUpperCase();
 
-    ul = document.getElementById("sciList");
-    li = ul.getElementsByTagName("li");
+    // get an array of all of the elements in the list
+    ul = document.getElementById("searchList");
+    elements = ul.getElementsByTagName("li");
 
-    for (i = 0; i < li.length; i++) {
-        p = li[i].textContent;
-        if (p.toUpperCase().indexOf(filter) > -1) {
-            li[i].style.display = "";
+    // iterate through every element to check the search
+    for (i = 0; i < elements.length; i++) {
+    	// get the content of the li element (the flora common and sci names)
+        liContent = elements[i].textContent;
+
+        // if the search string is in the li element anywhere,
+        // display it and mark noResults as false
+        if (liContent.toUpperCase().indexOf(input) > -1) {
+            elements[i].style.display = "";
             noResults = false;
-        } else {
-            li[i].style.display = "none";
 
+        // else: hide the li element
+        } else {
+            elements[i].style.display = "none";
         }
     }
 
-    if (noResults && !$('#noResultMsg').is(':visible')) {
+    // if there are no results to display, show "No results".
+    if (noResults) {
     	$('#noResultMsg').show();
-    } else if (!noResults){
+    } else {
     	$('#noResultMsg').hide();
     }
 }
@@ -107,7 +131,7 @@ function selectFlora(floraID) {
 
 function deselectFlora(floraID) {
 	var flora = document.getElementById(floraID);
-	if (flora.parentElement.id != 'sciList') {
+	if (flora.parentElement.id != 'searchList') {
 		floraID = floraID.slice(3);
 		flora = document.getElementById(floraID);
 	}
@@ -147,6 +171,11 @@ function deselectAll() {
 
 function isChecked(flora) {
 	return flora.getAttribute('checked') == 'true';
+}
+
+// http://stackoverflow.com/questions/19156148/i-want-to-remove-double-quotes-from-a-string
+function removeQuotes(string) {
+	return string.replace(/['"]+/g, '');
 }
 
 makeLists();
