@@ -122,6 +122,29 @@ function deselectFlora(floraID) {
 	document.getElementById('sel' + floraID).style.display = 'none';
 }
 
+function selectAll() {
+	for (var i = 0; i < dataset.length; i++) {
+		var floraID = dataset[i].sciName;
+		var flora = document.getElementById(floraID);
+		if (!isChecked(flora)) {
+			selectedFlora.push(floraID);
+		}
+		flora.setAttribute('checked', 'true');
+		flora.setAttribute("style", "background-color: palegreen");
+		document.getElementById('sel' + floraID).style.display = 'block';
+	}
+}
+
+function deselectAll() {
+	for (var i = 0; i < selectedFlora.length; i++) {
+		var flora = document.getElementById(selectedFlora[i]);
+		flora.setAttribute('checked', 'false');
+		flora.setAttribute("style", "background-color: #f6f6f6");
+		document.getElementById('sel' + selectedFlora[i]).style.display = 'none';
+	}
+	selectedFlora.length = 0;
+}
+
 function isChecked(flora) {
 	return flora.getAttribute('checked') == 'true';
 }

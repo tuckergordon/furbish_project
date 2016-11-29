@@ -19,7 +19,7 @@ var dataset = [
   {
     "volume": "3",
     "page": "13",
-    "sciName": "Rhamnus anifolia L'HÃ©r",
+    "sciName": "Rhamnus anifolia L'Hér",
     "comName": "Alder-leaved Buckthorn",
     "entries": [
       {
