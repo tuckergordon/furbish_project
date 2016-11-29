@@ -84,7 +84,7 @@ function initalizeMap() {
 
 function drawMap() {
 
-
+	console.log(allTowns.length);
 
   map_svg.selectAll("path").remove();
 
