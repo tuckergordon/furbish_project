@@ -18,6 +18,8 @@
 		<ul>
 			<li>Tucker finishes search box functionality</li>
 			<li>So far, Marcus has gotten dots to appear at every town in Maine, and Sophie got code working to add a counter to every town where a selected flora appears. This week, they'll merge the code so that the dots increase in size proportionally to how many selected flora are there</li>
+			<li> Implement tooltips and color changes when user hovers over a town or plant sample. This will allow the user to click on exactly what they want to click on. </li>
+		<li> Implement zoom functionality so that the user can zoom in on a particular town to gain more information regarding that respective town. </li>
 			<li>Start week 4 tasks if possible</li>
 		</ul>	
 	<br>
@@ -100,6 +102,23 @@
 				</li>
 			</ul>
 		</li>
+		<li>
+			Marcus: Built map of Maine and introduced dots to indicate the center of each of the towns in Maine. These dots will be used to indicate the samples of the user selected flora.
+			<ul>
+				<li> 
+					The map of Maine is the basis of our data visualization, and will be where the user can perform most interactions with the data. It can be seen <a href="http://www.bowdoin.edu/~sardell/furbish_project-sophie/me_map_beta/me.html">here</a> merged together with Sophie's work. The focus of this week will be to implement several of the interactions that require the map of Maine.
+				</li>
+				<li> 
+					The steps for creating this were as follows:
+					<ol>
+						<li>Research examples of people implementing maps of Maine using GeoJSON.</li>
+						<li>Learn how and implement converting shape files from government websites into geojson files.</li>
+						<li>Draw map of Maine on svg using projections and scaling. </li>
+						<li>Draw dots in center of towns using centriod function to determine center, and appending circles to the coordinates specified by centroid. </li>
+					</ol>
+				</li>
+			</ul>	
+		</li>	
 	</ul>
 	<hr/>
 	<h3>New Questions/Issues:</h3>
@@ -112,6 +131,8 @@
 	<ul>
 		<li>Tucker finishes search box functionality</li>
 		<li>So far, Marcus has gotten dots to appear at every town in Maine, and Sophie got code working to add a counter to every town where a selected flora appears. They just merged the codes so that the dots and the choropleth occur on the same map. They now need to wrap up the integration, then increase dot size proportionally to how many selected flora are there. They then need to make sure the click funcitonality is not affected for towns regardless of dot size.</li>
+		<li> Implement tooltips and color changes when user hovers over a town or plant sample. This will allow the user to click on exactly what they want to click on. </li>
+		<li> Implement zoom functionality so that the user can zoom in on a particular town to gain more information regarding that respective town. </li>
 		<li>While Tucker finishes the search box functionality, Sophie and Marcus will go forward with the town inspection box, including clarifying what will be shown after the click, determining its relationship to the larger map in the space of the web page, and how the zoom function will operate (i.e. will it be fixed or can the user vary it).</li>
 		<li>Start the rest of week 4 tasks if possible.</li>
 	</ul>
@@ -161,13 +182,19 @@
 			<td>100%</td>
 		</tr>
 		<tr>
+			<td>Drawing Map of Maine</td>
+			<td>50%</td>
+			<td>50%</td>
+			<td>0%</td>
+		</tr>
+		<tr>
 			<td>Sample-Dependent Choropleth</td>
 			<td>95%</td>
 			<td>2.5%</td>
 			<td>2.5%</td>
 		</tr>
 		<tr>
-			<td>MARCUS'S THING</td>
+			<td>Identifying Center of Towns & Drawing Dots to be used as flora sample indicators</td>
 			<td>0%</td>
 			<td>100%</td>
 			<td>0%</td>
