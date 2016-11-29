@@ -38,35 +38,13 @@ var quantize = d3.scale.quantile()
 
 
 var projection = d3.geo.albersUsa()
-                 .scale(6000)
-                 .translate([-1500, 1200]);
+                 .scale(10000)
+                 .translate([-2800, 2100]);
 
 var path = d3.geo.path().projection(projection);
 
 var color = d3.scale.category10();
 
-
-/*
-
-*****************************
-***         NOTE          ***
-*****************************
-
-Currently at point where Maine shows up, but I'm having a hard time
-saving any values as attributes to each element. Fortunately I just realized
-that that was a redundant move since each item already has everything if
-you just are looping through and say d.properties.[NAME OF THING YOU WANT]
-So now it's just about getting the colors for each county to vary appropropriately.
-I think that means making a range that I've already specified. Maybe the group needs
-to meet to discover how many samples is a large amount per town?
-Also this doesn't really matter since we're just going to change each town to dots
-probably anyway, but still, a basic scheme would be good to set up as a back up plan.
-I should definitely update the quanitze method such that it puts things in categories
-based on falling into a certain range, will still be helpful.
-*/
-
-
-//need 2 functions: inital drawing of map, and updating map
 
 
 initalizeMap();
@@ -91,8 +69,7 @@ function initalizeMap() {
 
         // this maps from US JSON data into id-value data
         return quantize(allTowns[d.properties.TOWN]); 
-      })
-      .attr("d", path);
+      });
 
     updateCounters();
     drawMap();
@@ -135,6 +112,51 @@ function drawMap() {
       })
       .attr("d", path);
 
+      var test = [];
+
+            map_svg.selectAll("circle")
+              .data(METOWNS_POLY.features)
+              .enter()
+              .append("cirle")
+              .attr("fill", "red")
+              .attr("cx", function(d) {
+
+             
+              // if (path.centroid(d)[0] > 1000 || path.centroid(d)[1] > 1000 || path.centroid(d)[0] < 0 || path.centroid(d)[1] < 0) {
+              // console.log("X: ", path.centroid(d)[0]);
+              // console.log("Y: ", path.centroid(d)[1]);
+              //TODO
+              var temp = [];
+              temp.push(path.centroid(d)[0]);
+              temp.push(path.centroid(d)[1]);
+              test.push(temp);
+              // }
+
+                     return path.centroid(d)[0];
+                })
+                .attr("cy", function(d) {
+                    return path.centroid(d)[1];
+                })
+                .attr("r", 5);
+
+              map_svg.selectAll("circle")
+                .data(test)
+                .enter()
+                .append("circle")
+                .attr("fill", "red")
+                .attr("cx", function(d) {
+
+                  console.log(Object.keys(allTowns).length);
+                  console.log(test.length);
+
+                // console.log("X: ", d[0]);
+                return d[0];
+                })
+                .attr("cy", function(d) {
+                // console.log("Y: ", d[1]);
+                return d[1];
+                })
+                .attr("r",2);
 
   });
 
