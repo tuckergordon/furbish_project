@@ -1,0 +1,56 @@
+h1 {
+	text-align: center;
+	font-size: 40px;
+	font-family: "Times New Roman", Times, serif;
+}
+
+h2 {
+	text-align: center;
+	font-size: 25px;
+	font-family: "Times New Roman", Times, serif;
+}
+
+h3 {
+	text-align: center;
+	font-size: 18px;
+	font-family: "Times New Roman", Times, serif;
+}
+
+hr {
+	width: 500px;
+}
+
+p {
+	text-align: justify;
+	font-family: "Times New Roman", Times, serif;
+	font-size: 14px;
+}
+
+ul {
+	font-family: "Times New Roman", Times, serif;
+	font-size: 14px;
+	text-align: justify;
+}
+
+td {
+	font-family: "Times New Roman", Times, serif;
+	font-size: 14px;
+	text-align: justify;
+}
+
+figure {
+    display: inline-block;
+    border: 1px dotted gray;
+    margin: 20px; /* adjust as needed */
+    position: relative;
+    float: right;
+
+}
+figure img {
+    vertical-align: top;
+}
+figure figcaption {
+    border: 1px dotted blue;
+    text-align: center;
+    font-size: 8px;
+}
