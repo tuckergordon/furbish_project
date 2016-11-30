@@ -29,7 +29,6 @@ p {
 ul {
 	font-family: "Times New Roman", Times, serif;
 	font-size: 14px;
-	text-align: justify;
 }
 
 td {
@@ -53,4 +52,92 @@ figure figcaption {
     border: 1px dotted blue;
     text-align: center;
     font-size: 8px;
+}
+
+#mainContainer {
+	width: 1024px;
+	height: 600px;
+	padding: 1%;	
+}
+
+#svgContainer {
+	width: 50%;
+	height: 100%;
+	float: left;
+	background-color: green;
+}
+
+#searchContainer {
+	height: 49%;
+	width: 49%;
+	display: block;
+	float: right;
+}
+
+#inspectorContainer {
+	height: 49%;
+	width: 49%;
+	display: block;
+	float: right;
+	border: solid black 2px;
+}
+
+#searchBar {
+  	width: 100%;
+  	font-size: 12px;
+  	padding: 6px 0px 6px 0px;
+  	border: 1px solid #ddd;
+  	margin-bottom: 12px;
+  	margin-right: 50px;
+  	clear: left;
+}
+
+#searchResultsContainer, #selectedListContainer {
+	float: left;
+	border: solid #ddd;
+	border-width: 1px 1px 1px 1px;
+	width: 47%;
+	list-style-type: none;
+	padding: 0;
+	margin-top: auto;
+	height: 250px;
+	overflow-y: scroll;
+	margin-right: 1%;
+	margin-left: 1%;
+}
+
+#selectedListContainer {
+	float: right;
+}
+
+#searchList, #selectedList {
+	margin: 0;
+	padding: 0;
+}
+
+#searchList li, #selectedList li {
+  	border: solid #ddd;
+  	border-width: 1px 0px 1px 0px;
+  	margin-top: -1px; /* Prevent double borders */
+  	background-color: #f6f6f6;
+  	padding: 6px;
+  	text-decoration: none;
+  	font-size: 14px;
+  	color: black;
+  	display: block;
+}
+
+#searchList li:hover {
+  	background-color: #eee;
+  	cursor: pointer;
+}
+
+#selectedList li:hover {
+	opacity: 0.8;
+	background-color: crimson;
+	cursor: pointer;
+}
+
+#tableInspector {
+	border: 1px solid black;
 }
