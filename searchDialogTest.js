@@ -28,7 +28,7 @@ function makeLists() {
 		// and italicize it
 		var sciNameItal = document.createElement('span');
 		sciNameItal.setAttribute('style', 'font-style: italic');
-		sciNameItal.appendChild(document.createTextNode(dataset[i].sciName));
+		sciNameItal.appendChild(document.createTextNode(' ' + dataset[i].sciName));
 
 		// set contents of the list element
 		flora.appendChild(comNameBold);
@@ -159,7 +159,7 @@ function deselectFlora(floraID) {
 
 function selectAll() {
 	for (var i = 0; i < dataset.length; i++) {
-		var floraID = dataset[i].sciName;
+		var floraID = removeQuotes(dataset[i].sciName);
 		var flora = document.getElementById(floraID);
 		if (!isChecked(flora)) {
 			selectedFlora.push(floraID);
