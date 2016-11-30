@@ -65,15 +65,20 @@ function initalizeMap() {
 
         var townName = d.properties.TOWN;
 
-        allTowns[townName] = 0;
+        if (townName != "null" && townName != null) {
+          allTowns[townName] = 0;
+        }
 
         // this maps from US JSON data into id-value data
         return quantize(allTowns[d.properties.TOWN]); 
       });
+      console.log("number of towns in choropleth: " + Object.keys(allTowns).length);
+
 
     updateCounters();
     drawMap();
 
+    
   });
 
   // return allTowns;
@@ -88,74 +93,97 @@ function drawMap() {
 
   d3.json("METOWNS_POLY.geojson", function(error, METOWNS_POLY) {
 
-     quantize.domain([0,1,2]);
+    quantize.domain([0,1,2]);
 
-      map_svg.append("g")
-          .attr("class", "town")
-      .selectAll("path")
-      // .data(topojson.feature(METOWNS_POLY, METOWNS_POLY.objects).features)
+    map_svg.append("g")
+        .attr("class", "town")
+    .selectAll("path")
+    // .data(topojson.feature(METOWNS_POLY, METOWNS_POLY.objects).features)
+    .data(METOWNS_POLY.features)
+    .enter().append("path")
+    //.style("fill", "#85C3C0")
+    .attr("class", function(d) { 
+
+      // this maps from US JSON data into id-value data
+      return quantize(allTowns[d.properties.TOWN]); 
+    })
+    .on("click", function(d){
+
+      var townName = d.properties.TOWN;
+
+      d3.select(this).style("stroke-width", 5);
+
+      console.log(allTowns[townName] + " " + townName);
+    })
+    .on("mouseout", function(){
+      d3.select(this).style("stroke-width", .5);
+    })
+    .on("mouseover", function(d){
+      d3.select(this).style("stroke-width", 3);
+    })
+    .attr("d", path);
+
+
+
+
+    var test = [];
+    var townMap = {};
+
+    map_svg.selectAll("circle")
       .data(METOWNS_POLY.features)
-      .enter().append("path")
-      //.style("fill", "#85C3C0")
-      .attr("class", function(d) { 
+      .enter()
+      .append("cirle")
+      .attr("fill", "red")
+      .attr("cx", function(d) {
 
-        // this maps from US JSON data into id-value data
-        return quantize(allTowns[d.properties.TOWN]); 
+        if (!townMap[d.properties.TOWN]) { //Does not exist
+          if (d.properties.TOWN != "null" || d.properties.TOWN != null) {
+
+            if (allTowns[d.properties.TOWN] != -1){
+
+              townMap[d.properties.TOWN] = 1;
+              var temp = [];
+              temp.push(path.centroid(d)[0]);
+              temp.push(path.centroid(d)[1]);
+              temp.push(d.properties.TOWN);
+              test.push(temp);
+            }
+          }
+        }
+          return path.centroid(d)[0];
+        })
+        .attr("cy", function(d) {
+          return path.centroid(d)[1];
+        })
+        .attr("r", 5);
+
+    map_svg.selectAll("circle")
+      .data(test)
+      .enter()
+      .append("circle")
+      .attr("fill", "red")
+      .attr("cx", function(d) {
+      return d[0];
       })
-      .on("click", function(d){
-
-        var townName = d.properties.TOWN;
-
-        console.log(allTowns[townName] + " " + townName);
+        .attr("cy", function(d) {
+      return d[1];
       })
-      .attr("d", path);
+        .attr("r",2)
+      .on("click", function(d) {
+        console.log(d[2])
+      });
 
-      var test = [];
-      var townMap = {};
-
-            map_svg.selectAll("circle")
-              .data(METOWNS_POLY.features)
-              .enter()
-              .append("cirle")
-              .attr("fill", "red")
-              .attr("cx", function(d) {
-
-                if (!townMap[d.properties.TOWN]) { //Does not exist
-                  if (d.properties.TOWN != "null" || d.properties.TOWN != null) {
-                    townMap[d.properties.TOWN] = 1;
-                    var temp = [];
-                    temp.push(path.centroid(d)[0]);
-                    temp.push(path.centroid(d)[1]);
-                    temp.push(d.properties.TOWN);
-                    test.push(temp);
-                  }
-                }
-                  return path.centroid(d)[0];
-                })
-                .attr("cy", function(d) {
-                  return path.centroid(d)[1];
-                })
-                .attr("r", 5);
-
-              map_svg.selectAll("circle")
-                .data(test)
-                .enter()
-                .append("circle")
-                .attr("fill", "red")
-                .attr("cx", function(d) {
-                return d[0];
-                })
-                  .attr("cy", function(d) {
-                return d[1];
-                })
-                  .attr("r",2)
-                .on("click", function(d) {
-                  console.log(d[2])
-                }); 
+      console.log("number of towns in dot structure: " + test.length);
   });
 
 }
 
+
+//
+//
+//*NOTE* - guys this a rogue line of code without a function, we should find it a home
+//
+//
 d3.select(self.frameElement).style("height", height + "px");
 
 
