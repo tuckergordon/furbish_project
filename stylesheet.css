@@ -1,19 +1,20 @@
+body {
+	font-family: "Times New Roman", Times, serif;
+}
+
 h1 {
 	text-align: center;
 	font-size: 40px;
-	font-family: "Times New Roman", Times, serif;
 }
 
 h2 {
 	text-align: center;
 	font-size: 25px;
-	font-family: "Times New Roman", Times, serif;
 }
 
 h3 {
 	text-align: center;
 	font-size: 18px;
-	font-family: "Times New Roman", Times, serif;
 }
 
 hr {
@@ -22,17 +23,15 @@ hr {
 
 p {
 	text-align: justify;
-	font-family: "Times New Roman", Times, serif;
 	font-size: 14px;
 }
 
 ul {
-	font-family: "Times New Roman", Times, serif;
 	font-size: 14px;
 }
 
 td {
-	font-family: "Times New Roman", Times, serif;
+	
 	font-size: 14px;
 	text-align: justify;
 }
@@ -56,39 +55,38 @@ figure figcaption {
 
 #mainContainer {
 	width: 1024px;
-	height: 600px;
-	padding: 1%;	
+	height: 590px;	
 }
 
 #svgContainer {
-	width: 50%;
+	width: 505px;
 	height: 100%;
 	float: left;
 	background-color: green;
 }
 
 #searchContainer {
-	height: 49%;
-	width: 49%;
+	height: 50%;
+	width: 505px;
 	display: block;
 	float: right;
+	margin-bottom: 1%;
 }
 
 #inspectorContainer {
-	height: 49%;
-	width: 49%;
+	height: 48%;
+	width: 505px;
 	display: block;
 	float: right;
-	border: solid black 2px;
+	border: 1px solid #ddd;
 }
 
 #searchBar {
   	width: 100%;
   	font-size: 12px;
+  	margin-bottom: 5px;
   	padding: 6px 0px 6px 0px;
   	border: 1px solid #ddd;
-  	margin-bottom: 12px;
-  	margin-right: 50px;
   	clear: left;
 }
 
@@ -96,14 +94,11 @@ figure figcaption {
 	float: left;
 	border: solid #ddd;
 	border-width: 1px 1px 1px 1px;
-	width: 47%;
+	width: 245px;
 	list-style-type: none;
 	padding: 0;
-	margin-top: auto;
-	height: 250px;
+	height: 80%;
 	overflow-y: scroll;
-	margin-right: 1%;
-	margin-left: 1%;
 }
 
 #selectedListContainer {
@@ -138,6 +133,23 @@ figure figcaption {
 	cursor: pointer;
 }
 
+input[type="button"] {
+	width: 245px;
+	margin-top: 5px;
+}
+
+input[type="button"]:hover {
+	cursor: pointer;
+}
+
+#btnSelectAll {
+	margin-left: 1px;
+}
+
+#btnDeselectAll {
+	margin-left: 8px;
+}
+
 #tableInspector {
-	border: 1px solid black;
+	border: 1px solid #ddd;
 }
