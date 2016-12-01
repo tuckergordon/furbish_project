@@ -86,7 +86,7 @@
 					</ul>
 				</li>
 				<li>
-					Created layout (<a href="">furbishProject.html</a>) for main page and began merging map with search dialog
+					Created layout (<a href="../furbishProject.html">furbishProject.html</a>) for main page and began merging map with search dialog
 					<ul>
 						<li>
 							Container divs, spaced and sized to fit a typical laptop screen.
@@ -114,24 +114,41 @@
 			
 		</li>
 		<li>
-			Sophie: Built choropleth of Maine by town based on selected samples
+			Sophie:
 			<ul>
-				<li>The choropleth was implemented as the most efficient way to signal to us that our map visualization was dynamically working with our dataset. It can be seen <a href="http://www.bowdoin.edu/~sardell/furbish_project-sophie/me_map_beta/me.html">here</a>. The response is based on an array that will be created by the search dialog, which hold all samples (with their unique scientific name so we can easily look them up in the dataset) currently selected by the user. The town element fill varies based on the relative number of samples taken there. The success of this visualization will (ideally later this week) facillitate drawing dots on each town whose size will vary with number of samples.</li>
-				<li>The only current interaction is for clicking is for our team. If a town is clicked on, the code prints the town name and the number of samples in the town to the console. This function only exists for debugging.</li>
+				<li>Built choropleth of Maine by town based on selected samples</li>
+				<ul>
+					<li>The choropleth was implemented as the most efficient way to signal to us that our map visualization was dynamically working with our dataset. It can be seen <a href="http://www.bowdoin.edu/~sardell/furbish_project-sophie/me_map_beta/me.html">here</a>. The response is based on an array that will be created by the search dialog, which hold all samples (with their unique scientific name so we can easily look them up in the dataset) currently selected by the user. The town element fill varies based on the relative number of samples taken there. The success of this visualization will (ideally later this week) facillitate drawing dots on each town whose size will vary with number of samples.</li>
+					<li>The only current interaction is for clicking is for our team. If a town is clicked on, the code prints the town name and the number of samples in the town to the console. This function only exists for debugging.</li>
+					<li>
+						The steps for creating this were as follows:
+						<ol>
+							<li>Research examples of people implementing maps of states by towns using d3 and topojson.</li>
+							<li>Learn how and implement converting shape files from government websites into geojson files.</li>
+							<li>Go through previous group project to learn how my group members implemented the reading in of information to our choropleth and how they then drew it, as I had a minimal role in this component.</li>
+							<li>Create a placeholder array of some of the scientific names in our parsed dataset, which the code will later have the equivalent of when the search dialog is merged. This array represents flora the user selected.</li>
+							<li>Create an dictionary, where the keys are all towns that are going to be drawn on the map, and the values, which are all initially set to 0, will be the number of samples of the current flora selection that were taken in each town.</li>
+							<li>Create a function that counts how many samples of the current flora selection were taken in each town and updates the dictionary accordingly.</li>
+							<li>Re-learn how the quantile function works.</li>
+							<li>Draw choropleth, using the town dictionary to determine fill.</li>
+							<li>Create click function to make sure counters are being modified correctly.</li>
+						</ol>
+					</li>
+				</ul>
+				<li>Wrote FP12 first and final draft, editted FP11</li>
 				<li>
-					The steps for creating this were as follows:
-					<ol>
-						<li>Research examples of people implementing maps of states by towns using d3 and topojson.</li>
-						<li>Learn how and implement converting shape files from government websites into geojson files.</li>
-						<li>Go through previous group project to learn how my group members implemented the reading in of information to our choropleth and how they then drew it, as I had a minimal role in this component.</li>
-						<li>Create a placeholder array of some of the scientific names in our parsed dataset, which the code will later have the equivalent of when the search dialog is merged. This array represents flora the user selected.</li>
-						<li>Create an dictionary, where the keys are all towns that are going to be drawn on the map, and the values, which are all initially set to 0, will be the number of samples of the current flora selection that were taken in each town.</li>
-						<li>Create a function that counts how many samples of the current flora selection were taken in each town and updates the dictionary accordingly.</li>
-						<li>Re-learn how the quantile function works.</li>
-						<li>Draw choropleth, using the town dictionary to determine fill.</li>
-						<li>Create click function to make sure counters are being modified correctly.</li>
-					</ol>
+					Merged the two map projects to have a sample dependent choropleth with dots on towns with samples. Tasks included:
+					<ul>
+						<li>Organizing funciton calls</li>
+						<li>Compare and debug process of creating the dot and choropleth dictionaries to make sure towns were read in the same</li>
+						<li>Address a town named "null", which we discovered was actually Moosehead Lake, which we then accomodated for</li>
+						<li>General debugging and optimizing function calls as selected flora change</li>
+						<li>Adding mouse-over and click functions to encourage user interaction.</li>
+						<li>Updating domanin function for choropleth</li>
+						<li>Began researching possibility of interacting with specific towns, so changing list doesn't require redrawing of entire map</li>
+					</ul>
 				</li>
+				<li>Worked with Tucker to include map in merged visualization.</li>
 			</ul>
 		</li>
 		<li>
@@ -148,6 +165,10 @@
 						<li>Draw map of Maine on svg using projections and scaling. </li>
 						<li>Draw dots in center of towns using centriod function to determine center, and appending circles to the coordinates specified by centroid. </li>
 					</ol>
+				</li>
+				<li>Wrote FP11 first and final draft, editted FP12</li>
+				<li>
+					Merged the two map projects together with Sophie and Tucker.
 				</li>
 			</ul>	
 		</li>	
@@ -230,8 +251,14 @@
 		</tr>
 		<tr>
 			<td>Identifying Center of Towns & Drawing Dots to be used as flora sample indicators</td>
+			<td>5%</td>
+			<td>95%</td>
 			<td>0%</td>
-			<td>100%</td>
+		</tr>
+		<tr>
+			<td>Merging map projects</td>
+			<td>60%</td>
+			<td>40%</td>
 			<td>0%</td>
 		</tr>
 		<tr>
@@ -257,6 +284,18 @@
 			<td>33%</td>
 			<td>33%</td>
 			<td>33%</td>
+		</tr>
+		<tr>
+			<td>Writing FP11</td>
+			<td>10%</td>
+			<td>90%</td>
+			<td>0%</td>
+		</tr>
+		<tr>
+			<td>Writing FP12</td>
+			<td>90%</td>
+			<td>10%</td>
+			<td>0%</td>
 		</tr>
 	</table>
 </body>
