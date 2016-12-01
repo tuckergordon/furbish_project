@@ -5,12 +5,11 @@ var minYear; //to make search have lower bound
 var maxYear; //to make search have upper bound
 
 
-var allTowns = {};  //empty dictionary to hold all town names as keys, and all values
+var selectedTowns = {};  //empty dictionary to hold all town names as keys, and all values
                     //default to 0, will be counters of how many entries
 
-// var selectedFlora = ["Achillea millefolium L "]; //item from user's search, will hold objects that have attr
-                        //called "id" that is their scientific name, can use as key
-                        //to look through parsed data
+
+
 // **
 //	NOTE -
 //		Dataset already read in from js file: js/parsedFurbishData.js
@@ -47,48 +46,7 @@ var color = d3.scale.category10();
 
 
 
-initalizeMap();
-
-function initalizeMap() {
-
-  d3.json("METOWNS_POLY.geojson", function(error, METOWNS_POLY) {
-
-
-      map_svg.append("g")
-          .attr("class", "town")
-      .selectAll("path")
-      // .data(topojson.feature(METOWNS_POLY, METOWNS_POLY.objects).features)
-      .data(METOWNS_POLY.features)
-      .enter().append("path")
-      //.style("fill", "#85C3C0")
-      .attr("class", function(d) { 
-
-        var townName = d.properties.TOWN;
-
-        //if (townName != "null" && townName != null) {
-          allTowns[townName] = 0;
-        //}
-        // else{
-        //   townName = "Moosehead Lake";
-        //   allTowns[townName] = 0;
-        // }
-
-        // this maps from US JSON data into id-value data
-        return quantize(allTowns[d.properties.TOWN]); 
-      });
-      console.log("number of towns in choropleth: " + Object.keys(allTowns).length);
-
-
-    updateCounters();
-    drawMap();
-
-    
-  });
-
-  // return allTowns;
-  
-}
-
+drawMap();
 
 
 function drawMap() {
@@ -109,8 +67,15 @@ function drawMap() {
     //.style("fill", "#85C3C0")
     .attr("class", function(d) { 
 
+      var townName = d.properties.TOWN;
+
+      var valueToQuantize = 0;
+      if (townName in selectedTowns){
+        valueToQuantize = selectedTowns.townName.entries.length;
+      }
+
       // this maps from US JSON data into id-value data
-      return quantize(allTowns[d.properties.TOWN]); 
+      return quantize(valueToQuantize); 
     })
     .on("click", function(d){
 
@@ -118,7 +83,6 @@ function drawMap() {
 
       d3.select(this).style("stroke-width", 5);
 
-      console.log(allTowns[townName] + " " + townName);
     })
     .on("mouseout", function(){
       d3.select(this).style("stroke-width", .5);
@@ -144,7 +108,7 @@ function drawMap() {
         if (!townMap[d.properties.TOWN]) { //Does not exist
           if (d.properties.TOWN != "null" && d.properties.TOWN != null) {
 
-            if (allTowns[d.properties.TOWN] != 0){
+            if (selectedTowns[d.properties.TOWN] != null){
 
               townMap[d.properties.TOWN] = 1;
               var temp = [];
@@ -193,38 +157,49 @@ d3.select(self.frameElement).style("height", height + "px");
 
 
 
-/* Will walk through */
-function updateCounters() {
 
-  var flora;
-    for (var i = 0; i < selectedFlora.length; i++) {
-      var sFlora = selectedFlora[i];
-      for (var j = 0; i < dataset.length ; j++) {
-        if (dataset[j].sciName == sFlora) {
-          flora = dataset[j];
-          break;
-        }
+  /*funciton will take individual scientific names of flora after user selects on search engine*/
+  function addFlora(sci_name){
+
+    var flora = dataset[sci_name];
+
+    var curTownName;
+    var newTown;
+    for (var i = flora.entries.length - 1; i >= 0; i--) {
+      
+      //automatically check for fitting in range
+      var entryYear = flora.entries[i].year;
+      if(entryYear < minYear || entryYear > maxYear){
+        break;
       }
 
-      // console.log(flora["entries"]);
+      curTownName = flora.entries[i].place;
 
-      for (var j = 0; j < flora["entries"].length; j++) {
+      if(curTownName in selectedTowns){
 
-        // console.log(allTowns[]);
+        var entry = {"year": entryYear, "sci_name": sciName, "volume": flora.volume, "page": flora.page, "comName": flora.comName};
 
-        var town = flora["entries"][j]["places"];
+        selectedTowns[curTownName].selectedEntries.push(entry);
 
-        if (town in allTowns) {
-          allTowns[town] += 1;
-        }
-        else {
-          console.log("doesn't work for: " + town);
-        }
       }
-    }
+      //need a new town entry
+      else{
+        newTown = {};
+
+        newTown["townName"] = curTownName;
+        newTown["selectedEntries"] = {};
+
+        var entry = {"year": entryYear, "sci_name": sciName, "volume": flora.volume, "page": flora.page, "comName": flora.comName};
+
+        newTown["selectedEntries"].push(entry);
+      }
+    };
+
+
+    drawMap();
+  }
 
 
 
-}
 
 
