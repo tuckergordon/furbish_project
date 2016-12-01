@@ -96,6 +96,7 @@ function initalizeMap() {
 function drawMap() {
 	
   map_svg.selectAll("path").remove();
+  map_svg.selectAll("circle").remove();
 
   d3.json("METOWNS_POLY.geojson", function(error, METOWNS_POLY) {
 
