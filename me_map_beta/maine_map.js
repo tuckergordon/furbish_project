@@ -65,9 +65,13 @@ function initalizeMap() {
 
         var townName = d.properties.TOWN;
 
-        if (townName != "null" && townName != null) {
+        //if (townName != "null" && townName != null) {
           allTowns[townName] = 0;
-        }
+        //}
+        // else{
+        //   townName = "Moosehead Lake";
+        //   allTowns[townName] = 0;
+        // }
 
         // this maps from US JSON data into id-value data
         return quantize(allTowns[d.properties.TOWN]); 
@@ -137,9 +141,9 @@ function drawMap() {
       .attr("cx", function(d) {
 
         if (!townMap[d.properties.TOWN]) { //Does not exist
-          if (d.properties.TOWN != "null" || d.properties.TOWN != null) {
+          if (d.properties.TOWN != "null" && d.properties.TOWN != null) {
 
-            if (allTowns[d.properties.TOWN] != -1){
+            if (allTowns[d.properties.TOWN] != 0){
 
               townMap[d.properties.TOWN] = 1;
               var temp = [];
