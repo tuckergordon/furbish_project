@@ -124,7 +124,7 @@ function parseData() {
 			var colIndex = 1;
 			while(row["Place Name-" + colIndex + ""] != null) {
 				var entry = {};
-				entry["places"] = row["Place Name-" + colIndex + ""];
+				entry["places"] = removeNonAlphanumeric(row["Place Name-" + colIndex + ""]);
 				entry["years"] = row["Year-" + colIndex + ""];
 
 				if (entry["places"] == "" || entry["years"] == "" ||
@@ -173,10 +173,19 @@ function parseData() {
 	document.getElementsByTagName("body")[0].appendChild(link).click();
 }
 
+// takes a string and turns it into title case (e.g. "All First Letters Capitalized")
 // Function taken from:
 // http://stackoverflow.com/questions/4878756/javascript-how-to-capitalize-first-letter-of-each-word-like-a-2-word-city
-// takes a string and turns it into title case (e.g. "All First Letters Capitalized")
 function toTitleCase(str)
 {
     return str.replace(/\w\S*/g, function(txt){return txt.charAt(0).toUpperCase() + txt.substr(1).toLowerCase();});
 }
+
+// removes all non-alphanumeric characters (including spaces)
+// function taken from:
+// http://stackoverflow.com/questions/9364400/remove-not-alphanumeric-characters-from-string-having-trouble-with-the-char
+function removeNonAlphanumeric(str) {
+	return str.replace(/[^0-9a-z]/gi, '')
+}
+
+alert(removePunctuation("hi there"));
