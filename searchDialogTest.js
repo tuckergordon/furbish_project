@@ -134,6 +134,7 @@ function selectFlora(floraID) {
 		// display the flora in the selectedList
 		document.getElementById('sel' + floraID).style.display = 'block';
 	}
+	initalizeMap();
 }
 
 // deselect the flora with ID = floraID

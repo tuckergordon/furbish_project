@@ -6,14 +6,19 @@
 	<link rel="stylesheet" type="text/css" href="stylesheet.css">
 	<script type="text/javascript" src="js/jquery-3.1.1.min.js"></script>
 	<script type="text/javascript" src="js/list.min.js"></script>
+	<script type="text/javascript" src="d3/d3.v3.js"></script>
+	<script type="text/javascript" src="d3/topojson.v1.js"></script>
+	<script type="text/javascript" src="d3/d3.queue.js"></script>
 	<script type="text/javascript" src="js/parsedFurbishData.js"></script>
 </head>
 <body>
 
 <div id="mainContainer">
 	<div id="svgContainer">
-		
+		<svg class="map_SVG" width="100%" height="100%"></svg>
 	</div>
+
+	<script type="text/javascript" src="js/maine_map.js"></script>
 
 	<div id="searchContainer">
 		<input type="text" id="searchBar" onkeyup="searchFlora()" placeholder="Search for flora by scientific name.." title="Type in a flora">

@@ -6,9 +6,9 @@ var maxYear; //to make search have upper bound
 
 
 var allTowns = {};  //empty dictionary to hold all town names as keys, and all values
-                    //default to 0, will be counters of how many samples
+                    //default to 0, will be counters of how many entries
 
-var selectedFlora = ["Achillea millefolium L "]; //item from user's search, will hold objects that have attr
+// var selectedFlora = ["Achillea millefolium L "]; //item from user's search, will hold objects that have attr
                         //called "id" that is their scientific name, can use as key
                         //to look through parsed data
 // **
@@ -38,8 +38,8 @@ var quantize = d3.scale.quantile()
 
 
 var projection = d3.geo.albersUsa()
-                 .scale(10000)
-                 .translate([-2800, 2100]);
+                 .scale(7000)
+                 .translate([-2100, 1420]);
 
 var path = d3.geo.path().projection(projection);
 
@@ -205,13 +205,13 @@ function updateCounters() {
         }
       }
 
-      // console.log(flora["samples"]);
+      // console.log(flora["entries"]);
 
-      for (var j = 0; j < flora["samples"].length; j++) {
+      for (var j = 0; j < flora["entries"].length; j++) {
 
         // console.log(allTowns[]);
 
-        var town = flora["samples"][j]["places"];
+        var town = flora["entries"][j]["places"];
 
         if (town in allTowns) {
           allTowns[town] += 1;
