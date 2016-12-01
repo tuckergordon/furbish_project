@@ -1,15 +1,15 @@
 <html>
 <head>
 	<meta charset="utf-8">
-	<title>FP8: Final Project Progress Report</title>
+	<title>FP8: Final Project Progress Report (Version 2)</title>
 	<link rel="stylesheet" type="text/css" href="stylesheet.css">
 	<script type="text/javascript" src="d3/d3.v3.js"></script>
 </head>
 <body>
 	<h1>CSCI 3665: Interactive Data Visualization</h1>
-	<h2>FP8: Final Project Progress Report</h2>
+	<h2>FP8: Final Project Progress Report (Version 2)</h2>
 	<h3>Sophia Ardell, Marcus Christiansen, Tucker Gordon</h3>
-	<h3>November 29, 2016</h3>
+	<h3>December 1, 2016</h3>
 	<h3>Kate Furbish Collection</h3>
 	<hr/>
 	<h3>Goals for Completing the Project:</h3>
@@ -42,44 +42,76 @@
 	<h3>Progress on Goals:</h3>
 	<ul>
 		<li>
-			Tucker: Built a search dialog for selecting flora
+			Tucker:
 			<ul>
 				<li>
-					The search dialog (which can be seen <a href="../searchDialogTest.html">here</a>) allows the user to search for any flora in the dataset, either by common name or scientific name. Originally, this was going to be a tabbed layout, allowing the user to swtich between a "search by common name" tab and a "search by scientific name" tab. We felt that combining them would be a much more elegant solution.
+					Built a search dialog for selecting flora
+
+					<ul>
+						<li>
+							The search dialog (which can be seen <a href="../searchDialogTest.html">here</a>) allows the user to search for any flora in the dataset, either by common name or scientific name. Originally, this was going to be a tabbed layout, allowing the user to swtich between a "search by common name" tab and a "search by scientific name" tab. We felt that combining them would be a much more elegant solution.
+						</li>
+						<li>
+							If the user clicks on one of the flora, it will become highlighted green to show that it is selected. It will also appear in the right pane, which holds the flora that have been selected so far. If the user either clicks on the highlighted flora on the left, or clicks on it on the right, the flora will be removed from the right pane and also become unhighlighted on the left.
+						</li>
+						<li>
+							The steps for creating this were as follows:
+							<ol>
+								<li>
+									Get a basic HTML/CSS structure to put everything in (i.e. properly styled div containers)
+								</li>
+								<li>
+									Research to see find some examples of people doing something like this
+								</li>
+								<li>
+									Using the parsed dataset that we've created already, get a list of all the flora to appear
+								</li>
+								<li>
+									Make it so that when a user clicks a flora, it highlights, but also print out the name of it so that we know that's working
+								</li>
+								<li>
+									Get the search to work, so that as the user is typing a word, the results start to filter
+								</li>
+								<li>
+									Add in "no results" when there are no flora that match the search
+								</li>
+								<li>
+									Build a second, completely hidden list that will become the selected flora list
+								</li>
+								<li>
+									Sync up the two lists, so that whenever a flora is highlighted on the left, it will appear on the right. Then also implement functionality on both sides for removing them.
+								</li>
+							</ol>
+						</li>
+					</ul>
 				</li>
 				<li>
-					If the user clicks on one of the flora, it will become highlighted green to show that it is selected. It will also appear in the right pane, which holds the flora that have been selected so far. If the user either clicks on the highlighted flora on the left, or clicks on it on the right, the flora will be removed from the right pane and also become unhighlighted on the left.
-				</li>
-				<li>
-					The steps for creating this were as follows:
-					<ol>
+					Created layout (<a href="">furbishProject.html</a>) for main page and began merging map with search dialog
+					<ul>
 						<li>
-							Get a basic HTML/CSS structure to put everything in (i.e. properly styled div containers)
+							Container divs, spaced and sized to fit a typical laptop screen.
 						</li>
 						<li>
-							Research to see find some examples of people doing something like this
+							'Select All' and 'Deselect All' buttons which interact with the search dialog
 						</li>
 						<li>
-							Using the parsed dataset that we've created already, get a list of all the flora to appear
+							A table which will contain all of the flora entries that appear for a particular town
+						</li>
+						<ul>
+							<li>
+								Started building functionality for adding rows to the table
+							</li>
+						</ul>
+						<li>
+							Grabbed current state of map visualization from Marcus and Sophie and placed it in its container div (did this *with* Marcus and Sophie, it was a collaborative effort).
 						</li>
 						<li>
-							Make it so that when a user clicks a flora, it highlights, but also print out the name of it so that we know that's working
+							Began trying to connect the selected items from the search dialog to the map visualization
 						</li>
-						<li>
-							Get the search to work, so that as the user is typing a word, the results start to filter
-						</li>
-						<li>
-							Add in "no results" when there are no flora that match the search
-						</li>
-						<li>
-							Build a second, completely hidden list that will become the selected flora list
-						</li>
-						<li>
-							Sync up the two lists, so that whenever a flora is highlighted on the left, it will appear on the right. Then also implement functionality on both sides for removing them.
-						</li>
-					</ol>
+					</ul>
 				</li>
 			</ul>
+			
 		</li>
 		<li>
 			Sophie: Built choropleth of Maine by town based on selected samples
@@ -129,12 +161,15 @@
 	<hr/>
 	<h3>Most Immediate Goals for the Following Week:</h3>
 	<ul>
-		<li>Tucker finishes search box functionality</li>
-		<li>So far, Marcus has gotten dots to appear at every town in Maine, and Sophie got code working to add a counter to every town where a selected flora appears. They just merged the codes so that the dots and the choropleth occur on the same map. They now need to wrap up the integration, then increase dot size proportionally to how many selected flora are there. They then need to make sure the click funcitonality is not affected for towns regardless of dot size.</li>
-		<li> Implement tooltips and color changes when user hovers over a town or plant sample. This will allow the user to click on exactly what they want to click on. </li>
-		<li> Implement zoom functionality so that the user can zoom in on a particular town to gain more information regarding that respective town. </li>
-		<li>While Tucker finishes the search box functionality, Sophie and Marcus will go forward with the town inspection box, including clarifying what will be shown after the click, determining its relationship to the larger map in the space of the web page, and how the zoom function will operate (i.e. will it be fixed or can the user vary it).</li>
-		<li>Start the rest of week 4 tasks if possible.</li>
+		<li>
+			Get search dialog and map visualization fully connected (i.e. selected flora should begin populating the map)
+		</li>
+		<li>
+			Finish the town inspector dialog, and then connect it to the map visualization, such that clicking on a dot in the map will populate the inspector.
+		</li>
+		<li>
+			Add a time scale slider to select years to view on the map
+		</li>
 	</ul>
 	<hr/>
 	<h3>Accounting for Individual Contributions:</h3>
@@ -204,6 +239,24 @@
 			<td>30%</td>
 			<td>30%</td>
 			<td>40%</td>
+		</tr>
+		<tr>
+			<td>Building initial layout</td>
+			<td>0%</td>
+			<td>0%</td>
+			<td>100%</td>
+		</tr>
+		<tr>
+			<td>Initial town inspector dialog construction</td>
+			<td>0%</td>
+			<td>0%</td>
+			<td>100%</td>
+		</tr>
+		<tr>
+			<td>Merging map visualization with search dialog</td>
+			<td>33%</td>
+			<td>33%</td>
+			<td>33%</td>
 		</tr>
 	</table>
 </body>
