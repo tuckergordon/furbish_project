@@ -155,9 +155,7 @@ function drawMap() {
 
         if (!townMap[d.properties.TOWN]) { //Does not exist
           if (d.properties.TOWN != "null" && d.properties.TOWN != null) {
-
             if (allTowns[d.properties.TOWN] != 0){
-
               townMap[d.properties.TOWN] = 1;
               var temp = [];
               temp.push(path.centroid(d)[0]);
