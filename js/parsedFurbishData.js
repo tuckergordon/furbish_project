@@ -24,24 +24,24 @@ var dataset =
     "comName": "Alder-leaved Buckthorn",
     "entries": [
       {
-        "places": "Wells",
-        "years": "1876"
+        "place": "Wells",
+        "year": "1876"
       },
       {
-        "places": "FortFairfield",
-        "years": "1880"
+        "place": "FortFairfield",
+        "year": "1880"
       },
       {
-        "places": "Caribou",
-        "years": "1880"
+        "place": "Caribou",
+        "year": "1880"
       },
       {
-        "places": "MayosPond",
-        "years": "1897"
+        "place": "MayosPond",
+        "year": "1897"
       },
       {
-        "places": "Patten",
-        "years": "1881"
+        "place": "Patten",
+        "year": "1881"
       }
     ]
   },
@@ -52,8 +52,8 @@ var dataset =
     "comName": "Alga-like Pondweed",
     "entries": [
       {
-        "places": "RoundPond",
-        "years": "1891"
+        "place": "RoundPond",
+        "year": "1891"
       }
     ]
   },
@@ -64,16 +64,16 @@ var dataset =
     "comName": "Allegheny Monkey-flower",
     "entries": [
       {
-        "places": "Brunswick",
-        "years": "1870"
+        "place": "Brunswick",
+        "year": "1870"
       },
       {
-        "places": "SouthPoland",
-        "years": "1893"
+        "place": "SouthPoland",
+        "year": "1893"
       },
       {
-        "places": "CoplinPlantation",
-        "years": "1894"
+        "place": "CoplinPlantation",
+        "year": "1894"
       }
     ]
   },
@@ -84,8 +84,8 @@ var dataset =
     "comName": "Allegheny-vine",
     "entries": [
       {
-        "places": "Brunswick",
-        "years": "1878"
+        "place": "Brunswick",
+        "year": "1878"
       }
     ]
   },
@@ -96,12 +96,12 @@ var dataset =
     "comName": "Alpine Bitter-cress",
     "entries": [
       {
-        "places": "MtKatahdin",
-        "years": "1900"
+        "place": "MtKatahdin",
+        "year": "1900"
       },
       {
-        "places": "West Baldwin",
-        "years": "1900"
+        "place": "West Baldwin",
+        "year": "1900"
       }
     ]
   },
@@ -112,12 +112,12 @@ var dataset =
     "comName": "Alpine Blueberry",
     "entries": [
       {
-        "places": "FortKent",
-        "years": "1881"
+        "place": "FortKent",
+        "year": "1881"
       },
       {
-        "places": "Mount Katahdin",
-        "years": "1897"
+        "place": "Mount Katahdin",
+        "year": "1897"
       }
     ]
   },
@@ -128,12 +128,12 @@ var dataset =
     "comName": "Alpine Milk-vetch",
     "entries": [
       {
-        "places": "FortFairfield",
-        "years": "1880"
+        "place": "FortFairfield",
+        "year": "1880"
       },
       {
-        "places": "FortKent",
-        "years": "1880"
+        "place": "FortKent",
+        "year": "1880"
       }
     ]
   },
@@ -144,8 +144,8 @@ var dataset =
     "comName": "Alpine-azalea",
     "entries": [
       {
-        "places": "MountKatahdin",
-        "years": "1897"
+        "place": "MountKatahdin",
+        "year": "1897"
       }
     ]
   },
@@ -156,12 +156,12 @@ var dataset =
     "comName": "Alsike Clover",
     "entries": [
       {
-        "places": "MountDesert",
-        "years": "1888"
+        "place": "MountDesert",
+        "year": "1888"
       },
       {
-        "places": "SouthPoland",
-        "years": "1893"
+        "place": "SouthPoland",
+        "year": "1893"
       }
     ]
   },
@@ -172,12 +172,12 @@ var dataset =
     "comName": "Alternate-flowered Water-milfoil",
     "entries": [
       {
-        "places": "Brunswick",
-        "years": "1878"
+        "place": "Brunswick",
+        "year": "1878"
       },
       {
-        "places": "FortFairfield",
-        "years": "1880"
+        "place": "FortFairfield",
+        "year": "1880"
       }
     ]
   },
@@ -188,16 +188,16 @@ var dataset =
     "comName": "Alternate-leaved Dogwood",
     "entries": [
       {
-        "places": "Fayette Ridge",
-        "years": "1877"
+        "place": "Fayette Ridge",
+        "year": "1877"
       },
       {
-        "places": "South Poland",
-        "years": "1898"
+        "place": "South Poland",
+        "year": "1898"
       },
       {
-        "places": "South Poland",
-        "years": "1895"
+        "place": "South Poland",
+        "year": "1895"
       }
     ]
   },
@@ -208,20 +208,20 @@ var dataset =
     "comName": "American Beech",
     "entries": [
       {
-        "places": "Fayette Ridge",
-        "years": "1877"
+        "place": "Fayette Ridge",
+        "year": "1877"
       },
       {
-        "places": "Brunswick",
-        "years": "1877"
+        "place": "Brunswick",
+        "year": "1877"
       },
       {
-        "places": "South Poland",
-        "years": "1893"
+        "place": "South Poland",
+        "year": "1893"
       },
       {
-        "places": "West Baldwin",
-        "years": "1900"
+        "place": "West Baldwin",
+        "year": "1900"
       }
     ]
   },
@@ -232,24 +232,24 @@ var dataset =
     "comName": "American Bittersweet",
     "entries": [
       {
-        "places": "Farmington",
-        "years": "1875"
+        "place": "Farmington",
+        "year": "1875"
       },
       {
-        "places": "SouthPoland",
-        "years": "1893"
+        "place": "SouthPoland",
+        "year": "1893"
       },
       {
-        "places": "Gilead",
-        "years": "1897"
+        "place": "Gilead",
+        "year": "1897"
       },
       {
-        "places": "Wells",
-        "years": "1898"
+        "place": "Wells",
+        "year": "1898"
       },
       {
-        "places": "Orono",
-        "years": "1880"
+        "place": "Orono",
+        "year": "1880"
       }
     ]
   },
@@ -260,16 +260,16 @@ var dataset =
     "comName": "American Bur-reed",
     "entries": [
       {
-        "places": "SouthPoland",
-        "years": "1893"
+        "place": "SouthPoland",
+        "year": "1893"
       },
       {
-        "places": "Wells",
-        "years": "1898"
+        "place": "Wells",
+        "year": "1898"
       },
       {
-        "places": "Livermore",
-        "years": "1878"
+        "place": "Livermore",
+        "year": "1878"
       }
     ]
   },
@@ -280,20 +280,20 @@ var dataset =
     "comName": "American Burnweed",
     "entries": [
       {
-        "places": "Brunswick",
-        "years": "1878"
+        "place": "Brunswick",
+        "year": "1878"
       },
       {
-        "places": "Caribou",
-        "years": "1881"
+        "place": "Caribou",
+        "year": "1881"
       },
       {
-        "places": "SouthPoland",
-        "years": "1893"
+        "place": "SouthPoland",
+        "year": "1893"
       },
       {
-        "places": "Wells",
-        "years": "1887"
+        "place": "Wells",
+        "year": "1887"
       }
     ]
   },
@@ -304,28 +304,28 @@ var dataset =
     "comName": "American Cow-parsnip",
     "entries": [
       {
-        "places": "Gilead",
-        "years": "1897"
+        "place": "Gilead",
+        "year": "1897"
       },
       {
-        "places": "Wells",
-        "years": "1879"
+        "place": "Wells",
+        "year": "1879"
       },
       {
-        "places": "Wells",
-        "years": "1898"
+        "place": "Wells",
+        "year": "1898"
       },
       {
-        "places": "Orono",
-        "years": "1881"
+        "place": "Orono",
+        "year": "1881"
       },
       {
-        "places": "Aroostook",
-        "years": "1880"
+        "place": "Aroostook",
+        "year": "1880"
       },
       {
-        "places": "Aroostook",
-        "years": "1881"
+        "place": "Aroostook",
+        "year": "1881"
       }
     ]
   },
@@ -336,20 +336,20 @@ var dataset =
     "comName": "American Cow-wheat",
     "entries": [
       {
-        "places": "Brunswick",
-        "years": "1870"
+        "place": "Brunswick",
+        "year": "1870"
       },
       {
-        "places": "Chesterville",
-        "years": "1896"
+        "place": "Chesterville",
+        "year": "1896"
       },
       {
-        "places": "Gilead",
-        "years": "1897"
+        "place": "Gilead",
+        "year": "1897"
       },
       {
-        "places": "WestBaldwin",
-        "years": "1900"
+        "place": "WestBaldwin",
+        "year": "1900"
       }
     ]
   },
@@ -360,8 +360,8 @@ var dataset =
     "comName": "American Dog Violet",
     "entries": [
       {
-        "places": "Shapleigh",
-        "years": "1901"
+        "place": "Shapleigh",
+        "year": "1901"
       }
     ]
   },
@@ -372,12 +372,12 @@ var dataset =
     "comName": "American Elm",
     "entries": [
       {
-        "places": "Brunswick",
-        "years": "1875"
+        "place": "Brunswick",
+        "year": "1875"
       },
       {
-        "places": "SouthPoland",
-        "years": "1893"
+        "place": "SouthPoland",
+        "year": "1893"
       }
     ]
   },
@@ -395,8 +395,8 @@ var dataset =
     "comName": "American False Pennyroyal",
     "entries": [
       {
-        "places": "Wells",
-        "years": "1898"
+        "place": "Wells",
+        "year": "1898"
       }
     ]
   },
@@ -407,32 +407,32 @@ var dataset =
     "comName": "American Germander",
     "entries": [
       {
-        "places": "CundysHarbor",
-        "years": "1878"
+        "place": "CundysHarbor",
+        "year": "1878"
       },
       {
-        "places": "SquirrelIsland",
-        "years": "1878"
+        "place": "SquirrelIsland",
+        "year": "1878"
       },
       {
-        "places": "Sorrento",
-        "years": "1891"
+        "place": "Sorrento",
+        "year": "1891"
       },
       {
-        "places": "Wells",
-        "years": "1898"
+        "place": "Wells",
+        "year": "1898"
       },
       {
-        "places": "FortPopham",
-        "years": "1907"
+        "place": "FortPopham",
+        "year": "1907"
       },
       {
-        "places": "Chebeague",
-        "years": "1902"
+        "place": "Chebeague",
+        "year": "1902"
       },
       {
-        "places": "Monhegan",
-        "years": "1910"
+        "place": "Monhegan",
+        "year": "1910"
       }
     ]
   },
@@ -443,8 +443,8 @@ var dataset =
     "comName": "American Ginseng",
     "entries": [
       {
-        "places": "FayetteRidge",
-        "years": "1878"
+        "place": "FayetteRidge",
+        "year": "1878"
       }
     ]
   },
@@ -455,16 +455,16 @@ var dataset =
     "comName": "American Hazlenut",
     "entries": [
       {
-        "places": "EastLivermore",
-        "years": "1879"
+        "place": "EastLivermore",
+        "year": "1879"
       },
       {
-        "places": "Wells",
-        "years": "1879"
+        "place": "Wells",
+        "year": "1879"
       },
       {
-        "places": "SouthPoland",
-        "years": "1893"
+        "place": "SouthPoland",
+        "year": "1893"
       }
     ]
   },
@@ -475,16 +475,16 @@ var dataset =
     "comName": "American Hornbeam",
     "entries": [
       {
-        "places": "Brunswick",
-        "years": "1877"
+        "place": "Brunswick",
+        "year": "1877"
       },
       {
-        "places": "SouthPoland",
-        "years": "1893"
+        "place": "SouthPoland",
+        "year": "1893"
       },
       {
-        "places": "Wells",
-        "years": "1898"
+        "place": "Wells",
+        "year": "1898"
       }
     ]
   },
@@ -495,16 +495,16 @@ var dataset =
     "comName": "American Larch",
     "entries": [
       {
-        "places": "Brunswick",
-        "years": "1876"
+        "place": "Brunswick",
+        "year": "1876"
       },
       {
-        "places": "SouthPoland",
-        "years": "1893"
+        "place": "SouthPoland",
+        "year": "1893"
       },
       {
-        "places": "Wells",
-        "years": "1898"
+        "place": "Wells",
+        "year": "1898"
       }
     ]
   },
@@ -515,20 +515,20 @@ var dataset =
     "comName": "American Linden",
     "entries": [
       {
-        "places": "Brunswick",
-        "years": "1874"
+        "place": "Brunswick",
+        "year": "1874"
       },
       {
-        "places": "EastLivermore",
-        "years": "1896"
+        "place": "EastLivermore",
+        "year": "1896"
       },
       {
-        "places": "SouthPoland",
-        "years": "1893"
+        "place": "SouthPoland",
+        "year": "1893"
       },
       {
-        "places": "Wells",
-        "years": "1898"
+        "place": "Wells",
+        "year": "1898"
       }
     ]
   },
@@ -539,12 +539,12 @@ var dataset =
     "comName": "American Lop-seed",
     "entries": [
       {
-        "places": "Skowhegan",
-        "years": "1902"
+        "place": "Skowhegan",
+        "year": "1902"
       },
       {
-        "places": "Farmington",
-        "years": "1878"
+        "place": "Farmington",
+        "year": "1878"
       }
     ]
   },
@@ -555,12 +555,12 @@ var dataset =
     "comName": "American Marsh-pennywort",
     "entries": [
       {
-        "places": "Brunswick",
-        "years": "1870"
+        "place": "Brunswick",
+        "year": "1870"
       },
       {
-        "places": "Wells",
-        "years": "1898"
+        "place": "Wells",
+        "year": "1898"
       }
     ]
   },
@@ -571,24 +571,24 @@ var dataset =
     "comName": "American Mountain-ash",
     "entries": [
       {
-        "places": "FortKent",
-        "years": "1881"
+        "place": "FortKent",
+        "year": "1881"
       },
       {
-        "places": "IsleauHaut",
-        "years": "1909"
+        "place": "IsleauHaut",
+        "year": "1909"
       },
       {
-        "places": "Fort Kent",
-        "years": "1881"
+        "place": "Fort Kent",
+        "year": "1881"
       },
       {
-        "places": "South Poland",
-        "years": "1893"
+        "place": "South Poland",
+        "year": "1893"
       },
       {
-        "places": "Rangeley",
-        "years": "1894"
+        "place": "Rangeley",
+        "year": "1894"
       }
     ]
   },
@@ -599,12 +599,12 @@ var dataset =
     "comName": "American Plum",
     "entries": [
       {
-        "places": "Orono",
-        "years": "1891"
+        "place": "Orono",
+        "year": "1891"
       },
       {
-        "places": "SouthPoland",
-        "years": "1893"
+        "place": "SouthPoland",
+        "year": "1893"
       }
     ]
   },
@@ -615,8 +615,8 @@ var dataset =
     "comName": "American Pokeweed",
     "entries": [
       {
-        "places": "SouthPoland",
-        "years": "1897"
+        "place": "SouthPoland",
+        "year": "1897"
       }
     ]
   },
@@ -627,8 +627,8 @@ var dataset =
     "comName": "American Sea-blite",
     "entries": [
       {
-        "places": "WellsBeach",
-        "years": "1898"
+        "place": "WellsBeach",
+        "year": "1898"
       }
     ]
   },
@@ -639,16 +639,16 @@ var dataset =
     "comName": "American Sea-rocket",
     "entries": [
       {
-        "places": "WellsBeach",
-        "years": "1877"
+        "place": "WellsBeach",
+        "year": "1877"
       },
       {
-        "places": "Rockland",
-        "years": "1903"
+        "place": "Rockland",
+        "year": "1903"
       },
       {
-        "places": "Rockland",
-        "years": "1909"
+        "place": "Rockland",
+        "year": "1909"
       }
     ]
   },
@@ -659,8 +659,8 @@ var dataset =
     "comName": "American Shoreweed",
     "entries": [
       {
-        "places": "Eddington",
-        "years": "1891"
+        "place": "Eddington",
+        "year": "1891"
       }
     ]
   },
@@ -671,12 +671,12 @@ var dataset =
     "comName": "American Speedwell",
     "entries": [
       {
-        "places": "FortFairfield",
-        "years": "1880"
+        "place": "FortFairfield",
+        "year": "1880"
       },
       {
-        "places": "EastLivermore",
-        "years": "1894"
+        "place": "EastLivermore",
+        "year": "1894"
       }
     ]
   },
@@ -687,24 +687,24 @@ var dataset =
     "comName": "American Spikenard",
     "entries": [
       {
-        "places": "Strong",
-        "years": "1882"
+        "place": "Strong",
+        "year": "1882"
       },
       {
-        "places": "Gilead",
-        "years": "1897"
+        "place": "Gilead",
+        "year": "1897"
       },
       {
-        "places": "Brunswick",
-        "years": "1870"
+        "place": "Brunswick",
+        "year": "1870"
       },
       {
-        "places": "Strong",
-        "years": "1882"
+        "place": "Strong",
+        "year": "1882"
       },
       {
-        "places": "South Poland",
-        "years": "1893"
+        "place": "South Poland",
+        "year": "1893"
       }
     ]
   },
@@ -715,20 +715,20 @@ var dataset =
     "comName": "American Spurred-gentian",
     "entries": [
       {
-        "places": "Caribou",
-        "years": "1880"
+        "place": "Caribou",
+        "year": "1880"
       },
       {
-        "places": "FortKent",
-        "years": "1880"
+        "place": "FortKent",
+        "year": "1880"
       },
       {
-        "places": "VanBuren",
-        "years": "1880"
+        "place": "VanBuren",
+        "year": "1880"
       },
       {
-        "places": "FortFairfield",
-        "years": "1880"
+        "place": "FortFairfield",
+        "year": "1880"
       }
     ]
   },
@@ -739,12 +739,12 @@ var dataset =
     "comName": "American Squaw-root",
     "entries": [
       {
-        "places": "SouthPoland",
-        "years": "1893"
+        "place": "SouthPoland",
+        "year": "1893"
       },
       {
-        "places": "EastParsonsfield",
-        "years": "1900"
+        "place": "EastParsonsfield",
+        "year": "1900"
       }
     ]
   },
@@ -755,8 +755,8 @@ var dataset =
     "comName": "American Sycamore",
     "entries": [
       {
-        "places": "Auburn",
-        "years": "1875"
+        "place": "Auburn",
+        "year": "1875"
       }
     ]
   },
@@ -774,12 +774,12 @@ var dataset =
     "comName": "American Twinflower",
     "entries": [
       {
-        "places": "Brunswick",
-        "years": "1870"
+        "place": "Brunswick",
+        "year": "1870"
       },
       {
-        "places": "RangeleyLakes",
-        "years": "1892"
+        "place": "RangeleyLakes",
+        "year": "1892"
       }
     ]
   },
@@ -790,24 +790,24 @@ var dataset =
     "comName": "American Water-horehound",
     "entries": [
       {
-        "places": "Caribou",
-        "years": "1880"
+        "place": "Caribou",
+        "year": "1880"
       },
       {
-        "places": "Orono",
-        "years": "1891"
+        "place": "Orono",
+        "year": "1891"
       },
       {
-        "places": "Northport",
-        "years": "1891"
+        "place": "Northport",
+        "year": "1891"
       },
       {
-        "places": "SouthPoland",
-        "years": "1893"
+        "place": "SouthPoland",
+        "year": "1893"
       },
       {
-        "places": "Wells",
-        "years": "1898"
+        "place": "Wells",
+        "year": "1898"
       }
     ]
   },
@@ -818,8 +818,8 @@ var dataset =
     "comName": "American Waterwort",
     "entries": [
       {
-        "places": "Mexico",
-        "years": "1894"
+        "place": "Mexico",
+        "year": "1894"
       }
     ]
   },
@@ -830,20 +830,20 @@ var dataset =
     "comName": "American Wild Mint",
     "entries": [
       {
-        "places": "Brunswick",
-        "years": "1882"
+        "place": "Brunswick",
+        "year": "1882"
       },
       {
-        "places": "Caribou",
-        "years": "1882"
+        "place": "Caribou",
+        "year": "1882"
       },
       {
-        "places": "Wells",
-        "years": "1898"
+        "place": "Wells",
+        "year": "1898"
       },
       {
-        "places": "Chebeague",
-        "years": "1902"
+        "place": "Chebeague",
+        "year": "1902"
       }
     ]
   },
@@ -854,12 +854,12 @@ var dataset =
     "comName": "American Witch-hazel",
     "entries": [
       {
-        "places": "FayetteRidge",
-        "years": "1878"
+        "place": "FayetteRidge",
+        "year": "1878"
       },
       {
-        "places": "Strong",
-        "years": "1882"
+        "place": "Strong",
+        "year": "1882"
       }
     ]
   },
@@ -870,24 +870,24 @@ var dataset =
     "comName": "American Yew",
     "entries": [
       {
-        "places": "SaddlebackMountain",
-        "years": "1894"
+        "place": "SaddlebackMountain",
+        "year": "1894"
       },
       {
-        "places": "Brunswick",
-        "years": "1876"
+        "place": "Brunswick",
+        "year": "1876"
       },
       {
-        "places": "Wells",
-        "years": "1898"
+        "place": "Wells",
+        "year": "1898"
       },
       {
-        "places": "South Poland",
-        "years": "1893"
+        "place": "South Poland",
+        "year": "1893"
       },
       {
-        "places": "Gilead",
-        "years": "1897"
+        "place": "Gilead",
+        "year": "1897"
       }
     ]
   },
@@ -898,20 +898,20 @@ var dataset =
     "comName": "Andrew's Bottle Gentian",
     "entries": [
       {
-        "places": "Brunswick",
-        "years": "1896"
+        "place": "Brunswick",
+        "year": "1896"
       },
       {
-        "places": "SouthPoland",
-        "years": "1896"
+        "place": "SouthPoland",
+        "year": "1896"
       },
       {
-        "places": "Wells",
-        "years": "1898"
+        "place": "Wells",
+        "year": "1898"
       },
       {
-        "places": "Wells",
-        "years": "1879"
+        "place": "Wells",
+        "year": "1879"
       }
     ]
   },
@@ -922,24 +922,24 @@ var dataset =
     "comName": "Annual Fleabane",
     "entries": [
       {
-        "places": "Brunswick",
-        "years": "1877"
+        "place": "Brunswick",
+        "year": "1877"
       },
       {
-        "places": "FayetteRidge",
-        "years": "1876"
+        "place": "FayetteRidge",
+        "year": "1876"
       },
       {
-        "places": "Rangeley",
-        "years": "1882"
+        "place": "Rangeley",
+        "year": "1882"
       },
       {
-        "places": "SouthPoland",
-        "years": "1893"
+        "place": "SouthPoland",
+        "year": "1893"
       },
       {
-        "places": "Wells",
-        "years": "1893"
+        "place": "Wells",
+        "year": "1893"
       }
     ]
   },
@@ -950,16 +950,16 @@ var dataset =
     "comName": "Annual Sea-blite",
     "entries": [
       {
-        "places": "Wells",
-        "years": "1879"
+        "place": "Wells",
+        "year": "1879"
       },
       {
-        "places": "Wells",
-        "years": "1898"
+        "place": "Wells",
+        "year": "1898"
       },
       {
-        "places": "Sorrento",
-        "years": "1891"
+        "place": "Sorrento",
+        "year": "1891"
       }
     ]
   },
@@ -970,8 +970,8 @@ var dataset =
     "comName": "Appalachian Sand Plum",
     "entries": [
       {
-        "places": "SouthPoland",
-        "years": "1895"
+        "place": "SouthPoland",
+        "year": "1895"
       }
     ]
   },
@@ -982,8 +982,8 @@ var dataset =
     "comName": "Appalachian Sand Plum",
     "entries": [
       {
-        "places": "SouthPoland",
-        "years": "1895"
+        "place": "SouthPoland",
+        "year": "1895"
       }
     ]
   },
@@ -994,16 +994,16 @@ var dataset =
     "comName": "Arctic Bur-reed",
     "entries": [
       {
-        "places": "Strong",
-        "years": "1882"
+        "place": "Strong",
+        "year": "1882"
       },
       {
-        "places": "KentsHill",
-        "years": "1892"
+        "place": "KentsHill",
+        "year": "1892"
       },
       {
-        "places": "Strong",
-        "years": "1882"
+        "place": "Strong",
+        "year": "1882"
       }
     ]
   },
@@ -1014,24 +1014,24 @@ var dataset =
     "comName": "Arrowhead Violet",
     "entries": [
       {
-        "places": "Brunswick",
-        "years": "1892"
+        "place": "Brunswick",
+        "year": "1892"
       },
       {
-        "places": "West Bath",
-        "years": "1902"
+        "place": "West Bath",
+        "year": "1902"
       },
       {
-        "places": "South Poland",
-        "years": "1893"
+        "place": "South Poland",
+        "year": "1893"
       },
       {
-        "places": "West Baldwin",
-        "years": "1897"
+        "place": "West Baldwin",
+        "year": "1897"
       },
       {
-        "places": "Brunswick",
-        "years": "1870"
+        "place": "Brunswick",
+        "year": "1870"
       }
     ]
   },
@@ -1042,16 +1042,16 @@ var dataset =
     "comName": "Axillary Goldenrod",
     "entries": [
       {
-        "places": "SouthPoland",
-        "years": "1893"
+        "place": "SouthPoland",
+        "year": "1893"
       },
       {
-        "places": "Gilead",
-        "years": "1897"
+        "place": "Gilead",
+        "year": "1897"
       },
       {
-        "places": "WestBaldwin",
-        "years": "1900"
+        "place": "WestBaldwin",
+        "year": "1900"
       }
     ]
   },
@@ -1062,8 +1062,8 @@ var dataset =
     "comName": "Baked-apple-berry",
     "entries": [
       {
-        "places": "Machias",
-        "years": "1902"
+        "place": "Machias",
+        "year": "1902"
       }
     ]
   },
@@ -1074,8 +1074,8 @@ var dataset =
     "comName": "Balsam Fir",
     "entries": [
       {
-        "places": "EastLivermore",
-        "years": "1898"
+        "place": "EastLivermore",
+        "year": "1898"
       }
     ]
   },
@@ -1086,20 +1086,20 @@ var dataset =
     "comName": "Balsam Poplar",
     "entries": [
       {
-        "places": "FayetteRidge",
-        "years": "1877"
+        "place": "FayetteRidge",
+        "year": "1877"
       },
       {
-        "places": "Brunswick",
-        "years": "1885"
+        "place": "Brunswick",
+        "year": "1885"
       },
       {
-        "places": "SouthPoland",
-        "years": "1893"
+        "place": "SouthPoland",
+        "year": "1893"
       },
       {
-        "places": "Aroostook",
-        "years": "1882"
+        "place": "Aroostook",
+        "year": "1882"
       }
     ]
   },
@@ -1110,16 +1110,16 @@ var dataset =
     "comName": "Balsam Willow",
     "entries": [
       {
-        "places": "Patten",
-        "years": "1881"
+        "place": "Patten",
+        "year": "1881"
       },
       {
-        "places": "SouthPoland",
-        "years": "1893"
+        "place": "SouthPoland",
+        "year": "1893"
       },
       {
-        "places": "Hiram",
-        "years": "1900"
+        "place": "Hiram",
+        "year": "1900"
       }
     ]
   },
@@ -1130,8 +1130,8 @@ var dataset =
     "comName": "Baltic Rush",
     "entries": [
       {
-        "places": "SaintJohnsRiver",
-        "years": "1884"
+        "place": "SaintJohnsRiver",
+        "year": "1884"
       }
     ]
   },
@@ -1142,12 +1142,12 @@ var dataset =
     "comName": "Bastard-toadflax",
     "entries": [
       {
-        "places": "Wells",
-        "years": "1879"
+        "place": "Wells",
+        "year": "1879"
       },
       {
-        "places": "SouthPoland",
-        "years": "1893"
+        "place": "SouthPoland",
+        "year": "1893"
       }
     ]
   },
@@ -1158,8 +1158,8 @@ var dataset =
     "comName": "Bayberry Willow",
     "entries": [
       {
-        "places": "FortFairfield",
-        "years": "1896"
+        "place": "FortFairfield",
+        "year": "1896"
       }
     ]
   },
@@ -1177,20 +1177,20 @@ var dataset =
     "comName": "Beach Plum",
     "entries": [
       {
-        "places": "WellsBeach",
-        "years": "1879"
+        "place": "WellsBeach",
+        "year": "1879"
       },
       {
-        "places": "WellsBeach",
-        "years": "1897"
+        "place": "WellsBeach",
+        "year": "1897"
       },
       {
-        "places": "WellsBeach",
-        "years": "1898"
+        "place": "WellsBeach",
+        "year": "1898"
       },
       {
-        "places": "Drake's Island",
-        "years": "1879"
+        "place": "Drake's Island",
+        "year": "1879"
       }
     ]
   },
@@ -1201,24 +1201,24 @@ var dataset =
     "comName": "Beach Vetchling",
     "entries": [
       {
-        "places": "GreatDiamondIsland",
-        "years": "1888"
+        "place": "GreatDiamondIsland",
+        "year": "1888"
       },
       {
-        "places": "WellsBeach",
-        "years": "1879"
+        "place": "WellsBeach",
+        "year": "1879"
       },
       {
-        "places": "WellsBeach",
-        "years": "1898"
+        "place": "WellsBeach",
+        "year": "1898"
       },
       {
-        "places": "Brunswick",
-        "years": "1870"
+        "place": "Brunswick",
+        "year": "1870"
       },
       {
-        "places": "Wells",
-        "years": "1898"
+        "place": "Wells",
+        "year": "1898"
       }
     ]
   },
@@ -1229,20 +1229,20 @@ var dataset =
     "comName": "Beach Wormwood",
     "entries": [
       {
-        "places": "OldOrchardBeach",
-        "years": "1896"
+        "place": "OldOrchardBeach",
+        "year": "1896"
       },
       {
-        "places": "OldOrchardBeach",
-        "years": "1898"
+        "place": "OldOrchardBeach",
+        "year": "1898"
       },
       {
-        "places": "FortPopham",
-        "years": "1897"
+        "place": "FortPopham",
+        "year": "1897"
       },
       {
-        "places": "FortPopham",
-        "years": "1907"
+        "place": "FortPopham",
+        "year": "1907"
       }
     ]
   },
@@ -1253,8 +1253,8 @@ var dataset =
     "comName": "Beach-head Iris",
     "entries": [
       {
-        "places": "Cutler",
-        "years": "1902"
+        "place": "Cutler",
+        "year": "1902"
       }
     ]
   },
@@ -1265,16 +1265,16 @@ var dataset =
     "comName": "Beaked Ditch-grass",
     "entries": [
       {
-        "places": "Harpswell",
-        "years": "1878"
+        "place": "Harpswell",
+        "year": "1878"
       },
       {
-        "places": "Brunswick",
-        "years": "1891"
+        "place": "Brunswick",
+        "year": "1891"
       },
       {
-        "places": "Winnegance",
-        "years": "1911"
+        "place": "Winnegance",
+        "year": "1911"
       }
     ]
   },
@@ -1285,8 +1285,8 @@ var dataset =
     "comName": "Beaked Hawkweed",
     "entries": [
       {
-        "places": "Strong",
-        "years": "1882"
+        "place": "Strong",
+        "year": "1882"
       }
     ]
   },
@@ -1297,16 +1297,16 @@ var dataset =
     "comName": "Beaked Hazlenut",
     "entries": [
       {
-        "places": "SouthPoland",
-        "years": "1893"
+        "place": "SouthPoland",
+        "year": "1893"
       },
       {
-        "places": "Gilead",
-        "years": "1897"
+        "place": "Gilead",
+        "year": "1897"
       },
       {
-        "places": "Wells",
-        "years": "1898"
+        "place": "Wells",
+        "year": "1898"
       }
     ]
   },
@@ -1324,8 +1324,8 @@ var dataset =
     "comName": "Beck's Water-marigold",
     "entries": [
       {
-        "places": "SouthPoland",
-        "years": "1895"
+        "place": "SouthPoland",
+        "year": "1895"
       }
     ]
   },
@@ -1336,12 +1336,12 @@ var dataset =
     "comName": "Beech-drops",
     "entries": [
       {
-        "places": "Brunswick",
-        "years": "1877"
+        "place": "Brunswick",
+        "year": "1877"
       },
       {
-        "places": "SouthPoland",
-        "years": "1893"
+        "place": "SouthPoland",
+        "year": "1893"
       }
     ]
   },
@@ -1352,12 +1352,12 @@ var dataset =
     "comName": "Biennial Wormwood",
     "entries": [
       {
-        "places": "OldOrchardBeach",
-        "years": "1896"
+        "place": "OldOrchardBeach",
+        "year": "1896"
       },
       {
-        "places": "OldOrchardBeach",
-        "years": "1898"
+        "place": "OldOrchardBeach",
+        "year": "1898"
       }
     ]
   },
@@ -1368,20 +1368,20 @@ var dataset =
     "comName": "Big-leaved Pondweed",
     "entries": [
       {
-        "places": "PortageLake",
-        "years": "1881"
+        "place": "PortageLake",
+        "year": "1881"
       },
       {
-        "places": "Houlton",
-        "years": "1881"
+        "place": "Houlton",
+        "year": "1881"
       },
       {
-        "places": "SouthPoland",
-        "years": "1893"
+        "place": "SouthPoland",
+        "year": "1893"
       },
       {
-        "places": "Rangeley",
-        "years": "1894"
+        "place": "Rangeley",
+        "year": "1894"
       }
     ]
   },
@@ -1392,20 +1392,20 @@ var dataset =
     "comName": "Big-toothed Poplar",
     "entries": [
       {
-        "places": "ChestervilleRidge",
-        "years": "1878"
+        "place": "ChestervilleRidge",
+        "year": "1878"
       },
       {
-        "places": "Brunswick",
-        "years": "1880"
+        "place": "Brunswick",
+        "year": "1880"
       },
       {
-        "places": "SouthPoland",
-        "years": "1893"
+        "place": "SouthPoland",
+        "year": "1893"
       },
       {
-        "places": "Hiram",
-        "years": "1900"
+        "place": "Hiram",
+        "year": "1900"
       }
     ]
   },
@@ -1416,20 +1416,20 @@ var dataset =
     "comName": "Bird Vetch",
     "entries": [
       {
-        "places": "SouthPortland",
-        "years": "1895"
+        "place": "SouthPortland",
+        "year": "1895"
       },
       {
-        "places": "Dover",
-        "years": "1897"
+        "place": "Dover",
+        "year": "1897"
       },
       {
-        "places": "Wells",
-        "years": "1898"
+        "place": "Wells",
+        "year": "1898"
       },
       {
-        "places": "FortFairfield",
-        "years": "1880"
+        "place": "FortFairfield",
+        "year": "1880"
       }
     ]
   },
@@ -1440,16 +1440,16 @@ var dataset =
     "comName": "Bird's-eye Pearlwort",
     "entries": [
       {
-        "places": "Brunswick",
-        "years": "1892"
+        "place": "Brunswick",
+        "year": "1892"
       },
       {
-        "places": "South Poland",
-        "years": "1895"
+        "place": "South Poland",
+        "year": "1895"
       },
       {
-        "places": "Squirrel Island",
-        "years": "1892"
+        "place": "Squirrel Island",
+        "year": "1892"
       }
     ]
   },
@@ -1460,8 +1460,8 @@ var dataset =
     "comName": "Bird's-eye Primrose",
     "entries": [
       {
-        "places": "Houlton",
-        "years": "1882"
+        "place": "Houlton",
+        "year": "1882"
       }
     ]
   },
@@ -1472,12 +1472,12 @@ var dataset =
     "comName": "Bird's-eye Speedwell",
     "entries": [
       {
-        "places": "Orono",
-        "years": "1891"
+        "place": "Orono",
+        "year": "1891"
       },
       {
-        "places": "LisbonFalls",
-        "years": "1906"
+        "place": "LisbonFalls",
+        "year": "1906"
       }
     ]
   },
@@ -1488,16 +1488,16 @@ var dataset =
     "comName": "Bitter Dock",
     "entries": [
       {
-        "places": "Strong",
-        "years": "1882"
+        "place": "Strong",
+        "year": "1882"
       },
       {
-        "places": "Rangeley",
-        "years": "1882"
+        "place": "Rangeley",
+        "year": "1882"
       },
       {
-        "places": "Wells",
-        "years": "1879"
+        "place": "Wells",
+        "year": "1879"
       }
     ]
   },
@@ -1508,8 +1508,8 @@ var dataset =
     "comName": "Bitter Fleabane",
     "entries": [
       {
-        "places": "FortKent",
-        "years": "1881"
+        "place": "FortKent",
+        "year": "1881"
       }
     ]
   },
@@ -1520,8 +1520,8 @@ var dataset =
     "comName": "Bitternut Hickory",
     "entries": [
       {
-        "places": "NorthBrunswick",
-        "years": "1875"
+        "place": "NorthBrunswick",
+        "year": "1875"
       }
     ]
   },
@@ -1532,8 +1532,8 @@ var dataset =
     "comName": "Black Ash",
     "entries": [
       {
-        "places": "EastLivermore",
-        "years": "1881"
+        "place": "EastLivermore",
+        "year": "1881"
       }
     ]
   },
@@ -1544,24 +1544,24 @@ var dataset =
     "comName": "Black Bindweed",
     "entries": [
       {
-        "places": "FayetteRidge",
-        "years": "1878"
+        "place": "FayetteRidge",
+        "year": "1878"
       },
       {
-        "places": "WestBath",
-        "years": "1891"
+        "place": "WestBath",
+        "year": "1891"
       },
       {
-        "places": "SouthPoland",
-        "years": "1893"
+        "place": "SouthPoland",
+        "year": "1893"
       },
       {
-        "places": "Wells",
-        "years": "1898"
+        "place": "Wells",
+        "year": "1898"
       },
       {
-        "places": "WestBaldwin",
-        "years": "1900"
+        "place": "WestBaldwin",
+        "year": "1900"
       }
     ]
   },
@@ -1572,12 +1572,12 @@ var dataset =
     "comName": "Black Cherry",
     "entries": [
       {
-        "places": "SouthPoland",
-        "years": "1893"
+        "place": "SouthPoland",
+        "year": "1893"
       },
       {
-        "places": "South Poland",
-        "years": "1893"
+        "place": "South Poland",
+        "year": "1893"
       }
     ]
   },
@@ -1588,12 +1588,12 @@ var dataset =
     "comName": "Black Crowberry",
     "entries": [
       {
-        "places": "MountDesert",
-        "years": "1891"
+        "place": "MountDesert",
+        "year": "1891"
       },
       {
-        "places": "IsleauHaut",
-        "years": "1909"
+        "place": "IsleauHaut",
+        "year": "1909"
       }
     ]
   },
@@ -1604,16 +1604,16 @@ var dataset =
     "comName": "Black Elderberry",
     "entries": [
       {
-        "places": "Brunswick",
-        "years": "1876"
+        "place": "Brunswick",
+        "year": "1876"
       },
       {
-        "places": "Rangeley",
-        "years": "1882"
+        "place": "Rangeley",
+        "year": "1882"
       },
       {
-        "places": "Poland",
-        "years": "1885"
+        "place": "Poland",
+        "year": "1885"
       }
     ]
   },
@@ -1624,12 +1624,12 @@ var dataset =
     "comName": "Black Henbane",
     "entries": [
       {
-        "places": "Harpswell",
-        "years": "1870"
+        "place": "Harpswell",
+        "year": "1870"
       },
       {
-        "places": "FortPopham",
-        "years": "1896"
+        "place": "FortPopham",
+        "year": "1896"
       }
     ]
   },
@@ -1640,32 +1640,32 @@ var dataset =
     "comName": "Black Huckleberry",
     "entries": [
       {
-        "places": "FayetteRidge",
-        "years": "1877"
+        "place": "FayetteRidge",
+        "year": "1877"
       },
       {
-        "places": "Brunswick",
-        "years": "1877"
+        "place": "Brunswick",
+        "year": "1877"
       },
       {
-        "places": "Brunswick",
-        "years": "1870"
+        "place": "Brunswick",
+        "year": "1870"
       },
       {
-        "places": "WestBath",
-        "years": "1877"
+        "place": "WestBath",
+        "year": "1877"
       },
       {
-        "places": "WestBath",
-        "years": "1885"
+        "place": "WestBath",
+        "year": "1885"
       },
       {
-        "places": "Brunswick",
-        "years": "1892"
+        "place": "Brunswick",
+        "year": "1892"
       },
       {
-        "places": "South Poland",
-        "years": "1893"
+        "place": "South Poland",
+        "year": "1893"
       }
     ]
   },
@@ -1676,8 +1676,8 @@ var dataset =
     "comName": "Black Knapweed",
     "entries": [
       {
-        "places": "Machias",
-        "years": "1902"
+        "place": "Machias",
+        "year": "1902"
       }
     ]
   },
@@ -1688,16 +1688,16 @@ var dataset =
     "comName": "Black Locust",
     "entries": [
       {
-        "places": "Fayette",
-        "years": "1877"
+        "place": "Fayette",
+        "year": "1877"
       },
       {
-        "places": "LivermoreFalls",
-        "years": "1878"
+        "place": "LivermoreFalls",
+        "year": "1878"
       },
       {
-        "places": "SouthPoland",
-        "years": "1893"
+        "place": "SouthPoland",
+        "year": "1893"
       }
     ]
   },
@@ -1708,16 +1708,16 @@ var dataset =
     "comName": "Black Medick",
     "entries": [
       {
-        "places": "YorkBeach",
-        "years": "1879"
+        "place": "YorkBeach",
+        "year": "1879"
       },
       {
-        "places": "Scarborough",
-        "years": "1891"
+        "place": "Scarborough",
+        "year": "1891"
       },
       {
-        "places": "Wells",
-        "years": "1898"
+        "place": "Wells",
+        "year": "1898"
       }
     ]
   },
@@ -1728,8 +1728,8 @@ var dataset =
     "comName": "Black Mustard",
     "entries": [
       {
-        "places": "Brunswick",
-        "years": "1903"
+        "place": "Brunswick",
+        "year": "1903"
       }
     ]
   },
@@ -1740,12 +1740,12 @@ var dataset =
     "comName": "Black Raspberry",
     "entries": [
       {
-        "places": "SouthPoland",
-        "years": "1895"
+        "place": "SouthPoland",
+        "year": "1895"
       },
       {
-        "places": "YorkCounty",
-        "years": "1879"
+        "place": "YorkCounty",
+        "year": "1879"
       }
     ]
   },
@@ -1756,8 +1756,8 @@ var dataset =
     "comName": "Black Spruce",
     "entries": [
       {
-        "places": "Cutler",
-        "years": "1902"
+        "place": "Cutler",
+        "year": "1902"
       }
     ]
   },
@@ -1768,8 +1768,8 @@ var dataset =
     "comName": "Black Swallowwort",
     "entries": [
       {
-        "places": "Brunswick",
-        "years": "1906"
+        "place": "Brunswick",
+        "year": "1906"
       }
     ]
   },
@@ -1787,20 +1787,20 @@ var dataset =
     "comName": "Black Willow",
     "entries": [
       {
-        "places": "Poland",
-        "years": "1893"
+        "place": "Poland",
+        "year": "1893"
       },
       {
-        "places": "Poland",
-        "years": "1895"
+        "place": "Poland",
+        "year": "1895"
       },
       {
-        "places": "MiddleRangePond",
-        "years": "1893"
+        "place": "MiddleRangePond",
+        "year": "1893"
       },
       {
-        "places": "South Poland",
-        "years": "1895"
+        "place": "South Poland",
+        "year": "1895"
       }
     ]
   },
@@ -1811,20 +1811,20 @@ var dataset =
     "comName": "Black-eyedconeflower",
     "entries": [
       {
-        "places": "Gilead",
-        "years": "1897"
+        "place": "Gilead",
+        "year": "1897"
       },
       {
-        "places": "EastLivermore",
-        "years": "1894"
+        "place": "EastLivermore",
+        "year": "1894"
       },
       {
-        "places": "Wells",
-        "years": "1898"
+        "place": "Wells",
+        "year": "1898"
       },
       {
-        "places": "Brunswick",
-        "years": "1874"
+        "place": "Brunswick",
+        "year": "1874"
       }
     ]
   },
@@ -1835,28 +1835,28 @@ var dataset =
     "comName": "Bladder-pod Lobelia",
     "entries": [
       {
-        "places": "Wells",
-        "years": "1880"
+        "place": "Wells",
+        "year": "1880"
       },
       {
-        "places": "SaintFrancis",
-        "years": "1880"
+        "place": "SaintFrancis",
+        "year": "1880"
       },
       {
-        "places": "Brunswick",
-        "years": "1892"
+        "place": "Brunswick",
+        "year": "1892"
       },
       {
-        "places": "Wells",
-        "years": "1880"
+        "place": "Wells",
+        "year": "1880"
       },
       {
-        "places": "South Poland",
-        "years": "1893"
+        "place": "South Poland",
+        "year": "1893"
       },
       {
-        "places": "Rangeley",
-        "years": "1882"
+        "place": "Rangeley",
+        "year": "1882"
       }
     ]
   },
@@ -1867,8 +1867,8 @@ var dataset =
     "comName": "Blake's Aster",
     "entries": [
       {
-        "places": "SouthPoland",
-        "years": "1895"
+        "place": "SouthPoland",
+        "year": "1895"
       }
     ]
   },
@@ -1879,24 +1879,24 @@ var dataset =
     "comName": "Bland Sweet-cicely",
     "entries": [
       {
-        "places": "Rangeley",
-        "years": "1894"
+        "place": "Rangeley",
+        "year": "1894"
       },
       {
-        "places": "Gilead",
-        "years": "1897"
+        "place": "Gilead",
+        "year": "1897"
       },
       {
-        "places": "Fayette",
-        "years": "1878"
+        "place": "Fayette",
+        "year": "1878"
       },
       {
-        "places": "Patten",
-        "years": "1881"
+        "place": "Patten",
+        "year": "1881"
       },
       {
-        "places": "PortageLake",
-        "years": "1881"
+        "place": "PortageLake",
+        "year": "1881"
       }
     ]
   },
@@ -1907,8 +1907,8 @@ var dataset =
     "comName": "Blood Amaranth",
     "entries": [
       {
-        "places": "Brunswick",
-        "years": "1891"
+        "place": "Brunswick",
+        "year": "1891"
       }
     ]
   },
@@ -1919,20 +1919,20 @@ var dataset =
     "comName": "Blood-root",
     "entries": [
       {
-        "places": "Topsham",
-        "years": "1870"
+        "place": "Topsham",
+        "year": "1870"
       },
       {
-        "places": "Wells",
-        "years": "1871"
+        "place": "Wells",
+        "year": "1871"
       },
       {
-        "places": "Patten",
-        "years": "1881"
+        "place": "Patten",
+        "year": "1881"
       },
       {
-        "places": "Strong",
-        "years": "1882"
+        "place": "Strong",
+        "year": "1882"
       }
     ]
   },
@@ -1943,16 +1943,16 @@ var dataset =
     "comName": "Bloody Milkwort",
     "entries": [
       {
-        "places": "Brunswick",
-        "years": "1887"
+        "place": "Brunswick",
+        "year": "1887"
       },
       {
-        "places": "Wells",
-        "years": "1898"
+        "place": "Wells",
+        "year": "1898"
       },
       {
-        "places": "WestBaldwin",
-        "years": "1900"
+        "place": "WestBaldwin",
+        "year": "1900"
       }
     ]
   },
@@ -1963,24 +1963,24 @@ var dataset =
     "comName": "Blue Cohosh",
     "entries": [
       {
-        "places": "Fayette",
-        "years": "1875"
+        "place": "Fayette",
+        "year": "1875"
       },
       {
-        "places": "Caribou",
-        "years": "1880"
+        "place": "Caribou",
+        "year": "1880"
       },
       {
-        "places": "Patten",
-        "years": "1881"
+        "place": "Patten",
+        "year": "1881"
       },
       {
-        "places": "Strong",
-        "years": "1882"
+        "place": "Strong",
+        "year": "1882"
       },
       {
-        "places": "RangeleyLakes",
-        "years": "1882"
+        "place": "RangeleyLakes",
+        "year": "1882"
       }
     ]
   },
@@ -1991,8 +1991,8 @@ var dataset =
     "comName": "Blue Iris",
     "entries": [
       {
-        "places": "Wells Beach",
-        "years": "1898"
+        "place": "Wells Beach",
+        "year": "1898"
       }
     ]
   },
@@ -2003,52 +2003,52 @@ var dataset =
     "comName": "Blue Marsh Violet",
     "entries": [
       {
-        "places": "Brunswick",
-        "years": "1870"
+        "place": "Brunswick",
+        "year": "1870"
       },
       {
-        "places": "SouthPoland",
-        "years": "1893"
+        "place": "SouthPoland",
+        "year": "1893"
       },
       {
-        "places": "Brunswick",
-        "years": "1870"
+        "place": "Brunswick",
+        "year": "1870"
       },
       {
-        "places": "Brunswick",
-        "years": "1870"
+        "place": "Brunswick",
+        "year": "1870"
       },
       {
-        "places": "Caribou",
-        "years": "1880"
+        "place": "Caribou",
+        "year": "1880"
       },
       {
-        "places": "Caribou",
-        "years": "1881"
+        "place": "Caribou",
+        "year": "1881"
       },
       {
-        "places": "Brunswick",
-        "years": "1901"
+        "place": "Brunswick",
+        "year": "1901"
       },
       {
-        "places": "Orono",
-        "years": "1892"
+        "place": "Orono",
+        "year": "1892"
       },
       {
-        "places": "Cutler",
-        "years": "1902"
+        "place": "Cutler",
+        "year": "1902"
       },
       {
-        "places": "Winnegance",
-        "years": "1907"
+        "place": "Winnegance",
+        "year": "1907"
       },
       {
-        "places": "Marshfield",
-        "years": "1902"
+        "place": "Marshfield",
+        "year": "1902"
       },
       {
-        "places": "Isle au Haut",
-        "years": "1909"
+        "place": "Isle au Haut",
+        "year": "1909"
       }
     ]
   },
@@ -2066,24 +2066,24 @@ var dataset =
     "comName": "Blunt-leaved Bog-orchid",
     "entries": [
       {
-        "places": "FortKent",
-        "years": "1882"
+        "place": "FortKent",
+        "year": "1882"
       },
       {
-        "places": "Rangeley",
-        "years": "1882"
+        "place": "Rangeley",
+        "year": "1882"
       },
       {
-        "places": "SouthPoland",
-        "years": "1893"
+        "place": "SouthPoland",
+        "year": "1893"
       },
       {
-        "places": "Readfield",
-        "years": "1896"
+        "place": "Readfield",
+        "year": "1896"
       },
       {
-        "places": "Wells",
-        "years": "1898"
+        "place": "Wells",
+        "year": "1898"
       }
     ]
   },
@@ -2094,24 +2094,24 @@ var dataset =
     "comName": "Blunt-leaved Grove-sandwort",
     "entries": [
       {
-        "places": "Wells",
-        "years": "1879"
+        "place": "Wells",
+        "year": "1879"
       },
       {
-        "places": "Fort Fairfield",
-        "years": "1880"
+        "place": "Fort Fairfield",
+        "year": "1880"
       },
       {
-        "places": "Rangeley",
-        "years": "1882"
+        "place": "Rangeley",
+        "year": "1882"
       },
       {
-        "places": "Mount Desert",
-        "years": "1891"
+        "place": "Mount Desert",
+        "year": "1891"
       },
       {
-        "places": "Rangeley",
-        "years": "1894"
+        "place": "Rangeley",
+        "year": "1894"
       }
     ]
   },
@@ -2129,28 +2129,28 @@ var dataset =
     "comName": "Blunt-lobed Hepatica",
     "entries": [
       {
-        "places": "Brunswick",
-        "years": "1890"
+        "place": "Brunswick",
+        "year": "1890"
       },
       {
-        "places": "Wells",
-        "years": "1898"
+        "place": "Wells",
+        "year": "1898"
       },
       {
-        "places": "Fayette",
-        "years": "1878"
+        "place": "Fayette",
+        "year": "1878"
       },
       {
-        "places": "SouthPoland",
-        "years": "1893"
+        "place": "SouthPoland",
+        "year": "1893"
       },
       {
-        "places": "Brunswick",
-        "years": "1886"
+        "place": "Brunswick",
+        "year": "1886"
       },
       {
-        "places": "Snow's Falls",
-        "years": "1905"
+        "place": "Snow's Falls",
+        "year": "1905"
       }
     ]
   },
@@ -2161,24 +2161,24 @@ var dataset =
     "comName": "Bog American-laurel",
     "entries": [
       {
-        "places": "Brunswick",
-        "years": "1880"
+        "place": "Brunswick",
+        "year": "1880"
       },
       {
-        "places": "SouthPoland",
-        "years": "1893"
+        "place": "SouthPoland",
+        "year": "1893"
       },
       {
-        "places": "Orono",
-        "years": "1880"
+        "place": "Orono",
+        "year": "1880"
       },
       {
-        "places": "Wells",
-        "years": "1898"
+        "place": "Wells",
+        "year": "1898"
       },
       {
-        "places": "WestBaldwin",
-        "years": "1900"
+        "place": "WestBaldwin",
+        "year": "1900"
       }
     ]
   },
@@ -2196,36 +2196,36 @@ var dataset =
     "comName": "Bog Goldenrod",
     "entries": [
       {
-        "places": "Wells",
-        "years": "1878"
+        "place": "Wells",
+        "year": "1878"
       },
       {
-        "places": "Cutler",
-        "years": "1902"
+        "place": "Cutler",
+        "year": "1902"
       },
       {
-        "places": "Brunswick",
-        "years": "1890"
+        "place": "Brunswick",
+        "year": "1890"
       },
       {
-        "places": "Sorrento",
-        "years": "1891"
+        "place": "Sorrento",
+        "year": "1891"
       },
       {
-        "places": "Wells",
-        "years": "1879"
+        "place": "Wells",
+        "year": "1879"
       },
       {
-        "places": "Wells",
-        "years": "1879"
+        "place": "Wells",
+        "year": "1879"
       },
       {
-        "places": "Wells",
-        "years": "1898"
+        "place": "Wells",
+        "year": "1898"
       },
       {
-        "places": "South Poland",
-        "years": "1893"
+        "place": "South Poland",
+        "year": "1893"
       }
     ]
   },
@@ -2236,8 +2236,8 @@ var dataset =
     "comName": "Bog Nodding-aster",
     "entries": [
       {
-        "places": "Fayette",
-        "years": "1878"
+        "place": "Fayette",
+        "year": "1878"
       }
     ]
   },
@@ -2248,16 +2248,16 @@ var dataset =
     "comName": "Bog Stitchwort",
     "entries": [
       {
-        "places": "Wells",
-        "years": "1898"
+        "place": "Wells",
+        "year": "1898"
       },
       {
-        "places": "BustinsIsland",
-        "years": "1909"
+        "place": "BustinsIsland",
+        "year": "1909"
       },
       {
-        "places": "Old Orchard Beach",
-        "years": "1896"
+        "place": "Old Orchard Beach",
+        "year": "1896"
       }
     ]
   },
@@ -2275,16 +2275,16 @@ var dataset =
     "comName": "Bog Willow-herb",
     "entries": [
       {
-        "places": "Caribou",
-        "years": "1880"
+        "place": "Caribou",
+        "year": "1880"
       },
       {
-        "places": "FortKent",
-        "years": "1881"
+        "place": "FortKent",
+        "year": "1881"
       },
       {
-        "places": "Strong",
-        "years": "1882"
+        "place": "Strong",
+        "year": "1882"
       }
     ]
   },
@@ -2295,12 +2295,12 @@ var dataset =
     "comName": "Bog-rosemary",
     "entries": [
       {
-        "places": "SouthPoland",
-        "years": "1893"
+        "place": "SouthPoland",
+        "year": "1893"
       },
       {
-        "places": "Wells",
-        "years": "1898"
+        "place": "Wells",
+        "year": "1898"
       }
     ]
   },
@@ -2311,20 +2311,20 @@ var dataset =
     "comName": "Boneset Thoroughwort",
     "entries": [
       {
-        "places": "Brunswick",
-        "years": "1870"
+        "place": "Brunswick",
+        "year": "1870"
       },
       {
-        "places": "Strong",
-        "years": "1882"
+        "place": "Strong",
+        "year": "1882"
       },
       {
-        "places": "SouthPoland",
-        "years": "1893"
+        "place": "SouthPoland",
+        "year": "1893"
       },
       {
-        "places": "Wells",
-        "years": "1889"
+        "place": "Wells",
+        "year": "1889"
       }
     ]
   },
@@ -2335,8 +2335,8 @@ var dataset =
     "comName": "Boott's Rattlesnake-root",
     "entries": [
       {
-        "places": "MtKatahdin",
-        "years": "1897"
+        "place": "MtKatahdin",
+        "year": "1897"
       }
     ]
   },
@@ -2347,28 +2347,28 @@ var dataset =
     "comName": "Boreal Stitchwort",
     "entries": [
       {
-        "places": "Wells",
-        "years": "1878"
+        "place": "Wells",
+        "year": "1878"
       },
       {
-        "places": "Brunswick",
-        "years": "1871"
+        "place": "Brunswick",
+        "year": "1871"
       },
       {
-        "places": "SouthPoland",
-        "years": "1893"
+        "place": "SouthPoland",
+        "year": "1893"
       },
       {
-        "places": "Gilead",
-        "years": "1897"
+        "place": "Gilead",
+        "year": "1897"
       },
       {
-        "places": "FortFairfield",
-        "years": "1880"
+        "place": "FortFairfield",
+        "year": "1880"
       },
       {
-        "places": "Brunswick",
-        "years": "1891"
+        "place": "Brunswick",
+        "year": "1891"
       }
     ]
   },
@@ -2379,16 +2379,16 @@ var dataset =
     "comName": "Bristly Blackberry",
     "entries": [
       {
-        "places": "Brunswick",
-        "years": "1888"
+        "place": "Brunswick",
+        "year": "1888"
       },
       {
-        "places": "Wells",
-        "years": "1898"
+        "place": "Wells",
+        "year": "1898"
       },
       {
-        "places": "SouthPoland",
-        "years": "1893"
+        "place": "SouthPoland",
+        "year": "1893"
       }
     ]
   },
@@ -2399,16 +2399,16 @@ var dataset =
     "comName": "Bristly Crowfoot",
     "entries": [
       {
-        "places": "VanBuren",
-        "years": "1880"
+        "place": "VanBuren",
+        "year": "1880"
       },
       {
-        "places": "SouthPoland",
-        "years": "1893"
+        "place": "SouthPoland",
+        "year": "1893"
       },
       {
-        "places": "Brunswick",
-        "years": "1899"
+        "place": "Brunswick",
+        "year": "1899"
       }
     ]
   },
@@ -2419,12 +2419,12 @@ var dataset =
     "comName": "Bristly Hawkbit",
     "entries": [
       {
-        "places": "SouthPoland",
-        "years": "1897"
+        "place": "SouthPoland",
+        "year": "1897"
       },
       {
-        "places": "Wells",
-        "years": "1898"
+        "place": "Wells",
+        "year": "1898"
       }
     ]
   },
@@ -2435,8 +2435,8 @@ var dataset =
     "comName": "Bristly Locust",
     "entries": [
       {
-        "places": "Brunswick",
-        "years": "1877"
+        "place": "Brunswick",
+        "year": "1877"
       }
     ]
   },
@@ -2447,28 +2447,28 @@ var dataset =
     "comName": "Bristly Rose",
     "entries": [
       {
-        "places": "Brunswick",
-        "years": "1870"
+        "place": "Brunswick",
+        "year": "1870"
       },
       {
-        "places": "Wells",
-        "years": "1897"
+        "place": "Wells",
+        "year": "1897"
       },
       {
-        "places": "WestBaldwin",
-        "years": "1878"
+        "place": "WestBaldwin",
+        "year": "1878"
       },
       {
-        "places": "FortKent",
-        "years": "1880"
+        "place": "FortKent",
+        "year": "1880"
       },
       {
-        "places": "FostersPoint",
-        "years": "1900"
+        "place": "FostersPoint",
+        "year": "1900"
       },
       {
-        "places": "Foster's Point",
-        "years": "1900"
+        "place": "Foster's Point",
+        "year": "1900"
       }
     ]
   },
@@ -2479,24 +2479,24 @@ var dataset =
     "comName": "Bristly Sasparilla",
     "entries": [
       {
-        "places": "SouthPoland",
-        "years": "1893"
+        "place": "SouthPoland",
+        "year": "1893"
       },
       {
-        "places": "SouthPoland",
-        "years": "1897"
+        "place": "SouthPoland",
+        "year": "1897"
       },
       {
-        "places": "Brunswick",
-        "years": "1871"
+        "place": "Brunswick",
+        "year": "1871"
       },
       {
-        "places": "Rangeley",
-        "years": "1882"
+        "place": "Rangeley",
+        "year": "1882"
       },
       {
-        "places": "Rangeley",
-        "years": "1894"
+        "place": "Rangeley",
+        "year": "1894"
       }
     ]
   },
@@ -2507,28 +2507,28 @@ var dataset =
     "comName": "Bristly Swamp Currant",
     "entries": [
       {
-        "places": "Patten",
-        "years": "1881"
+        "place": "Patten",
+        "year": "1881"
       },
       {
-        "places": "Hersey",
-        "years": "1881"
+        "place": "Hersey",
+        "year": "1881"
       },
       {
-        "places": "NewSweden",
-        "years": "1881"
+        "place": "NewSweden",
+        "year": "1881"
       },
       {
-        "places": "Rangeley",
-        "years": "1882"
+        "place": "Rangeley",
+        "year": "1882"
       },
       {
-        "places": "SouthPoland",
-        "years": "1893"
+        "place": "SouthPoland",
+        "year": "1893"
       },
       {
-        "places": "New Sweden",
-        "years": "1881"
+        "place": "New Sweden",
+        "year": "1881"
       }
     ]
   },
@@ -2539,12 +2539,12 @@ var dataset =
     "comName": "Brittle-stemmed Hemp-nettle",
     "entries": [
       {
-        "places": "Brunswick",
-        "years": "1881"
+        "place": "Brunswick",
+        "year": "1881"
       },
       {
-        "places": "SouthPoland",
-        "years": "1893"
+        "place": "SouthPoland",
+        "year": "1893"
       }
     ]
   },
@@ -2555,20 +2555,20 @@ var dataset =
     "comName": "Broad-leaved Enchanter's-nightshade",
     "entries": [
       {
-        "places": "CushingIsland",
-        "years": "1876"
+        "place": "CushingIsland",
+        "year": "1876"
       },
       {
-        "places": "Northport",
-        "years": "1891"
+        "place": "Northport",
+        "year": "1891"
       },
       {
-        "places": "SouthPoland",
-        "years": "1895"
+        "place": "SouthPoland",
+        "year": "1895"
       },
       {
-        "places": "South Poland",
-        "years": "1895"
+        "place": "South Poland",
+        "year": "1895"
       }
     ]
   },
@@ -2579,8 +2579,8 @@ var dataset =
     "comName": "Broad-leaved Twayblade",
     "entries": [
       {
-        "places": "FortKent",
-        "years": "1880"
+        "place": "FortKent",
+        "year": "1880"
       }
     ]
   },
@@ -2591,20 +2591,20 @@ var dataset =
     "comName": "Broad-leavedcat-tail",
     "entries": [
       {
-        "places": "EastLivermore",
-        "years": "1878"
+        "place": "EastLivermore",
+        "year": "1878"
       },
       {
-        "places": "Brunswick",
-        "years": "1878"
+        "place": "Brunswick",
+        "year": "1878"
       },
       {
-        "places": "Wells",
-        "years": "1898"
+        "place": "Wells",
+        "year": "1898"
       },
       {
-        "places": "Brunswick",
-        "years": "1878"
+        "place": "Brunswick",
+        "year": "1878"
       }
     ]
   },
@@ -2615,8 +2615,8 @@ var dataset =
     "comName": "Brook Lobelia",
     "entries": [
       {
-        "places": "FortFairfield",
-        "years": "1880"
+        "place": "FortFairfield",
+        "year": "1880"
       }
     ]
   },
@@ -2627,16 +2627,16 @@ var dataset =
     "comName": "Broom Crowberry",
     "entries": [
       {
-        "places": "Ogunquit",
-        "years": "1879"
+        "place": "Ogunquit",
+        "year": "1879"
       },
       {
-        "places": "GunPointHarpswell",
-        "years": "1888"
+        "place": "GunPointHarpswell",
+        "year": "1888"
       },
       {
-        "places": "IsleauHaut",
-        "years": "1909"
+        "place": "IsleauHaut",
+        "year": "1909"
       }
     ]
   },
@@ -2647,24 +2647,24 @@ var dataset =
     "comName": "Brown Cudfeed",
     "entries": [
       {
-        "places": "Brunswick",
-        "years": "1870"
+        "place": "Brunswick",
+        "year": "1870"
       },
       {
-        "places": "SouthPoland",
-        "years": "1893"
+        "place": "SouthPoland",
+        "year": "1893"
       },
       {
-        "places": "CoplinPlantation",
-        "years": "1894"
+        "place": "CoplinPlantation",
+        "year": "1894"
       },
       {
-        "places": "Shapleigh",
-        "years": "1901"
+        "place": "Shapleigh",
+        "year": "1901"
       },
       {
-        "places": "Wells",
-        "years": "1898"
+        "place": "Wells",
+        "year": "1898"
       }
     ]
   },
@@ -2675,8 +2675,8 @@ var dataset =
     "comName": "Brown-fruited Rush",
     "entries": [
       {
-        "places": "Middle Range Pond",
-        "years": "1893"
+        "place": "Middle Range Pond",
+        "year": "1893"
       }
     ]
   },
@@ -2687,24 +2687,24 @@ var dataset =
     "comName": "Buck-bean",
     "entries": [
       {
-        "places": "Fayette",
-        "years": "1876"
+        "place": "Fayette",
+        "year": "1876"
       },
       {
-        "places": "Wayne",
-        "years": "1876"
+        "place": "Wayne",
+        "year": "1876"
       },
       {
-        "places": "YorkBeach",
-        "years": "1898"
+        "place": "YorkBeach",
+        "year": "1898"
       },
       {
-        "places": "Orono",
-        "years": "1879"
+        "place": "Orono",
+        "year": "1879"
       },
       {
-        "places": "Winnegance",
-        "years": "1910"
+        "place": "Winnegance",
+        "year": "1910"
       }
     ]
   },
@@ -2715,12 +2715,12 @@ var dataset =
     "comName": "Bulblet-bearing Water-hemlock",
     "entries": [
       {
-        "places": "Brunswick",
-        "years": "1876"
+        "place": "Brunswick",
+        "year": "1876"
       },
       {
-        "places": "SouthPoland",
-        "years": "1893"
+        "place": "SouthPoland",
+        "year": "1893"
       }
     ]
   },
@@ -2731,12 +2731,12 @@ var dataset =
     "comName": "Bulbous Crowfoot",
     "entries": [
       {
-        "places": "Brunswick",
-        "years": "1875"
+        "place": "Brunswick",
+        "year": "1875"
       },
       {
-        "places": "Brewer",
-        "years": "1880"
+        "place": "Brewer",
+        "year": "1880"
       }
     ]
   },
@@ -2747,12 +2747,12 @@ var dataset =
     "comName": "Bush-honeysuckle",
     "entries": [
       {
-        "places": "Brunswick",
-        "years": "1898"
+        "place": "Brunswick",
+        "year": "1898"
       },
       {
-        "places": "WestBaldwin",
-        "years": "1900"
+        "place": "WestBaldwin",
+        "year": "1900"
       }
     ]
   },
@@ -2763,36 +2763,36 @@ var dataset =
     "comName": "Bushy American-aster",
     "entries": [
       {
-        "places": "Wells",
-        "years": "1876"
+        "place": "Wells",
+        "year": "1876"
       },
       {
-        "places": "Brunswick",
-        "years": "1877"
+        "place": "Brunswick",
+        "year": "1877"
       },
       {
-        "places": "EastLivermore",
-        "years": "1877"
+        "place": "EastLivermore",
+        "year": "1877"
       },
       {
-        "places": "FayetteRidge",
-        "years": "1877"
+        "place": "FayetteRidge",
+        "year": "1877"
       },
       {
-        "places": "FortKent",
-        "years": "1880"
+        "place": "FortKent",
+        "year": "1880"
       },
       {
-        "places": "Fort Fairfield",
-        "years": "1880"
+        "place": "Fort Fairfield",
+        "year": "1880"
       },
       {
-        "places": "Saint Francis",
-        "years": "1881"
+        "place": "Saint Francis",
+        "year": "1881"
       },
       {
-        "places": "Strong",
-        "years": "1882"
+        "place": "Strong",
+        "year": "1882"
       }
     ]
   },
@@ -2803,20 +2803,20 @@ var dataset =
     "comName": "Butter-and-eggs Toadflax",
     "entries": [
       {
-        "places": "Brunswick",
-        "years": "1875"
+        "place": "Brunswick",
+        "year": "1875"
       },
       {
-        "places": "Orono",
-        "years": "1880"
+        "place": "Orono",
+        "year": "1880"
       },
       {
-        "places": "SouthPoland",
-        "years": "1893"
+        "place": "SouthPoland",
+        "year": "1893"
       },
       {
-        "places": "Wells",
-        "years": "1898"
+        "place": "Wells",
+        "year": "1898"
       }
     ]
   },
@@ -2827,16 +2827,16 @@ var dataset =
     "comName": "Calico American-aster",
     "entries": [
       {
-        "places": "LivermoreFalls",
-        "years": "1877"
+        "place": "LivermoreFalls",
+        "year": "1877"
       },
       {
-        "places": "East Livermore",
-        "years": "1878"
+        "place": "East Livermore",
+        "year": "1878"
       },
       {
-        "places": "Livermore Falls",
-        "years": "1877"
+        "place": "Livermore Falls",
+        "year": "1877"
       }
     ]
   },
@@ -2847,12 +2847,12 @@ var dataset =
     "comName": "Canada Clearweed",
     "entries": [
       {
-        "places": "Brunswick",
-        "years": "1895"
+        "place": "Brunswick",
+        "year": "1895"
       },
       {
-        "places": "Brunswick",
-        "years": "1902"
+        "place": "Brunswick",
+        "year": "1902"
       }
     ]
   },
@@ -2863,16 +2863,16 @@ var dataset =
     "comName": "Canada Dwarf-dogwood",
     "entries": [
       {
-        "places": "Brunswick",
-        "years": "1870"
+        "place": "Brunswick",
+        "year": "1870"
       },
       {
-        "places": "South Poland",
-        "years": "1893"
+        "place": "South Poland",
+        "year": "1893"
       },
       {
-        "places": "Rangeley",
-        "years": "1882"
+        "place": "Rangeley",
+        "year": "1882"
       }
     ]
   },
@@ -2883,24 +2883,24 @@ var dataset =
     "comName": "Canada Fleabane",
     "entries": [
       {
-        "places": "FayetteRidge",
-        "years": "1877"
+        "place": "FayetteRidge",
+        "year": "1877"
       },
       {
-        "places": "Brunswick",
-        "years": "1877"
+        "place": "Brunswick",
+        "year": "1877"
       },
       {
-        "places": "SouthPoland",
-        "years": "1893"
+        "place": "SouthPoland",
+        "year": "1893"
       },
       {
-        "places": "Wells",
-        "years": "1898"
+        "place": "Wells",
+        "year": "1898"
       },
       {
-        "places": "Lubeck",
-        "years": "1902"
+        "place": "Lubeck",
+        "year": "1902"
       }
     ]
   },
@@ -2911,8 +2911,8 @@ var dataset =
     "comName": "Canada Frostweed",
     "entries": [
       {
-        "places": "Wells",
-        "years": "1879"
+        "place": "Wells",
+        "year": "1879"
       }
     ]
   },
@@ -2923,16 +2923,16 @@ var dataset =
     "comName": "Canada Goldenrod",
     "entries": [
       {
-        "places": "Brunswick",
-        "years": "1878"
+        "place": "Brunswick",
+        "year": "1878"
       },
       {
-        "places": "Rangeley",
-        "years": "1882"
+        "place": "Rangeley",
+        "year": "1882"
       },
       {
-        "places": "Gilead",
-        "years": "1897"
+        "place": "Gilead",
+        "year": "1897"
       }
     ]
   },
@@ -2943,8 +2943,8 @@ var dataset =
     "comName": "Canada Honewort",
     "entries": [
       {
-        "places": "Skowhegan",
-        "years": "1903"
+        "place": "Skowhegan",
+        "year": "1903"
       }
     ]
   },
@@ -2962,8 +2962,8 @@ var dataset =
     "comName": "Canada Plum",
     "entries": [
       {
-        "places": "Orono",
-        "years": "1892"
+        "place": "Orono",
+        "year": "1892"
       }
     ]
   },
@@ -2974,20 +2974,20 @@ var dataset =
     "comName": "Canada Rockcress",
     "entries": [
       {
-        "places": "Ashland",
-        "years": "1881"
+        "place": "Ashland",
+        "year": "1881"
       },
       {
-        "places": "FortKent",
-        "years": "1881"
+        "place": "FortKent",
+        "year": "1881"
       },
       {
-        "places": "Oldtown",
-        "years": "1880"
+        "place": "Oldtown",
+        "year": "1880"
       },
       {
-        "places": "Oldtown",
-        "years": "1881"
+        "place": "Oldtown",
+        "year": "1881"
       }
     ]
   },
@@ -3005,20 +3005,20 @@ var dataset =
     "comName": "Canada Sand-spurry",
     "entries": [
       {
-        "places": "Wells",
-        "years": "1879"
+        "place": "Wells",
+        "year": "1879"
       },
       {
-        "places": "Cutler",
-        "years": "1902"
+        "place": "Cutler",
+        "year": "1902"
       },
       {
-        "places": "Wells",
-        "years": "1897"
+        "place": "Wells",
+        "year": "1897"
       },
       {
-        "places": "Wells",
-        "years": "1898"
+        "place": "Wells",
+        "year": "1898"
       }
     ]
   },
@@ -3029,8 +3029,8 @@ var dataset =
     "comName": "Canada Wild Ginger",
     "entries": [
       {
-        "places": "Caribou",
-        "years": "1880"
+        "place": "Caribou",
+        "year": "1880"
       }
     ]
   },
@@ -3041,12 +3041,12 @@ var dataset =
     "comName": "Canada Wood-nettle",
     "entries": [
       {
-        "places": "LivermoreFalls",
-        "years": "1876"
+        "place": "LivermoreFalls",
+        "year": "1876"
       },
       {
-        "places": "LivermoreFalls",
-        "years": "1878"
+        "place": "LivermoreFalls",
+        "year": "1878"
       }
     ]
   },
@@ -3057,12 +3057,12 @@ var dataset =
     "comName": "Caraway",
     "entries": [
       {
-        "places": "Brunswick",
-        "years": "1876"
+        "place": "Brunswick",
+        "year": "1876"
       },
       {
-        "places": "Wells",
-        "years": "1898"
+        "place": "Wells",
+        "year": "1898"
       }
     ]
   },
@@ -3073,20 +3073,20 @@ var dataset =
     "comName": "Carey's Smartweed",
     "entries": [
       {
-        "places": "Wells",
-        "years": "1879"
+        "place": "Wells",
+        "year": "1879"
       },
       {
-        "places": "York",
-        "years": "1879"
+        "place": "York",
+        "year": "1879"
       },
       {
-        "places": "Orono",
-        "years": "1880"
+        "place": "Orono",
+        "year": "1880"
       },
       {
-        "places": "South Poland",
-        "years": "1893"
+        "place": "South Poland",
+        "year": "1893"
       }
     ]
   },
@@ -3097,12 +3097,12 @@ var dataset =
     "comName": "Carolina Crane's-bill",
     "entries": [
       {
-        "places": "Brunswick",
-        "years": "1877"
+        "place": "Brunswick",
+        "year": "1877"
       },
       {
-        "places": "WestBath",
-        "years": "1891"
+        "place": "WestBath",
+        "year": "1891"
       }
     ]
   },
@@ -3113,24 +3113,24 @@ var dataset =
     "comName": "Carolina Rose",
     "entries": [
       {
-        "places": "WestBath",
-        "years": "1899"
+        "place": "WestBath",
+        "year": "1899"
       },
       {
-        "places": "Wells",
-        "years": "1878"
+        "place": "Wells",
+        "year": "1878"
       },
       {
-        "places": "South Poland",
-        "years": "1893"
+        "place": "South Poland",
+        "year": "1893"
       },
       {
-        "places": "West Bath",
-        "years": "1897"
+        "place": "West Bath",
+        "year": "1897"
       },
       {
-        "places": "Wells",
-        "years": "1898"
+        "place": "Wells",
+        "year": "1898"
       }
     ]
   },
@@ -3141,16 +3141,16 @@ var dataset =
     "comName": "Carolina Rose",
     "entries": [
       {
-        "places": "WestBath",
-        "years": "1891"
+        "place": "WestBath",
+        "year": "1891"
       },
       {
-        "places": "Gilead",
-        "years": "1897"
+        "place": "Gilead",
+        "year": "1897"
       },
       {
-        "places": "Wells",
-        "years": "1899"
+        "place": "Wells",
+        "year": "1899"
       }
     ]
   },
@@ -3161,12 +3161,12 @@ var dataset =
     "comName": "Carolina Sea-lavender",
     "entries": [
       {
-        "places": "Brunswick",
-        "years": "1878"
+        "place": "Brunswick",
+        "year": "1878"
       },
       {
-        "places": "Wells",
-        "years": "1898"
+        "place": "Wells",
+        "year": "1898"
       }
     ]
   },
@@ -3184,12 +3184,12 @@ var dataset =
     "comName": "Catnip",
     "entries": [
       {
-        "places": "Wells",
-        "years": "1893"
+        "place": "Wells",
+        "year": "1893"
       },
       {
-        "places": "Brunswick",
-        "years": "1871"
+        "place": "Brunswick",
+        "year": "1871"
       }
     ]
   },
@@ -3200,12 +3200,12 @@ var dataset =
     "comName": "Checkered Rattlesnake-plantain",
     "entries": [
       {
-        "places": "FayetteRidge",
-        "years": "1875"
+        "place": "FayetteRidge",
+        "year": "1875"
       },
       {
-        "places": "FayetteRidge",
-        "years": "1894"
+        "place": "FayetteRidge",
+        "year": "1894"
       }
     ]
   },
@@ -3216,16 +3216,16 @@ var dataset =
     "comName": "Cherry Birch",
     "entries": [
       {
-        "places": "Ashland",
-        "years": "1881"
+        "place": "Ashland",
+        "year": "1881"
       },
       {
-        "places": "Strong",
-        "years": "1882"
+        "place": "Strong",
+        "year": "1882"
       },
       {
-        "places": "SouthPoland",
-        "years": "1893"
+        "place": "SouthPoland",
+        "year": "1893"
       }
     ]
   },
@@ -3236,16 +3236,16 @@ var dataset =
     "comName": "Chicory",
     "entries": [
       {
-        "places": "Houlton",
-        "years": "1881"
+        "place": "Houlton",
+        "year": "1881"
       },
       {
-        "places": "SouthPoland",
-        "years": "1893"
+        "place": "SouthPoland",
+        "year": "1893"
       },
       {
-        "places": "York",
-        "years": "1898"
+        "place": "York",
+        "year": "1898"
       }
     ]
   },
@@ -3256,20 +3256,20 @@ var dataset =
     "comName": "Chinese Hemlock-parsley",
     "entries": [
       {
-        "places": "FortFairfield",
-        "years": "1880"
+        "place": "FortFairfield",
+        "year": "1880"
       },
       {
-        "places": "Gilead",
-        "years": "1897"
+        "place": "Gilead",
+        "year": "1897"
       },
       {
-        "places": "Caribou",
-        "years": "1880"
+        "place": "Caribou",
+        "year": "1880"
       },
       {
-        "places": "Orono",
-        "years": "1881"
+        "place": "Orono",
+        "year": "1881"
       }
     ]
   },
@@ -3287,36 +3287,36 @@ var dataset =
     "comName": "Choke Cherry",
     "entries": [
       {
-        "places": "Brunswick",
-        "years": "1875"
+        "place": "Brunswick",
+        "year": "1875"
       },
       {
-        "places": "SaintFrancis",
-        "years": "1881"
+        "place": "SaintFrancis",
+        "year": "1881"
       },
       {
-        "places": "Harpswell",
-        "years": "1884"
+        "place": "Harpswell",
+        "year": "1884"
       },
       {
-        "places": "Rangeley",
-        "years": "1882"
+        "place": "Rangeley",
+        "year": "1882"
       },
       {
-        "places": "SouthPoland",
-        "years": "1893"
+        "place": "SouthPoland",
+        "year": "1893"
       },
       {
-        "places": "Harpswell",
-        "years": "1884"
+        "place": "Harpswell",
+        "year": "1884"
       },
       {
-        "places": "Brunswick",
-        "years": "1892"
+        "place": "Brunswick",
+        "year": "1892"
       },
       {
-        "places": "Saint Francis",
-        "years": "1880"
+        "place": "Saint Francis",
+        "year": "1880"
       }
     ]
   },
@@ -3327,16 +3327,16 @@ var dataset =
     "comName": "Clammy Azalea",
     "entries": [
       {
-        "places": "Wells",
-        "years": "1897"
+        "place": "Wells",
+        "year": "1897"
       },
       {
-        "places": "Wells",
-        "years": "1898"
+        "place": "Wells",
+        "year": "1898"
       },
       {
-        "places": "IsleauHaut",
-        "years": "1909"
+        "place": "IsleauHaut",
+        "year": "1909"
       }
     ]
   },
@@ -3347,20 +3347,20 @@ var dataset =
     "comName": "Clammy Ground-cherry",
     "entries": [
       {
-        "places": "EastLivermore",
-        "years": "1879"
+        "place": "EastLivermore",
+        "year": "1879"
       },
       {
-        "places": "Wayne",
-        "years": "1879"
+        "place": "Wayne",
+        "year": "1879"
       },
       {
-        "places": "SouthPoland",
-        "years": "1893"
+        "place": "SouthPoland",
+        "year": "1893"
       },
       {
-        "places": "Litchfield",
-        "years": "1896"
+        "place": "Litchfield",
+        "year": "1896"
       }
     ]
   },
@@ -3371,28 +3371,28 @@ var dataset =
     "comName": "Clasping-leaved Pondweed",
     "entries": [
       {
-        "places": "PortageLake",
-        "years": "1881"
+        "place": "PortageLake",
+        "year": "1881"
       },
       {
-        "places": "RangeleyLakes",
-        "years": "1894"
+        "place": "RangeleyLakes",
+        "year": "1894"
       },
       {
-        "places": "AndroscogginLake",
-        "years": "1895"
+        "place": "AndroscogginLake",
+        "year": "1895"
       },
       {
-        "places": "Gilead",
-        "years": "1897"
+        "place": "Gilead",
+        "year": "1897"
       },
       {
-        "places": "Wells",
-        "years": "1898"
+        "place": "Wells",
+        "year": "1898"
       },
       {
-        "places": "Winnegance",
-        "years": "1911"
+        "place": "Winnegance",
+        "year": "1911"
       }
     ]
   },
@@ -3410,12 +3410,12 @@ var dataset =
     "comName": "Climbing Bindweed",
     "entries": [
       {
-        "places": "EastLivermore",
-        "years": "1878"
+        "place": "EastLivermore",
+        "year": "1878"
       },
       {
-        "places": "Litchfield",
-        "years": "1896"
+        "place": "Litchfield",
+        "year": "1896"
       }
     ]
   },
@@ -3426,16 +3426,16 @@ var dataset =
     "comName": "Climbing Nightshade",
     "entries": [
       {
-        "places": "SouthPoland",
-        "years": "1893"
+        "place": "SouthPoland",
+        "year": "1893"
       },
       {
-        "places": "Strong",
-        "years": "1892"
+        "place": "Strong",
+        "year": "1892"
       },
       {
-        "places": "Brunswick",
-        "years": "1910"
+        "place": "Brunswick",
+        "year": "1910"
       }
     ]
   },
@@ -3446,20 +3446,20 @@ var dataset =
     "comName": "Coast Cinquefoil",
     "entries": [
       {
-        "places": "CushingIsland",
-        "years": "1876"
+        "place": "CushingIsland",
+        "year": "1876"
       },
       {
-        "places": "Castine",
-        "years": "1890"
+        "place": "Castine",
+        "year": "1890"
       },
       {
-        "places": "YorkBeach",
-        "years": "1881"
+        "place": "YorkBeach",
+        "year": "1881"
       },
       {
-        "places": "Monhegan",
-        "years": "1910"
+        "place": "Monhegan",
+        "year": "1910"
       }
     ]
   },
@@ -3470,8 +3470,8 @@ var dataset =
     "comName": "Coastal Jointed Knotweed",
     "entries": [
       {
-        "places": "Wells",
-        "years": "1898"
+        "place": "Wells",
+        "year": "1898"
       }
     ]
   },
@@ -3482,16 +3482,16 @@ var dataset =
     "comName": "Coastal Sweet-pepperbush",
     "entries": [
       {
-        "places": "Wells",
-        "years": "1898"
+        "place": "Wells",
+        "year": "1898"
       },
       {
-        "places": "York",
-        "years": "1880"
+        "place": "York",
+        "year": "1880"
       },
       {
-        "places": "Wells",
-        "years": "1879"
+        "place": "Wells",
+        "year": "1879"
       }
     ]
   },
@@ -3502,8 +3502,8 @@ var dataset =
     "comName": "Cockspur Hawthorn",
     "entries": [
       {
-        "places": "Mattawamkeag",
-        "years": "1881"
+        "place": "Mattawamkeag",
+        "year": "1881"
       }
     ]
   },
@@ -3514,20 +3514,20 @@ var dataset =
     "comName": "Coltsfoot",
     "entries": [
       {
-        "places": "Bath",
-        "years": "1911"
+        "place": "Bath",
+        "year": "1911"
       },
       {
-        "places": "Brunswick",
-        "years": "1878"
+        "place": "Brunswick",
+        "year": "1878"
       },
       {
-        "places": "Rangeley",
-        "years": "1882"
+        "place": "Rangeley",
+        "year": "1882"
       },
       {
-        "places": "Wells",
-        "years": "1898"
+        "place": "Wells",
+        "year": "1898"
       }
     ]
   },
@@ -3538,12 +3538,12 @@ var dataset =
     "comName": "Comb-leaved Mermaid-weed",
     "entries": [
       {
-        "places": "Wells",
-        "years": "1877"
+        "place": "Wells",
+        "year": "1877"
       },
       {
-        "places": "Leeds Center",
-        "years": "1896"
+        "place": "Leeds Center",
+        "year": "1896"
       }
     ]
   },
@@ -3554,24 +3554,24 @@ var dataset =
     "comName": "Common Arrowhead",
     "entries": [
       {
-        "places": "Mapleton",
-        "years": "1882"
+        "place": "Mapleton",
+        "year": "1882"
       },
       {
-        "places": "Livermore Falls",
-        "years": "1878"
+        "place": "Livermore Falls",
+        "year": "1878"
       },
       {
-        "places": "Livermore Falls",
-        "years": "1878"
+        "place": "Livermore Falls",
+        "year": "1878"
       },
       {
-        "places": "Brunswick",
-        "years": "1870"
+        "place": "Brunswick",
+        "year": "1870"
       },
       {
-        "places": "West Baldwin",
-        "years": "1900"
+        "place": "West Baldwin",
+        "year": "1900"
       }
     ]
   },
@@ -3582,12 +3582,12 @@ var dataset =
     "comName": "Common Barberry",
     "entries": [
       {
-        "places": "Wells",
-        "years": "1877"
+        "place": "Wells",
+        "year": "1877"
       },
       {
-        "places": "SouthPoland",
-        "years": "1895"
+        "place": "SouthPoland",
+        "year": "1895"
       }
     ]
   },
@@ -3598,20 +3598,20 @@ var dataset =
     "comName": "Common Blackberry",
     "entries": [
       {
-        "places": "Wells",
-        "years": "1898"
+        "place": "Wells",
+        "year": "1898"
       },
       {
-        "places": "SouthPoland",
-        "years": "1893"
+        "place": "SouthPoland",
+        "year": "1893"
       },
       {
-        "places": "Rangeley",
-        "years": "1882"
+        "place": "Rangeley",
+        "year": "1882"
       },
       {
-        "places": "East Livermore",
-        "years": "1878"
+        "place": "East Livermore",
+        "year": "1878"
       }
     ]
   },
@@ -3622,24 +3622,24 @@ var dataset =
     "comName": "Common Buttonbrush",
     "entries": [
       {
-        "places": "KentsHill",
-        "years": "1894"
+        "place": "KentsHill",
+        "year": "1894"
       },
       {
-        "places": "Brunswick",
-        "years": "1870"
+        "place": "Brunswick",
+        "year": "1870"
       },
       {
-        "places": "South Poland",
-        "years": "1893"
+        "place": "South Poland",
+        "year": "1893"
       },
       {
-        "places": "South Poland",
-        "years": "1897"
+        "place": "South Poland",
+        "year": "1897"
       },
       {
-        "places": "York",
-        "years": "1898"
+        "place": "York",
+        "year": "1898"
       }
     ]
   },
@@ -3650,12 +3650,12 @@ var dataset =
     "comName": "Common Comfrey",
     "entries": [
       {
-        "places": "Greenvale",
-        "years": "1894"
+        "place": "Greenvale",
+        "year": "1894"
       },
       {
-        "places": "Fayette",
-        "years": "1871"
+        "place": "Fayette",
+        "year": "1871"
       }
     ]
   },
@@ -3666,16 +3666,16 @@ var dataset =
     "comName": "Common Corncockle",
     "entries": [
       {
-        "places": "SouthPoland",
-        "years": "1893"
+        "place": "SouthPoland",
+        "year": "1893"
       },
       {
-        "places": "Orono",
-        "years": "1891"
+        "place": "Orono",
+        "year": "1891"
       },
       {
-        "places": "Wells",
-        "years": "1898"
+        "place": "Wells",
+        "year": "1898"
       }
     ]
   },
@@ -3686,8 +3686,8 @@ var dataset =
     "comName": "Common Dandelion",
     "entries": [
       {
-        "places": "Brunswick",
-        "years": "1901"
+        "place": "Brunswick",
+        "year": "1901"
       }
     ]
   },
@@ -3698,8 +3698,8 @@ var dataset =
     "comName": "Common Dock",
     "entries": [
       {
-        "places": "Brunswick",
-        "years": "1870"
+        "place": "Brunswick",
+        "year": "1870"
       }
     ]
   },
@@ -3710,16 +3710,16 @@ var dataset =
     "comName": "Common Dodder",
     "entries": [
       {
-        "places": "Brunswick",
-        "years": "1870"
+        "place": "Brunswick",
+        "year": "1870"
       },
       {
-        "places": "FortFairfield",
-        "years": "1880"
+        "place": "FortFairfield",
+        "year": "1880"
       },
       {
-        "places": "SouthPoland",
-        "years": "1893"
+        "place": "SouthPoland",
+        "year": "1893"
       }
     ]
   },
@@ -3730,8 +3730,8 @@ var dataset =
     "comName": "Common Duck-meal",
     "entries": [
       {
-        "places": "FayetteRidge",
-        "years": "1878"
+        "place": "FayetteRidge",
+        "year": "1878"
       }
     ]
   },
@@ -3742,28 +3742,28 @@ var dataset =
     "comName": "Common Evening-primrose",
     "entries": [
       {
-        "places": "Brunswick",
-        "years": "1870"
+        "place": "Brunswick",
+        "year": "1870"
       },
       {
-        "places": "SouthPoland",
-        "years": "1893"
+        "place": "SouthPoland",
+        "year": "1893"
       },
       {
-        "places": "Wells",
-        "years": "1898"
+        "place": "Wells",
+        "year": "1898"
       },
       {
-        "places": "Wells",
-        "years": "1898"
+        "place": "Wells",
+        "year": "1898"
       },
       {
-        "places": "Wells",
-        "years": "1875"
+        "place": "Wells",
+        "year": "1875"
       },
       {
-        "places": "York",
-        "years": "1899"
+        "place": "York",
+        "year": "1899"
       }
     ]
   },
@@ -3774,12 +3774,12 @@ var dataset =
     "comName": "Common Eyebright",
     "entries": [
       {
-        "places": "MountDesert",
-        "years": "1888"
+        "place": "MountDesert",
+        "year": "1888"
       },
       {
-        "places": "MountDesert",
-        "years": "1902"
+        "place": "MountDesert",
+        "year": "1902"
       }
     ]
   },
@@ -3790,8 +3790,8 @@ var dataset =
     "comName": "Common Golden Alexanders",
     "entries": [
       {
-        "places": "Waterville",
-        "years": "1871"
+        "place": "Waterville",
+        "year": "1871"
       }
     ]
   },
@@ -3802,8 +3802,8 @@ var dataset =
     "comName": "Common Golden Alexanders",
     "entries": [
       {
-        "places": "Waterville",
-        "years": "1871"
+        "place": "Waterville",
+        "year": "1871"
       }
     ]
   },
@@ -3814,20 +3814,20 @@ var dataset =
     "comName": "Common Grass-leaved Goldenrod",
     "entries": [
       {
-        "places": "Brunswick",
-        "years": "1877"
+        "place": "Brunswick",
+        "year": "1877"
       },
       {
-        "places": "Fayette",
-        "years": "1877"
+        "place": "Fayette",
+        "year": "1877"
       },
       {
-        "places": "SouthPoland",
-        "years": "Gilead"
+        "place": "SouthPoland",
+        "year": "Gilead"
       },
       {
-        "places": "1893",
-        "years": "Hiram"
+        "place": "1893",
+        "year": "Hiram"
       }
     ]
   },
@@ -3845,24 +3845,24 @@ var dataset =
     "comName": "Common Ground-nut",
     "entries": [
       {
-        "places": "SouthPoland",
-        "years": "1893"
+        "place": "SouthPoland",
+        "year": "1893"
       },
       {
-        "places": "Rangeley",
-        "years": "1894"
+        "place": "Rangeley",
+        "year": "1894"
       },
       {
-        "places": "Gilead",
-        "years": "1897"
+        "place": "Gilead",
+        "year": "1897"
       },
       {
-        "places": "WestBaldwin",
-        "years": "1900"
+        "place": "WestBaldwin",
+        "year": "1900"
       },
       {
-        "places": "Brunswick",
-        "years": "1876"
+        "place": "Brunswick",
+        "year": "1876"
       }
     ]
   },
@@ -3873,8 +3873,8 @@ var dataset =
     "comName": "Common Hawkweed",
     "entries": [
       {
-        "places": "Sangerville",
-        "years": "1895"
+        "place": "Sangerville",
+        "year": "1895"
       }
     ]
   },
@@ -3885,24 +3885,24 @@ var dataset =
     "comName": "Common Hedge-mustard",
     "entries": [
       {
-        "places": "Brunswick",
-        "years": "1870"
+        "place": "Brunswick",
+        "year": "1870"
       },
       {
-        "places": "SouthPoland",
-        "years": "1893"
+        "place": "SouthPoland",
+        "year": "1893"
       },
       {
-        "places": "Rangeley",
-        "years": "1894"
+        "place": "Rangeley",
+        "year": "1894"
       },
       {
-        "places": "Wells",
-        "years": "1898"
+        "place": "Wells",
+        "year": "1898"
       },
       {
-        "places": "Brunswick",
-        "years": "1891"
+        "place": "Brunswick",
+        "year": "1891"
       }
     ]
   },
@@ -3913,8 +3913,8 @@ var dataset =
     "comName": "Common Henbit",
     "entries": [
       {
-        "places": "Gardiner",
-        "years": "1896"
+        "place": "Gardiner",
+        "year": "1896"
       }
     ]
   },
@@ -3925,16 +3925,16 @@ var dataset =
     "comName": "Common Hop",
     "entries": [
       {
-        "places": "Strong",
-        "years": "1882"
+        "place": "Strong",
+        "year": "1882"
       },
       {
-        "places": "SouthPoland",
-        "years": "1895"
+        "place": "SouthPoland",
+        "year": "1895"
       },
       {
-        "places": "Gilead",
-        "years": "1897"
+        "place": "Gilead",
+        "year": "1897"
       }
     ]
   },
@@ -3945,16 +3945,16 @@ var dataset =
     "comName": "Common Hornwort",
     "entries": [
       {
-        "places": "EastLivermore",
-        "years": "1878"
+        "place": "EastLivermore",
+        "year": "1878"
       },
       {
-        "places": "Readfield",
-        "years": "1892"
+        "place": "Readfield",
+        "year": "1892"
       },
       {
-        "places": "SouthPoland",
-        "years": "1893"
+        "place": "SouthPoland",
+        "year": "1893"
       }
     ]
   },
@@ -3965,16 +3965,16 @@ var dataset =
     "comName": "Common Juniper",
     "entries": [
       {
-        "places": "Brunswick",
-        "years": "1876"
+        "place": "Brunswick",
+        "year": "1876"
       },
       {
-        "places": "SouthPoland",
-        "years": "1893"
+        "place": "SouthPoland",
+        "year": "1893"
       },
       {
-        "places": "Wells",
-        "years": "1898"
+        "place": "Wells",
+        "year": "1898"
       }
     ]
   },
@@ -3985,16 +3985,16 @@ var dataset =
     "comName": "Common Mare's-tail",
     "entries": [
       {
-        "places": "SaintFrancis",
-        "years": "1881"
+        "place": "SaintFrancis",
+        "year": "1881"
       },
       {
-        "places": "SouthPoland",
-        "years": "1893"
+        "place": "SouthPoland",
+        "year": "1893"
       },
       {
-        "places": "Rangeley",
-        "years": "1894"
+        "place": "Rangeley",
+        "year": "1894"
       }
     ]
   },
@@ -4005,24 +4005,24 @@ var dataset =
     "comName": "Common Milkweed",
     "entries": [
       {
-        "places": "Strong",
-        "years": "1882"
+        "place": "Strong",
+        "year": "1882"
       },
       {
-        "places": "Brunswick",
-        "years": "1871"
+        "place": "Brunswick",
+        "year": "1871"
       },
       {
-        "places": "Wells",
-        "years": "1898"
+        "place": "Wells",
+        "year": "1898"
       },
       {
-        "places": "East Livermore",
-        "years": "1898"
+        "place": "East Livermore",
+        "year": "1898"
       },
       {
-        "places": "Hiram",
-        "years": "1900"
+        "place": "Hiram",
+        "year": "1900"
       }
     ]
   },
@@ -4033,12 +4033,12 @@ var dataset =
     "comName": "Common Mullein",
     "entries": [
       {
-        "places": "Brunswick",
-        "years": "1870"
+        "place": "Brunswick",
+        "year": "1870"
       },
       {
-        "places": "Wells",
-        "years": "1898"
+        "place": "Wells",
+        "year": "1898"
       }
     ]
   },
@@ -4049,28 +4049,28 @@ var dataset =
     "comName": "Common Plantain",
     "entries": [
       {
-        "places": "Brunswick",
-        "years": "1871"
+        "place": "Brunswick",
+        "year": "1871"
       },
       {
-        "places": "Wells Beach",
-        "years": "1898"
+        "place": "Wells Beach",
+        "year": "1898"
       },
       {
-        "places": "Fort Kent",
-        "years": "1881"
+        "place": "Fort Kent",
+        "year": "1881"
       },
       {
-        "places": "Cutler",
-        "years": "1902"
+        "place": "Cutler",
+        "year": "1902"
       },
       {
-        "places": "Sorrento",
-        "years": "1902"
+        "place": "Sorrento",
+        "year": "1902"
       },
       {
-        "places": "York",
-        "years": "1879"
+        "place": "York",
+        "year": "1879"
       }
     ]
   },
@@ -4081,16 +4081,16 @@ var dataset =
     "comName": "Common Purslane",
     "entries": [
       {
-        "places": "Brunswick",
-        "years": "1892"
+        "place": "Brunswick",
+        "year": "1892"
       },
       {
-        "places": "Brunswick",
-        "years": "1876"
+        "place": "Brunswick",
+        "year": "1876"
       },
       {
-        "places": "Brunswick",
-        "years": "1896"
+        "place": "Brunswick",
+        "year": "1896"
       }
     ]
   },
@@ -4101,16 +4101,16 @@ var dataset =
     "comName": "Common Ragwort",
     "entries": [
       {
-        "places": "HarpswellNeck",
-        "years": "1870"
+        "place": "HarpswellNeck",
+        "year": "1870"
       },
       {
-        "places": "Cutler",
-        "years": "1902"
+        "place": "Cutler",
+        "year": "1902"
       },
       {
-        "places": "Harpswell Neck",
-        "years": "1871"
+        "place": "Harpswell Neck",
+        "year": "1871"
       }
     ]
   },
@@ -4121,8 +4121,8 @@ var dataset =
     "comName": "Common Saint John's-wort",
     "entries": [
       {
-        "places": "Brunswick",
-        "years": "1903"
+        "place": "Brunswick",
+        "year": "1903"
       }
     ]
   },
@@ -4133,12 +4133,12 @@ var dataset =
     "comName": "Common Selfheal",
     "entries": [
       {
-        "places": "Brunswick",
-        "years": "1881"
+        "place": "Brunswick",
+        "year": "1881"
       },
       {
-        "places": "Monhegan",
-        "years": "1910"
+        "place": "Monhegan",
+        "year": "1910"
       }
     ]
   },
@@ -4149,24 +4149,24 @@ var dataset =
     "comName": "Common Soapwort",
     "entries": [
       {
-        "places": "Strong",
-        "years": "1882"
+        "place": "Strong",
+        "year": "1882"
       },
       {
-        "places": "Wells",
-        "years": "1898"
+        "place": "Wells",
+        "year": "1898"
       },
       {
-        "places": "Rangeley",
-        "years": "1882"
+        "place": "Rangeley",
+        "year": "1882"
       },
       {
-        "places": "Gilead",
-        "years": "1897"
+        "place": "Gilead",
+        "year": "1897"
       },
       {
-        "places": "WestBaldwin",
-        "years": "1900"
+        "place": "WestBaldwin",
+        "year": "1900"
       }
     ]
   },
@@ -4184,24 +4184,24 @@ var dataset =
     "comName": "Common Sow-thistle",
     "entries": [
       {
-        "places": "Brunswick",
-        "years": "1870"
+        "place": "Brunswick",
+        "year": "1870"
       },
       {
-        "places": "Wells",
-        "years": "1898"
+        "place": "Wells",
+        "year": "1898"
       },
       {
-        "places": "SouthPoland",
-        "years": "1893"
+        "place": "SouthPoland",
+        "year": "1893"
       },
       {
-        "places": "South Poland",
-        "years": "1895"
+        "place": "South Poland",
+        "year": "1895"
       },
       {
-        "places": "South Poland",
-        "years": "1895"
+        "place": "South Poland",
+        "year": "1895"
       }
     ]
   },
@@ -4212,16 +4212,16 @@ var dataset =
     "comName": "Common Speedwell",
     "entries": [
       {
-        "places": "Brunswick",
-        "years": "1878"
+        "place": "Brunswick",
+        "year": "1878"
       },
       {
-        "places": "Houlton",
-        "years": "1881"
+        "place": "Houlton",
+        "year": "1881"
       },
       {
-        "places": "Winnegance",
-        "years": "1910"
+        "place": "Winnegance",
+        "year": "1910"
       }
     ]
   },
@@ -4232,8 +4232,8 @@ var dataset =
     "comName": "Common Stitchwort",
     "entries": [
       {
-        "places": "Brunswick",
-        "years": "1908"
+        "place": "Brunswick",
+        "year": "1908"
       }
     ]
   },
@@ -4244,12 +4244,12 @@ var dataset =
     "comName": "Common Strawberry",
     "entries": [
       {
-        "places": "FortFairfield",
-        "years": "1880"
+        "place": "FortFairfield",
+        "year": "1880"
       },
       {
-        "places": "Brunswick",
-        "years": "1870"
+        "place": "Brunswick",
+        "year": "1870"
       }
     ]
   },
@@ -4260,12 +4260,12 @@ var dataset =
     "comName": "Common Sunflower",
     "entries": [
       {
-        "places": "Auburn",
-        "years": "1893"
+        "place": "Auburn",
+        "year": "1893"
       },
       {
-        "places": "Auburn",
-        "years": "1893"
+        "place": "Auburn",
+        "year": "1893"
       }
     ]
   },
@@ -4276,32 +4276,32 @@ var dataset =
     "comName": "Common Thistle",
     "entries": [
       {
-        "places": "Brunswick",
-        "years": "1875"
+        "place": "Brunswick",
+        "year": "1875"
       },
       {
-        "places": "Poland",
-        "years": "1893"
+        "place": "Poland",
+        "year": "1893"
       },
       {
-        "places": "Rangeley",
-        "years": "1894"
+        "place": "Rangeley",
+        "year": "1894"
       },
       {
-        "places": "Fayette",
-        "years": "1875"
+        "place": "Fayette",
+        "year": "1875"
       },
       {
-        "places": "South Poland",
-        "years": "1893"
+        "place": "South Poland",
+        "year": "1893"
       },
       {
-        "places": "Rangeley",
-        "years": "1892"
+        "place": "Rangeley",
+        "year": "1892"
       },
       {
-        "places": "Wells",
-        "years": "1898"
+        "place": "Wells",
+        "year": "1898"
       }
     ]
   },
@@ -4312,12 +4312,12 @@ var dataset =
     "comName": "Common Vetch",
     "entries": [
       {
-        "places": "SouthPoland",
-        "years": "1895"
+        "place": "SouthPoland",
+        "year": "1895"
       },
       {
-        "places": "Wells",
-        "years": "1879"
+        "place": "Wells",
+        "year": "1879"
       }
     ]
   },
@@ -4328,16 +4328,16 @@ var dataset =
     "comName": "Common Viper's-bugloss",
     "entries": [
       {
-        "places": "EastLivermore",
-        "years": "1891"
+        "place": "EastLivermore",
+        "year": "1891"
       },
       {
-        "places": "Farmington",
-        "years": "1888"
+        "place": "Farmington",
+        "year": "1888"
       },
       {
-        "places": "Farmington",
-        "years": "1882"
+        "place": "Farmington",
+        "year": "1882"
       }
     ]
   },
@@ -4348,16 +4348,16 @@ var dataset =
     "comName": "Common Water-primrose",
     "entries": [
       {
-        "places": "EastLivermore",
-        "years": "1878"
+        "place": "EastLivermore",
+        "year": "1878"
       },
       {
-        "places": "Wells",
-        "years": "1878"
+        "place": "Wells",
+        "year": "1878"
       },
       {
-        "places": "SouthPoland",
-        "years": "1893"
+        "place": "SouthPoland",
+        "year": "1893"
       }
     ]
   },
@@ -4368,12 +4368,12 @@ var dataset =
     "comName": "Common Waterweed",
     "entries": [
       {
-        "places": "AndroscogginLake",
-        "years": "1894"
+        "place": "AndroscogginLake",
+        "year": "1894"
       },
       {
-        "places": "SouthPoland",
-        "years": "1893"
+        "place": "SouthPoland",
+        "year": "1893"
       }
     ]
   },
@@ -4384,32 +4384,32 @@ var dataset =
     "comName": "Common Winterberry",
     "entries": [
       {
-        "places": "Wells",
-        "years": "1898"
+        "place": "Wells",
+        "year": "1898"
       },
       {
-        "places": "Brunswick",
-        "years": "1880"
+        "place": "Brunswick",
+        "year": "1880"
       },
       {
-        "places": "Orono",
-        "years": "1880"
+        "place": "Orono",
+        "year": "1880"
       },
       {
-        "places": "Wells",
-        "years": "1880"
+        "place": "Wells",
+        "year": "1880"
       },
       {
-        "places": "Rangeley",
-        "years": "1882"
+        "place": "Rangeley",
+        "year": "1882"
       },
       {
-        "places": "South Poland",
-        "years": "1893"
+        "place": "South Poland",
+        "year": "1893"
       },
       {
-        "places": "Orono",
-        "years": "1880"
+        "place": "Orono",
+        "year": "1880"
       }
     ]
   },
@@ -4420,12 +4420,12 @@ var dataset =
     "comName": "Common Wormwood",
     "entries": [
       {
-        "places": "EastLivermore",
-        "years": "1898"
+        "place": "EastLivermore",
+        "year": "1898"
       },
       {
-        "places": "Wells",
-        "years": "1882"
+        "place": "Wells",
+        "year": "1882"
       }
     ]
   },
@@ -4436,24 +4436,24 @@ var dataset =
     "comName": "Common Wrinkle-leaved Goldenrod",
     "entries": [
       {
-        "places": "Brunswick",
-        "years": "1877"
+        "place": "Brunswick",
+        "year": "1877"
       },
       {
-        "places": "Wells",
-        "years": "1878"
+        "place": "Wells",
+        "year": "1878"
       },
       {
-        "places": "EastLivermore",
-        "years": "1878"
+        "place": "EastLivermore",
+        "year": "1878"
       },
       {
-        "places": "Rangeley",
-        "years": "1892"
+        "place": "Rangeley",
+        "year": "1892"
       },
       {
-        "places": "SouthPoland",
-        "years": "1895"
+        "place": "SouthPoland",
+        "year": "1895"
       }
     ]
   },
@@ -4464,24 +4464,24 @@ var dataset =
     "comName": "Common Yarrow",
     "entries": [
       {
-        "places": "Aroostook",
-        "years": "1880"
+        "place": "Aroostook",
+        "year": "1880"
       },
       {
-        "places": "Aroostook",
-        "years": "1881"
+        "place": "Aroostook",
+        "year": "1881"
       },
       {
-        "places": "Brunswick",
-        "years": "1870"
+        "place": "Brunswick",
+        "year": "1870"
       },
       {
-        "places": "Brunswick",
-        "years": "1880"
+        "place": "Brunswick",
+        "year": "1880"
       },
       {
-        "places": "Wells",
-        "years": "1898"
+        "place": "Wells",
+        "year": "1898"
       }
     ]
   },
@@ -4492,24 +4492,24 @@ var dataset =
     "comName": "Common Yellow-cress",
     "entries": [
       {
-        "places": "SaintFrancis",
-        "years": "1881"
+        "place": "SaintFrancis",
+        "year": "1881"
       },
       {
-        "places": "Orono",
-        "years": "1880"
+        "place": "Orono",
+        "year": "1880"
       },
       {
-        "places": "SouthPoland",
-        "years": "1893"
+        "place": "SouthPoland",
+        "year": "1893"
       },
       {
-        "places": "Shapleigh",
-        "years": "1901"
+        "place": "Shapleigh",
+        "year": "1901"
       },
       {
-        "places": "Rangeley",
-        "years": "1894"
+        "place": "Rangeley",
+        "year": "1894"
       }
     ]
   },
@@ -4520,8 +4520,8 @@ var dataset =
     "comName": "Corn Chamomile",
     "entries": [
       {
-        "places": "Orono",
-        "years": "1890"
+        "place": "Orono",
+        "year": "1890"
       }
     ]
   },
@@ -4532,8 +4532,8 @@ var dataset =
     "comName": "Corn Charlock",
     "entries": [
       {
-        "places": "EastLivermore",
-        "years": "1896"
+        "place": "EastLivermore",
+        "year": "1896"
       }
     ]
   },
@@ -4544,8 +4544,8 @@ var dataset =
     "comName": "Corn Spurry",
     "entries": [
       {
-        "places": "Topsham",
-        "years": "1903"
+        "place": "Topsham",
+        "year": "1903"
       }
     ]
   },
@@ -4556,8 +4556,8 @@ var dataset =
     "comName": "Corn-gromwell",
     "entries": [
       {
-        "places": "Portland",
-        "years": "1893"
+        "place": "Portland",
+        "year": "1893"
       }
     ]
   },
@@ -4568,8 +4568,8 @@ var dataset =
     "comName": "Cowcockle",
     "entries": [
       {
-        "places": "Brunswick",
-        "years": "1907"
+        "place": "Brunswick",
+        "year": "1907"
       }
     ]
   },
@@ -4580,20 +4580,20 @@ var dataset =
     "comName": "Cream-colored Avens",
     "entries": [
       {
-        "places": "Brunswick",
-        "years": "1892"
+        "place": "Brunswick",
+        "year": "1892"
       },
       {
-        "places": "ChestervilleMills",
-        "years": "1878"
+        "place": "ChestervilleMills",
+        "year": "1878"
       },
       {
-        "places": "SouthPoland",
-        "years": "1893"
+        "place": "SouthPoland",
+        "year": "1893"
       },
       {
-        "places": "Brunswick",
-        "years": "1892"
+        "place": "Brunswick",
+        "year": "1892"
       }
     ]
   },
@@ -4604,32 +4604,32 @@ var dataset =
     "comName": "Creeping Crowfoot",
     "entries": [
       {
-        "places": "ChestervilleRidge",
-        "years": "1875"
+        "place": "ChestervilleRidge",
+        "year": "1875"
       },
       {
-        "places": "FayetteRidge",
-        "years": "1877"
+        "place": "FayetteRidge",
+        "year": "1877"
       },
       {
-        "places": "Chesterville Ridge",
-        "years": "1875"
+        "place": "Chesterville Ridge",
+        "year": "1875"
       },
       {
-        "places": "Fayette Ridge",
-        "years": "1875"
+        "place": "Fayette Ridge",
+        "year": "1875"
       },
       {
-        "places": "South Poland",
-        "years": "1893"
+        "place": "South Poland",
+        "year": "1893"
       },
       {
-        "places": "Wells",
-        "years": "1898"
+        "place": "Wells",
+        "year": "1898"
       },
       {
-        "places": "Brunswick",
-        "years": "1901"
+        "place": "Brunswick",
+        "year": "1901"
       }
     ]
   },
@@ -4640,12 +4640,12 @@ var dataset =
     "comName": "Creeping Juniper",
     "entries": [
       {
-        "places": "FayetteRidge",
-        "years": "1877"
+        "place": "FayetteRidge",
+        "year": "1877"
       },
       {
-        "places": "RoqueIsland",
-        "years": "1878"
+        "place": "RoqueIsland",
+        "year": "1878"
       }
     ]
   },
@@ -4656,8 +4656,8 @@ var dataset =
     "comName": "Creeping Thistle",
     "entries": [
       {
-        "places": "Brunswick",
-        "years": "1870"
+        "place": "Brunswick",
+        "year": "1870"
       }
     ]
   },
@@ -4668,24 +4668,24 @@ var dataset =
     "comName": "Creeping Yellow Wood Sorrel",
     "entries": [
       {
-        "places": "Brunswick",
-        "years": "1870"
+        "place": "Brunswick",
+        "year": "1870"
       },
       {
-        "places": "Brunswick",
-        "years": "1896"
+        "place": "Brunswick",
+        "year": "1896"
       },
       {
-        "places": "Great Diamond Island",
-        "years": "1896"
+        "place": "Great Diamond Island",
+        "year": "1896"
       },
       {
-        "places": "Brunswick",
-        "years": "1898"
+        "place": "Brunswick",
+        "year": "1898"
       },
       {
-        "places": "Great Diamond Island",
-        "years": "1898"
+        "place": "Great Diamond Island",
+        "year": "1898"
       }
     ]
   },
@@ -4696,8 +4696,8 @@ var dataset =
     "comName": "Creeping Yellow-cress",
     "entries": [
       {
-        "places": "MooseheadLake",
-        "years": "1891"
+        "place": "MooseheadLake",
+        "year": "1891"
       }
     ]
   },
@@ -4708,8 +4708,8 @@ var dataset =
     "comName": "Crested Glandular-goosefoot",
     "entries": [
       {
-        "places": "NorthBerwick",
-        "years": "1903"
+        "place": "NorthBerwick",
+        "year": "1903"
       }
     ]
   },
@@ -4720,24 +4720,24 @@ var dataset =
     "comName": "Cultivated Flax",
     "entries": [
       {
-        "places": "WellsBeach",
-        "years": "1879"
+        "place": "WellsBeach",
+        "year": "1879"
       },
       {
-        "places": "FortKent",
-        "years": "1880"
+        "place": "FortKent",
+        "year": "1880"
       },
       {
-        "places": "Orono",
-        "years": "1881"
+        "place": "Orono",
+        "year": "1881"
       },
       {
-        "places": "SouthPoland",
-        "years": "1893"
+        "place": "SouthPoland",
+        "year": "1893"
       },
       {
-        "places": "Brunswick",
-        "years": "1905"
+        "place": "Brunswick",
+        "year": "1905"
       }
     ]
   },
@@ -4748,8 +4748,8 @@ var dataset =
     "comName": "Cultivated Radish",
     "entries": [
       {
-        "places": "Gilead",
-        "years": "1897"
+        "place": "Gilead",
+        "year": "1897"
       }
     ]
   },
@@ -4760,8 +4760,8 @@ var dataset =
     "comName": "Curly Dock",
     "entries": [
       {
-        "places": "Brunswick",
-        "years": "1871"
+        "place": "Brunswick",
+        "year": "1871"
       }
     ]
   },
@@ -4772,12 +4772,12 @@ var dataset =
     "comName": "Cursedcrowfoot",
     "entries": [
       {
-        "places": "HarpswellNeck",
-        "years": "1871"
+        "place": "HarpswellNeck",
+        "year": "1871"
       },
       {
-        "places": "LisbonFalls",
-        "years": "1904"
+        "place": "LisbonFalls",
+        "year": "1904"
       }
     ]
   },
@@ -4788,12 +4788,12 @@ var dataset =
     "comName": "Cushion-plant",
     "entries": [
       {
-        "places": "SaddlebackMountain",
-        "years": "1894"
+        "place": "SaddlebackMountain",
+        "year": "1894"
       },
       {
-        "places": "MountKatahdin",
-        "years": "1897"
+        "place": "MountKatahdin",
+        "year": "1897"
       }
     ]
   },
@@ -4804,8 +4804,8 @@ var dataset =
     "comName": "Cut-leaved Windflower",
     "entries": [
       {
-        "places": "SaintFrancis",
-        "years": "1881"
+        "place": "SaintFrancis",
+        "year": "1881"
       }
     ]
   },
@@ -4816,12 +4816,12 @@ var dataset =
     "comName": "Cutler's Goldenrod",
     "entries": [
       {
-        "places": "MtKatahdin",
-        "years": "1900"
+        "place": "MtKatahdin",
+        "year": "1900"
       },
       {
-        "places": "Mt. Katahdin",
-        "years": "1897"
+        "place": "Mt. Katahdin",
+        "year": "1897"
       }
     ]
   },
@@ -4832,8 +4832,8 @@ var dataset =
     "comName": "Dewdrop",
     "entries": [
       {
-        "places": "Topsham",
-        "years": "1870"
+        "place": "Topsham",
+        "year": "1870"
       }
     ]
   },
@@ -4844,16 +4844,16 @@ var dataset =
     "comName": "Ditch-stonecrop",
     "entries": [
       {
-        "places": "Brunswick",
-        "years": "1870"
+        "place": "Brunswick",
+        "year": "1870"
       },
       {
-        "places": "SouthPoland",
-        "years": "1893"
+        "place": "SouthPoland",
+        "year": "1893"
       },
       {
-        "places": "Brunswick",
-        "years": "1870"
+        "place": "Brunswick",
+        "year": "1870"
       }
     ]
   },
@@ -4864,12 +4864,12 @@ var dataset =
     "comName": "Dock-leaved Smartweed",
     "entries": [
       {
-        "places": "Orono",
-        "years": "1891"
+        "place": "Orono",
+        "year": "1891"
       },
       {
-        "places": "Fort Fairfield",
-        "years": "1896"
+        "place": "Fort Fairfield",
+        "year": "1896"
       }
     ]
   },
@@ -4880,8 +4880,8 @@ var dataset =
     "comName": "Dooryard Knotweed",
     "entries": [
       {
-        "places": "Brunswick",
-        "years": "1870"
+        "place": "Brunswick",
+        "year": "1870"
       }
     ]
   },
@@ -4892,12 +4892,12 @@ var dataset =
     "comName": "Downy False Foxglove",
     "entries": [
       {
-        "places": "Brunswick",
-        "years": "1870"
+        "place": "Brunswick",
+        "year": "1870"
       },
       {
-        "places": "SouthPoland",
-        "years": "1893"
+        "place": "SouthPoland",
+        "year": "1893"
       }
     ]
   },
@@ -4908,24 +4908,24 @@ var dataset =
     "comName": "Downy Goldenrod",
     "entries": [
       {
-        "places": "Brunswick",
-        "years": "1878"
+        "place": "Brunswick",
+        "year": "1878"
       },
       {
-        "places": "Livermore",
-        "years": "1877"
+        "place": "Livermore",
+        "year": "1877"
       },
       {
-        "places": "Rangeley",
-        "years": "1882"
+        "place": "Rangeley",
+        "year": "1882"
       },
       {
-        "places": "SouthPoland",
-        "years": "1893"
+        "place": "SouthPoland",
+        "year": "1893"
       },
       {
-        "places": "Livermore Falls",
-        "years": "1877"
+        "place": "Livermore Falls",
+        "year": "1877"
       }
     ]
   },
@@ -4936,8 +4936,8 @@ var dataset =
     "comName": "Downy Rattlesnake-plantain",
     "entries": [
       {
-        "places": "LivermoreFalls",
-        "years": "1877"
+        "place": "LivermoreFalls",
+        "year": "1877"
       }
     ]
   },
@@ -4948,28 +4948,28 @@ var dataset =
     "comName": "Dragon's-mouth",
     "entries": [
       {
-        "places": "Brunswick",
-        "years": "1877"
+        "place": "Brunswick",
+        "year": "1877"
       },
       {
-        "places": "Bangor",
-        "years": "1880"
+        "place": "Bangor",
+        "year": "1880"
       },
       {
-        "places": "Wells",
-        "years": "1898"
+        "place": "Wells",
+        "year": "1898"
       },
       {
-        "places": "Peaks Island",
-        "years": "1902"
+        "place": "Peaks Island",
+        "year": "1902"
       },
       {
-        "places": "Orono",
-        "years": "1880"
+        "place": "Orono",
+        "year": "1880"
       },
       {
-        "places": "Exeter",
-        "years": "1883"
+        "place": "Exeter",
+        "year": "1883"
       }
     ]
   },
@@ -4980,8 +4980,8 @@ var dataset =
     "comName": "Drum-heads Milkwort",
     "entries": [
       {
-        "places": "Wells",
-        "years": "1878"
+        "place": "Wells",
+        "year": "1878"
       }
     ]
   },
@@ -4992,12 +4992,12 @@ var dataset =
     "comName": "Dutchman's-breeches",
     "entries": [
       {
-        "places": "Patten",
-        "years": "1881"
+        "place": "Patten",
+        "year": "1881"
       },
       {
-        "places": "Strong",
-        "years": "1882"
+        "place": "Strong",
+        "year": "1882"
       }
     ]
   },
@@ -5008,20 +5008,20 @@ var dataset =
     "comName": "Dwarf Birch",
     "entries": [
       {
-        "places": "Brunswick",
-        "years": "1877"
+        "place": "Brunswick",
+        "year": "1877"
       },
       {
-        "places": "SouthPoland",
-        "years": "1893"
+        "place": "SouthPoland",
+        "year": "1893"
       },
       {
-        "places": "Wells",
-        "years": "1893"
+        "place": "Wells",
+        "year": "1893"
       },
       {
-        "places": "Strong",
-        "years": "1892"
+        "place": "Strong",
+        "year": "1892"
       }
     ]
   },
@@ -5032,64 +5032,64 @@ var dataset =
     "comName": "Dwarf Blueberry",
     "entries": [
       {
-        "places": "Phillips",
-        "years": "1894"
+        "place": "Phillips",
+        "year": "1894"
       },
       {
-        "places": "Phillips",
-        "years": "1894"
+        "place": "Phillips",
+        "year": "1894"
       },
       {
-        "places": "Orono",
-        "years": "1891"
+        "place": "Orono",
+        "year": "1891"
       },
       {
-        "places": "Strong",
-        "years": "1881"
+        "place": "Strong",
+        "year": "1881"
       },
       {
-        "places": "Fort Kent",
-        "years": "1881"
+        "place": "Fort Kent",
+        "year": "1881"
       },
       {
-        "places": "Saint Francis",
-        "years": "1881"
+        "place": "Saint Francis",
+        "year": "1881"
       },
       {
-        "places": "Phillips",
-        "years": "1882"
+        "place": "Phillips",
+        "year": "1882"
       },
       {
-        "places": "Strong",
-        "years": "1882"
+        "place": "Strong",
+        "year": "1882"
       },
       {
-        "places": "Fort Kent",
-        "years": "1881"
+        "place": "Fort Kent",
+        "year": "1881"
       },
       {
-        "places": "Saint Francis",
-        "years": "1881"
+        "place": "Saint Francis",
+        "year": "1881"
       },
       {
-        "places": "Mt. Agamenticus",
-        "years": "1879"
+        "place": "Mt. Agamenticus",
+        "year": "1879"
       },
       {
-        "places": "Orono",
-        "years": "1891"
+        "place": "Orono",
+        "year": "1891"
       },
       {
-        "places": "Gilead",
-        "years": "1897"
+        "place": "Gilead",
+        "year": "1897"
       },
       {
-        "places": "Phillips",
-        "years": "1882"
+        "place": "Phillips",
+        "year": "1882"
       },
       {
-        "places": "Phillips",
-        "years": "1882"
+        "place": "Phillips",
+        "year": "1882"
       }
     ]
   },
@@ -5100,8 +5100,8 @@ var dataset =
     "comName": "Dwarf Chestnut",
     "entries": [
       {
-        "places": "York",
-        "years": "1879"
+        "place": "York",
+        "year": "1879"
       }
     ]
   },
@@ -5112,44 +5112,44 @@ var dataset =
     "comName": "Dwarf Cinquefoil",
     "entries": [
       {
-        "places": "Brunswick",
-        "years": "1870"
+        "place": "Brunswick",
+        "year": "1870"
       },
       {
-        "places": "SaintFrancis",
-        "years": "1881"
+        "place": "SaintFrancis",
+        "year": "1881"
       },
       {
-        "places": "Gilead",
-        "years": "1897"
+        "place": "Gilead",
+        "year": "1897"
       },
       {
-        "places": "Wells",
-        "years": "1898"
+        "place": "Wells",
+        "year": "1898"
       },
       {
-        "places": "Strong",
-        "years": "1882"
+        "place": "Strong",
+        "year": "1882"
       },
       {
-        "places": "Topsham",
-        "years": "1871"
+        "place": "Topsham",
+        "year": "1871"
       },
       {
-        "places": "East Livermore",
-        "years": "1876"
+        "place": "East Livermore",
+        "year": "1876"
       },
       {
-        "places": "South Poland",
-        "years": "1892"
+        "place": "South Poland",
+        "year": "1892"
       },
       {
-        "places": "Orono",
-        "years": "1880"
+        "place": "Orono",
+        "year": "1880"
       },
       {
-        "places": "Wells",
-        "years": "1898"
+        "place": "Wells",
+        "year": "1898"
       }
     ]
   },
@@ -5160,16 +5160,16 @@ var dataset =
     "comName": "Dwarf Ginseng",
     "entries": [
       {
-        "places": "Brunswick",
-        "years": "1870"
+        "place": "Brunswick",
+        "year": "1870"
       },
       {
-        "places": "Brunswick",
-        "years": "1890"
+        "place": "Brunswick",
+        "year": "1890"
       },
       {
-        "places": "SouthPoland",
-        "years": "1893"
+        "place": "SouthPoland",
+        "year": "1893"
       }
     ]
   },
@@ -5180,24 +5180,24 @@ var dataset =
     "comName": "Dwarf Huckleberry",
     "entries": [
       {
-        "places": "Rangeley",
-        "years": "1882"
+        "place": "Rangeley",
+        "year": "1882"
       },
       {
-        "places": "BarHarbor",
-        "years": "1891"
+        "place": "BarHarbor",
+        "year": "1891"
       },
       {
-        "places": "FortKent",
-        "years": "1880"
+        "place": "FortKent",
+        "year": "1880"
       },
       {
-        "places": "FortKent",
-        "years": "1881"
+        "place": "FortKent",
+        "year": "1881"
       },
       {
-        "places": "Bangor",
-        "years": "1880"
+        "place": "Bangor",
+        "year": "1880"
       }
     ]
   },
@@ -5208,24 +5208,24 @@ var dataset =
     "comName": "Dwarf Raspberry",
     "entries": [
       {
-        "places": "Brunswick",
-        "years": "1871"
+        "place": "Brunswick",
+        "year": "1871"
       },
       {
-        "places": "Rangeley",
-        "years": "1882"
+        "place": "Rangeley",
+        "year": "1882"
       },
       {
-        "places": "Cutler",
-        "years": "1902"
+        "place": "Cutler",
+        "year": "1902"
       },
       {
-        "places": "WestBaldwin",
-        "years": "1898"
+        "place": "WestBaldwin",
+        "year": "1898"
       },
       {
-        "places": "SouthPoland",
-        "years": "1893"
+        "place": "SouthPoland",
+        "year": "1893"
       }
     ]
   },
@@ -5236,12 +5236,12 @@ var dataset =
     "comName": "Dwarf Rattlesnake-plantain",
     "entries": [
       {
-        "places": "LivermoreFalls",
-        "years": "1877"
+        "place": "LivermoreFalls",
+        "year": "1877"
       },
       {
-        "places": "Wells",
-        "years": "1898"
+        "place": "Wells",
+        "year": "1898"
       }
     ]
   },
@@ -5252,20 +5252,20 @@ var dataset =
     "comName": "Dwarf Saint John's-wort",
     "entries": [
       {
-        "places": "Brunswick",
-        "years": "1870"
+        "place": "Brunswick",
+        "year": "1870"
       },
       {
-        "places": "Orono",
-        "years": "1880"
+        "place": "Orono",
+        "year": "1880"
       },
       {
-        "places": "Rangeley",
-        "years": "1882"
+        "place": "Rangeley",
+        "year": "1882"
       },
       {
-        "places": "SouthPoland",
-        "years": "1893"
+        "place": "SouthPoland",
+        "year": "1893"
       }
     ]
   },
@@ -5276,28 +5276,28 @@ var dataset =
     "comName": "Dwarf Sand Plum",
     "entries": [
       {
-        "places": "FortKent",
-        "years": "1880"
+        "place": "FortKent",
+        "year": "1880"
       },
       {
-        "places": "Ashland",
-        "years": "1881"
+        "place": "Ashland",
+        "year": "1881"
       },
       {
-        "places": "Strong",
-        "years": "1882"
+        "place": "Strong",
+        "year": "1882"
       },
       {
-        "places": "SaintFrancis",
-        "years": "1881"
+        "place": "SaintFrancis",
+        "year": "1881"
       },
       {
-        "places": "SouthPoland",
-        "years": "1893"
+        "place": "SouthPoland",
+        "year": "1893"
       },
       {
-        "places": "Fort Fairfield",
-        "years": "1880"
+        "place": "Fort Fairfield",
+        "year": "1880"
       }
     ]
   },
@@ -5308,12 +5308,12 @@ var dataset =
     "comName": "Dyer's Greenweed",
     "entries": [
       {
-        "places": "Wells",
-        "years": "1877"
+        "place": "Wells",
+        "year": "1877"
       },
       {
-        "places": "Kennebunkport",
-        "years": "1902"
+        "place": "Kennebunkport",
+        "year": "1902"
       }
     ]
   },
@@ -5324,16 +5324,16 @@ var dataset =
     "comName": "Early Coral-root",
     "entries": [
       {
-        "places": "Wells",
-        "years": "1879"
+        "place": "Wells",
+        "year": "1879"
       },
       {
-        "places": "Rangeley",
-        "years": "1892"
+        "place": "Rangeley",
+        "year": "1892"
       },
       {
-        "places": "SouthPoland",
-        "years": "1895"
+        "place": "SouthPoland",
+        "year": "1895"
       }
     ]
   },
@@ -5344,20 +5344,20 @@ var dataset =
     "comName": "Early Meadow-rue",
     "entries": [
       {
-        "places": "Brunswick",
-        "years": "1875"
+        "place": "Brunswick",
+        "year": "1875"
       },
       {
-        "places": "Rangeley",
-        "years": "1882"
+        "place": "Rangeley",
+        "year": "1882"
       },
       {
-        "places": "SouthPoland",
-        "years": "1893"
+        "place": "SouthPoland",
+        "year": "1893"
       },
       {
-        "places": "Wells",
-        "years": "1898"
+        "place": "Wells",
+        "year": "1898"
       }
     ]
   },
@@ -5368,16 +5368,16 @@ var dataset =
     "comName": "Early Small-flowered Saxifrage",
     "entries": [
       {
-        "places": "Brunswick",
-        "years": "1870"
+        "place": "Brunswick",
+        "year": "1870"
       },
       {
-        "places": "EastLivermore",
-        "years": "1874"
+        "place": "EastLivermore",
+        "year": "1874"
       },
       {
-        "places": "SouthPoland",
-        "years": "1893"
+        "place": "SouthPoland",
+        "year": "1893"
       }
     ]
   },
@@ -5388,8 +5388,8 @@ var dataset =
     "comName": "Eastern Black Currant",
     "entries": [
       {
-        "places": "Patten",
-        "years": "1881"
+        "place": "Patten",
+        "year": "1881"
       }
     ]
   },
@@ -5400,12 +5400,12 @@ var dataset =
     "comName": "Eastern Hemlock",
     "entries": [
       {
-        "places": "Brunswick",
-        "years": "1876"
+        "place": "Brunswick",
+        "year": "1876"
       },
       {
-        "places": "SouthPoland",
-        "years": "1893"
+        "place": "SouthPoland",
+        "year": "1893"
       }
     ]
   },
@@ -5423,12 +5423,12 @@ var dataset =
     "comName": "Eastern Leatherwood",
     "entries": [
       {
-        "places": "Fayette",
-        "years": "1878"
+        "place": "Fayette",
+        "year": "1878"
       },
       {
-        "places": "SouthPoland",
-        "years": "1893"
+        "place": "SouthPoland",
+        "year": "1893"
       }
     ]
   },
@@ -5439,16 +5439,16 @@ var dataset =
     "comName": "Eastern Prickly Gooseberry",
     "entries": [
       {
-        "places": "Strong",
-        "years": "1882"
+        "place": "Strong",
+        "year": "1882"
       },
       {
-        "places": "Rangeley",
-        "years": "1894"
+        "place": "Rangeley",
+        "year": "1894"
       },
       {
-        "places": "Gilead",
-        "years": "1897"
+        "place": "Gilead",
+        "year": "1897"
       }
     ]
   },
@@ -5459,16 +5459,16 @@ var dataset =
     "comName": "Eastern Redcedar",
     "entries": [
       {
-        "places": "Harpswell",
-        "years": "1877"
+        "place": "Harpswell",
+        "year": "1877"
       },
       {
-        "places": "Wells",
-        "years": "1898"
+        "place": "Wells",
+        "year": "1898"
       },
       {
-        "places": "Gilead",
-        "years": "1897"
+        "place": "Gilead",
+        "year": "1897"
       }
     ]
   },
@@ -5479,44 +5479,44 @@ var dataset =
     "comName": "Eastern Shadbush",
     "entries": [
       {
-        "places": "FayetteRidge",
-        "years": "1878"
+        "place": "FayetteRidge",
+        "year": "1878"
       },
       {
-        "places": "Wells",
-        "years": "1898"
+        "place": "Wells",
+        "year": "1898"
       },
       {
-        "places": "Fayette Ridge",
-        "years": "1878"
+        "place": "Fayette Ridge",
+        "year": "1878"
       },
       {
-        "places": "Fayette Ridge",
-        "years": "1878"
+        "place": "Fayette Ridge",
+        "year": "1878"
       },
       {
-        "places": "Brunswick",
-        "years": "1870"
+        "place": "Brunswick",
+        "year": "1870"
       },
       {
-        "places": "East Livermore",
-        "years": "1878"
+        "place": "East Livermore",
+        "year": "1878"
       },
       {
-        "places": "Wells",
-        "years": "1878"
+        "place": "Wells",
+        "year": "1878"
       },
       {
-        "places": "Rangeley",
-        "years": "1882"
+        "place": "Rangeley",
+        "year": "1882"
       },
       {
-        "places": "Gilead",
-        "years": "1897"
+        "place": "Gilead",
+        "year": "1897"
       },
       {
-        "places": "Fayette Ridge",
-        "years": "1878"
+        "place": "Fayette Ridge",
+        "year": "1878"
       }
     ]
   },
@@ -5527,8 +5527,8 @@ var dataset =
     "comName": "Eastern Smooth Beardtongue",
     "entries": [
       {
-        "places": "NewSharon",
-        "years": "1896"
+        "place": "NewSharon",
+        "year": "1896"
       }
     ]
   },
@@ -5539,24 +5539,24 @@ var dataset =
     "comName": "Eastern Spicy-wintergreen",
     "entries": [
       {
-        "places": "Brunswick",
-        "years": "1870"
+        "place": "Brunswick",
+        "year": "1870"
       },
       {
-        "places": "FayetteRidge",
-        "years": "1876"
+        "place": "FayetteRidge",
+        "year": "1876"
       },
       {
-        "places": "SouthPoland",
-        "years": "1893"
+        "place": "SouthPoland",
+        "year": "1893"
       },
       {
-        "places": "Wells",
-        "years": "1898"
+        "place": "Wells",
+        "year": "1898"
       },
       {
-        "places": "Gilead",
-        "years": "1900"
+        "place": "Gilead",
+        "year": "1900"
       }
     ]
   },
@@ -5567,12 +5567,12 @@ var dataset =
     "comName": "Eastern Tansy",
     "entries": [
       {
-        "places": "Rangeley",
-        "years": "1882"
+        "place": "Rangeley",
+        "year": "1882"
       },
       {
-        "places": "FortKent",
-        "years": "1880"
+        "place": "FortKent",
+        "year": "1880"
       }
     ]
   },
@@ -5583,24 +5583,24 @@ var dataset =
     "comName": "Eastern White Oak",
     "entries": [
       {
-        "places": "Brunswick",
-        "years": "1875"
+        "place": "Brunswick",
+        "year": "1875"
       },
       {
-        "places": "Wells",
-        "years": "1877"
+        "place": "Wells",
+        "year": "1877"
       },
       {
-        "places": "Wells",
-        "years": "1878"
+        "place": "Wells",
+        "year": "1878"
       },
       {
-        "places": "Mt. Agamenticus",
-        "years": "1877"
+        "place": "Mt. Agamenticus",
+        "year": "1877"
       },
       {
-        "places": "Mt. Agamenticus",
-        "years": "1879"
+        "place": "Mt. Agamenticus",
+        "year": "1879"
       }
     ]
   },
@@ -5611,12 +5611,12 @@ var dataset =
     "comName": "Eastern White Pine",
     "entries": [
       {
-        "places": "Brunswick",
-        "years": "1876"
+        "place": "Brunswick",
+        "year": "1876"
       },
       {
-        "places": "SouthPoland",
-        "years": "1893"
+        "place": "SouthPoland",
+        "year": "1893"
       }
     ]
   },
@@ -5627,20 +5627,20 @@ var dataset =
     "comName": "Eastern Willow-herb",
     "entries": [
       {
-        "places": "WestBaldwin",
-        "years": "1900"
+        "place": "WestBaldwin",
+        "year": "1900"
       },
       {
-        "places": "Brunswick",
-        "years": "1892"
+        "place": "Brunswick",
+        "year": "1892"
       },
       {
-        "places": "Wells",
-        "years": "1898"
+        "place": "Wells",
+        "year": "1898"
       },
       {
-        "places": "SouthPoland",
-        "years": "1893"
+        "place": "SouthPoland",
+        "year": "1893"
       }
     ]
   },
@@ -5651,12 +5651,12 @@ var dataset =
     "comName": "Eel-grass",
     "entries": [
       {
-        "places": "Brunswick",
-        "years": "1892"
+        "place": "Brunswick",
+        "year": "1892"
       },
       {
-        "places": "Brunswick",
-        "years": "1895"
+        "place": "Brunswick",
+        "year": "1895"
       }
     ]
   },
@@ -5667,8 +5667,8 @@ var dataset =
     "comName": "Elegent Milk-vetch",
     "entries": [
       {
-        "places": "FortFairfield",
-        "years": "1892"
+        "place": "FortFairfield",
+        "year": "1892"
       }
     ]
   },
@@ -5679,20 +5679,20 @@ var dataset =
     "comName": "Elliptic-leaved Shinleaf",
     "entries": [
       {
-        "places": "Orono",
-        "years": "1880"
+        "place": "Orono",
+        "year": "1880"
       },
       {
-        "places": "FortKent",
-        "years": "1881"
+        "place": "FortKent",
+        "year": "1881"
       },
       {
-        "places": "SouthPoland",
-        "years": "1881"
+        "place": "SouthPoland",
+        "year": "1881"
       },
       {
-        "places": "Wells",
-        "years": "1898"
+        "place": "Wells",
+        "year": "1898"
       }
     ]
   },
@@ -5703,8 +5703,8 @@ var dataset =
     "comName": "Elliptic-leaved Shinleaf",
     "entries": [
       {
-        "places": "Gilead",
-        "years": "1898"
+        "place": "Gilead",
+        "year": "1898"
       }
     ]
   },
@@ -5715,24 +5715,24 @@ var dataset =
     "comName": "Elm-leaved Goldenrod",
     "entries": [
       {
-        "places": "Brunswick",
-        "years": "1879"
+        "place": "Brunswick",
+        "year": "1879"
       },
       {
-        "places": "Wells",
-        "years": "1877"
+        "place": "Wells",
+        "year": "1877"
       },
       {
-        "places": "SouthPoland",
-        "years": "1893"
+        "place": "SouthPoland",
+        "year": "1893"
       },
       {
-        "places": "Gilead",
-        "years": "1897"
+        "place": "Gilead",
+        "year": "1897"
       },
       {
-        "places": "WestBaldwin",
-        "years": "1900"
+        "place": "WestBaldwin",
+        "year": "1900"
       }
     ]
   },
@@ -5743,40 +5743,40 @@ var dataset =
     "comName": "English Plantain",
     "entries": [
       {
-        "places": "Brunswick",
-        "years": "1871"
+        "place": "Brunswick",
+        "year": "1871"
       },
       {
-        "places": "Strong",
-        "years": "1882"
+        "place": "Strong",
+        "year": "1882"
       },
       {
-        "places": "SouthPoland",
-        "years": "1883"
+        "place": "SouthPoland",
+        "year": "1883"
       },
       {
-        "places": "Wells",
-        "years": "1898"
+        "place": "Wells",
+        "year": "1898"
       },
       {
-        "places": "Wells Beach",
-        "years": "1898"
+        "place": "Wells Beach",
+        "year": "1898"
       },
       {
-        "places": "Brunswick",
-        "years": "1874"
+        "place": "Brunswick",
+        "year": "1874"
       },
       {
-        "places": "Wells",
-        "years": "1878"
+        "place": "Wells",
+        "year": "1878"
       },
       {
-        "places": "Strong",
-        "years": "1882"
+        "place": "Strong",
+        "year": "1882"
       },
       {
-        "places": "South Poland",
-        "years": "1893"
+        "place": "South Poland",
+        "year": "1893"
       }
     ]
   },
@@ -5794,20 +5794,20 @@ var dataset =
     "comName": "European Nightshade",
     "entries": [
       {
-        "places": "Brunswick",
-        "years": "1870"
+        "place": "Brunswick",
+        "year": "1870"
       },
       {
-        "places": "Pemaquid",
-        "years": "1889"
+        "place": "Pemaquid",
+        "year": "1889"
       },
       {
-        "places": "SouthPoland",
-        "years": "1895"
+        "place": "SouthPoland",
+        "year": "1895"
       },
       {
-        "places": "Pemaquid",
-        "years": "1889"
+        "place": "Pemaquid",
+        "year": "1889"
       }
     ]
   },
@@ -5818,16 +5818,16 @@ var dataset =
     "comName": "European Water-horehound",
     "entries": [
       {
-        "places": "Orono",
-        "years": "1880"
+        "place": "Orono",
+        "year": "1880"
       },
       {
-        "places": "Caribou",
-        "years": "1880"
+        "place": "Caribou",
+        "year": "1880"
       },
       {
-        "places": "Bath",
-        "years": "1910"
+        "place": "Bath",
+        "year": "1910"
       }
     ]
   },
@@ -5838,24 +5838,24 @@ var dataset =
     "comName": "European Windflower",
     "entries": [
       {
-        "places": "Brunswick",
-        "years": "1870"
+        "place": "Brunswick",
+        "year": "1870"
       },
       {
-        "places": "Topsham",
-        "years": "1870"
+        "place": "Topsham",
+        "year": "1870"
       },
       {
-        "places": "SouthPoland",
-        "years": "1893"
+        "place": "SouthPoland",
+        "year": "1893"
       },
       {
-        "places": "Wells",
-        "years": "1898"
+        "place": "Wells",
+        "year": "1898"
       },
       {
-        "places": "Brunswick",
-        "years": "1875"
+        "place": "Brunswick",
+        "year": "1875"
       }
     ]
   },
@@ -5866,8 +5866,8 @@ var dataset =
     "comName": "Fairy-slipper",
     "entries": [
       {
-        "places": "Orono",
-        "years": "1880"
+        "place": "Orono",
+        "year": "1880"
       }
     ]
   },
@@ -5878,12 +5878,12 @@ var dataset =
     "comName": "Fall Coral-root",
     "entries": [
       {
-        "places": "Livermore",
-        "years": "1875"
+        "place": "Livermore",
+        "year": "1875"
       },
       {
-        "places": "SouthPoland",
-        "years": "1895"
+        "place": "SouthPoland",
+        "year": "1895"
       }
     ]
   },
@@ -5894,12 +5894,12 @@ var dataset =
     "comName": "Fall-dandelion",
     "entries": [
       {
-        "places": "Cutler",
-        "years": "1902"
+        "place": "Cutler",
+        "year": "1902"
       },
       {
-        "places": "Brunswick",
-        "years": "1908"
+        "place": "Brunswick",
+        "year": "1908"
       }
     ]
   },
@@ -5910,8 +5910,8 @@ var dataset =
     "comName": "False Toadflax",
     "entries": [
       {
-        "places": "Franklin",
-        "years": "1894"
+        "place": "Franklin",
+        "year": "1894"
       }
     ]
   },
@@ -5922,28 +5922,28 @@ var dataset =
     "comName": "False Water-pepper Smartweed",
     "entries": [
       {
-        "places": "Wells",
-        "years": "1879"
+        "place": "Wells",
+        "year": "1879"
       },
       {
-        "places": "Gilead",
-        "years": "1897"
+        "place": "Gilead",
+        "year": "1897"
       },
       {
-        "places": "Baldwin",
-        "years": "1900"
+        "place": "Baldwin",
+        "year": "1900"
       },
       {
-        "places": "Brunswick",
-        "years": "1870"
+        "place": "Brunswick",
+        "year": "1870"
       },
       {
-        "places": "South Poland",
-        "years": "1893"
+        "place": "South Poland",
+        "year": "1893"
       },
       {
-        "places": "West Baldwin",
-        "years": "1900"
+        "place": "West Baldwin",
+        "year": "1900"
       }
     ]
   },
@@ -5954,20 +5954,20 @@ var dataset =
     "comName": "Farwell's Water-milfoil",
     "entries": [
       {
-        "places": "SouthPoland",
-        "years": "1893"
+        "place": "SouthPoland",
+        "year": "1893"
       },
       {
-        "places": "TorseyPondReadfield",
-        "years": "1892"
+        "place": "TorseyPondReadfield",
+        "year": "1892"
       },
       {
-        "places": "Rangeley",
-        "years": "1894"
+        "place": "Rangeley",
+        "year": "1894"
       },
       {
-        "places": "SouthPoland",
-        "years": "1895"
+        "place": "SouthPoland",
+        "year": "1895"
       }
     ]
   },
@@ -5985,12 +5985,12 @@ var dataset =
     "comName": "Fern-leaved False Foxglove",
     "entries": [
       {
-        "places": "SouthPoland",
-        "years": "1893"
+        "place": "SouthPoland",
+        "year": "1893"
       },
       {
-        "places": "Wells",
-        "years": "1898"
+        "place": "Wells",
+        "year": "1898"
       }
     ]
   },
@@ -6001,12 +6001,12 @@ var dataset =
     "comName": "Field Bindweed",
     "entries": [
       {
-        "places": "EastLivermore",
-        "years": "1894"
+        "place": "EastLivermore",
+        "year": "1894"
       },
       {
-        "places": "Wells",
-        "years": "1898"
+        "place": "Wells",
+        "year": "1898"
       }
     ]
   },
@@ -6017,8 +6017,8 @@ var dataset =
     "comName": "Field Forgot-me-not",
     "entries": [
       {
-        "places": "Greenvale",
-        "years": "1894"
+        "place": "Greenvale",
+        "year": "1894"
       }
     ]
   },
@@ -6029,16 +6029,16 @@ var dataset =
     "comName": "Field Penny-cress",
     "entries": [
       {
-        "places": "WellsBeach",
-        "years": "1879"
+        "place": "WellsBeach",
+        "year": "1879"
       },
       {
-        "places": "Brunswick",
-        "years": "1907"
+        "place": "Brunswick",
+        "year": "1907"
       },
       {
-        "places": "Brunswick",
-        "years": "1907"
+        "place": "Brunswick",
+        "year": "1907"
       }
     ]
   },
@@ -6056,8 +6056,8 @@ var dataset =
     "comName": "Field Sow-thistle",
     "entries": [
       {
-        "places": "Houlton",
-        "years": "1881"
+        "place": "Houlton",
+        "year": "1881"
       }
     ]
   },
@@ -6068,16 +6068,16 @@ var dataset =
     "comName": "Field Thistle",
     "entries": [
       {
-        "places": "Dixfield",
-        "years": "1890"
+        "place": "Dixfield",
+        "year": "1890"
       },
       {
-        "places": "Fayette",
-        "years": "1894"
+        "place": "Fayette",
+        "year": "1894"
       },
       {
-        "places": "Dixfield",
-        "years": "1890"
+        "place": "Dixfield",
+        "year": "1890"
       }
     ]
   },
@@ -6095,12 +6095,12 @@ var dataset =
     "comName": "Field Wormwood",
     "entries": [
       {
-        "places": "Brunswick",
-        "years": "1887"
+        "place": "Brunswick",
+        "year": "1887"
       },
       {
-        "places": "WellsBeach",
-        "years": "1898"
+        "place": "WellsBeach",
+        "year": "1898"
       }
     ]
   },
@@ -6111,16 +6111,16 @@ var dataset =
     "comName": "Fieldchickweed",
     "entries": [
       {
-        "places": "Brunswick",
-        "years": "1871"
+        "place": "Brunswick",
+        "year": "1871"
       },
       {
-        "places": "SaintFrancis",
-        "years": "1881"
+        "place": "SaintFrancis",
+        "year": "1881"
       },
       {
-        "places": "Cape Elizabeth",
-        "years": "1880"
+        "place": "Cape Elizabeth",
+        "year": "1880"
       }
     ]
   },
@@ -6131,24 +6131,24 @@ var dataset =
     "comName": "Flat-leaved Bladderwort",
     "entries": [
       {
-        "places": "FortKent",
-        "years": "1881"
+        "place": "FortKent",
+        "year": "1881"
       },
       {
-        "places": "Bradley",
-        "years": "1891"
+        "place": "Bradley",
+        "year": "1891"
       },
       {
-        "places": "SouthPoland",
-        "years": "1893"
+        "place": "SouthPoland",
+        "year": "1893"
       },
       {
-        "places": "Rangeley",
-        "years": "1894"
+        "place": "Rangeley",
+        "year": "1894"
       },
       {
-        "places": "Wells",
-        "years": "1898"
+        "place": "Wells",
+        "year": "1898"
       }
     ]
   },
@@ -6159,20 +6159,20 @@ var dataset =
     "comName": "Flat-stem Pondweed",
     "entries": [
       {
-        "places": "SaintFrancis",
-        "years": "1880"
+        "place": "SaintFrancis",
+        "year": "1880"
       },
       {
-        "places": "SaintFrancis",
-        "years": "1881"
+        "place": "SaintFrancis",
+        "year": "1881"
       },
       {
-        "places": "LivermoreFalls",
-        "years": "1897"
+        "place": "LivermoreFalls",
+        "year": "1897"
       },
       {
-        "places": "Wells",
-        "years": "1898"
+        "place": "Wells",
+        "year": "1898"
       }
     ]
   },
@@ -6183,24 +6183,24 @@ var dataset =
     "comName": "Flax-leaved Stiff-aster",
     "entries": [
       {
-        "places": "Wells",
-        "years": "1879"
+        "place": "Wells",
+        "year": "1879"
       },
       {
-        "places": "Brunswick",
-        "years": "1878"
+        "place": "Brunswick",
+        "year": "1878"
       },
       {
-        "places": "Livermore Falls",
-        "years": "1878"
+        "place": "Livermore Falls",
+        "year": "1878"
       },
       {
-        "places": "Fayette",
-        "years": "1878"
+        "place": "Fayette",
+        "year": "1878"
       },
       {
-        "places": "Wells",
-        "years": "1898"
+        "place": "Wells",
+        "year": "1898"
       }
     ]
   },
@@ -6211,8 +6211,8 @@ var dataset =
     "comName": "Floating Bur-reed",
     "entries": [
       {
-        "places": "Readfield",
-        "years": "1892"
+        "place": "Readfield",
+        "year": "1892"
       }
     ]
   },
@@ -6223,16 +6223,16 @@ var dataset =
     "comName": "Floating Pondweed",
     "entries": [
       {
-        "places": "Topsham",
-        "years": "1874"
+        "place": "Topsham",
+        "year": "1874"
       },
       {
-        "places": "Gilead",
-        "years": "1897"
+        "place": "Gilead",
+        "year": "1897"
       },
       {
-        "places": "PortageLake",
-        "years": "1881"
+        "place": "PortageLake",
+        "year": "1881"
       }
     ]
   },
@@ -6250,12 +6250,12 @@ var dataset =
     "comName": "Flowering Raspberry",
     "entries": [
       {
-        "places": "GreatDiamondIsland",
-        "years": "1888"
+        "place": "GreatDiamondIsland",
+        "year": "1888"
       },
       {
-        "places": "Brunswick",
-        "years": "1870"
+        "place": "Brunswick",
+        "year": "1870"
       }
     ]
   },
@@ -6266,8 +6266,8 @@ var dataset =
     "comName": "Foam Flower",
     "entries": [
       {
-        "places": "Brunswick",
-        "years": "1870"
+        "place": "Brunswick",
+        "year": "1870"
       }
     ]
   },
@@ -6278,8 +6278,8 @@ var dataset =
     "comName": "Fool's-parsley",
     "entries": [
       {
-        "places": "Portland",
-        "years": "1902"
+        "place": "Portland",
+        "year": "1902"
       }
     ]
   },
@@ -6290,16 +6290,16 @@ var dataset =
     "comName": "Forest Goldenrod",
     "entries": [
       {
-        "places": "Brunswick",
-        "years": "1878"
+        "place": "Brunswick",
+        "year": "1878"
       },
       {
-        "places": "SouthPoland",
-        "years": "1893"
+        "place": "SouthPoland",
+        "year": "1893"
       },
       {
-        "places": "Rangeley",
-        "years": "1894"
+        "place": "Rangeley",
+        "year": "1894"
       }
     ]
   },
@@ -6310,8 +6310,8 @@ var dataset =
     "comName": "Forest Licorice Bedstraw",
     "entries": [
       {
-        "places": "SouthPoland",
-        "years": "1893"
+        "place": "SouthPoland",
+        "year": "1893"
       }
     ]
   },
@@ -6322,16 +6322,16 @@ var dataset =
     "comName": "Forest Lousewort",
     "entries": [
       {
-        "places": "Brunswick",
-        "years": "1870"
+        "place": "Brunswick",
+        "year": "1870"
       },
       {
-        "places": "Wells",
-        "years": "1898"
+        "place": "Wells",
+        "year": "1898"
       },
       {
-        "places": "SouthPoland",
-        "years": "1895"
+        "place": "SouthPoland",
+        "year": "1895"
       }
     ]
   },
@@ -6342,16 +6342,16 @@ var dataset =
     "comName": "Forked Bluecurls",
     "entries": [
       {
-        "places": "Brunswick",
-        "years": "1892"
+        "place": "Brunswick",
+        "year": "1892"
       },
       {
-        "places": "Wells",
-        "years": "1898"
+        "place": "Wells",
+        "year": "1898"
       },
       {
-        "places": "Scarborough",
-        "years": "1901"
+        "place": "Scarborough",
+        "year": "1901"
       }
     ]
   },
@@ -6362,16 +6362,16 @@ var dataset =
     "comName": "Forkedcampion",
     "entries": [
       {
-        "places": "EastLivermore",
-        "years": "1894"
+        "place": "EastLivermore",
+        "year": "1894"
       },
       {
-        "places": "Wells",
-        "years": "1898"
+        "place": "Wells",
+        "year": "1898"
       },
       {
-        "places": "Gilead",
-        "years": "1897"
+        "place": "Gilead",
+        "year": "1897"
       }
     ]
   },
@@ -6382,28 +6382,28 @@ var dataset =
     "comName": "Four-flowered Yellow-loosestrife",
     "entries": [
       {
-        "places": "Brunswick",
-        "years": "1870"
+        "place": "Brunswick",
+        "year": "1870"
       },
       {
-        "places": "SouthPoland",
-        "years": "1893"
+        "place": "SouthPoland",
+        "year": "1893"
       },
       {
-        "places": "Wells",
-        "years": "1898"
+        "place": "Wells",
+        "year": "1898"
       },
       {
-        "places": "WestBaldwin",
-        "years": "1900"
+        "place": "WestBaldwin",
+        "year": "1900"
       },
       {
-        "places": "Brunswick",
-        "years": "1870"
+        "place": "Brunswick",
+        "year": "1870"
       },
       {
-        "places": "South Poland",
-        "years": "1895"
+        "place": "South Poland",
+        "year": "1895"
       }
     ]
   },
@@ -6421,8 +6421,8 @@ var dataset =
     "comName": "Fox Grape",
     "entries": [
       {
-        "places": "Wells",
-        "years": "1879"
+        "place": "Wells",
+        "year": "1879"
       }
     ]
   },
@@ -6433,24 +6433,24 @@ var dataset =
     "comName": "Fragrant Bedstraw",
     "entries": [
       {
-        "places": "Brunswick",
-        "years": "1870"
+        "place": "Brunswick",
+        "year": "1870"
       },
       {
-        "places": "Orono",
-        "years": "1880"
+        "place": "Orono",
+        "year": "1880"
       },
       {
-        "places": "KentsHill",
-        "years": "1892"
+        "place": "KentsHill",
+        "year": "1892"
       },
       {
-        "places": "Rangeley",
-        "years": "1894"
+        "place": "Rangeley",
+        "year": "1894"
       },
       {
-        "places": "SouthPoland",
-        "years": "1893"
+        "place": "SouthPoland",
+        "year": "1893"
       }
     ]
   },
@@ -6461,16 +6461,16 @@ var dataset =
     "comName": "Fringed Bindweed",
     "entries": [
       {
-        "places": "York",
-        "years": "1879"
+        "place": "York",
+        "year": "1879"
       },
       {
-        "places": "York",
-        "years": "1879"
+        "place": "York",
+        "year": "1879"
       },
       {
-        "places": "Fayette",
-        "years": "1871"
+        "place": "Fayette",
+        "year": "1871"
       }
     ]
   },
@@ -6481,20 +6481,20 @@ var dataset =
     "comName": "Fringed Milkwort",
     "entries": [
       {
-        "places": "Brunswick",
-        "years": "1881"
+        "place": "Brunswick",
+        "year": "1881"
       },
       {
-        "places": "SouthPoland",
-        "years": "1893"
+        "place": "SouthPoland",
+        "year": "1893"
       },
       {
-        "places": "Wells",
-        "years": "1898"
+        "place": "Wells",
+        "year": "1898"
       },
       {
-        "places": "Brunswick",
-        "years": "1881"
+        "place": "Brunswick",
+        "year": "1881"
       }
     ]
   },
@@ -6505,16 +6505,16 @@ var dataset =
     "comName": "Fringed Willow-herb",
     "entries": [
       {
-        "places": "SouthPoland",
-        "years": "1893"
+        "place": "SouthPoland",
+        "year": "1893"
       },
       {
-        "places": "Wells",
-        "years": "1898"
+        "place": "Wells",
+        "year": "1898"
       },
       {
-        "places": "SouthPoland",
-        "years": "1895"
+        "place": "SouthPoland",
+        "year": "1895"
       }
     ]
   },
@@ -6525,20 +6525,20 @@ var dataset =
     "comName": "Fringed Yellow-loosestrife",
     "entries": [
       {
-        "places": "Brunswick",
-        "years": "1870"
+        "place": "Brunswick",
+        "year": "1870"
       },
       {
-        "places": "Livermore",
-        "years": "1871"
+        "place": "Livermore",
+        "year": "1871"
       },
       {
-        "places": "Orono",
-        "years": "1880"
+        "place": "Orono",
+        "year": "1880"
       },
       {
-        "places": "SouthPoland",
-        "years": "1893"
+        "place": "SouthPoland",
+        "year": "1893"
       }
     ]
   },
@@ -6549,24 +6549,24 @@ var dataset =
     "comName": "Frost Grape",
     "entries": [
       {
-        "places": "Strong",
-        "years": "1882"
+        "place": "Strong",
+        "year": "1882"
       },
       {
-        "places": "Farmington",
-        "years": "1878"
+        "place": "Farmington",
+        "year": "1878"
       },
       {
-        "places": "Strong",
-        "years": "1882"
+        "place": "Strong",
+        "year": "1882"
       },
       {
-        "places": "Farmington",
-        "years": "1878"
+        "place": "Farmington",
+        "year": "1878"
       },
       {
-        "places": "Livermore Falls",
-        "years": "1876"
+        "place": "Livermore Falls",
+        "year": "1876"
       }
     ]
   },
@@ -6577,8 +6577,8 @@ var dataset =
     "comName": "Furbish's Lousewort",
     "entries": [
       {
-        "places": "VanBuren",
-        "years": "1880"
+        "place": "VanBuren",
+        "year": "1880"
       }
     ]
   },
@@ -6589,24 +6589,24 @@ var dataset =
     "comName": "Garden Redcurrant",
     "entries": [
       {
-        "places": "PresqueIsle",
-        "years": "1880"
+        "place": "PresqueIsle",
+        "year": "1880"
       },
       {
-        "places": "FortKent",
-        "years": "1881"
+        "place": "FortKent",
+        "year": "1881"
       },
       {
-        "places": "Patten",
-        "years": "1881"
+        "place": "Patten",
+        "year": "1881"
       },
       {
-        "places": "Rangeley",
-        "years": "1882"
+        "place": "Rangeley",
+        "year": "1882"
       },
       {
-        "places": "Gilead",
-        "years": "1897"
+        "place": "Gilead",
+        "year": "1897"
       }
     ]
   },
@@ -6617,36 +6617,36 @@ var dataset =
     "comName": "Garden Yellow-rocket",
     "entries": [
       {
-        "places": "FortKent",
-        "years": "1880"
+        "place": "FortKent",
+        "year": "1880"
       },
       {
-        "places": "SaintFrancis",
-        "years": "1881"
+        "place": "SaintFrancis",
+        "year": "1881"
       },
       {
-        "places": "SouthPoland",
-        "years": "1895"
+        "place": "SouthPoland",
+        "year": "1895"
       },
       {
-        "places": "Castine",
-        "years": "1903"
+        "place": "Castine",
+        "year": "1903"
       },
       {
-        "places": "Fort Kent",
-        "years": "1880"
+        "place": "Fort Kent",
+        "year": "1880"
       },
       {
-        "places": "Fairfield",
-        "years": "1881"
+        "place": "Fairfield",
+        "year": "1881"
       },
       {
-        "places": "Brunswick",
-        "years": "1893"
+        "place": "Brunswick",
+        "year": "1893"
       },
       {
-        "places": "Fort Kent",
-        "years": "1881"
+        "place": "Fort Kent",
+        "year": "1881"
       }
     ]
   },
@@ -6664,16 +6664,16 @@ var dataset =
     "comName": "Giant Ragweed",
     "entries": [
       {
-        "places": "Brunswick",
-        "years": "1870"
+        "place": "Brunswick",
+        "year": "1870"
       },
       {
-        "places": "Wells",
-        "years": "1898"
+        "place": "Wells",
+        "year": "1898"
       },
       {
-        "places": "Brunswick",
-        "years": "1907"
+        "place": "Brunswick",
+        "year": "1907"
       }
     ]
   },
@@ -6684,8 +6684,8 @@ var dataset =
     "comName": "Giant Rattlesnake-plantain",
     "entries": [
       {
-        "places": "Madawaska",
-        "years": "1881"
+        "place": "Madawaska",
+        "year": "1881"
       }
     ]
   },
@@ -6703,12 +6703,12 @@ var dataset =
     "comName": "Ginger Mint",
     "entries": [
       {
-        "places": "Brunswick",
-        "years": "1870"
+        "place": "Brunswick",
+        "year": "1870"
       },
       {
-        "places": "Orono",
-        "years": "1891"
+        "place": "Orono",
+        "year": "1891"
       }
     ]
   },
@@ -6719,16 +6719,16 @@ var dataset =
     "comName": "Glaucous Rattlesnake-root",
     "entries": [
       {
-        "places": "Caribou",
-        "years": "1880"
+        "place": "Caribou",
+        "year": "1880"
       },
       {
-        "places": "SaintFrancis",
-        "years": "1881"
+        "place": "SaintFrancis",
+        "year": "1881"
       },
       {
-        "places": "Caribou",
-        "years": "1881"
+        "place": "Caribou",
+        "year": "1881"
       }
     ]
   },
@@ -6739,8 +6739,8 @@ var dataset =
     "comName": "Golden Currant",
     "entries": [
       {
-        "places": "Patten",
-        "years": "1881"
+        "place": "Patten",
+        "year": "1881"
       }
     ]
   },
@@ -6751,8 +6751,8 @@ var dataset =
     "comName": "Golden Dock",
     "entries": [
       {
-        "places": "Brunswick",
-        "years": "1907"
+        "place": "Brunswick",
+        "year": "1907"
       }
     ]
   },
@@ -6763,32 +6763,32 @@ var dataset =
     "comName": "Golden Groundsel",
     "entries": [
       {
-        "places": "EastLivermore",
-        "years": "1871"
+        "place": "EastLivermore",
+        "year": "1871"
       },
       {
-        "places": "Rangeley",
-        "years": "1882"
+        "place": "Rangeley",
+        "year": "1882"
       },
       {
-        "places": "SouthPoland",
-        "years": "1893"
+        "place": "SouthPoland",
+        "year": "1893"
       },
       {
-        "places": "Waterville",
-        "years": "1871"
+        "place": "Waterville",
+        "year": "1871"
       },
       {
-        "places": "Orono",
-        "years": "1891"
+        "place": "Orono",
+        "year": "1891"
       },
       {
-        "places": "Rangeley",
-        "years": "1882"
+        "place": "Rangeley",
+        "year": "1882"
       },
       {
-        "places": "South Poland",
-        "years": "1893"
+        "place": "South Poland",
+        "year": "1893"
       }
     ]
   },
@@ -6799,12 +6799,12 @@ var dataset =
     "comName": "Golden Hedge-hyssop",
     "entries": [
       {
-        "places": "SouthPoland",
-        "years": "1894"
+        "place": "SouthPoland",
+        "year": "1894"
       },
       {
-        "places": "WestBaldwin",
-        "years": "1900"
+        "place": "WestBaldwin",
+        "year": "1900"
       }
     ]
   },
@@ -6815,8 +6815,8 @@ var dataset =
     "comName": "Golden-saxifrage",
     "entries": [
       {
-        "places": "Orono",
-        "years": "1881"
+        "place": "Orono",
+        "year": "1881"
       }
     ]
   },
@@ -6827,12 +6827,12 @@ var dataset =
     "comName": "Grass-leaved Arrowhead",
     "entries": [
       {
-        "places": "LivermoreFalls",
-        "years": "1878"
+        "place": "LivermoreFalls",
+        "year": "1878"
       },
       {
-        "places": "Wells",
-        "years": "1878"
+        "place": "Wells",
+        "year": "1878"
       }
     ]
   },
@@ -6850,12 +6850,12 @@ var dataset =
     "comName": "Grass-leaved Stitchwort",
     "entries": [
       {
-        "places": "Orono",
-        "years": "1891"
+        "place": "Orono",
+        "year": "1891"
       },
       {
-        "places": "SaintFrancis",
-        "years": "1881"
+        "place": "SaintFrancis",
+        "year": "1881"
       }
     ]
   },
@@ -6866,28 +6866,28 @@ var dataset =
     "comName": "Grassy Pondweed",
     "entries": [
       {
-        "places": "SaintFrancis",
-        "years": "1881"
+        "place": "SaintFrancis",
+        "year": "1881"
       },
       {
-        "places": "SouthPoland",
-        "years": "1893"
+        "place": "SouthPoland",
+        "year": "1893"
       },
       {
-        "places": "SouthPoland",
-        "years": "1895"
+        "place": "SouthPoland",
+        "year": "1895"
       },
       {
-        "places": "Livermore Falls",
-        "years": "1878"
+        "place": "Livermore Falls",
+        "year": "1878"
       },
       {
-        "places": "Litchfield",
-        "years": "1896"
+        "place": "Litchfield",
+        "year": "1896"
       },
       {
-        "places": "Saint Francis",
-        "years": "1881"
+        "place": "Saint Francis",
+        "year": "1881"
       }
     ]
   },
@@ -6898,20 +6898,20 @@ var dataset =
     "comName": "Gray Birch",
     "entries": [
       {
-        "places": "Brunswick",
-        "years": "1895"
+        "place": "Brunswick",
+        "year": "1895"
       },
       {
-        "places": "Brunswick",
-        "years": "1870"
+        "place": "Brunswick",
+        "year": "1870"
       },
       {
-        "places": "South Poland",
-        "years": "1893"
+        "place": "South Poland",
+        "year": "1893"
       },
       {
-        "places": "Wells",
-        "years": "1898"
+        "place": "Wells",
+        "year": "1898"
       }
     ]
   },
@@ -6922,8 +6922,8 @@ var dataset =
     "comName": "Gray Dogwood",
     "entries": [
       {
-        "places": "LivermoreFalls",
-        "years": "1877"
+        "place": "LivermoreFalls",
+        "year": "1877"
       }
     ]
   },
@@ -6934,28 +6934,28 @@ var dataset =
     "comName": "Gray Goldenrod",
     "entries": [
       {
-        "places": "Brunswick",
-        "years": "1877"
+        "place": "Brunswick",
+        "year": "1877"
       },
       {
-        "places": "SouthPoland",
-        "years": "1893"
+        "place": "SouthPoland",
+        "year": "1893"
       },
       {
-        "places": "Rangeley",
-        "years": "1894"
+        "place": "Rangeley",
+        "year": "1894"
       },
       {
-        "places": "Gilead",
-        "years": "1897"
+        "place": "Gilead",
+        "year": "1897"
       },
       {
-        "places": "Wells",
-        "years": "1898"
+        "place": "Wells",
+        "year": "1898"
       },
       {
-        "places": "Bar Harbor",
-        "years": "1893"
+        "place": "Bar Harbor",
+        "year": "1893"
       }
     ]
   },
@@ -6966,12 +6966,12 @@ var dataset =
     "comName": "Great Bur-reed",
     "entries": [
       {
-        "places": "Orono",
-        "years": "1880"
+        "place": "Orono",
+        "year": "1880"
       },
       {
-        "places": "WestBaldwin",
-        "years": "1898"
+        "place": "WestBaldwin",
+        "year": "1898"
       }
     ]
   },
@@ -6982,20 +6982,20 @@ var dataset =
     "comName": "Great Burdock",
     "entries": [
       {
-        "places": "Brunswick",
-        "years": "1870"
+        "place": "Brunswick",
+        "year": "1870"
       },
       {
-        "places": "Houlton",
-        "years": "1881"
+        "place": "Houlton",
+        "year": "1881"
       },
       {
-        "places": "Houlton",
-        "years": "1882"
+        "place": "Houlton",
+        "year": "1882"
       },
       {
-        "places": "Brunswick",
-        "years": "1896"
+        "place": "Brunswick",
+        "year": "1896"
       }
     ]
   },
@@ -7006,8 +7006,8 @@ var dataset =
     "comName": "Great Lobelia",
     "entries": [
       {
-        "places": "FortFairfield",
-        "years": "1880"
+        "place": "FortFairfield",
+        "year": "1880"
       }
     ]
   },
@@ -7018,8 +7018,8 @@ var dataset =
     "comName": "Great Rosebay",
     "entries": [
       {
-        "places": "Standish",
-        "years": "1875"
+        "place": "Standish",
+        "year": "1875"
       }
     ]
   },
@@ -7030,20 +7030,20 @@ var dataset =
     "comName": "Great-spurred Violet",
     "entries": [
       {
-        "places": "Fayette",
-        "years": "1880"
+        "place": "Fayette",
+        "year": "1880"
       },
       {
-        "places": "Patten",
-        "years": "1880"
+        "place": "Patten",
+        "year": "1880"
       },
       {
-        "places": "Strong",
-        "years": "1882"
+        "place": "Strong",
+        "year": "1882"
       },
       {
-        "places": "Avon",
-        "years": "1882"
+        "place": "Avon",
+        "year": "1882"
       }
     ]
   },
@@ -7054,20 +7054,20 @@ var dataset =
     "comName": "Greater Bladderwort",
     "entries": [
       {
-        "places": "Livermore",
-        "years": "1878"
+        "place": "Livermore",
+        "year": "1878"
       },
       {
-        "places": "Bradley",
-        "years": "1891"
+        "place": "Bradley",
+        "year": "1891"
       },
       {
-        "places": "EastLivermore",
-        "years": "1893"
+        "place": "EastLivermore",
+        "year": "1893"
       },
       {
-        "places": "Wilton",
-        "years": "1894"
+        "place": "Wilton",
+        "year": "1894"
       }
     ]
   },
@@ -7078,20 +7078,20 @@ var dataset =
     "comName": "Greater Celandine",
     "entries": [
       {
-        "places": "Brunswick",
-        "years": "1870"
+        "place": "Brunswick",
+        "year": "1870"
       },
       {
-        "places": "SouthPoland",
-        "years": "1893"
+        "place": "SouthPoland",
+        "year": "1893"
       },
       {
-        "places": "Wells",
-        "years": "1898"
+        "place": "Wells",
+        "year": "1898"
       },
       {
-        "places": "EastLivermore",
-        "years": "1894"
+        "place": "EastLivermore",
+        "year": "1894"
       }
     ]
   },
@@ -7102,8 +7102,8 @@ var dataset =
     "comName": "Greater Dodder",
     "entries": [
       {
-        "places": "Gilead",
-        "years": "1897"
+        "place": "Gilead",
+        "year": "1897"
       }
     ]
   },
@@ -7114,24 +7114,24 @@ var dataset =
     "comName": "Greater Fringed-gentian",
     "entries": [
       {
-        "places": "Brunswick",
-        "years": "1877"
+        "place": "Brunswick",
+        "year": "1877"
       },
       {
-        "places": "Freeport",
-        "years": "1904"
+        "place": "Freeport",
+        "year": "1904"
       },
       {
-        "places": "Wells",
-        "years": "1897"
+        "place": "Wells",
+        "year": "1897"
       },
       {
-        "places": "SouthPoland",
-        "years": "1893"
+        "place": "SouthPoland",
+        "year": "1893"
       },
       {
-        "places": "Brunswick",
-        "years": "1870"
+        "place": "Brunswick",
+        "year": "1870"
       }
     ]
   },
@@ -7142,8 +7142,8 @@ var dataset =
     "comName": "Greater Purple Fringed Bog-orchid",
     "entries": [
       {
-        "places": "Brunswick",
-        "years": "1871"
+        "place": "Brunswick",
+        "year": "1871"
       }
     ]
   },
@@ -7161,16 +7161,16 @@ var dataset =
     "comName": "Greater Water Dock",
     "entries": [
       {
-        "places": "Wells",
-        "years": "1879"
+        "place": "Wells",
+        "year": "1879"
       },
       {
-        "places": "Sorrento",
-        "years": "1891"
+        "place": "Sorrento",
+        "year": "1891"
       },
       {
-        "places": "NorthLubec",
-        "years": "1902"
+        "place": "NorthLubec",
+        "year": "1902"
       }
     ]
   },
@@ -7181,20 +7181,20 @@ var dataset =
     "comName": "Green Adder's-mouth",
     "entries": [
       {
-        "places": "Greene",
-        "years": "1876"
+        "place": "Greene",
+        "year": "1876"
       },
       {
-        "places": "Caribou",
-        "years": "1880"
+        "place": "Caribou",
+        "year": "1880"
       },
       {
-        "places": "VanBuren",
-        "years": "1880"
+        "place": "VanBuren",
+        "year": "1880"
       },
       {
-        "places": "Greenvale",
-        "years": "1894"
+        "place": "Greenvale",
+        "year": "1894"
       }
     ]
   },
@@ -7205,12 +7205,12 @@ var dataset =
     "comName": "Green Alder",
     "entries": [
       {
-        "places": "Ashland",
-        "years": "1881"
+        "place": "Ashland",
+        "year": "1881"
       },
       {
-        "places": "FortKent",
-        "years": "1881"
+        "place": "FortKent",
+        "year": "1881"
       }
     ]
   },
@@ -7221,8 +7221,8 @@ var dataset =
     "comName": "Green Arrow-arum",
     "entries": [
       {
-        "places": "Brunswick",
-        "years": "1882"
+        "place": "Brunswick",
+        "year": "1882"
       }
     ]
   },
@@ -7233,20 +7233,20 @@ var dataset =
     "comName": "Green Ash",
     "entries": [
       {
-        "places": "EastLivermore",
-        "years": "1877"
+        "place": "EastLivermore",
+        "year": "1877"
       },
       {
-        "places": "Rangeley",
-        "years": "1894"
+        "place": "Rangeley",
+        "year": "1894"
       },
       {
-        "places": "Gilead",
-        "years": "1897"
+        "place": "Gilead",
+        "year": "1897"
       },
       {
-        "places": "Orono",
-        "years": "1893"
+        "place": "Orono",
+        "year": "1893"
       }
     ]
   },
@@ -7271,12 +7271,12 @@ var dataset =
     "comName": "Green Fringed Bog-orchid",
     "entries": [
       {
-        "places": "Wells",
-        "years": "1898"
+        "place": "Wells",
+        "year": "1898"
       },
       {
-        "places": "Brunswick",
-        "years": "1905"
+        "place": "Brunswick",
+        "year": "1905"
       }
     ]
   },
@@ -7287,24 +7287,24 @@ var dataset =
     "comName": "Green-flowered Shinleaf",
     "entries": [
       {
-        "places": "Orono",
-        "years": "1880"
+        "place": "Orono",
+        "year": "1880"
       },
       {
-        "places": "SouthPoland",
-        "years": "1893"
+        "place": "SouthPoland",
+        "year": "1893"
       },
       {
-        "places": "Wells",
-        "years": "1898"
+        "place": "Wells",
+        "year": "1898"
       },
       {
-        "places": "Fort Kent",
-        "years": "1881"
+        "place": "Fort Kent",
+        "year": "1881"
       },
       {
-        "places": "Fort Fairfield",
-        "years": "1880"
+        "place": "Fort Fairfield",
+        "year": "1880"
       }
     ]
   },
@@ -7315,12 +7315,12 @@ var dataset =
     "comName": "Hairy Bitter-cress",
     "entries": [
       {
-        "places": "GreatDiamondIsland",
-        "years": "1888"
+        "place": "GreatDiamondIsland",
+        "year": "1888"
       },
       {
-        "places": "SouthPoland",
-        "years": "1893"
+        "place": "SouthPoland",
+        "year": "1893"
       }
     ]
   },
@@ -7331,16 +7331,16 @@ var dataset =
     "comName": "Hairy Bush-clover",
     "entries": [
       {
-        "places": "Wells",
-        "years": "1877"
+        "place": "Wells",
+        "year": "1877"
       },
       {
-        "places": "WestBaldwin",
-        "years": "1900"
+        "place": "WestBaldwin",
+        "year": "1900"
       },
       {
-        "places": "Brunswick",
-        "years": "1904"
+        "place": "Brunswick",
+        "year": "1904"
       }
     ]
   },
@@ -7351,16 +7351,16 @@ var dataset =
     "comName": "Hairy Sandmat",
     "entries": [
       {
-        "places": "Brunswick",
-        "years": "1907"
+        "place": "Brunswick",
+        "year": "1907"
       },
       {
-        "places": "Bethel",
-        "years": "1908"
+        "place": "Bethel",
+        "year": "1908"
       },
       {
-        "places": "North Berwick",
-        "years": "1901"
+        "place": "North Berwick",
+        "year": "1901"
       }
     ]
   },
@@ -7378,24 +7378,24 @@ var dataset =
     "comName": "Hairy-stemmed Gooseberry",
     "entries": [
       {
-        "places": "Strong",
-        "years": "1882"
+        "place": "Strong",
+        "year": "1882"
       },
       {
-        "places": "SouthPoland",
-        "years": "1893"
+        "place": "SouthPoland",
+        "year": "1893"
       },
       {
-        "places": "Gilead",
-        "years": "1897"
+        "place": "Gilead",
+        "year": "1897"
       },
       {
-        "places": "Wells",
-        "years": "1898"
+        "place": "Wells",
+        "year": "1898"
       },
       {
-        "places": "ChebeagueIsland",
-        "years": "1876"
+        "place": "ChebeagueIsland",
+        "year": "1876"
       }
     ]
   },
@@ -7406,24 +7406,24 @@ var dataset =
     "comName": "Halberd-leaved Tearthumb",
     "entries": [
       {
-        "places": "Brunswick",
-        "years": "1870"
+        "place": "Brunswick",
+        "year": "1870"
       },
       {
-        "places": "Readfield",
-        "years": "1892"
+        "place": "Readfield",
+        "year": "1892"
       },
       {
-        "places": "SouthPoland",
-        "years": "1893"
+        "place": "SouthPoland",
+        "year": "1893"
       },
       {
-        "places": "Rangeley",
-        "years": "1894"
+        "place": "Rangeley",
+        "year": "1894"
       },
       {
-        "places": "WestBaldwin",
-        "years": "1900"
+        "place": "WestBaldwin",
+        "year": "1900"
       }
     ]
   },
@@ -7434,8 +7434,8 @@ var dataset =
     "comName": "Halberd-leaved Tearthumb",
     "entries": [
       {
-        "places": "KentsHill",
-        "years": "1892"
+        "place": "KentsHill",
+        "year": "1892"
       }
     ]
   },
@@ -7446,8 +7446,8 @@ var dataset =
     "comName": "Hastate-leaved Orache",
     "entries": [
       {
-        "places": "Harpswell",
-        "years": "1876"
+        "place": "Harpswell",
+        "year": "1876"
       }
     ]
   },
@@ -7458,12 +7458,12 @@ var dataset =
     "comName": "Heart-leaved Twayblade",
     "entries": [
       {
-        "places": "FortKent",
-        "years": "1881"
+        "place": "FortKent",
+        "year": "1881"
       },
       {
-        "places": "Chesterville",
-        "years": "1878"
+        "place": "Chesterville",
+        "year": "1878"
       }
     ]
   },
@@ -7474,16 +7474,16 @@ var dataset =
     "comName": "Heart-leaved Willow",
     "entries": [
       {
-        "places": "Brunswick",
-        "years": "1870"
+        "place": "Brunswick",
+        "year": "1870"
       },
       {
-        "places": "Brunswick",
-        "years": "1877"
+        "place": "Brunswick",
+        "year": "1877"
       },
       {
-        "places": "Shad Island",
-        "years": "1888"
+        "place": "Shad Island",
+        "year": "1888"
       }
     ]
   },
@@ -7494,24 +7494,24 @@ var dataset =
     "comName": "Heath American-aster",
     "entries": [
       {
-        "places": "Farmington",
-        "years": "1894"
+        "place": "Farmington",
+        "year": "1894"
       },
       {
-        "places": "Livermore Falls",
-        "years": "1878"
+        "place": "Livermore Falls",
+        "year": "1878"
       },
       {
-        "places": "Wells",
-        "years": "1898"
+        "place": "Wells",
+        "year": "1898"
       },
       {
-        "places": "Litchfield",
-        "years": "1896"
+        "place": "Litchfield",
+        "year": "1896"
       },
       {
-        "places": "Mattawamkeag",
-        "years": "1881"
+        "place": "Mattawamkeag",
+        "year": "1881"
       }
     ]
   },
@@ -7529,12 +7529,12 @@ var dataset =
     "comName": "Hemp",
     "entries": [
       {
-        "places": "Farmington",
-        "years": "1882"
+        "place": "Farmington",
+        "year": "1882"
       },
       {
-        "places": "Brunswick",
-        "years": "1875"
+        "place": "Brunswick",
+        "year": "1875"
       }
     ]
   },
@@ -7545,20 +7545,20 @@ var dataset =
     "comName": "Hemp Dogbane",
     "entries": [
       {
-        "places": "HarpswellIsland",
-        "years": "1870"
+        "place": "HarpswellIsland",
+        "year": "1870"
       },
       {
-        "places": "SouthPoland",
-        "years": "1895"
+        "place": "SouthPoland",
+        "year": "1895"
       },
       {
-        "places": "Litchfield",
-        "years": "1896"
+        "place": "Litchfield",
+        "year": "1896"
       },
       {
-        "places": "Gilead",
-        "years": "1896"
+        "place": "Gilead",
+        "year": "1896"
       }
     ]
   },
@@ -7569,24 +7569,24 @@ var dataset =
     "comName": "Herbaceaous Sea-blite",
     "entries": [
       {
-        "places": "WellsBeach",
-        "years": "1901"
+        "place": "WellsBeach",
+        "year": "1901"
       },
       {
-        "places": "Monhegan",
-        "years": "1910"
+        "place": "Monhegan",
+        "year": "1910"
       },
       {
-        "places": "Sorrento",
-        "years": "1891"
+        "place": "Sorrento",
+        "year": "1891"
       },
       {
-        "places": "Wells Beach",
-        "years": "1898"
+        "place": "Wells Beach",
+        "year": "1898"
       },
       {
-        "places": "Harpswell",
-        "years": "1871"
+        "place": "Harpswell",
+        "year": "1871"
       }
     ]
   },
@@ -7597,28 +7597,28 @@ var dataset =
     "comName": "Highbush Blueberry",
     "entries": [
       {
-        "places": "Brunswick",
-        "years": "1877"
+        "place": "Brunswick",
+        "year": "1877"
       },
       {
-        "places": "SouthPoland",
-        "years": "1893"
+        "place": "SouthPoland",
+        "year": "1893"
       },
       {
-        "places": "Wells",
-        "years": "1898"
+        "place": "Wells",
+        "year": "1898"
       },
       {
-        "places": "South Poland",
-        "years": "1899"
+        "place": "South Poland",
+        "year": "1899"
       },
       {
-        "places": "Brunswick",
-        "years": "1892"
+        "place": "Brunswick",
+        "year": "1892"
       },
       {
-        "places": "South Poland",
-        "years": "1893"
+        "place": "South Poland",
+        "year": "1893"
       }
     ]
   },
@@ -7629,20 +7629,20 @@ var dataset =
     "comName": "Highbush-cranberry",
     "entries": [
       {
-        "places": "Caribou",
-        "years": "1880"
+        "place": "Caribou",
+        "year": "1880"
       },
       {
-        "places": "Rangeley",
-        "years": "1894"
+        "place": "Rangeley",
+        "year": "1894"
       },
       {
-        "places": "Gilead",
-        "years": "1897"
+        "place": "Gilead",
+        "year": "1897"
       },
       {
-        "places": "SouthPoland",
-        "years": "1895"
+        "place": "SouthPoland",
+        "year": "1895"
       }
     ]
   },
@@ -7653,8 +7653,8 @@ var dataset =
     "comName": "Highland Rush",
     "entries": [
       {
-        "places": "SaddlebackMountain",
-        "years": "1897"
+        "place": "SaddlebackMountain",
+        "year": "1897"
       }
     ]
   },
@@ -7665,16 +7665,16 @@ var dataset =
     "comName": "Hillside Blueberry",
     "entries": [
       {
-        "places": "Gilead",
-        "years": "1897"
+        "place": "Gilead",
+        "year": "1897"
       },
       {
-        "places": "SouthPoland",
-        "years": "1893"
+        "place": "SouthPoland",
+        "year": "1893"
       },
       {
-        "places": "Wells",
-        "years": "1898"
+        "place": "Wells",
+        "year": "1898"
       }
     ]
   },
@@ -7685,8 +7685,8 @@ var dataset =
     "comName": "Hoary False Alyssum",
     "entries": [
       {
-        "places": "EastLivermore",
-        "years": "1894"
+        "place": "EastLivermore",
+        "year": "1894"
       }
     ]
   },
@@ -7697,24 +7697,24 @@ var dataset =
     "comName": "Hobblebush",
     "entries": [
       {
-        "places": "Brunswick",
-        "years": "1876"
+        "place": "Brunswick",
+        "year": "1876"
       },
       {
-        "places": "Fayette",
-        "years": "1879"
+        "place": "Fayette",
+        "year": "1879"
       },
       {
-        "places": "SouthPoland",
-        "years": "1893"
+        "place": "SouthPoland",
+        "year": "1893"
       },
       {
-        "places": "Brunswick",
-        "years": "1876"
+        "place": "Brunswick",
+        "year": "1876"
       },
       {
-        "places": "Avon",
-        "years": "1882"
+        "place": "Avon",
+        "year": "1882"
       }
     ]
   },
@@ -7732,16 +7732,16 @@ var dataset =
     "comName": "Hooded Skullcap",
     "entries": [
       {
-        "places": "YorkBeach",
-        "years": "1879"
+        "place": "YorkBeach",
+        "year": "1879"
       },
       {
-        "places": "Wells",
-        "years": "1898"
+        "place": "Wells",
+        "year": "1898"
       },
       {
-        "places": "Harpswell",
-        "years": "1871"
+        "place": "Harpswell",
+        "year": "1871"
       }
     ]
   },
@@ -7752,20 +7752,20 @@ var dataset =
     "comName": "Hook-spurred Violet",
     "entries": [
       {
-        "places": "Orono",
-        "years": "1891"
+        "place": "Orono",
+        "year": "1891"
       },
       {
-        "places": "SouthPoland",
-        "years": "1893"
+        "place": "SouthPoland",
+        "year": "1893"
       },
       {
-        "places": "WestBaldwin",
-        "years": "1900"
+        "place": "WestBaldwin",
+        "year": "1900"
       },
       {
-        "places": "Brunswick",
-        "years": "1909"
+        "place": "Brunswick",
+        "year": "1909"
       }
     ]
   },
@@ -7776,16 +7776,16 @@ var dataset =
     "comName": "Hookedcrowfoot",
     "entries": [
       {
-        "places": "Brunswick",
-        "years": "1871"
+        "place": "Brunswick",
+        "year": "1871"
       },
       {
-        "places": "Brunswick",
-        "years": "1879"
+        "place": "Brunswick",
+        "year": "1879"
       },
       {
-        "places": "Brunswick",
-        "years": "1900"
+        "place": "Brunswick",
+        "year": "1900"
       }
     ]
   },
@@ -7796,16 +7796,16 @@ var dataset =
     "comName": "Hooker's Bog-orchid",
     "entries": [
       {
-        "places": "Brunswick",
-        "years": "1870"
+        "place": "Brunswick",
+        "year": "1870"
       },
       {
-        "places": "SouthPoland",
-        "years": "1893"
+        "place": "SouthPoland",
+        "year": "1893"
       },
       {
-        "places": "PresqueIsle",
-        "years": "1881"
+        "place": "PresqueIsle",
+        "year": "1881"
       }
     ]
   },
@@ -7816,24 +7816,24 @@ var dataset =
     "comName": "Hop-hornbeam",
     "entries": [
       {
-        "places": "Brunswick",
-        "years": "1877"
+        "place": "Brunswick",
+        "year": "1877"
       },
       {
-        "places": "MtPercival",
-        "years": "1891"
+        "place": "MtPercival",
+        "year": "1891"
       },
       {
-        "places": "SouthPoland",
-        "years": "1893"
+        "place": "SouthPoland",
+        "year": "1893"
       },
       {
-        "places": "Gilead",
-        "years": "1897"
+        "place": "Gilead",
+        "year": "1897"
       },
       {
-        "places": "Strong",
-        "years": "1882"
+        "place": "Strong",
+        "year": "1882"
       }
     ]
   },
@@ -7844,24 +7844,24 @@ var dataset =
     "comName": "Horned Bladderwort",
     "entries": [
       {
-        "places": "FayetteRidge",
-        "years": "1877"
+        "place": "FayetteRidge",
+        "year": "1877"
       },
       {
-        "places": "Wells",
-        "years": "1879"
+        "place": "Wells",
+        "year": "1879"
       },
       {
-        "places": "Strong",
-        "years": "1882"
+        "place": "Strong",
+        "year": "1882"
       },
       {
-        "places": "Rangeley",
-        "years": "1882"
+        "place": "Rangeley",
+        "year": "1882"
       },
       {
-        "places": "Orono",
-        "years": "1891"
+        "place": "Orono",
+        "year": "1891"
       }
     ]
   },
@@ -7872,8 +7872,8 @@ var dataset =
     "comName": "Horned Nightshade",
     "entries": [
       {
-        "places": "Gardiner",
-        "years": "1898"
+        "place": "Gardiner",
+        "year": "1898"
       }
     ]
   },
@@ -7884,24 +7884,24 @@ var dataset =
     "comName": "Horse Yellowhead",
     "entries": [
       {
-        "places": "Brunswick",
-        "years": "1871"
+        "place": "Brunswick",
+        "year": "1871"
       },
       {
-        "places": "Rangeley",
-        "years": "1882"
+        "place": "Rangeley",
+        "year": "1882"
       },
       {
-        "places": "Topsham",
-        "years": "1886"
+        "place": "Topsham",
+        "year": "1886"
       },
       {
-        "places": "SouthPoland",
-        "years": "1893"
+        "place": "SouthPoland",
+        "year": "1893"
       },
       {
-        "places": "Chesterville",
-        "years": "1896"
+        "place": "Chesterville",
+        "year": "1896"
       }
     ]
   },
@@ -7912,8 +7912,8 @@ var dataset =
     "comName": "Horse-radish",
     "entries": [
       {
-        "places": "Brunswick",
-        "years": "1870"
+        "place": "Brunswick",
+        "year": "1870"
       }
     ]
   },
@@ -7924,12 +7924,12 @@ var dataset =
     "comName": "Hyssop-leaved Fleabane",
     "entries": [
       {
-        "places": "Dover",
-        "years": "1891"
+        "place": "Dover",
+        "year": "1891"
       },
       {
-        "places": "Dover",
-        "years": "1891"
+        "place": "Dover",
+        "year": "1891"
       }
     ]
   },
@@ -7940,16 +7940,16 @@ var dataset =
     "comName": "Hyssop-leaved Loosestrife",
     "entries": [
       {
-        "places": "Wells",
-        "years": "1874"
+        "place": "Wells",
+        "year": "1874"
       },
       {
-        "places": "Cape Porpoise",
-        "years": "1901"
+        "place": "Cape Porpoise",
+        "year": "1901"
       },
       {
-        "places": "Wells Beach",
-        "years": "1898"
+        "place": "Wells Beach",
+        "year": "1898"
       }
     ]
   },
@@ -7960,40 +7960,40 @@ var dataset =
     "comName": "Immigrant Pond-lily",
     "entries": [
       {
-        "places": "Brunswick",
-        "years": "1870"
+        "place": "Brunswick",
+        "year": "1870"
       },
       {
-        "places": "Rangeley",
-        "years": "1882"
+        "place": "Rangeley",
+        "year": "1882"
       },
       {
-        "places": "SouthPoland",
-        "years": "1893"
+        "place": "SouthPoland",
+        "year": "1893"
       },
       {
-        "places": "Gilead",
-        "years": "1897"
+        "place": "Gilead",
+        "year": "1897"
       },
       {
-        "places": "Wells",
-        "years": "1898"
+        "place": "Wells",
+        "year": "1898"
       },
       {
-        "places": "Gilead",
-        "years": "1897"
+        "place": "Gilead",
+        "year": "1897"
       },
       {
-        "places": "Bradley",
-        "years": "1891"
+        "place": "Bradley",
+        "year": "1891"
       },
       {
-        "places": "South Poland",
-        "years": "1895"
+        "place": "South Poland",
+        "year": "1895"
       },
       {
-        "places": "West Farmington",
-        "years": "1878"
+        "place": "West Farmington",
+        "year": "1878"
       }
     ]
   },
@@ -8011,8 +8011,8 @@ var dataset =
     "comName": "Jack Pine",
     "entries": [
       {
-        "places": "North Maine",
-        "years": "1878"
+        "place": "North Maine",
+        "year": "1878"
       }
     ]
   },
@@ -8023,16 +8023,16 @@ var dataset =
     "comName": "Jack-in-the-pulpit",
     "entries": [
       {
-        "places": "Wells",
-        "years": "1898"
+        "place": "Wells",
+        "year": "1898"
       },
       {
-        "places": "Brunswick",
-        "years": "1870"
+        "place": "Brunswick",
+        "year": "1870"
       },
       {
-        "places": "South Poland",
-        "years": "1893"
+        "place": "South Poland",
+        "year": "1893"
       }
     ]
   },
@@ -8050,12 +8050,12 @@ var dataset =
     "comName": "Kidney-leaved Violet",
     "entries": [
       {
-        "places": "Orono",
-        "years": "1880"
+        "place": "Orono",
+        "year": "1880"
       },
       {
-        "places": "Gilead",
-        "years": "1897"
+        "place": "Gilead",
+        "year": "1897"
       }
     ]
   },
@@ -8066,20 +8066,20 @@ var dataset =
     "comName": "Kidney-leavedcrowfoot",
     "entries": [
       {
-        "places": "YorkBeach",
-        "years": "1898"
+        "place": "YorkBeach",
+        "year": "1898"
       },
       {
-        "places": "SouthPoland",
-        "years": "1893"
+        "place": "SouthPoland",
+        "year": "1893"
       },
       {
-        "places": "Gilead",
-        "years": "1897"
+        "place": "Gilead",
+        "year": "1897"
       },
       {
-        "places": "York Beach",
-        "years": "1898"
+        "place": "York Beach",
+        "year": "1898"
       }
     ]
   },
@@ -8097,36 +8097,36 @@ var dataset =
     "comName": "Knotted Pearlwort",
     "entries": [
       {
-        "places": "BarHarbor",
-        "years": "1891"
+        "place": "BarHarbor",
+        "year": "1891"
       },
       {
-        "places": "Cape Porpoise",
-        "years": "1901"
+        "place": "Cape Porpoise",
+        "year": "1901"
       },
       {
-        "places": "Cutler",
-        "years": "1902"
+        "place": "Cutler",
+        "year": "1902"
       },
       {
-        "places": "Gray",
-        "years": "1908"
+        "place": "Gray",
+        "year": "1908"
       },
       {
-        "places": "Brunswick",
-        "years": "1885"
+        "place": "Brunswick",
+        "year": "1885"
       },
       {
-        "places": "Mount Desert",
-        "years": "1891"
+        "place": "Mount Desert",
+        "year": "1891"
       },
       {
-        "places": "Cape Porpoise",
-        "years": "1891"
+        "place": "Cape Porpoise",
+        "year": "1891"
       },
       {
-        "places": "Cutler",
-        "years": "1902"
+        "place": "Cutler",
+        "year": "1902"
       }
     ]
   },
@@ -8151,12 +8151,12 @@ var dataset =
     "comName": "Labrador-tea",
     "entries": [
       {
-        "places": "Brunswick",
-        "years": "1870"
+        "place": "Brunswick",
+        "year": "1870"
       },
       {
-        "places": "SouthPoland",
-        "years": "1894"
+        "place": "SouthPoland",
+        "year": "1894"
       }
     ]
   },
@@ -8167,20 +8167,20 @@ var dataset =
     "comName": "Lake Huron Green Bog-orchid",
     "entries": [
       {
-        "places": "FayetteRidge",
-        "years": "1877"
+        "place": "FayetteRidge",
+        "year": "1877"
       },
       {
-        "places": "LivermoreFalls",
-        "years": "1877"
+        "place": "LivermoreFalls",
+        "year": "1877"
       },
       {
-        "places": "Caribou",
-        "years": "1880"
+        "place": "Caribou",
+        "year": "1880"
       },
       {
-        "places": "FortKent",
-        "years": "1881"
+        "place": "FortKent",
+        "year": "1881"
       }
     ]
   },
@@ -8191,12 +8191,12 @@ var dataset =
     "comName": "Lake Mistassini Primrose",
     "entries": [
       {
-        "places": "FortKent",
-        "years": "1881"
+        "place": "FortKent",
+        "year": "1881"
       },
       {
-        "places": "SaintFrancis",
-        "years": "1881"
+        "place": "SaintFrancis",
+        "year": "1881"
       }
     ]
   },
@@ -8207,32 +8207,32 @@ var dataset =
     "comName": "Lance-leaved American-aster",
     "entries": [
       {
-        "places": "Orono",
-        "years": "1880"
+        "place": "Orono",
+        "year": "1880"
       },
       {
-        "places": "Bradley",
-        "years": "1880"
+        "place": "Bradley",
+        "year": "1880"
       },
       {
-        "places": "Strong",
-        "years": "1882"
+        "place": "Strong",
+        "year": "1882"
       },
       {
-        "places": "SouthPoland",
-        "years": "1893"
+        "place": "SouthPoland",
+        "year": "1893"
       },
       {
-        "places": "Wells",
-        "years": "1898"
+        "place": "Wells",
+        "year": "1898"
       },
       {
-        "places": "Livermore Falls",
-        "years": "1877"
+        "place": "Livermore Falls",
+        "year": "1877"
       },
       {
-        "places": "Orono",
-        "years": "1880"
+        "place": "Orono",
+        "year": "1880"
       }
     ]
   },
@@ -8243,12 +8243,12 @@ var dataset =
     "comName": "Lance-leaved Licorice Bedstraw",
     "entries": [
       {
-        "places": "SouthPoland",
-        "years": "1893"
+        "place": "SouthPoland",
+        "year": "1893"
       },
       {
-        "places": "Woodstock",
-        "years": "1887"
+        "place": "Woodstock",
+        "year": "1887"
       }
     ]
   },
@@ -8266,24 +8266,24 @@ var dataset =
     "comName": "Lance-leaved Violet",
     "entries": [
       {
-        "places": "Brunswick",
-        "years": "1871"
+        "place": "Brunswick",
+        "year": "1871"
       },
       {
-        "places": "FortKent",
-        "years": "1880"
+        "place": "FortKent",
+        "year": "1880"
       },
       {
-        "places": "SouthPoland",
-        "years": "1893"
+        "place": "SouthPoland",
+        "year": "1893"
       },
       {
-        "places": "Wells",
-        "years": "1898"
+        "place": "Wells",
+        "year": "1898"
       },
       {
-        "places": "WestBaldwin",
-        "years": "1880"
+        "place": "WestBaldwin",
+        "year": "1880"
       }
     ]
   },
@@ -8294,8 +8294,8 @@ var dataset =
     "comName": "Lapland Rosebay",
     "entries": [
       {
-        "places": "MountKatahdin",
-        "years": "1897"
+        "place": "MountKatahdin",
+        "year": "1897"
       }
     ]
   },
@@ -8306,8 +8306,8 @@ var dataset =
     "comName": "Large Bluet",
     "entries": [
       {
-        "places": "Wells",
-        "years": "1879"
+        "place": "Wells",
+        "year": "1879"
       }
     ]
   },
@@ -8318,24 +8318,24 @@ var dataset =
     "comName": "Large Cranberry",
     "entries": [
       {
-        "places": "SouthPoland",
-        "years": "1892"
+        "place": "SouthPoland",
+        "year": "1892"
       },
       {
-        "places": "Brunswick",
-        "years": "1870"
+        "place": "Brunswick",
+        "year": "1870"
       },
       {
-        "places": "Wells",
-        "years": "1878"
+        "place": "Wells",
+        "year": "1878"
       },
       {
-        "places": "South Poland",
-        "years": "1893"
+        "place": "South Poland",
+        "year": "1893"
       },
       {
-        "places": "Gilead",
-        "years": "1897"
+        "place": "Gilead",
+        "year": "1897"
       }
     ]
   },
@@ -8346,8 +8346,8 @@ var dataset =
     "comName": "Large Whorled Pogonia",
     "entries": [
       {
-        "places": "SouthPoland",
-        "years": "1895"
+        "place": "SouthPoland",
+        "year": "1895"
       }
     ]
   },
@@ -8365,24 +8365,24 @@ var dataset =
     "comName": "Large-leaved Avens",
     "entries": [
       {
-        "places": "ModawaskaTownship",
-        "years": "1881"
+        "place": "ModawaskaTownship",
+        "year": "1881"
       },
       {
-        "places": "Brunswick",
-        "years": "1904"
+        "place": "Brunswick",
+        "year": "1904"
       },
       {
-        "places": "Strong",
-        "years": "1882"
+        "place": "Strong",
+        "year": "1882"
       },
       {
-        "places": "South Poland",
-        "years": "1893"
+        "place": "South Poland",
+        "year": "1893"
       },
       {
-        "places": "Rangeley",
-        "years": "1894"
+        "place": "Rangeley",
+        "year": "1894"
       }
     ]
   },
@@ -8393,12 +8393,12 @@ var dataset =
     "comName": "Large-leaved Goldenrod",
     "entries": [
       {
-        "places": "Caribou",
-        "years": "1880"
+        "place": "Caribou",
+        "year": "1880"
       },
       {
-        "places": "Rangeley Region",
-        "years": "1882"
+        "place": "Rangeley Region",
+        "year": "1882"
       }
     ]
   },
@@ -8409,24 +8409,24 @@ var dataset =
     "comName": "Large-leaved Wood-aster",
     "entries": [
       {
-        "places": "FayetteRidge",
-        "years": "1877"
+        "place": "FayetteRidge",
+        "year": "1877"
       },
       {
-        "places": "Brunswick",
-        "years": "1878"
+        "place": "Brunswick",
+        "year": "1878"
       },
       {
-        "places": "Gilead",
-        "years": "1897"
+        "place": "Gilead",
+        "year": "1897"
       },
       {
-        "places": "Hiram",
-        "years": "1901"
+        "place": "Hiram",
+        "year": "1901"
       },
       {
-        "places": "East Livermore",
-        "years": "1878"
+        "place": "East Livermore",
+        "year": "1878"
       }
     ]
   },
@@ -8437,12 +8437,12 @@ var dataset =
     "comName": "Large-seeded False Flax",
     "entries": [
       {
-        "places": "FortKent",
-        "years": "1880"
+        "place": "FortKent",
+        "year": "1880"
       },
       {
-        "places": "Kent",
-        "years": "1881"
+        "place": "Kent",
+        "year": "1881"
       }
     ]
   },
@@ -8453,12 +8453,12 @@ var dataset =
     "comName": "Large-seeded Hawthorn",
     "entries": [
       {
-        "places": "FayetteRidge",
-        "years": "1878"
+        "place": "FayetteRidge",
+        "year": "1878"
       },
       {
-        "places": "Brunswick",
-        "years": "1899"
+        "place": "Brunswick",
+        "year": "1899"
       }
     ]
   },
@@ -8469,16 +8469,16 @@ var dataset =
     "comName": "Late Purple American-aster",
     "entries": [
       {
-        "places": "WellsBeach",
-        "years": "1877"
+        "place": "WellsBeach",
+        "year": "1877"
       },
       {
-        "places": "WellsBeach",
-        "years": "1879"
+        "place": "WellsBeach",
+        "year": "1879"
       },
       {
-        "places": "East Livermore",
-        "years": "1878"
+        "place": "East Livermore",
+        "year": "1878"
       }
     ]
   },
@@ -8489,8 +8489,8 @@ var dataset =
     "comName": "Leafy-flowered Blackberry",
     "entries": [
       {
-        "places": "SouthPoland",
-        "years": "1893"
+        "place": "SouthPoland",
+        "year": "1893"
       }
     ]
   },
@@ -8501,16 +8501,16 @@ var dataset =
     "comName": "Leatherleaf",
     "entries": [
       {
-        "places": "Brunswick",
-        "years": "1870"
+        "place": "Brunswick",
+        "year": "1870"
       },
       {
-        "places": "WaynePond",
-        "years": "1879"
+        "place": "WaynePond",
+        "year": "1879"
       },
       {
-        "places": "SouthPoland",
-        "years": "1893"
+        "place": "SouthPoland",
+        "year": "1893"
       }
     ]
   },
@@ -8521,20 +8521,20 @@ var dataset =
     "comName": "Lesser Canadian Saint John's-wort",
     "entries": [
       {
-        "places": "Brunswick",
-        "years": "1876"
+        "place": "Brunswick",
+        "year": "1876"
       },
       {
-        "places": "Wells",
-        "years": "1898"
+        "place": "Wells",
+        "year": "1898"
       },
       {
-        "places": "SouthPoland",
-        "years": "1893"
+        "place": "SouthPoland",
+        "year": "1893"
       },
       {
-        "places": "Brunswick",
-        "years": "1876"
+        "place": "Brunswick",
+        "year": "1876"
       }
     ]
   },
@@ -8545,16 +8545,16 @@ var dataset =
     "comName": "Lesser Purple Fringed Bog-orchid",
     "entries": [
       {
-        "places": "Brunswick",
-        "years": "1878"
+        "place": "Brunswick",
+        "year": "1878"
       },
       {
-        "places": "Wells",
-        "years": "1878"
+        "place": "Wells",
+        "year": "1878"
       },
       {
-        "places": "Monhegan",
-        "years": "1910"
+        "place": "Monhegan",
+        "year": "1910"
       }
     ]
   },
@@ -8565,8 +8565,8 @@ var dataset =
     "comName": "Lesser Quickweed",
     "entries": [
       {
-        "places": "Brunswick",
-        "years": "1905"
+        "place": "Brunswick",
+        "year": "1905"
       }
     ]
   },
@@ -8584,20 +8584,20 @@ var dataset =
     "comName": "Lindley's American Aster",
     "entries": [
       {
-        "places": "FortFairfield",
-        "years": "1881"
+        "place": "FortFairfield",
+        "year": "1881"
       },
       {
-        "places": "WestBath",
-        "years": "1891"
+        "place": "WestBath",
+        "year": "1891"
       },
       {
-        "places": "Brunswick",
-        "years": "1894"
+        "place": "Brunswick",
+        "year": "1894"
       },
       {
-        "places": "Greenvale",
-        "years": "1894"
+        "place": "Greenvale",
+        "year": "1894"
       }
     ]
   },
@@ -8608,8 +8608,8 @@ var dataset =
     "comName": "Little Bluet",
     "entries": [
       {
-        "places": "Brunswick",
-        "years": "1870"
+        "place": "Brunswick",
+        "year": "1870"
       }
     ]
   },
@@ -8620,16 +8620,16 @@ var dataset =
     "comName": "Little Club-spur Bog-orchid",
     "entries": [
       {
-        "places": "Fayette",
-        "years": "1878"
+        "place": "Fayette",
+        "year": "1878"
       },
       {
-        "places": "Strong",
-        "years": "1882"
+        "place": "Strong",
+        "year": "1882"
       },
       {
-        "places": "Rangeley",
-        "years": "1894"
+        "place": "Rangeley",
+        "year": "1894"
       }
     ]
   },
@@ -8640,24 +8640,24 @@ var dataset =
     "comName": "Little Evening-primrose",
     "entries": [
       {
-        "places": "SouthPoland",
-        "years": "1893"
+        "place": "SouthPoland",
+        "year": "1893"
       },
       {
-        "places": "Orono",
-        "years": "1880"
+        "place": "Orono",
+        "year": "1880"
       },
       {
-        "places": "Wells",
-        "years": "1898"
+        "place": "Wells",
+        "year": "1898"
       },
       {
-        "places": "EastLivermore",
-        "years": "1888"
+        "place": "EastLivermore",
+        "year": "1888"
       },
       {
-        "places": "East Livermore",
-        "years": "1888"
+        "place": "East Livermore",
+        "year": "1888"
       }
     ]
   },
@@ -8668,20 +8668,20 @@ var dataset =
     "comName": "Little Floating Heart",
     "entries": [
       {
-        "places": "Bowdoin",
-        "years": "1871"
+        "place": "Bowdoin",
+        "year": "1871"
       },
       {
-        "places": "Fayette",
-        "years": "1878"
+        "place": "Fayette",
+        "year": "1878"
       },
       {
-        "places": "SouthPoland",
-        "years": "1893"
+        "place": "SouthPoland",
+        "year": "1893"
       },
       {
-        "places": "WestBaldwin",
-        "years": "1900"
+        "place": "WestBaldwin",
+        "year": "1900"
       }
     ]
   },
@@ -8692,16 +8692,16 @@ var dataset =
     "comName": "Little Shinleaf",
     "entries": [
       {
-        "places": "FortKent",
-        "years": "1880"
+        "place": "FortKent",
+        "year": "1880"
       },
       {
-        "places": "Rangeley",
-        "years": "1882"
+        "place": "Rangeley",
+        "year": "1882"
       },
       {
-        "places": "SouthPoland",
-        "years": "1893"
+        "place": "SouthPoland",
+        "year": "1893"
       }
     ]
   },
@@ -8712,12 +8712,12 @@ var dataset =
     "comName": "Little Skullcap",
     "entries": [
       {
-        "places": "Dover",
-        "years": "1896"
+        "place": "Dover",
+        "year": "1896"
       },
       {
-        "places": "NorthBerwick",
-        "years": "1898"
+        "place": "NorthBerwick",
+        "year": "1898"
       }
     ]
   },
@@ -8728,16 +8728,16 @@ var dataset =
     "comName": "Little Yellow-rattle",
     "entries": [
       {
-        "places": "SaintFrancis",
-        "years": "1881"
+        "place": "SaintFrancis",
+        "year": "1881"
       },
       {
-        "places": "Northport",
-        "years": "1891"
+        "place": "Northport",
+        "year": "1891"
       },
       {
-        "places": "IsleauHaut",
-        "years": "1899"
+        "place": "IsleauHaut",
+        "year": "1899"
       }
     ]
   },
@@ -8748,12 +8748,12 @@ var dataset =
     "comName": "Loese's Wide-lipped Orchid",
     "entries": [
       {
-        "places": "Cumberland",
-        "years": "1878"
+        "place": "Cumberland",
+        "year": "1878"
       },
       {
-        "places": "SouthPoland",
-        "years": "1893"
+        "place": "SouthPoland",
+        "year": "1893"
       }
     ]
   },
@@ -8764,28 +8764,28 @@ var dataset =
     "comName": "Long-beaked Willow",
     "entries": [
       {
-        "places": "EastLivermore",
-        "years": "1892"
+        "place": "EastLivermore",
+        "year": "1892"
       },
       {
-        "places": "Brunswick",
-        "years": "1893"
+        "place": "Brunswick",
+        "year": "1893"
       },
       {
-        "places": "Orono",
-        "years": "1893"
+        "place": "Orono",
+        "year": "1893"
       },
       {
-        "places": "Fort Kent",
-        "years": "1880"
+        "place": "Fort Kent",
+        "year": "1880"
       },
       {
-        "places": "Wells",
-        "years": "1898"
+        "place": "Wells",
+        "year": "1898"
       },
       {
-        "places": "Hiram",
-        "years": "1900"
+        "place": "Hiram",
+        "year": "1900"
       }
     ]
   },
@@ -8796,16 +8796,16 @@ var dataset =
     "comName": "Long-bracted Green Orchid",
     "entries": [
       {
-        "places": "Caribou",
-        "years": "1880"
+        "place": "Caribou",
+        "year": "1880"
       },
       {
-        "places": "SouthPoland",
-        "years": "1893"
+        "place": "SouthPoland",
+        "year": "1893"
       },
       {
-        "places": "Wells",
-        "years": "1898"
+        "place": "Wells",
+        "year": "1898"
       }
     ]
   },
@@ -8816,12 +8816,12 @@ var dataset =
     "comName": "Long-headed Windflower",
     "entries": [
       {
-        "places": "SouthPoland",
-        "years": "1896"
+        "place": "SouthPoland",
+        "year": "1896"
       },
       {
-        "places": "ChestervillePlains",
-        "years": "1878"
+        "place": "ChestervillePlains",
+        "year": "1878"
       }
     ]
   },
@@ -8832,16 +8832,16 @@ var dataset =
     "comName": "Long-leaved Bluet",
     "entries": [
       {
-        "places": "Wells",
-        "years": "1879"
+        "place": "Wells",
+        "year": "1879"
       },
       {
-        "places": "Orono",
-        "years": "1880"
+        "place": "Orono",
+        "year": "1880"
       },
       {
-        "places": "SouthPoland",
-        "years": "1893"
+        "place": "SouthPoland",
+        "year": "1893"
       }
     ]
   },
@@ -8852,16 +8852,16 @@ var dataset =
     "comName": "Long-styled Sweet Cicely",
     "entries": [
       {
-        "places": "PortageLake",
-        "years": "1881"
+        "place": "PortageLake",
+        "year": "1881"
       },
       {
-        "places": "Northport",
-        "years": "1891"
+        "place": "Northport",
+        "year": "1891"
       },
       {
-        "places": "Patten",
-        "years": "1881"
+        "place": "Patten",
+        "year": "1881"
       }
     ]
   },
@@ -8879,12 +8879,12 @@ var dataset =
     "comName": "Low Baby's-breath",
     "entries": [
       {
-        "places": "Lewiston",
-        "years": "1901"
+        "place": "Lewiston",
+        "year": "1901"
       },
       {
-        "places": "South Paris",
-        "years": "1897"
+        "place": "South Paris",
+        "year": "1897"
       }
     ]
   },
@@ -8895,20 +8895,20 @@ var dataset =
     "comName": "Low Mallow",
     "entries": [
       {
-        "places": "Brunswick",
-        "years": "1870"
+        "place": "Brunswick",
+        "year": "1870"
       },
       {
-        "places": "WestBath",
-        "years": "1892"
+        "place": "WestBath",
+        "year": "1892"
       },
       {
-        "places": "Wells",
-        "years": "1898"
+        "place": "Wells",
+        "year": "1898"
       },
       {
-        "places": "SouthPoland",
-        "years": "1893"
+        "place": "SouthPoland",
+        "year": "1893"
       }
     ]
   },
@@ -8919,12 +8919,12 @@ var dataset =
     "comName": "Lowland Yellow-loosestrife",
     "entries": [
       {
-        "places": "Orono",
-        "years": "1880"
+        "place": "Orono",
+        "year": "1880"
       },
       {
-        "places": "DamoThickets",
-        "years": "1881"
+        "place": "DamoThickets",
+        "year": "1881"
       }
     ]
   },
@@ -8935,16 +8935,16 @@ var dataset =
     "comName": "Macoun's Rabbit-tobacco",
     "entries": [
       {
-        "places": "Auburn",
-        "years": "1892"
+        "place": "Auburn",
+        "year": "1892"
       },
       {
-        "places": "SouthPoland",
-        "years": "1893"
+        "place": "SouthPoland",
+        "year": "1893"
       },
       {
-        "places": "Gilead",
-        "years": "1897"
+        "place": "Gilead",
+        "year": "1897"
       }
     ]
   },
@@ -8955,24 +8955,24 @@ var dataset =
     "comName": "Mad Dog Skullcap",
     "entries": [
       {
-        "places": "Rangeley",
-        "years": "1882"
+        "place": "Rangeley",
+        "year": "1882"
       },
       {
-        "places": "Brunswick",
-        "years": "1878"
+        "place": "Brunswick",
+        "year": "1878"
       },
       {
-        "places": "SquirrelIsland",
-        "years": "1887"
+        "place": "SquirrelIsland",
+        "year": "1887"
       },
       {
-        "places": "SouthPoland",
-        "years": "1893"
+        "place": "SouthPoland",
+        "year": "1893"
       },
       {
-        "places": "Wells",
-        "years": "1898"
+        "place": "Wells",
+        "year": "1898"
       }
     ]
   },
@@ -8983,12 +8983,12 @@ var dataset =
     "comName": "Maiden Pink",
     "entries": [
       {
-        "places": "Bethel",
-        "years": "1897"
+        "place": "Bethel",
+        "year": "1897"
       },
       {
-        "places": "Brunswick",
-        "years": "1899"
+        "place": "Brunswick",
+        "year": "1899"
       }
     ]
   },
@@ -8999,36 +8999,36 @@ var dataset =
     "comName": "Maleberry",
     "entries": [
       {
-        "places": "SouthPoland",
-        "years": "1893"
+        "place": "SouthPoland",
+        "year": "1893"
       },
       {
-        "places": "Wells",
-        "years": "1898"
+        "place": "Wells",
+        "year": "1898"
       },
       {
-        "places": "Brunswick",
-        "years": "1875"
+        "place": "Brunswick",
+        "year": "1875"
       },
       {
-        "places": "Wells",
-        "years": "1898"
+        "place": "Wells",
+        "year": "1898"
       },
       {
-        "places": "Wells",
-        "years": "1879"
+        "place": "Wells",
+        "year": "1879"
       },
       {
-        "places": "West Baldwin",
-        "years": "1897"
+        "place": "West Baldwin",
+        "year": "1897"
       },
       {
-        "places": "Shapleigh",
-        "years": "1901"
+        "place": "Shapleigh",
+        "year": "1901"
       },
       {
-        "places": "Wells",
-        "years": "1898"
+        "place": "Wells",
+        "year": "1898"
       }
     ]
   },
@@ -9039,8 +9039,8 @@ var dataset =
     "comName": "Many-seeded Goosefoot",
     "entries": [
       {
-        "places": "NorthBerwick",
-        "years": "1898"
+        "place": "NorthBerwick",
+        "year": "1898"
       }
     ]
   },
@@ -9051,32 +9051,32 @@ var dataset =
     "comName": "Maple-leaved Viburnum",
     "entries": [
       {
-        "places": "Brunswick",
-        "years": "1872"
+        "place": "Brunswick",
+        "year": "1872"
       },
       {
-        "places": "Fayette",
-        "years": "1876"
+        "place": "Fayette",
+        "year": "1876"
       },
       {
-        "places": "KentsHill",
-        "years": "1891"
+        "place": "KentsHill",
+        "year": "1891"
       },
       {
-        "places": "SouthPoland",
-        "years": "1893"
+        "place": "SouthPoland",
+        "year": "1893"
       },
       {
-        "places": "SouthPoland",
-        "years": "1895"
+        "place": "SouthPoland",
+        "year": "1895"
       },
       {
-        "places": "South Poland",
-        "years": "1895"
+        "place": "South Poland",
+        "year": "1895"
       },
       {
-        "places": "South Poland",
-        "years": "1893"
+        "place": "South Poland",
+        "year": "1893"
       }
     ]
   },
@@ -9087,16 +9087,16 @@ var dataset =
     "comName": "March Bellflower",
     "entries": [
       {
-        "places": "FortFairfield",
-        "years": "1880"
+        "place": "FortFairfield",
+        "year": "1880"
       },
       {
-        "places": "Bradley",
-        "years": "1891"
+        "place": "Bradley",
+        "year": "1891"
       },
       {
-        "places": "Leeds",
-        "years": "1896"
+        "place": "Leeds",
+        "year": "1896"
       }
     ]
   },
@@ -9107,8 +9107,8 @@ var dataset =
     "comName": "Marsh Arrow-grass",
     "entries": [
       {
-        "places": "FortFairfield",
-        "years": "1880"
+        "place": "FortFairfield",
+        "year": "1880"
       }
     ]
   },
@@ -9119,8 +9119,8 @@ var dataset =
     "comName": "Marsh Bedstraw",
     "entries": [
       {
-        "places": "Caribou",
-        "years": "1880"
+        "place": "Caribou",
+        "year": "1880"
       }
     ]
   },
@@ -9131,12 +9131,12 @@ var dataset =
     "comName": "Marsh Hedge-nettle",
     "entries": [
       {
-        "places": "Cutler",
-        "years": "1902"
+        "place": "Cutler",
+        "year": "1902"
       },
       {
-        "places": "EastLivermore",
-        "years": "1910"
+        "place": "EastLivermore",
+        "year": "1910"
       }
     ]
   },
@@ -9147,24 +9147,24 @@ var dataset =
     "comName": "Marsh Mermaid-weed",
     "entries": [
       {
-        "places": "Wells",
-        "years": "1874"
+        "place": "Wells",
+        "year": "1874"
       },
       {
-        "places": "Chesterville",
-        "years": "1878"
+        "place": "Chesterville",
+        "year": "1878"
       },
       {
-        "places": "Readfield",
-        "years": "1892"
+        "place": "Readfield",
+        "year": "1892"
       },
       {
-        "places": "SouthPoland",
-        "years": "1893"
+        "place": "SouthPoland",
+        "year": "1893"
       },
       {
-        "places": "Wells",
-        "years": "1898"
+        "place": "Wells",
+        "year": "1898"
       }
     ]
   },
@@ -9175,12 +9175,12 @@ var dataset =
     "comName": "Marsh Thistle",
     "entries": [
       {
-        "places": "Brunswick",
-        "years": "1870"
+        "place": "Brunswick",
+        "year": "1870"
       },
       {
-        "places": "Fayette",
-        "years": "1871"
+        "place": "Fayette",
+        "year": "1871"
       }
     ]
   },
@@ -9191,28 +9191,28 @@ var dataset =
     "comName": "Marsh Vetchling",
     "entries": [
       {
-        "places": "DrakesIsland",
-        "years": "1897"
+        "place": "DrakesIsland",
+        "year": "1897"
       },
       {
-        "places": "GreatDiamondIsland",
-        "years": "1880"
+        "place": "GreatDiamondIsland",
+        "year": "1880"
       },
       {
-        "places": "WellsBeach",
-        "years": "1879"
+        "place": "WellsBeach",
+        "year": "1879"
       },
       {
-        "places": "Harpswell Neck",
-        "years": "1871"
+        "place": "Harpswell Neck",
+        "year": "1871"
       },
       {
-        "places": "Drake's Island",
-        "years": "1897"
+        "place": "Drake's Island",
+        "year": "1897"
       },
       {
-        "places": "Great Diamond Island",
-        "years": "1888"
+        "place": "Great Diamond Island",
+        "year": "1888"
       }
     ]
   },
@@ -9223,40 +9223,40 @@ var dataset =
     "comName": "Marsh Willow-herb",
     "entries": [
       {
-        "places": "Harpswell",
-        "years": "1876"
+        "place": "Harpswell",
+        "year": "1876"
       },
       {
-        "places": "Caribou",
-        "years": "1881"
+        "place": "Caribou",
+        "year": "1881"
       },
       {
-        "places": "SouthPoland",
-        "years": "1893"
+        "place": "SouthPoland",
+        "year": "1893"
       },
       {
-        "places": "Rangeley",
-        "years": "1894"
+        "place": "Rangeley",
+        "year": "1894"
       },
       {
-        "places": "Harpswell",
-        "years": "1876"
+        "place": "Harpswell",
+        "year": "1876"
       },
       {
-        "places": "Caribou",
-        "years": "1880"
+        "place": "Caribou",
+        "year": "1880"
       },
       {
-        "places": "Harpswell",
-        "years": "1876"
+        "place": "Harpswell",
+        "year": "1876"
       },
       {
-        "places": "Caribou",
-        "years": "1880"
+        "place": "Caribou",
+        "year": "1880"
       },
       {
-        "places": "Wells",
-        "years": "1898"
+        "place": "Wells",
+        "year": "1898"
       }
     ]
   },
@@ -9267,12 +9267,12 @@ var dataset =
     "comName": "Marsh-cinquefoil",
     "entries": [
       {
-        "places": "Fayette",
-        "years": "1871"
+        "place": "Fayette",
+        "year": "1871"
       },
       {
-        "places": "SouthPoland",
-        "years": "1893"
+        "place": "SouthPoland",
+        "year": "1893"
       }
     ]
   },
@@ -9283,16 +9283,16 @@ var dataset =
     "comName": "Marsh-marigold",
     "entries": [
       {
-        "places": "Wells",
-        "years": "1876"
+        "place": "Wells",
+        "year": "1876"
       },
       {
-        "places": "Topsham",
-        "years": "1890"
+        "place": "Topsham",
+        "year": "1890"
       },
       {
-        "places": "Shapleigh",
-        "years": "1901"
+        "place": "Shapleigh",
+        "year": "1901"
       }
     ]
   },
@@ -9303,20 +9303,20 @@ var dataset =
     "comName": "Maryland Sanicle",
     "entries": [
       {
-        "places": "FortKent",
-        "years": "1881"
+        "place": "FortKent",
+        "year": "1881"
       },
       {
-        "places": "Strong",
-        "years": "1882"
+        "place": "Strong",
+        "year": "1882"
       },
       {
-        "places": "SouthPoland",
-        "years": "1893"
+        "place": "SouthPoland",
+        "year": "1893"
       },
       {
-        "places": "Fort Kent",
-        "years": "1881"
+        "place": "Fort Kent",
+        "year": "1881"
       }
     ]
   },
@@ -9327,16 +9327,16 @@ var dataset =
     "comName": "Matted Sandmat",
     "entries": [
       {
-        "places": "Brunswick",
-        "years": "1871"
+        "place": "Brunswick",
+        "year": "1871"
       },
       {
-        "places": "Wells",
-        "years": "1878"
+        "place": "Wells",
+        "year": "1878"
       },
       {
-        "places": "SouthPoland",
-        "years": "1893"
+        "place": "SouthPoland",
+        "year": "1893"
       }
     ]
   },
@@ -9354,16 +9354,16 @@ var dataset =
     "comName": "Meadow Goat's Beard",
     "entries": [
       {
-        "places": "Machias",
-        "years": "1903"
+        "place": "Machias",
+        "year": "1903"
       },
       {
-        "places": "Portland",
-        "years": "1898"
+        "place": "Portland",
+        "year": "1898"
       },
       {
-        "places": "Castine",
-        "years": "1903"
+        "place": "Castine",
+        "year": "1903"
       }
     ]
   },
@@ -9374,8 +9374,8 @@ var dataset =
     "comName": "Meadow Vetchling",
     "entries": [
       {
-        "places": "FortFairfield",
-        "years": "1881"
+        "place": "FortFairfield",
+        "year": "1881"
       }
     ]
   },
@@ -9386,20 +9386,20 @@ var dataset =
     "comName": "Medicinal Agrimony",
     "entries": [
       {
-        "places": "EastLivermore",
-        "years": "1876"
+        "place": "EastLivermore",
+        "year": "1876"
       },
       {
-        "places": "Wells",
-        "years": "1874"
+        "place": "Wells",
+        "year": "1874"
       },
       {
-        "places": "SouthPoland",
-        "years": "1893"
+        "place": "SouthPoland",
+        "year": "1893"
       },
       {
-        "places": "Phillips",
-        "years": "1882"
+        "place": "Phillips",
+        "year": "1882"
       }
     ]
   },
@@ -9410,20 +9410,20 @@ var dataset =
     "comName": "Mockernut Hickory",
     "entries": [
       {
-        "places": "FayetteRidge",
-        "years": "1875"
+        "place": "FayetteRidge",
+        "year": "1875"
       },
       {
-        "places": "Wells",
-        "years": "1878"
+        "place": "Wells",
+        "year": "1878"
       },
       {
-        "places": "NorthBrunswick",
-        "years": "1878"
+        "place": "NorthBrunswick",
+        "year": "1878"
       },
       {
-        "places": "North Brunswick",
-        "years": "1879"
+        "place": "North Brunswick",
+        "year": "1879"
       }
     ]
   },
@@ -9441,16 +9441,16 @@ var dataset =
     "comName": "Moss Stonecrop",
     "entries": [
       {
-        "places": "SouthPoland",
-        "years": "1893"
+        "place": "SouthPoland",
+        "year": "1893"
       },
       {
-        "places": "Camden",
-        "years": "1902"
+        "place": "Camden",
+        "year": "1902"
       },
       {
-        "places": "Rockport",
-        "years": "1902"
+        "place": "Rockport",
+        "year": "1902"
       }
     ]
   },
@@ -9461,16 +9461,16 @@ var dataset =
     "comName": "Moth Mullein",
     "entries": [
       {
-        "places": "Wells",
-        "years": "1897"
+        "place": "Wells",
+        "year": "1897"
       },
       {
-        "places": "WestBaldwin",
-        "years": "1900"
+        "place": "WestBaldwin",
+        "year": "1900"
       },
       {
-        "places": "Auburn",
-        "years": "1897"
+        "place": "Auburn",
+        "year": "1897"
       }
     ]
   },
@@ -9481,16 +9481,16 @@ var dataset =
     "comName": "Motherwort",
     "entries": [
       {
-        "places": "Brunswick",
-        "years": "1870"
+        "place": "Brunswick",
+        "year": "1870"
       },
       {
-        "places": "SouthPoland",
-        "years": "1895"
+        "place": "SouthPoland",
+        "year": "1895"
       },
       {
-        "places": "Wells",
-        "years": "1898"
+        "place": "Wells",
+        "year": "1898"
       }
     ]
   },
@@ -9501,16 +9501,16 @@ var dataset =
     "comName": "Mountain American-laurel",
     "entries": [
       {
-        "places": "Wells",
-        "years": "1898"
+        "place": "Wells",
+        "year": "1898"
       },
       {
-        "places": "Baldwin",
-        "years": "1900"
+        "place": "Baldwin",
+        "year": "1900"
       },
       {
-        "places": "Harpswell",
-        "years": "1870"
+        "place": "Harpswell",
+        "year": "1870"
       }
     ]
   },
@@ -9521,28 +9521,28 @@ var dataset =
     "comName": "Mountain Cranberry",
     "entries": [
       {
-        "places": "MountDesert",
-        "years": "1881"
+        "place": "MountDesert",
+        "year": "1881"
       },
       {
-        "places": "Mount Abraham",
-        "years": "1878"
+        "place": "Mount Abraham",
+        "year": "1878"
       },
       {
-        "places": "Brunswick",
-        "years": "1883"
+        "place": "Brunswick",
+        "year": "1883"
       },
       {
-        "places": "South Poland",
-        "years": "1893"
+        "place": "South Poland",
+        "year": "1893"
       },
       {
-        "places": "Gilead",
-        "years": "1897"
+        "place": "Gilead",
+        "year": "1897"
       },
       {
-        "places": "Mount Kineo",
-        "years": "1891"
+        "place": "Mount Kineo",
+        "year": "1891"
       }
     ]
   },
@@ -9553,8 +9553,8 @@ var dataset =
     "comName": "Mountain Crane's-bill",
     "entries": [
       {
-        "places": "SquirrelIsland",
-        "years": "1893"
+        "place": "SquirrelIsland",
+        "year": "1893"
       }
     ]
   },
@@ -9565,12 +9565,12 @@ var dataset =
     "comName": "Mountain Holly",
     "entries": [
       {
-        "places": "Brunswick",
-        "years": "1877"
+        "place": "Brunswick",
+        "year": "1877"
       },
       {
-        "places": "Wells",
-        "years": "1898"
+        "place": "Wells",
+        "year": "1898"
       }
     ]
   },
@@ -9581,28 +9581,28 @@ var dataset =
     "comName": "Mountain Honeysuckle",
     "entries": [
       {
-        "places": "HarpswellIsland",
-        "years": "1895"
+        "place": "HarpswellIsland",
+        "year": "1895"
       },
       {
-        "places": "Fayette",
-        "years": "1878"
+        "place": "Fayette",
+        "year": "1878"
       },
       {
-        "places": "Patten",
-        "years": "1881"
+        "place": "Patten",
+        "year": "1881"
       },
       {
-        "places": "Strong",
-        "years": "1882"
+        "place": "Strong",
+        "year": "1882"
       },
       {
-        "places": "Great Diamond Island",
-        "years": "1888"
+        "place": "Great Diamond Island",
+        "year": "1888"
       },
       {
-        "places": "Fayette Ridge",
-        "years": "1878"
+        "place": "Fayette Ridge",
+        "year": "1878"
       }
     ]
   },
@@ -9613,20 +9613,20 @@ var dataset =
     "comName": "Mountain Maple",
     "entries": [
       {
-        "places": "Rangeley",
-        "years": "1882"
+        "place": "Rangeley",
+        "year": "1882"
       },
       {
-        "places": "WestBaldwin",
-        "years": "1900"
+        "place": "WestBaldwin",
+        "year": "1900"
       },
       {
-        "places": "SouthPoland",
-        "years": "1895"
+        "place": "SouthPoland",
+        "year": "1895"
       },
       {
-        "places": "EastLivermore",
-        "years": "1877"
+        "place": "EastLivermore",
+        "year": "1877"
       }
     ]
   },
@@ -9637,8 +9637,8 @@ var dataset =
     "comName": "Mountain Sandplant",
     "entries": [
       {
-        "places": "MountDesert",
-        "years": "1903"
+        "place": "MountDesert",
+        "year": "1903"
       }
     ]
   },
@@ -9649,8 +9649,8 @@ var dataset =
     "comName": "Mountain Shadbush",
     "entries": [
       {
-        "places": "LivermoreFalls",
-        "years": "1878"
+        "place": "LivermoreFalls",
+        "year": "1878"
       }
     ]
   },
@@ -9668,8 +9668,8 @@ var dataset =
     "comName": "Mouse-ear Hawkweed",
     "entries": [
       {
-        "places": "Dover",
-        "years": "1897"
+        "place": "Dover",
+        "year": "1897"
       }
     ]
   },
@@ -9680,16 +9680,16 @@ var dataset =
     "comName": "Naked Bishop's-cap",
     "entries": [
       {
-        "places": "Aroostook",
-        "years": "1880"
+        "place": "Aroostook",
+        "year": "1880"
       },
       {
-        "places": "Dover",
-        "years": "1897"
+        "place": "Dover",
+        "year": "1897"
       },
       {
-        "places": "Aroostook",
-        "years": "1881"
+        "place": "Aroostook",
+        "year": "1881"
       }
     ]
   },
@@ -9700,20 +9700,20 @@ var dataset =
     "comName": "Naked Tick-trefoil",
     "entries": [
       {
-        "places": "Fayette",
-        "years": "1876"
+        "place": "Fayette",
+        "year": "1876"
       },
       {
-        "places": "SouthPoland",
-        "years": "1895"
+        "place": "SouthPoland",
+        "year": "1895"
       },
       {
-        "places": "Rangeley",
-        "years": "1894"
+        "place": "Rangeley",
+        "year": "1894"
       },
       {
-        "places": "WestBaldwin",
-        "years": "1900"
+        "place": "WestBaldwin",
+        "year": "1900"
       }
     ]
   },
@@ -9724,20 +9724,20 @@ var dataset =
     "comName": "Nannyberry",
     "entries": [
       {
-        "places": "Fayette",
-        "years": "1877"
+        "place": "Fayette",
+        "year": "1877"
       },
       {
-        "places": "Gilead",
-        "years": "1897"
+        "place": "Gilead",
+        "year": "1897"
       },
       {
-        "places": "Monhegan",
-        "years": "1910"
+        "place": "Monhegan",
+        "year": "1910"
       },
       {
-        "places": "Wells",
-        "years": "1898"
+        "place": "Wells",
+        "year": "1898"
       }
     ]
   },
@@ -9755,24 +9755,24 @@ var dataset =
     "comName": "Narrow-leaved Fireweed",
     "entries": [
       {
-        "places": "Rangeley",
-        "years": "1882"
+        "place": "Rangeley",
+        "year": "1882"
       },
       {
-        "places": "Brunswick",
-        "years": "1870"
+        "place": "Brunswick",
+        "year": "1870"
       },
       {
-        "places": "Fayette",
-        "years": "1878"
+        "place": "Fayette",
+        "year": "1878"
       },
       {
-        "places": "Caribou",
-        "years": "1880"
+        "place": "Caribou",
+        "year": "1880"
       },
       {
-        "places": "Wells",
-        "years": "1898"
+        "place": "Wells",
+        "year": "1898"
       }
     ]
   },
@@ -9783,28 +9783,28 @@ var dataset =
     "comName": "Narrow-leaved Gentian",
     "entries": [
       {
-        "places": "Wells",
-        "years": "1879"
+        "place": "Wells",
+        "year": "1879"
       },
       {
-        "places": "SaintFrancis",
-        "years": "1881"
+        "place": "SaintFrancis",
+        "year": "1881"
       },
       {
-        "places": "WestBaldwin",
-        "years": "1900"
+        "place": "WestBaldwin",
+        "year": "1900"
       },
       {
-        "places": "Saint Francis",
-        "years": "1881"
+        "place": "Saint Francis",
+        "year": "1881"
       },
       {
-        "places": "West Baldwin",
-        "years": "1900"
+        "place": "West Baldwin",
+        "year": "1900"
       },
       {
-        "places": "Saint Francis",
-        "years": "1881"
+        "place": "Saint Francis",
+        "year": "1881"
       }
     ]
   },
@@ -9815,12 +9815,12 @@ var dataset =
     "comName": "Narrow-leaved Goosefoot",
     "entries": [
       {
-        "places": "NorthBerwick",
-        "years": "1896"
+        "place": "NorthBerwick",
+        "year": "1896"
       },
       {
-        "places": "Wells Beach",
-        "years": "1879"
+        "place": "Wells Beach",
+        "year": "1879"
       }
     ]
   },
@@ -9831,12 +9831,12 @@ var dataset =
     "comName": "Narrow-leaved Mountain-mint",
     "entries": [
       {
-        "places": "SouthPoland",
-        "years": "1893"
+        "place": "SouthPoland",
+        "year": "1893"
       },
       {
-        "places": "Wells",
-        "years": "1898"
+        "place": "Wells",
+        "year": "1898"
       }
     ]
   },
@@ -9847,16 +9847,16 @@ var dataset =
     "comName": "Narrow-leaved Speedwell",
     "entries": [
       {
-        "places": "SouthPoland",
-        "years": "1893"
+        "place": "SouthPoland",
+        "year": "1893"
       },
       {
-        "places": "EastLivermore",
-        "years": "1894"
+        "place": "EastLivermore",
+        "year": "1894"
       },
       {
-        "places": "WestBaldwin",
-        "years": "1900"
+        "place": "WestBaldwin",
+        "year": "1900"
       }
     ]
   },
@@ -9867,20 +9867,20 @@ var dataset =
     "comName": "Narrow-leavedcat-tail",
     "entries": [
       {
-        "places": "Chesterville",
-        "years": "1878"
+        "place": "Chesterville",
+        "year": "1878"
       },
       {
-        "places": "WestFarmington",
-        "years": "1878"
+        "place": "WestFarmington",
+        "year": "1878"
       },
       {
-        "places": "DrakesIsland",
-        "years": "1898"
+        "place": "DrakesIsland",
+        "year": "1898"
       },
       {
-        "places": "DrakesIsland",
-        "years": "1901"
+        "place": "DrakesIsland",
+        "year": "1901"
       }
     ]
   },
@@ -9891,8 +9891,8 @@ var dataset =
     "comName": "Nettle-leaved Goosefoot",
     "entries": [
       {
-        "places": "CundysHarbor",
-        "years": "1878"
+        "place": "CundysHarbor",
+        "year": "1878"
       }
     ]
   },
@@ -9903,12 +9903,12 @@ var dataset =
     "comName": "New England American-aster",
     "entries": [
       {
-        "places": "LivermoreFalls",
-        "years": "1878"
+        "place": "LivermoreFalls",
+        "year": "1878"
       },
       {
-        "places": "SouthPoland",
-        "years": "1893"
+        "place": "SouthPoland",
+        "year": "1893"
       }
     ]
   },
@@ -9919,16 +9919,16 @@ var dataset =
     "comName": "New England Groundsel",
     "entries": [
       {
-        "places": "Machias",
-        "years": "1902"
+        "place": "Machias",
+        "year": "1902"
       },
       {
-        "places": "Orono",
-        "years": "1891"
+        "place": "Orono",
+        "year": "1891"
       },
       {
-        "places": "Machias",
-        "years": "1902"
+        "place": "Machias",
+        "year": "1902"
       }
     ]
   },
@@ -9939,8 +9939,8 @@ var dataset =
     "comName": "New York American-aster",
     "entries": [
       {
-        "places": "Sorrento",
-        "years": "1891"
+        "place": "Sorrento",
+        "year": "1891"
       }
     ]
   },
@@ -9951,36 +9951,36 @@ var dataset =
     "comName": "New York American-aster",
     "entries": [
       {
-        "places": "LivermoreFalls",
-        "years": "1877"
+        "place": "LivermoreFalls",
+        "year": "1877"
       },
       {
-        "places": "East Livermore",
-        "years": "1878"
+        "place": "East Livermore",
+        "year": "1878"
       },
       {
-        "places": "Fort Kent",
-        "years": "1881"
+        "place": "Fort Kent",
+        "year": "1881"
       },
       {
-        "places": "South Poland",
-        "years": "1893"
+        "place": "South Poland",
+        "year": "1893"
       },
       {
-        "places": "South Poland",
-        "years": "1895"
+        "place": "South Poland",
+        "year": "1895"
       },
       {
-        "places": "Gilead",
-        "years": "1897"
+        "place": "Gilead",
+        "year": "1897"
       },
       {
-        "places": "Gilead",
-        "years": "1897"
+        "place": "Gilead",
+        "year": "1897"
       },
       {
-        "places": "Fort Kent",
-        "years": "1881"
+        "place": "Fort Kent",
+        "year": "1881"
       }
     ]
   },
@@ -9991,20 +9991,20 @@ var dataset =
     "comName": "Night-flowering Campion",
     "entries": [
       {
-        "places": "SouthPoland",
-        "years": "1895"
+        "place": "SouthPoland",
+        "year": "1895"
       },
       {
-        "places": "Gilead",
-        "years": "1897"
+        "place": "Gilead",
+        "year": "1897"
       },
       {
-        "places": "Wells",
-        "years": "1898"
+        "place": "Wells",
+        "year": "1898"
       },
       {
-        "places": "Gilead",
-        "years": "1879"
+        "place": "Gilead",
+        "year": "1879"
       }
     ]
   },
@@ -10015,12 +10015,12 @@ var dataset =
     "comName": "Noble Prince's-pine",
     "entries": [
       {
-        "places": "Brunswick",
-        "years": "1871"
+        "place": "Brunswick",
+        "year": "1871"
       },
       {
-        "places": "Orono",
-        "years": "1880"
+        "place": "Orono",
+        "year": "1880"
       }
     ]
   },
@@ -10031,16 +10031,16 @@ var dataset =
     "comName": "Nodding Beggar-ticks",
     "entries": [
       {
-        "places": "Brunswick",
-        "years": "1870"
+        "place": "Brunswick",
+        "year": "1870"
       },
       {
-        "places": "SouthPoland",
-        "years": "1893"
+        "place": "SouthPoland",
+        "year": "1893"
       },
       {
-        "places": "Wells",
-        "years": "1898"
+        "place": "Wells",
+        "year": "1898"
       }
     ]
   },
@@ -10051,12 +10051,12 @@ var dataset =
     "comName": "Nodding Ladies'-tresses",
     "entries": [
       {
-        "places": "Topsham",
-        "years": "1870"
+        "place": "Topsham",
+        "year": "1870"
       },
       {
-        "places": "Winnegance",
-        "years": "1911"
+        "place": "Winnegance",
+        "year": "1911"
       }
     ]
   },
@@ -10074,8 +10074,8 @@ var dataset =
     "comName": "Northeastern Beardtongue",
     "entries": [
       {
-        "places": "Wells",
-        "years": "1879"
+        "place": "Wells",
+        "year": "1879"
       }
     ]
   },
@@ -10086,8 +10086,8 @@ var dataset =
     "comName": "Northern Arrowhead",
     "entries": [
       {
-        "places": "SaintFrancis",
-        "years": "1881"
+        "place": "SaintFrancis",
+        "year": "1881"
       }
     ]
   },
@@ -10098,8 +10098,8 @@ var dataset =
     "comName": "Northern Bedstraw",
     "entries": [
       {
-        "places": "MtKatahdin",
-        "years": "1900"
+        "place": "MtKatahdin",
+        "year": "1900"
       }
     ]
   },
@@ -10110,8 +10110,8 @@ var dataset =
     "comName": "Northern Blackberry",
     "entries": [
       {
-        "places": "Brunswick",
-        "years": "1891"
+        "place": "Brunswick",
+        "year": "1891"
       }
     ]
   },
@@ -10122,12 +10122,12 @@ var dataset =
     "comName": "Northern Blazing Star",
     "entries": [
       {
-        "places": "Wells",
-        "years": "1879"
+        "place": "Wells",
+        "year": "1879"
       },
       {
-        "places": "Wells",
-        "years": "1898"
+        "place": "Wells",
+        "year": "1898"
       }
     ]
   },
@@ -10138,16 +10138,16 @@ var dataset =
     "comName": "Northern Bog Bedstraw",
     "entries": [
       {
-        "places": "Caribou",
-        "years": "1880"
+        "place": "Caribou",
+        "year": "1880"
       },
       {
-        "places": "Caribou",
-        "years": "1880"
+        "place": "Caribou",
+        "year": "1880"
       },
       {
-        "places": "Wells",
-        "years": "1898"
+        "place": "Wells",
+        "year": "1898"
       }
     ]
   },
@@ -10158,12 +10158,12 @@ var dataset =
     "comName": "Northern Crane's-bill",
     "entries": [
       {
-        "places": "Brunswick",
-        "years": "1902"
+        "place": "Brunswick",
+        "year": "1902"
       },
       {
-        "places": "Harding",
-        "years": "1877"
+        "place": "Harding",
+        "year": "1877"
       }
     ]
   },
@@ -10174,8 +10174,8 @@ var dataset =
     "comName": "Northern Dwarf-gentian",
     "entries": [
       {
-        "places": "Houlton",
-        "years": "1881"
+        "place": "Houlton",
+        "year": "1881"
       }
     ]
   },
@@ -10186,8 +10186,8 @@ var dataset =
     "comName": "Northern Green Rush",
     "entries": [
       {
-        "places": "FortKent",
-        "years": "1881"
+        "place": "FortKent",
+        "year": "1881"
       }
     ]
   },
@@ -10198,12 +10198,12 @@ var dataset =
     "comName": "Northern Painted-cup",
     "entries": [
       {
-        "places": "FortFairfield",
-        "years": "1880"
+        "place": "FortFairfield",
+        "year": "1880"
       },
       {
-        "places": "SaintFrancis",
-        "years": "1881"
+        "place": "SaintFrancis",
+        "year": "1881"
       }
     ]
   },
@@ -10214,28 +10214,28 @@ var dataset =
     "comName": "Northern Red Oak",
     "entries": [
       {
-        "places": "Brunswick",
-        "years": "1878"
+        "place": "Brunswick",
+        "year": "1878"
       },
       {
-        "places": "Fort Fairfield",
-        "years": "1880"
+        "place": "Fort Fairfield",
+        "year": "1880"
       },
       {
-        "places": "South Poland",
-        "years": "1893"
+        "place": "South Poland",
+        "year": "1893"
       },
       {
-        "places": "Gilead",
-        "years": "1897"
+        "place": "Gilead",
+        "year": "1897"
       },
       {
-        "places": "Wells",
-        "years": "1898"
+        "place": "Wells",
+        "year": "1898"
       },
       {
-        "places": "Brunswick",
-        "years": "1878"
+        "place": "Brunswick",
+        "year": "1878"
       }
     ]
   },
@@ -10246,20 +10246,20 @@ var dataset =
     "comName": "Northern Saint John's-wort",
     "entries": [
       {
-        "places": "Gilead",
-        "years": "1897"
+        "place": "Gilead",
+        "year": "1897"
       },
       {
-        "places": "Jersey Pond",
-        "years": "1892"
+        "place": "Jersey Pond",
+        "year": "1892"
       },
       {
-        "places": "North Leeds",
-        "years": "1894"
+        "place": "North Leeds",
+        "year": "1894"
       },
       {
-        "places": "Gilead",
-        "years": "1897"
+        "place": "Gilead",
+        "year": "1897"
       }
     ]
   },
@@ -10270,16 +10270,16 @@ var dataset =
     "comName": "Northern Snail-seed Pondweed",
     "entries": [
       {
-        "places": "LivermoreFalls",
-        "years": "1878"
+        "place": "LivermoreFalls",
+        "year": "1878"
       },
       {
-        "places": "SouthPoland",
-        "years": "1893"
+        "place": "SouthPoland",
+        "year": "1893"
       },
       {
-        "places": "Gilead",
-        "years": "1897"
+        "place": "Gilead",
+        "year": "1897"
       }
     ]
   },
@@ -10290,12 +10290,12 @@ var dataset =
     "comName": "Northern Sweet-coltsfoot",
     "entries": [
       {
-        "places": "Orono",
-        "years": "1880"
+        "place": "Orono",
+        "year": "1880"
       },
       {
-        "places": "PresqueIsle",
-        "years": "1881"
+        "place": "PresqueIsle",
+        "year": "1881"
       }
     ]
   },
@@ -10306,12 +10306,12 @@ var dataset =
     "comName": "Northern Tubercled Bog-orchid",
     "entries": [
       {
-        "places": "Wells",
-        "years": "1879"
+        "place": "Wells",
+        "year": "1879"
       },
       {
-        "places": "SouthPoland",
-        "years": "1893"
+        "place": "SouthPoland",
+        "year": "1893"
       }
     ]
   },
@@ -10322,12 +10322,12 @@ var dataset =
     "comName": "Northern White-cedar",
     "entries": [
       {
-        "places": "Brunswick",
-        "years": "1876"
+        "place": "Brunswick",
+        "year": "1876"
       },
       {
-        "places": "SouthPoland",
-        "years": "1893"
+        "place": "SouthPoland",
+        "year": "1893"
       }
     ]
   },
@@ -10338,12 +10338,12 @@ var dataset =
     "comName": "Norththern Spicebush",
     "entries": [
       {
-        "places": "FayetteRidge",
-        "years": "1874"
+        "place": "FayetteRidge",
+        "year": "1874"
       },
       {
-        "places": "Wells",
-        "years": "1882"
+        "place": "Wells",
+        "year": "1882"
       }
     ]
   },
@@ -10354,24 +10354,24 @@ var dataset =
     "comName": "Norwegian Cinquefoil",
     "entries": [
       {
-        "places": "Brunswick",
-        "years": "1871"
+        "place": "Brunswick",
+        "year": "1871"
       },
       {
-        "places": "Wells",
-        "years": "1898"
+        "place": "Wells",
+        "year": "1898"
       },
       {
-        "places": "Rangeley",
-        "years": "1882"
+        "place": "Rangeley",
+        "year": "1882"
       },
       {
-        "places": "SouthPoland",
-        "years": "1893"
+        "place": "SouthPoland",
+        "year": "1893"
       },
       {
-        "places": "WestBaldwin",
-        "years": "1900"
+        "place": "WestBaldwin",
+        "year": "1900"
       }
     ]
   },
@@ -10382,12 +10382,12 @@ var dataset =
     "comName": "Oake's Evening-primrose",
     "entries": [
       {
-        "places": "Castine",
-        "years": "1902"
+        "place": "Castine",
+        "year": "1902"
       },
       {
-        "places": "Brunswick",
-        "years": "1892"
+        "place": "Brunswick",
+        "year": "1892"
       }
     ]
   },
@@ -10398,16 +10398,16 @@ var dataset =
     "comName": "Oldfield-toadflax",
     "entries": [
       {
-        "places": "Brunswick",
-        "years": "1870"
+        "place": "Brunswick",
+        "year": "1870"
       },
       {
-        "places": "SouthPoland",
-        "years": "1893"
+        "place": "SouthPoland",
+        "year": "1893"
       },
       {
-        "places": "OldOrchardBeach",
-        "years": "1901"
+        "place": "OldOrchardBeach",
+        "year": "1901"
       }
     ]
   },
@@ -10425,16 +10425,16 @@ var dataset =
     "comName": "One-flowered Broom-rape",
     "entries": [
       {
-        "places": "Waterville",
-        "years": "1871"
+        "place": "Waterville",
+        "year": "1871"
       },
       {
-        "places": "SouthPoland",
-        "years": "1895"
+        "place": "SouthPoland",
+        "year": "1895"
       },
       {
-        "places": "Brunswick",
-        "years": "1900"
+        "place": "Brunswick",
+        "year": "1900"
       }
     ]
   },
@@ -10445,16 +10445,16 @@ var dataset =
     "comName": "One-flowered Indian-pipe",
     "entries": [
       {
-        "places": "Brunswick",
-        "years": "1869"
+        "place": "Brunswick",
+        "year": "1869"
       },
       {
-        "places": "SouthPoland",
-        "years": "1893"
+        "place": "SouthPoland",
+        "year": "1893"
       },
       {
-        "places": "Wells",
-        "years": "1898"
+        "place": "Wells",
+        "year": "1898"
       }
     ]
   },
@@ -10465,20 +10465,20 @@ var dataset =
     "comName": "One-flowered Shinleaf",
     "entries": [
       {
-        "places": "FortKent",
-        "years": "1881"
+        "place": "FortKent",
+        "year": "1881"
       },
       {
-        "places": "Orono",
-        "years": "1880"
+        "place": "Orono",
+        "year": "1880"
       },
       {
-        "places": "Rangeley",
-        "years": "1882"
+        "place": "Rangeley",
+        "year": "1882"
       },
       {
-        "places": "SouthPoland",
-        "years": "1893"
+        "place": "SouthPoland",
+        "year": "1893"
       }
     ]
   },
@@ -10489,8 +10489,8 @@ var dataset =
     "comName": "One-seeded Burr-cucumber",
     "entries": [
       {
-        "places": "Brunswick",
-        "years": "1870"
+        "place": "Brunswick",
+        "year": "1870"
       }
     ]
   },
@@ -10501,8 +10501,8 @@ var dataset =
     "comName": "One-seeded Hawthorn",
     "entries": [
       {
-        "places": "NorthLubec",
-        "years": "1902"
+        "place": "NorthLubec",
+        "year": "1902"
       }
     ]
   },
@@ -10513,24 +10513,24 @@ var dataset =
     "comName": "One-sided Shinleaf",
     "entries": [
       {
-        "places": "Orono",
-        "years": "1880"
+        "place": "Orono",
+        "year": "1880"
       },
       {
-        "places": "FortFairfield",
-        "years": "1880"
+        "place": "FortFairfield",
+        "year": "1880"
       },
       {
-        "places": "FortKent",
-        "years": "1880"
+        "place": "FortKent",
+        "year": "1880"
       },
       {
-        "places": "SouthPoland",
-        "years": "1893"
+        "place": "SouthPoland",
+        "year": "1893"
       },
       {
-        "places": "Fort Kent",
-        "years": "1881"
+        "place": "Fort Kent",
+        "year": "1881"
       }
     ]
   },
@@ -10548,16 +10548,16 @@ var dataset =
     "comName": "Orange Hawkweed",
     "entries": [
       {
-        "places": "Strong",
-        "years": "1878"
+        "place": "Strong",
+        "year": "1878"
       },
       {
-        "places": "Wells",
-        "years": "1898"
+        "place": "Wells",
+        "year": "1898"
       },
       {
-        "places": "DiamondIsland",
-        "years": "1893"
+        "place": "DiamondIsland",
+        "year": "1893"
       }
     ]
   },
@@ -10568,12 +10568,12 @@ var dataset =
     "comName": "Orange-fruited Horse-gentian",
     "entries": [
       {
-        "places": "Orono",
-        "years": "1880"
+        "place": "Orono",
+        "year": "1880"
       },
       {
-        "places": "DrakesIsland",
-        "years": "1905"
+        "place": "DrakesIsland",
+        "year": "1905"
       }
     ]
   },
@@ -10584,12 +10584,12 @@ var dataset =
     "comName": "Orange-grass Saint John's-wort",
     "entries": [
       {
-        "places": "Wells",
-        "years": "1874"
+        "place": "Wells",
+        "year": "1874"
       },
       {
-        "places": "FortPopham",
-        "years": "1908"
+        "place": "FortPopham",
+        "year": "1908"
       }
     ]
   },
@@ -10600,12 +10600,12 @@ var dataset =
     "comName": "Osier Willow",
     "entries": [
       {
-        "places": "FayetteRidge",
-        "years": "1878"
+        "place": "FayetteRidge",
+        "year": "1878"
       },
       {
-        "places": "Harpswell",
-        "years": "1878"
+        "place": "Harpswell",
+        "year": "1878"
       }
     ]
   },
@@ -10616,16 +10616,16 @@ var dataset =
     "comName": "Ox-eye Daisy",
     "entries": [
       {
-        "places": "Brunswick",
-        "years": "1870"
+        "place": "Brunswick",
+        "year": "1870"
       },
       {
-        "places": "Brunswick",
-        "years": "1908"
+        "place": "Brunswick",
+        "year": "1908"
       },
       {
-        "places": "Gilead",
-        "years": "1897"
+        "place": "Gilead",
+        "year": "1897"
       }
     ]
   },
@@ -10643,8 +10643,8 @@ var dataset =
     "comName": "Pale Purple Coneflower",
     "entries": [
       {
-        "places": "WellsBeach",
-        "years": "1898"
+        "place": "WellsBeach",
+        "year": "1898"
       }
     ]
   },
@@ -10655,20 +10655,20 @@ var dataset =
     "comName": "Pale Saint John's-wort",
     "entries": [
       {
-        "places": "FortFairfield",
-        "years": "1880"
+        "place": "FortFairfield",
+        "year": "1880"
       },
       {
-        "places": "Rangeley",
-        "years": "1882"
+        "place": "Rangeley",
+        "year": "1882"
       },
       {
-        "places": "South Poland",
-        "years": "1893"
+        "place": "South Poland",
+        "year": "1893"
       },
       {
-        "places": "Wells",
-        "years": "1893"
+        "place": "Wells",
+        "year": "1893"
       }
     ]
   },
@@ -10679,8 +10679,8 @@ var dataset =
     "comName": "Pale Touch-me-not",
     "entries": [
       {
-        "places": "SaintFrancis",
-        "years": "1881"
+        "place": "SaintFrancis",
+        "year": "1881"
       }
     ]
   },
@@ -10691,8 +10691,8 @@ var dataset =
     "comName": "Pale-seeded Plantain",
     "entries": [
       {
-        "places": "YorkCliffs",
-        "years": "1891"
+        "place": "YorkCliffs",
+        "year": "1891"
       }
     ]
   },
@@ -10703,20 +10703,20 @@ var dataset =
     "comName": "Pale-spiked Lobelia",
     "entries": [
       {
-        "places": "Wells",
-        "years": "1879"
+        "place": "Wells",
+        "year": "1879"
       },
       {
-        "places": "Rangeley",
-        "years": "1882"
+        "place": "Rangeley",
+        "year": "1882"
       },
       {
-        "places": "Northport",
-        "years": "1891"
+        "place": "Northport",
+        "year": "1891"
       },
       {
-        "places": "SouthPoland",
-        "years": "1893"
+        "place": "SouthPoland",
+        "year": "1893"
       }
     ]
   },
@@ -10727,24 +10727,24 @@ var dataset =
     "comName": "Panicled Hawkweed",
     "entries": [
       {
-        "places": "Brunswick",
-        "years": "1870"
+        "place": "Brunswick",
+        "year": "1870"
       },
       {
-        "places": "SouthPoland",
-        "years": "1893"
+        "place": "SouthPoland",
+        "year": "1893"
       },
       {
-        "places": "Gilead",
-        "years": "1897"
+        "place": "Gilead",
+        "year": "1897"
       },
       {
-        "places": "York",
-        "years": "1898"
+        "place": "York",
+        "year": "1898"
       },
       {
-        "places": "Winnegance",
-        "years": "1907"
+        "place": "Winnegance",
+        "year": "1907"
       }
     ]
   },
@@ -10755,8 +10755,8 @@ var dataset =
     "comName": "Panicled Tick-trefoil",
     "entries": [
       {
-        "places": "WestPoland",
-        "years": "1895"
+        "place": "WestPoland",
+        "year": "1895"
       }
     ]
   },
@@ -10767,8 +10767,8 @@ var dataset =
     "comName": "Paper Birch",
     "entries": [
       {
-        "places": "MtKatahdin",
-        "years": "1877"
+        "place": "MtKatahdin",
+        "year": "1877"
       }
     ]
   },
@@ -10779,12 +10779,12 @@ var dataset =
     "comName": "Parlin's Pussytoes",
     "entries": [
       {
-        "places": "NorthBerwick",
-        "years": "1898"
+        "place": "NorthBerwick",
+        "year": "1898"
       },
       {
-        "places": "North Berwick",
-        "years": "1895"
+        "place": "North Berwick",
+        "year": "1895"
       }
     ]
   },
@@ -10795,8 +10795,8 @@ var dataset =
     "comName": "Partridge-berry",
     "entries": [
       {
-        "places": "Brunswick",
-        "years": "1870"
+        "place": "Brunswick",
+        "year": "1870"
       }
     ]
   },
@@ -10814,8 +10814,8 @@ var dataset =
     "comName": "Pearl Yarrow",
     "entries": [
       {
-        "places": "Cutler",
-        "years": "1902"
+        "place": "Cutler",
+        "year": "1902"
       }
     ]
   },
@@ -10826,20 +10826,20 @@ var dataset =
     "comName": "Pearly Everlasting",
     "entries": [
       {
-        "places": "Brunswick",
-        "years": "1870"
+        "place": "Brunswick",
+        "year": "1870"
       },
       {
-        "places": "SouthPoland",
-        "years": "1893"
+        "place": "SouthPoland",
+        "year": "1893"
       },
       {
-        "places": "Readfield",
-        "years": "1891"
+        "place": "Readfield",
+        "year": "1891"
       },
       {
-        "places": "Wells",
-        "years": "1897"
+        "place": "Wells",
+        "year": "1897"
       }
     ]
   },
@@ -10850,8 +10850,8 @@ var dataset =
     "comName": "Pennsylvania Blackberry",
     "entries": [
       {
-        "places": "Brunswick",
-        "years": "1884"
+        "place": "Brunswick",
+        "year": "1884"
       }
     ]
   },
@@ -10862,24 +10862,24 @@ var dataset =
     "comName": "Pennsylvania Smartweed",
     "entries": [
       {
-        "places": "Orono",
-        "years": "1891"
+        "place": "Orono",
+        "year": "1891"
       },
       {
-        "places": "SouthPoland",
-        "years": "1893"
+        "place": "SouthPoland",
+        "year": "1893"
       },
       {
-        "places": "Orono",
-        "years": "1880"
+        "place": "Orono",
+        "year": "1880"
       },
       {
-        "places": "South Poland",
-        "years": "1893"
+        "place": "South Poland",
+        "year": "1893"
       },
       {
-        "places": "Cumberland",
-        "years": "1895"
+        "place": "Cumberland",
+        "year": "1895"
       }
     ]
   },
@@ -10890,12 +10890,12 @@ var dataset =
     "comName": "Pennsylvanian Bitter-cress",
     "entries": [
       {
-        "places": "Ogunquit",
-        "years": "1898"
+        "place": "Ogunquit",
+        "year": "1898"
       },
       {
-        "places": "Shapleigh",
-        "years": "1901"
+        "place": "Shapleigh",
+        "year": "1901"
       }
     ]
   },
@@ -10906,12 +10906,12 @@ var dataset =
     "comName": "Perennial Saltmarsh American-aster",
     "entries": [
       {
-        "places": "Caribou",
-        "years": "1880"
+        "place": "Caribou",
+        "year": "1880"
       },
       {
-        "places": "Caribou",
-        "years": "1880"
+        "place": "Caribou",
+        "year": "1880"
       }
     ]
   },
@@ -10922,8 +10922,8 @@ var dataset =
     "comName": "Petty Spurge",
     "entries": [
       {
-        "places": "Brunswick",
-        "years": "1891"
+        "place": "Brunswick",
+        "year": "1891"
       }
     ]
   },
@@ -10934,24 +10934,24 @@ var dataset =
     "comName": "Philadelphia Fleabane",
     "entries": [
       {
-        "places": "Brunswick",
-        "years": "1870"
+        "place": "Brunswick",
+        "year": "1870"
       },
       {
-        "places": "EastLivermore",
-        "years": "1876"
+        "place": "EastLivermore",
+        "year": "1876"
       },
       {
-        "places": "Rangeley",
-        "years": "1882"
+        "place": "Rangeley",
+        "year": "1882"
       },
       {
-        "places": "Wells",
-        "years": "1897"
+        "place": "Wells",
+        "year": "1897"
       },
       {
-        "places": "Gilead",
-        "years": "1897"
+        "place": "Gilead",
+        "year": "1897"
       }
     ]
   },
@@ -10969,24 +10969,24 @@ var dataset =
     "comName": "Pin Cherry",
     "entries": [
       {
-        "places": "Orono",
-        "years": "1881"
+        "place": "Orono",
+        "year": "1881"
       },
       {
-        "places": "Brunswick",
-        "years": "1877"
+        "place": "Brunswick",
+        "year": "1877"
       },
       {
-        "places": "Wells",
-        "years": "1898"
+        "place": "Wells",
+        "year": "1898"
       },
       {
-        "places": "Rangeley",
-        "years": "1882"
+        "place": "Rangeley",
+        "year": "1882"
       },
       {
-        "places": "South Poland",
-        "years": "1893"
+        "place": "South Poland",
+        "year": "1893"
       }
     ]
   },
@@ -10997,8 +10997,8 @@ var dataset =
     "comName": "Pine-barren False Heather",
     "entries": [
       {
-        "places": "CapeSmallPoint",
-        "years": "1888"
+        "place": "CapeSmallPoint",
+        "year": "1888"
       }
     ]
   },
@@ -11009,8 +11009,8 @@ var dataset =
     "comName": "Pink Bitter-cress",
     "entries": [
       {
-        "places": "Wells",
-        "years": "1875"
+        "place": "Wells",
+        "year": "1875"
       }
     ]
   },
@@ -11021,20 +11021,20 @@ var dataset =
     "comName": "Pink Lady's-slipper",
     "entries": [
       {
-        "places": "Brunswick",
-        "years": "1878"
+        "place": "Brunswick",
+        "year": "1878"
       },
       {
-        "places": "Fayette",
-        "years": "1878"
+        "place": "Fayette",
+        "year": "1878"
       },
       {
-        "places": "Patten",
-        "years": "1881"
+        "place": "Patten",
+        "year": "1881"
       },
       {
-        "places": "Fayette",
-        "years": "1878"
+        "place": "Fayette",
+        "year": "1878"
       }
     ]
   },
@@ -11045,20 +11045,20 @@ var dataset =
     "comName": "Pink Shinleaf",
     "entries": [
       {
-        "places": "FortKent",
-        "years": "1881"
+        "place": "FortKent",
+        "year": "1881"
       },
       {
-        "places": "Patten",
-        "years": "1880"
+        "place": "Patten",
+        "year": "1880"
       },
       {
-        "places": "Aroostook",
-        "years": "1880"
+        "place": "Aroostook",
+        "year": "1880"
       },
       {
-        "places": "Fort Kent",
-        "years": "1881"
+        "place": "Fort Kent",
+        "year": "1881"
       }
     ]
   },
@@ -11069,24 +11069,24 @@ var dataset =
     "comName": "Pink-corydalis",
     "entries": [
       {
-        "places": "Orono",
-        "years": "1881"
+        "place": "Orono",
+        "year": "1881"
       },
       {
-        "places": "Strong",
-        "years": "1882"
+        "place": "Strong",
+        "year": "1882"
       },
       {
-        "places": "SouthPoland",
-        "years": "1893"
+        "place": "SouthPoland",
+        "year": "1893"
       },
       {
-        "places": "Gilead",
-        "years": "1897"
+        "place": "Gilead",
+        "year": "1897"
       },
       {
-        "places": "Wells",
-        "years": "1898"
+        "place": "Wells",
+        "year": "1898"
       }
     ]
   },
@@ -11097,16 +11097,16 @@ var dataset =
     "comName": "Pinnate Hop Clover",
     "entries": [
       {
-        "places": "Orono",
-        "years": "1880"
+        "place": "Orono",
+        "year": "1880"
       },
       {
-        "places": "Rockland",
-        "years": "1903"
+        "place": "Rockland",
+        "year": "1903"
       },
       {
-        "places": "IsleauHaut",
-        "years": "1909"
+        "place": "IsleauHaut",
+        "year": "1909"
       }
     ]
   },
@@ -11117,8 +11117,8 @@ var dataset =
     "comName": "Pitch Pine",
     "entries": [
       {
-        "places": "Brunswick",
-        "years": "1876"
+        "place": "Brunswick",
+        "year": "1876"
       }
     ]
   },
@@ -11129,12 +11129,12 @@ var dataset =
     "comName": "Plaintain-leaved Pussytoes",
     "entries": [
       {
-        "places": "Gilead",
-        "years": "1894"
+        "place": "Gilead",
+        "year": "1894"
       },
       {
-        "places": "Wells",
-        "years": "1898"
+        "place": "Wells",
+        "year": "1898"
       }
     ]
   },
@@ -11145,8 +11145,8 @@ var dataset =
     "comName": "Pod-grass",
     "entries": [
       {
-        "places": "Bangor",
-        "years": "1880"
+        "place": "Bangor",
+        "year": "1880"
       }
     ]
   },
@@ -11157,20 +11157,20 @@ var dataset =
     "comName": "Pointed-leaved Tick-trefoil",
     "entries": [
       {
-        "places": "FayetteRidge",
-        "years": "1877"
+        "place": "FayetteRidge",
+        "year": "1877"
       },
       {
-        "places": "SouthPoland",
-        "years": "1893"
+        "place": "SouthPoland",
+        "year": "1893"
       },
       {
-        "places": "Rangeley",
-        "years": "1894"
+        "place": "Rangeley",
+        "year": "1894"
       },
       {
-        "places": "Jay",
-        "years": "1890"
+        "place": "Jay",
+        "year": "1890"
       }
     ]
   },
@@ -11181,20 +11181,20 @@ var dataset =
     "comName": "Poison-hemlock",
     "entries": [
       {
-        "places": "Brunswick",
-        "years": "1876"
+        "place": "Brunswick",
+        "year": "1876"
       },
       {
-        "places": "GreatDiamondIsland",
-        "years": "1892"
+        "place": "GreatDiamondIsland",
+        "year": "1892"
       },
       {
-        "places": "SouthPoland",
-        "years": "1893"
+        "place": "SouthPoland",
+        "year": "1893"
       },
       {
-        "places": "Wells",
-        "years": "1898"
+        "place": "Wells",
+        "year": "1898"
       }
     ]
   },
@@ -11205,20 +11205,20 @@ var dataset =
     "comName": "Poison-ivy",
     "entries": [
       {
-        "places": "Brunswick",
-        "years": "1871"
+        "place": "Brunswick",
+        "year": "1871"
       },
       {
-        "places": "Wells",
-        "years": "1898"
+        "place": "Wells",
+        "year": "1898"
       },
       {
-        "places": "Rangeley",
-        "years": "1882"
+        "place": "Rangeley",
+        "year": "1882"
       },
       {
-        "places": "SouthPoland",
-        "years": "1893"
+        "place": "SouthPoland",
+        "year": "1893"
       }
     ]
   },
@@ -11229,20 +11229,20 @@ var dataset =
     "comName": "Poison-sumac",
     "entries": [
       {
-        "places": "Chesterville",
-        "years": "1877"
+        "place": "Chesterville",
+        "year": "1877"
       },
       {
-        "places": "Fayette",
-        "years": "1879"
+        "place": "Fayette",
+        "year": "1879"
       },
       {
-        "places": "Wells",
-        "years": "1893"
+        "place": "Wells",
+        "year": "1893"
       },
       {
-        "places": "Chesterville Ridge",
-        "years": "1878"
+        "place": "Chesterville Ridge",
+        "year": "1878"
       }
     ]
   },
@@ -11253,20 +11253,20 @@ var dataset =
     "comName": "Poke Milkweed",
     "entries": [
       {
-        "places": "SouthPoland",
-        "years": "1895"
+        "place": "SouthPoland",
+        "year": "1895"
       },
       {
-        "places": "South Poland",
-        "years": "1893"
+        "place": "South Poland",
+        "year": "1893"
       },
       {
-        "places": "Wells",
-        "years": "1898"
+        "place": "Wells",
+        "year": "1898"
       },
       {
-        "places": "Hiram",
-        "years": "1900"
+        "place": "Hiram",
+        "year": "1900"
       }
     ]
   },
@@ -11277,16 +11277,16 @@ var dataset =
     "comName": "Poor-man's Pepperweed",
     "entries": [
       {
-        "places": "Gilead",
-        "years": "1897"
+        "place": "Gilead",
+        "year": "1897"
       },
       {
-        "places": "SouthPoland",
-        "years": "1893"
+        "place": "SouthPoland",
+        "year": "1893"
       },
       {
-        "places": "Wells",
-        "years": "1879"
+        "place": "Wells",
+        "year": "1879"
       }
     ]
   },
@@ -11297,16 +11297,16 @@ var dataset =
     "comName": "Poor-man's Pepperweed",
     "entries": [
       {
-        "places": "Brunswick",
-        "years": "1890"
+        "place": "Brunswick",
+        "year": "1890"
       },
       {
-        "places": "WellsBeach",
-        "years": "1897"
+        "place": "WellsBeach",
+        "year": "1897"
       },
       {
-        "places": "Brunswick",
-        "years": "1891"
+        "place": "Brunswick",
+        "year": "1891"
       }
     ]
   },
@@ -11317,8 +11317,8 @@ var dataset =
     "comName": "Prairie Sunflower",
     "entries": [
       {
-        "places": "Brunswick",
-        "years": "1902"
+        "place": "Brunswick",
+        "year": "1902"
       }
     ]
   },
@@ -11329,12 +11329,12 @@ var dataset =
     "comName": "Prairie Willow",
     "entries": [
       {
-        "places": "Brunswick",
-        "years": "1877"
+        "place": "Brunswick",
+        "year": "1877"
       },
       {
-        "places": "SouthPoland",
-        "years": "1893"
+        "place": "SouthPoland",
+        "year": "1893"
       }
     ]
   },
@@ -11345,12 +11345,12 @@ var dataset =
     "comName": "Primrose-leaved Violet",
     "entries": [
       {
-        "places": "EastLivermore",
-        "years": "1878"
+        "place": "EastLivermore",
+        "year": "1878"
       },
       {
-        "places": "Gilead",
-        "years": "1897"
+        "place": "Gilead",
+        "year": "1897"
       }
     ]
   },
@@ -11361,12 +11361,12 @@ var dataset =
     "comName": "Purple Agalinis",
     "entries": [
       {
-        "places": "Orono",
-        "years": "1891"
+        "place": "Orono",
+        "year": "1891"
       },
       {
-        "places": "Winnegance",
-        "years": "1910"
+        "place": "Winnegance",
+        "year": "1910"
       }
     ]
   },
@@ -11377,8 +11377,8 @@ var dataset =
     "comName": "Purple Cudweed",
     "entries": [
       {
-        "places": "NorthBerwick",
-        "years": "1898"
+        "place": "NorthBerwick",
+        "year": "1898"
       }
     ]
   },
@@ -11389,20 +11389,20 @@ var dataset =
     "comName": "Purple Joe-pye Weed",
     "entries": [
       {
-        "places": "Brunswick",
-        "years": "1877"
+        "place": "Brunswick",
+        "year": "1877"
       },
       {
-        "places": "Orono",
-        "years": "1880"
+        "place": "Orono",
+        "year": "1880"
       },
       {
-        "places": "SouthPoland",
-        "years": "1895"
+        "place": "SouthPoland",
+        "year": "1895"
       },
       {
-        "places": "Wells",
-        "years": "1898"
+        "place": "Wells",
+        "year": "1898"
       }
     ]
   },
@@ -11413,8 +11413,8 @@ var dataset =
     "comName": "Purple Medick",
     "entries": [
       {
-        "places": "SouthPoland",
-        "years": "1893"
+        "place": "SouthPoland",
+        "year": "1893"
       }
     ]
   },
@@ -11425,20 +11425,20 @@ var dataset =
     "comName": "Purple Orpine",
     "entries": [
       {
-        "places": "Caribou",
-        "years": "1880"
+        "place": "Caribou",
+        "year": "1880"
       },
       {
-        "places": "Brunswick",
-        "years": "1882"
+        "place": "Brunswick",
+        "year": "1882"
       },
       {
-        "places": "Wells",
-        "years": "1898"
+        "place": "Wells",
+        "year": "1898"
       },
       {
-        "places": "SouthPoland",
-        "years": "1893"
+        "place": "SouthPoland",
+        "year": "1893"
       }
     ]
   },
@@ -11449,24 +11449,24 @@ var dataset =
     "comName": "Purple Pitcherplant",
     "entries": [
       {
-        "places": "Fayette",
-        "years": "1871"
+        "place": "Fayette",
+        "year": "1871"
       },
       {
-        "places": "RangeleyRegion",
-        "years": "1882"
+        "place": "RangeleyRegion",
+        "year": "1882"
       },
       {
-        "places": "SouthPoland",
-        "years": "1893"
+        "place": "SouthPoland",
+        "year": "1893"
       },
       {
-        "places": "Wells",
-        "years": "1898"
+        "place": "Wells",
+        "year": "1898"
       },
       {
-        "places": "Fayette",
-        "years": "1871"
+        "place": "Fayette",
+        "year": "1871"
       }
     ]
   },
@@ -11477,12 +11477,12 @@ var dataset =
     "comName": "Purple Virgin's-bower",
     "entries": [
       {
-        "places": "Orono",
-        "years": "1881"
+        "place": "Orono",
+        "year": "1881"
       },
       {
-        "places": "FortKent",
-        "years": "1881"
+        "place": "FortKent",
+        "year": "1881"
       }
     ]
   },
@@ -11493,8 +11493,8 @@ var dataset =
     "comName": "Purple-stemmed American-aster",
     "entries": [
       {
-        "places": "LivermoreFalls",
-        "years": "1877"
+        "place": "LivermoreFalls",
+        "year": "1877"
       }
     ]
   },
@@ -11505,20 +11505,20 @@ var dataset =
     "comName": "Purple-stemmed American-aster",
     "entries": [
       {
-        "places": "Wells",
-        "years": "1877"
+        "place": "Wells",
+        "year": "1877"
       },
       {
-        "places": "Strong",
-        "years": "1882"
+        "place": "Strong",
+        "year": "1882"
       },
       {
-        "places": "Van Buren",
-        "years": "1880"
+        "place": "Van Buren",
+        "year": "1880"
       },
       {
-        "places": "Strong",
-        "years": "1882"
+        "place": "Strong",
+        "year": "1882"
       }
     ]
   },
@@ -11529,8 +11529,8 @@ var dataset =
     "comName": "Purple-stemmed American-aster",
     "entries": [
       {
-        "places": "VanBuren",
-        "years": "1880"
+        "place": "VanBuren",
+        "year": "1880"
       }
     ]
   },
@@ -11541,20 +11541,20 @@ var dataset =
     "comName": "Purple-stemmed Angelica",
     "entries": [
       {
-        "places": "Farmington",
-        "years": "1878"
+        "place": "Farmington",
+        "year": "1878"
       },
       {
-        "places": "SaintFrancis",
-        "years": "1881"
+        "place": "SaintFrancis",
+        "year": "1881"
       },
       {
-        "places": "FortKent",
-        "years": "1881"
+        "place": "FortKent",
+        "year": "1881"
       },
       {
-        "places": "Strong",
-        "years": "1882"
+        "place": "Strong",
+        "year": "1882"
       }
     ]
   },
@@ -11565,16 +11565,16 @@ var dataset =
     "comName": "Purple-stemmed Beggar-ticks",
     "entries": [
       {
-        "places": "Rangeley",
-        "years": "1882"
+        "place": "Rangeley",
+        "year": "1882"
       },
       {
-        "places": "SouthPoland",
-        "years": "1893"
+        "place": "SouthPoland",
+        "year": "1893"
       },
       {
-        "places": "Wells Beach",
-        "years": "1898"
+        "place": "Wells Beach",
+        "year": "1898"
       }
     ]
   },
@@ -11585,16 +11585,16 @@ var dataset =
     "comName": "Pursh's Plantain",
     "entries": [
       {
-        "places": "Brunswick",
-        "years": "1891"
+        "place": "Brunswick",
+        "year": "1891"
       },
       {
-        "places": "SouthPoland",
-        "years": "1895"
+        "place": "SouthPoland",
+        "year": "1895"
       },
       {
-        "places": "Winnegance",
-        "years": "1907"
+        "place": "Winnegance",
+        "year": "1907"
       }
     ]
   },
@@ -11605,12 +11605,12 @@ var dataset =
     "comName": "Purslane Speedwell",
     "entries": [
       {
-        "places": "Wells",
-        "years": "1898"
+        "place": "Wells",
+        "year": "1898"
       },
       {
-        "places": "Cutler",
-        "years": "1902"
+        "place": "Cutler",
+        "year": "1902"
       }
     ]
   },
@@ -11621,16 +11621,16 @@ var dataset =
     "comName": "Pussy Willow",
     "entries": [
       {
-        "places": "Brunswick",
-        "years": "1877"
+        "place": "Brunswick",
+        "year": "1877"
       },
       {
-        "places": "SouthPoland",
-        "years": "1893"
+        "place": "SouthPoland",
+        "year": "1893"
       },
       {
-        "places": "Brunswick",
-        "years": "1875"
+        "place": "Brunswick",
+        "year": "1875"
       }
     ]
   },
@@ -11641,20 +11641,20 @@ var dataset =
     "comName": "Quaking Poplar",
     "entries": [
       {
-        "places": "Brunswick",
-        "years": "1874"
+        "place": "Brunswick",
+        "year": "1874"
       },
       {
-        "places": "Wells",
-        "years": "1898"
+        "place": "Wells",
+        "year": "1898"
       },
       {
-        "places": "SouthPoland",
-        "years": "1893"
+        "place": "SouthPoland",
+        "year": "1893"
       },
       {
-        "places": "Hiram",
-        "years": "1900"
+        "place": "Hiram",
+        "year": "1900"
       }
     ]
   },
@@ -11665,16 +11665,16 @@ var dataset =
     "comName": "Rabbit-foot Clover",
     "entries": [
       {
-        "places": "Brunswick",
-        "years": "1871"
+        "place": "Brunswick",
+        "year": "1871"
       },
       {
-        "places": "Wells",
-        "years": "1898"
+        "place": "Wells",
+        "year": "1898"
       },
       {
-        "places": "SouthPoland",
-        "years": "1895"
+        "place": "SouthPoland",
+        "year": "1895"
       }
     ]
   },
@@ -11685,16 +11685,16 @@ var dataset =
     "comName": "Racemed Milkwort",
     "entries": [
       {
-        "places": "Brunswick",
-        "years": "1900"
+        "place": "Brunswick",
+        "year": "1900"
       },
       {
-        "places": "Wells",
-        "years": "1879"
+        "place": "Wells",
+        "year": "1879"
       },
       {
-        "places": "North Berwick",
-        "years": "1897"
+        "place": "North Berwick",
+        "year": "1897"
       }
     ]
   },
@@ -11705,8 +11705,8 @@ var dataset =
     "comName": "Ragged Robin Lychnis",
     "entries": [
       {
-        "places": "Wells",
-        "years": "1901"
+        "place": "Wells",
+        "year": "1901"
       }
     ]
   },
@@ -11717,8 +11717,8 @@ var dataset =
     "comName": "Rand's Eyebright",
     "entries": [
       {
-        "places": "Cutler",
-        "years": "1902"
+        "place": "Cutler",
+        "year": "1902"
       }
     ]
   },
@@ -11729,12 +11729,12 @@ var dataset =
     "comName": "Rattlesnake Hawkweed",
     "entries": [
       {
-        "places": "FayetteRidge",
-        "years": "1877"
+        "place": "FayetteRidge",
+        "year": "1877"
       },
       {
-        "places": "FayetteRidge",
-        "years": "1878"
+        "place": "FayetteRidge",
+        "year": "1878"
       }
     ]
   },
@@ -11745,20 +11745,20 @@ var dataset =
     "comName": "Rayless Chamomille",
     "entries": [
       {
-        "places": "Orono",
-        "years": "1891"
+        "place": "Orono",
+        "year": "1891"
       },
       {
-        "places": "RoqueBluffs",
-        "years": "1902"
+        "place": "RoqueBluffs",
+        "year": "1902"
       },
       {
-        "places": "Brunswick",
-        "years": "1907"
+        "place": "Brunswick",
+        "year": "1907"
       },
       {
-        "places": "Cutler",
-        "years": "1902"
+        "place": "Cutler",
+        "year": "1902"
       }
     ]
   },
@@ -11769,20 +11769,20 @@ var dataset =
     "comName": "Red Baneberry",
     "entries": [
       {
-        "places": "Brunswick",
-        "years": "1870"
+        "place": "Brunswick",
+        "year": "1870"
       },
       {
-        "places": "Gray",
-        "years": "1874"
+        "place": "Gray",
+        "year": "1874"
       },
       {
-        "places": "Wells",
-        "years": "1878"
+        "place": "Wells",
+        "year": "1878"
       },
       {
-        "places": "SouthPoland",
-        "years": "1893"
+        "place": "SouthPoland",
+        "year": "1893"
       }
     ]
   },
@@ -11793,16 +11793,16 @@ var dataset =
     "comName": "Red Bearberry",
     "entries": [
       {
-        "places": "Brunswick",
-        "years": "1871"
+        "place": "Brunswick",
+        "year": "1871"
       },
       {
-        "places": "SouthPoland",
-        "years": "1895"
+        "place": "SouthPoland",
+        "year": "1895"
       },
       {
-        "places": "Gilead",
-        "years": "1897"
+        "place": "Gilead",
+        "year": "1897"
       }
     ]
   },
@@ -11813,24 +11813,24 @@ var dataset =
     "comName": "Red Elderberry",
     "entries": [
       {
-        "places": "Northport",
-        "years": "1877"
+        "place": "Northport",
+        "year": "1877"
       },
       {
-        "places": "SouthPoland",
-        "years": "1882"
+        "place": "SouthPoland",
+        "year": "1882"
       },
       {
-        "places": "Rangeley",
-        "years": "1898"
+        "place": "Rangeley",
+        "year": "1898"
       },
       {
-        "places": "Northport",
-        "years": "1892"
+        "place": "Northport",
+        "year": "1892"
       },
       {
-        "places": "Shapleigh",
-        "years": "1901"
+        "place": "Shapleigh",
+        "year": "1901"
       }
     ]
   },
@@ -11841,12 +11841,12 @@ var dataset =
     "comName": "Red False Bartsia",
     "entries": [
       {
-        "places": "Harpswell",
-        "years": "1878"
+        "place": "Harpswell",
+        "year": "1878"
       },
       {
-        "places": "Boothbay",
-        "years": "1870"
+        "place": "Boothbay",
+        "year": "1870"
       }
     ]
   },
@@ -11857,12 +11857,12 @@ var dataset =
     "comName": "Red Goosefoot",
     "entries": [
       {
-        "places": "WellsBeach",
-        "years": "1879"
+        "place": "WellsBeach",
+        "year": "1879"
       },
       {
-        "places": "Wells",
-        "years": "1879"
+        "place": "Wells",
+        "year": "1879"
       }
     ]
   },
@@ -11873,24 +11873,24 @@ var dataset =
     "comName": "Red Lobelia",
     "entries": [
       {
-        "places": "Topsham",
-        "years": "1870"
+        "place": "Topsham",
+        "year": "1870"
       },
       {
-        "places": "EastWilton",
-        "years": "1896"
+        "place": "EastWilton",
+        "year": "1896"
       },
       {
-        "places": "Wells",
-        "years": "1898"
+        "place": "Wells",
+        "year": "1898"
       },
       {
-        "places": "Brunswick",
-        "years": "Jul 1870"
+        "place": "Brunswick",
+        "year": "Jul 1870"
       },
       {
-        "places": "Rangeley",
-        "years": "1881"
+        "place": "Rangeley",
+        "year": "1881"
       }
     ]
   },
@@ -11901,20 +11901,20 @@ var dataset =
     "comName": "Red Maple",
     "entries": [
       {
-        "places": "Brunswick",
-        "years": "1876"
+        "place": "Brunswick",
+        "year": "1876"
       },
       {
-        "places": "Brunswick",
-        "years": "1876"
+        "place": "Brunswick",
+        "year": "1876"
       },
       {
-        "places": "South Poland",
-        "years": "1893"
+        "place": "South Poland",
+        "year": "1893"
       },
       {
-        "places": "Brunswick",
-        "years": "1876"
+        "place": "Brunswick",
+        "year": "1876"
       }
     ]
   },
@@ -11925,24 +11925,24 @@ var dataset =
     "comName": "Red Pine",
     "entries": [
       {
-        "places": "LivermoreFalls",
-        "years": "1877"
+        "place": "LivermoreFalls",
+        "year": "1877"
       },
       {
-        "places": "Chesterville",
-        "years": "1878"
+        "place": "Chesterville",
+        "year": "1878"
       },
       {
-        "places": "Fayette",
-        "years": "1878"
+        "place": "Fayette",
+        "year": "1878"
       },
       {
-        "places": "MtDay",
-        "years": "1882"
+        "place": "MtDay",
+        "year": "1882"
       },
       {
-        "places": "SouthPoland",
-        "years": "1893"
+        "place": "SouthPoland",
+        "year": "1893"
       }
     ]
   },
@@ -11953,16 +11953,16 @@ var dataset =
     "comName": "Red Raspberry",
     "entries": [
       {
-        "places": "Brunswick",
-        "years": "1878"
+        "place": "Brunswick",
+        "year": "1878"
       },
       {
-        "places": "EastLivermore",
-        "years": "1870"
+        "place": "EastLivermore",
+        "year": "1870"
       },
       {
-        "places": "SouthPoland",
-        "years": "1893"
+        "place": "SouthPoland",
+        "year": "1893"
       }
     ]
   },
@@ -11973,16 +11973,16 @@ var dataset =
     "comName": "Red Sand-spurry",
     "entries": [
       {
-        "places": "Brunswick",
-        "years": "1870"
+        "place": "Brunswick",
+        "year": "1870"
       },
       {
-        "places": "SouthPoland",
-        "years": "1893"
+        "place": "SouthPoland",
+        "year": "1893"
       },
       {
-        "places": "Wells",
-        "years": "1895"
+        "place": "Wells",
+        "year": "1895"
       }
     ]
   },
@@ -11993,12 +11993,12 @@ var dataset =
     "comName": "Red Spruce",
     "entries": [
       {
-        "places": "Brunswick",
-        "years": "1876"
+        "place": "Brunswick",
+        "year": "1876"
       },
       {
-        "places": "South Poland",
-        "years": "1893"
+        "place": "South Poland",
+        "year": "1893"
       }
     ]
   },
@@ -12016,24 +12016,24 @@ var dataset =
     "comName": "Red-osier Dogwood",
     "entries": [
       {
-        "places": "Brunswick",
-        "years": "1878"
+        "place": "Brunswick",
+        "year": "1878"
       },
       {
-        "places": "SouthPoland",
-        "years": "1893"
+        "place": "SouthPoland",
+        "year": "1893"
       },
       {
-        "places": "Brunswick",
-        "years": "1878"
+        "place": "Brunswick",
+        "year": "1878"
       },
       {
-        "places": "Lewiston Falls",
-        "years": "1878"
+        "place": "Lewiston Falls",
+        "year": "1878"
       },
       {
-        "places": "Livermore Falls",
-        "years": "1877"
+        "place": "Livermore Falls",
+        "year": "1877"
       }
     ]
   },
@@ -12044,16 +12044,16 @@ var dataset =
     "comName": "Red-rooted Amaranth",
     "entries": [
       {
-        "places": "Topsham",
-        "years": "1907"
+        "place": "Topsham",
+        "year": "1907"
       },
       {
-        "places": "SouthPoland",
-        "years": "1895"
+        "place": "SouthPoland",
+        "year": "1895"
       },
       {
-        "places": "Wells",
-        "years": "1898"
+        "place": "Wells",
+        "year": "1898"
       }
     ]
   },
@@ -12064,8 +12064,8 @@ var dataset =
     "comName": "Red-stemmed Stork's-bill",
     "entries": [
       {
-        "places": "EastWilton",
-        "years": "1894"
+        "place": "EastWilton",
+        "year": "1894"
       }
     ]
   },
@@ -12076,16 +12076,16 @@ var dataset =
     "comName": "Redchokeberry",
     "entries": [
       {
-        "places": "Gilead",
-        "years": "1897"
+        "place": "Gilead",
+        "year": "1897"
       },
       {
-        "places": "Fayette Ridge",
-        "years": "1878"
+        "place": "Fayette Ridge",
+        "year": "1878"
       },
       {
-        "places": "Brunswick",
-        "years": "1887"
+        "place": "Brunswick",
+        "year": "1887"
       }
     ]
   },
@@ -12096,8 +12096,8 @@ var dataset =
     "comName": "Redclover",
     "entries": [
       {
-        "places": "SouthPoland",
-        "years": "1897"
+        "place": "SouthPoland",
+        "year": "1897"
       }
     ]
   },
@@ -12108,28 +12108,28 @@ var dataset =
     "comName": "Redcolumbine",
     "entries": [
       {
-        "places": "Brunswick",
-        "years": "1870"
+        "place": "Brunswick",
+        "year": "1870"
       },
       {
-        "places": "Topsham",
-        "years": "1870"
+        "place": "Topsham",
+        "year": "1870"
       },
       {
-        "places": "SouthPoland",
-        "years": "1893"
+        "place": "SouthPoland",
+        "year": "1893"
       },
       {
-        "places": "WestBath",
-        "years": "1885"
+        "place": "WestBath",
+        "year": "1885"
       },
       {
-        "places": "Gilead",
-        "years": "1897"
+        "place": "Gilead",
+        "year": "1897"
       },
       {
-        "places": "Brunswick",
-        "years": "1905"
+        "place": "Brunswick",
+        "year": "1905"
       }
     ]
   },
@@ -12140,12 +12140,12 @@ var dataset =
     "comName": "Reddish Pondweed",
     "entries": [
       {
-        "places": "FortKent",
-        "years": "1881"
+        "place": "FortKent",
+        "year": "1881"
       },
       {
-        "places": "SaintFrancis",
-        "years": "1881"
+        "place": "SaintFrancis",
+        "year": "1881"
       }
     ]
   },
@@ -12156,12 +12156,12 @@ var dataset =
     "comName": "Resupinate Bladderwort",
     "entries": [
       {
-        "places": "FayetteRidge",
-        "years": "1877"
+        "place": "FayetteRidge",
+        "year": "1877"
       },
       {
-        "places": "IsleauHaut",
-        "years": "1909"
+        "place": "IsleauHaut",
+        "year": "1909"
       }
     ]
   },
@@ -12179,16 +12179,16 @@ var dataset =
     "comName": "Rib-seeded Sandmat",
     "entries": [
       {
-        "places": "RumfordCenter",
-        "years": "1896"
+        "place": "RumfordCenter",
+        "year": "1896"
       },
       {
-        "places": "Phillips",
-        "years": "1896"
+        "place": "Phillips",
+        "year": "1896"
       },
       {
-        "places": "Strong",
-        "years": "1894"
+        "place": "Strong",
+        "year": "1894"
       }
     ]
   },
@@ -12199,8 +12199,8 @@ var dataset =
     "comName": "Ribbon-leaved Pondweed",
     "entries": [
       {
-        "places": "LivermoreFalls",
-        "years": "1878"
+        "place": "LivermoreFalls",
+        "year": "1878"
       }
     ]
   },
@@ -12211,20 +12211,20 @@ var dataset =
     "comName": "River Grape",
     "entries": [
       {
-        "places": "Strong",
-        "years": "1882"
+        "place": "Strong",
+        "year": "1882"
       },
       {
-        "places": "SouthPoland",
-        "years": "1895"
+        "place": "SouthPoland",
+        "year": "1895"
       },
       {
-        "places": "Gilead",
-        "years": "1897"
+        "place": "Gilead",
+        "year": "1897"
       },
       {
-        "places": "Bethel",
-        "years": "1897"
+        "place": "Bethel",
+        "year": "1897"
       }
     ]
   },
@@ -12235,12 +12235,12 @@ var dataset =
     "comName": "Robbin's Milk-vetch",
     "entries": [
       {
-        "places": "FortKent",
-        "years": "1880"
+        "place": "FortKent",
+        "year": "1880"
       },
       {
-        "places": "Fort Kent",
-        "years": "1881"
+        "place": "Fort Kent",
+        "year": "1881"
       }
     ]
   },
@@ -12251,12 +12251,12 @@ var dataset =
     "comName": "Robbins' Pondweed",
     "entries": [
       {
-        "places": "Readfield",
-        "years": "1892"
+        "place": "Readfield",
+        "year": "1892"
       },
       {
-        "places": "SouthPoland",
-        "years": "1893"
+        "place": "SouthPoland",
+        "year": "1893"
       }
     ]
   },
@@ -12267,16 +12267,16 @@ var dataset =
     "comName": "Robin's Plaintain Fleabane",
     "entries": [
       {
-        "places": "Brunswick",
-        "years": "1877"
+        "place": "Brunswick",
+        "year": "1877"
       },
       {
-        "places": "SouthPoland",
-        "years": "1893"
+        "place": "SouthPoland",
+        "year": "1893"
       },
       {
-        "places": "Wells",
-        "years": "1898"
+        "place": "Wells",
+        "year": "1898"
       }
     ]
   },
@@ -12287,16 +12287,16 @@ var dataset =
     "comName": "Roseroot",
     "entries": [
       {
-        "places": "TheIsland",
-        "years": "Cutler\"\"The Island\" Cutler\"\"he Islan\"\"\"he Island\" Cutler\"\"The Island\" Cutler\"\"\"e Island\" Cutler\"\"The Island\"\" Island\" Cutler\"\"Th\"\"Island\" Cut\"\"slan\""
+        "place": "TheIsland",
+        "year": "Cutler\"\"The Island\" Cutler\"\"he Islan\"\"\"he Island\" Cutler\"\"The Island\" Cutler\"\"\"e Island\" Cutler\"\"The Island\"\" Island\" Cutler\"\"Th\"\"Island\" Cut\"\"slan\""
       },
       {
-        "places": "1902",
-        "years": "Roque Bluffs"
+        "place": "1902",
+        "year": "Roque Bluffs"
       },
       {
-        "places": "1902",
-        "years": "Monhegan"
+        "place": "1902",
+        "year": "Monhegan"
       }
     ]
   },
@@ -12307,12 +12307,12 @@ var dataset =
     "comName": "Rosy Meadowsweet",
     "entries": [
       {
-        "places": "Brunswick",
-        "years": "1870"
+        "place": "Brunswick",
+        "year": "1870"
       },
       {
-        "places": "Wells",
-        "years": "1898"
+        "place": "Wells",
+        "year": "1898"
       }
     ]
   },
@@ -12323,20 +12323,20 @@ var dataset =
     "comName": "Rough Bedstraw",
     "entries": [
       {
-        "places": "Brunswick",
-        "years": "1870"
+        "place": "Brunswick",
+        "year": "1870"
       },
       {
-        "places": "EastLivermore",
-        "years": "1878"
+        "place": "EastLivermore",
+        "year": "1878"
       },
       {
-        "places": "SouthPoland",
-        "years": "1892"
+        "place": "SouthPoland",
+        "year": "1892"
       },
       {
-        "places": "Wells",
-        "years": "1898"
+        "place": "Wells",
+        "year": "1898"
       }
     ]
   },
@@ -12347,12 +12347,12 @@ var dataset =
     "comName": "Rough Cocklebur",
     "entries": [
       {
-        "places": "Wells Beach",
-        "years": "1879"
+        "place": "Wells Beach",
+        "year": "1879"
       },
       {
-        "places": "Gardiner",
-        "years": "1898"
+        "place": "Gardiner",
+        "year": "1898"
       }
     ]
   },
@@ -12363,20 +12363,20 @@ var dataset =
     "comName": "Rough Fleabane",
     "entries": [
       {
-        "places": "Brunswick",
-        "years": "1877"
+        "place": "Brunswick",
+        "year": "1877"
       },
       {
-        "places": "Rangeley",
-        "years": "1882"
+        "place": "Rangeley",
+        "year": "1882"
       },
       {
-        "places": "FayetteRidge",
-        "years": "1877"
+        "place": "FayetteRidge",
+        "year": "1877"
       },
       {
-        "places": "SouthPoland",
-        "years": "1893"
+        "place": "SouthPoland",
+        "year": "1893"
       }
     ]
   },
@@ -12387,36 +12387,36 @@ var dataset =
     "comName": "Rough Hawkweed",
     "entries": [
       {
-        "places": "Brunswick",
-        "years": "1870"
+        "place": "Brunswick",
+        "year": "1870"
       },
       {
-        "places": "SouthPoland",
-        "years": "1893"
+        "place": "SouthPoland",
+        "year": "1893"
       },
       {
-        "places": "Wells",
-        "years": "1898"
+        "place": "Wells",
+        "year": "1898"
       },
       {
-        "places": "WestBaldwin",
-        "years": "1900"
+        "place": "WestBaldwin",
+        "year": "1900"
       },
       {
-        "places": "Wells Beach",
-        "years": "1879"
+        "place": "Wells Beach",
+        "year": "1879"
       },
       {
-        "places": "Gilead",
-        "years": "1897"
+        "place": "Gilead",
+        "year": "1897"
       },
       {
-        "places": "Wells",
-        "years": "1898"
+        "place": "Wells",
+        "year": "1898"
       },
       {
-        "places": "Baldwin",
-        "years": "1900"
+        "place": "Baldwin",
+        "year": "1900"
       }
     ]
   },
@@ -12427,28 +12427,28 @@ var dataset =
     "comName": "Rough Wood-aster",
     "entries": [
       {
-        "places": "Wells",
-        "years": "1879"
+        "place": "Wells",
+        "year": "1879"
       },
       {
-        "places": "Wells",
-        "years": "1898"
+        "place": "Wells",
+        "year": "1898"
       },
       {
-        "places": "Cutler",
-        "years": "1902"
+        "place": "Cutler",
+        "year": "1902"
       },
       {
-        "places": "Aroostook",
-        "years": "1882"
+        "place": "Aroostook",
+        "year": "1882"
       },
       {
-        "places": "Gilead",
-        "years": "1897"
+        "place": "Gilead",
+        "year": "1897"
       },
       {
-        "places": "Gilead",
-        "years": "1897"
+        "place": "Gilead",
+        "year": "1897"
       }
     ]
   },
@@ -12459,8 +12459,8 @@ var dataset =
     "comName": "Rough Wood-aster",
     "entries": [
       {
-        "places": "Sorrento",
-        "years": "1891"
+        "place": "Sorrento",
+        "year": "1891"
       }
     ]
   },
@@ -12471,12 +12471,12 @@ var dataset =
     "comName": "Rough-leaved Goldenrod",
     "entries": [
       {
-        "places": "Wells",
-        "years": "1879"
+        "place": "Wells",
+        "year": "1879"
       },
       {
-        "places": "Gilead",
-        "years": "1897"
+        "place": "Gilead",
+        "year": "1897"
       }
     ]
   },
@@ -12487,8 +12487,8 @@ var dataset =
     "comName": "Round-fruited Hedge-hyssop",
     "entries": [
       {
-        "places": "Orono",
-        "years": "1891"
+        "place": "Orono",
+        "year": "1891"
       }
     ]
   },
@@ -12499,36 +12499,36 @@ var dataset =
     "comName": "Round-fruited Pinweed",
     "entries": [
       {
-        "places": "LeedsCenter",
-        "years": "1895"
+        "place": "LeedsCenter",
+        "year": "1895"
       },
       {
-        "places": "Topsham",
-        "years": "1877"
+        "place": "Topsham",
+        "year": "1877"
       },
       {
-        "places": "Chesterville",
-        "years": "1877"
+        "place": "Chesterville",
+        "year": "1877"
       },
       {
-        "places": "Gilead",
-        "years": "1897"
+        "place": "Gilead",
+        "year": "1897"
       },
       {
-        "places": "Brunswick",
-        "years": "1878"
+        "place": "Brunswick",
+        "year": "1878"
       },
       {
-        "places": "Brunswick",
-        "years": "1878"
+        "place": "Brunswick",
+        "year": "1878"
       },
       {
-        "places": "Topsham",
-        "years": "1877"
+        "place": "Topsham",
+        "year": "1877"
       },
       {
-        "places": "Gilead",
-        "years": "1897"
+        "place": "Gilead",
+        "year": "1897"
       }
     ]
   },
@@ -12539,16 +12539,16 @@ var dataset =
     "comName": "Round-headed Bush-clover",
     "entries": [
       {
-        "places": "Wells",
-        "years": "1897"
+        "place": "Wells",
+        "year": "1897"
       },
       {
-        "places": "WestBaldwin",
-        "years": "1900"
+        "place": "WestBaldwin",
+        "year": "1900"
       },
       {
-        "places": "Brunswick",
-        "years": "1904"
+        "place": "Brunswick",
+        "year": "1904"
       }
     ]
   },
@@ -12559,16 +12559,16 @@ var dataset =
     "comName": "Round-leaved Bog-orchid",
     "entries": [
       {
-        "places": "FayetteRidge",
-        "years": "1886"
+        "place": "FayetteRidge",
+        "year": "1886"
       },
       {
-        "places": "Aroostook",
-        "years": "1880"
+        "place": "Aroostook",
+        "year": "1880"
       },
       {
-        "places": "Aroostook",
-        "years": "1882"
+        "place": "Aroostook",
+        "year": "1882"
       }
     ]
   },
@@ -12579,20 +12579,20 @@ var dataset =
     "comName": "Round-leaved Dogwood",
     "entries": [
       {
-        "places": "SouthPoland",
-        "years": "1895"
+        "place": "SouthPoland",
+        "year": "1895"
       },
       {
-        "places": "Chesterville Ridge",
-        "years": "1878"
+        "place": "Chesterville Ridge",
+        "year": "1878"
       },
       {
-        "places": "Wells",
-        "years": "1879"
+        "place": "Wells",
+        "year": "1879"
       },
       {
-        "places": "South Poland",
-        "years": "1895"
+        "place": "South Poland",
+        "year": "1895"
       }
     ]
   },
@@ -12603,12 +12603,12 @@ var dataset =
     "comName": "Round-leaved Dogwood",
     "entries": [
       {
-        "places": "SouthPoland",
-        "years": "1893"
+        "place": "SouthPoland",
+        "year": "1893"
       },
       {
-        "places": "Chesterville Ridge",
-        "years": "1877"
+        "place": "Chesterville Ridge",
+        "year": "1877"
       }
     ]
   },
@@ -12619,8 +12619,8 @@ var dataset =
     "comName": "Round-leaved Shadbush",
     "entries": [
       {
-        "places": "Orono",
-        "years": "1880"
+        "place": "Orono",
+        "year": "1880"
       }
     ]
   },
@@ -12631,32 +12631,32 @@ var dataset =
     "comName": "Round-leaved Violet",
     "entries": [
       {
-        "places": "Brunswick",
-        "years": "1873"
+        "place": "Brunswick",
+        "year": "1873"
       },
       {
-        "places": "SouthPoland",
-        "years": "1893"
+        "place": "SouthPoland",
+        "year": "1893"
       },
       {
-        "places": "Rangeley",
-        "years": "1882"
+        "place": "Rangeley",
+        "year": "1882"
       },
       {
-        "places": "Caribou",
-        "years": "1880"
+        "place": "Caribou",
+        "year": "1880"
       },
       {
-        "places": "Fort Fairfield",
-        "years": "1880"
+        "place": "Fort Fairfield",
+        "year": "1880"
       },
       {
-        "places": "Presque Isle",
-        "years": "1880"
+        "place": "Presque Isle",
+        "year": "1880"
       },
       {
-        "places": "Presque Isle",
-        "years": "1881"
+        "place": "Presque Isle",
+        "year": "1881"
       }
     ]
   },
@@ -12667,24 +12667,24 @@ var dataset =
     "comName": "Rugel's Plantain",
     "entries": [
       {
-        "places": "WestBath",
-        "years": "1892"
+        "place": "WestBath",
+        "year": "1892"
       },
       {
-        "places": "SouthPoland",
-        "years": "1893"
+        "place": "SouthPoland",
+        "year": "1893"
       },
       {
-        "places": "EastLivermore",
-        "years": "1894"
+        "place": "EastLivermore",
+        "year": "1894"
       },
       {
-        "places": "Gilead",
-        "years": "1897"
+        "place": "Gilead",
+        "year": "1897"
       },
       {
-        "places": "Wells",
-        "years": "1898"
+        "place": "Wells",
+        "year": "1898"
       }
     ]
   },
@@ -12695,12 +12695,12 @@ var dataset =
     "comName": "Saint John River Oxytrope",
     "entries": [
       {
-        "places": "Caribou",
-        "years": "1880"
+        "place": "Caribou",
+        "year": "1880"
       },
       {
-        "places": "FortKent",
-        "years": "1880"
+        "place": "FortKent",
+        "year": "1880"
       }
     ]
   },
@@ -12711,8 +12711,8 @@ var dataset =
     "comName": "Saltmarsh Agalinis",
     "entries": [
       {
-        "places": "Ogunquit",
-        "years": "1879"
+        "place": "Ogunquit",
+        "year": "1879"
       }
     ]
   },
@@ -12723,16 +12723,16 @@ var dataset =
     "comName": "Saltmarsh Arrow-grass",
     "entries": [
       {
-        "places": "Brunswick",
-        "years": "1887"
+        "place": "Brunswick",
+        "year": "1887"
       },
       {
-        "places": "Wells",
-        "years": "1879"
+        "place": "Wells",
+        "year": "1879"
       },
       {
-        "places": "Wells",
-        "years": "1898"
+        "place": "Wells",
+        "year": "1898"
       }
     ]
   },
@@ -12750,24 +12750,24 @@ var dataset =
     "comName": "Saltmarsh Sand-spurry",
     "entries": [
       {
-        "places": "Wells",
-        "years": "1879"
+        "place": "Wells",
+        "year": "1879"
       },
       {
-        "places": "Cutler",
-        "years": "1902"
+        "place": "Cutler",
+        "year": "1902"
       },
       {
-        "places": "Wells",
-        "years": "1881"
+        "place": "Wells",
+        "year": "1881"
       },
       {
-        "places": "Wells Beach",
-        "years": "1879"
+        "place": "Wells Beach",
+        "year": "1879"
       },
       {
-        "places": "Cutler",
-        "years": "1902"
+        "place": "Cutler",
+        "year": "1902"
       }
     ]
   },
@@ -12778,8 +12778,8 @@ var dataset =
     "comName": "Saltmarsh Stitchwort",
     "entries": [
       {
-        "places": "Cutler",
-        "years": "1902"
+        "place": "Cutler",
+        "year": "1902"
       }
     ]
   },
@@ -12790,12 +12790,12 @@ var dataset =
     "comName": "Saltwort",
     "entries": [
       {
-        "places": "WellsBeach",
-        "years": "1879"
+        "place": "WellsBeach",
+        "year": "1879"
       },
       {
-        "places": "Monhegan",
-        "years": "1910"
+        "place": "Monhegan",
+        "year": "1910"
       }
     ]
   },
@@ -12806,20 +12806,20 @@ var dataset =
     "comName": "Sand False Heather",
     "entries": [
       {
-        "places": "Wells",
-        "years": "1879"
+        "place": "Wells",
+        "year": "1879"
       },
       {
-        "places": "Ogunquit",
-        "years": "1898"
+        "place": "Ogunquit",
+        "year": "1898"
       },
       {
-        "places": "DrakesIsland",
-        "years": "1898"
+        "place": "DrakesIsland",
+        "year": "1898"
       },
       {
-        "places": "Wells",
-        "years": "1897"
+        "place": "Wells",
+        "year": "1897"
       }
     ]
   },
@@ -12830,12 +12830,12 @@ var dataset =
     "comName": "Sandbar Willow",
     "entries": [
       {
-        "places": "Poland",
-        "years": "1895"
+        "place": "Poland",
+        "year": "1895"
       },
       {
-        "places": "MiddleRangePond",
-        "years": "1893"
+        "place": "MiddleRangePond",
+        "year": "1893"
       }
     ]
   },
@@ -12846,16 +12846,16 @@ var dataset =
     "comName": "Sassafras",
     "entries": [
       {
-        "places": "Wells",
-        "years": "1876"
+        "place": "Wells",
+        "year": "1876"
       },
       {
-        "places": "Wells",
-        "years": "1898"
+        "place": "Wells",
+        "year": "1898"
       },
       {
-        "places": "Wells",
-        "years": "1902"
+        "place": "Wells",
+        "year": "1902"
       }
     ]
   },
@@ -12866,8 +12866,8 @@ var dataset =
     "comName": "Scarlet Bee-balm",
     "entries": [
       {
-        "places": "Fayette",
-        "years": "1877"
+        "place": "Fayette",
+        "year": "1877"
       }
     ]
   },
@@ -12878,32 +12878,32 @@ var dataset =
     "comName": "Scarlet Hawthorn",
     "entries": [
       {
-        "places": "Orono",
-        "years": "1881"
+        "place": "Orono",
+        "year": "1881"
       },
       {
-        "places": "Brunswick",
-        "years": "1899"
+        "place": "Brunswick",
+        "year": "1899"
       },
       {
-        "places": "Brunswick",
-        "years": "1897"
+        "place": "Brunswick",
+        "year": "1897"
       },
       {
-        "places": "Southport",
-        "years": "1891"
+        "place": "Southport",
+        "year": "1891"
       },
       {
-        "places": "Mattawamkeag",
-        "years": "1881"
+        "place": "Mattawamkeag",
+        "year": "1881"
       },
       {
-        "places": "Patten",
-        "years": "1881"
+        "place": "Patten",
+        "year": "1881"
       },
       {
-        "places": "Hersey",
-        "years": "1881"
+        "place": "Hersey",
+        "year": "1881"
       }
     ]
   },
@@ -12914,36 +12914,36 @@ var dataset =
     "comName": "Scarlet Oak",
     "entries": [
       {
-        "places": "Wells",
-        "years": "1898"
+        "place": "Wells",
+        "year": "1898"
       },
       {
-        "places": "SouthPoland",
-        "years": "1893"
+        "place": "SouthPoland",
+        "year": "1893"
       },
       {
-        "places": "Gilead",
-        "years": "1897"
+        "place": "Gilead",
+        "year": "1897"
       },
       {
-        "places": "Gilead",
-        "years": "1897"
+        "place": "Gilead",
+        "year": "1897"
       },
       {
-        "places": "South Poland",
-        "years": "1897"
+        "place": "South Poland",
+        "year": "1897"
       },
       {
-        "places": "Wells",
-        "years": "1876"
+        "place": "Wells",
+        "year": "1876"
       },
       {
-        "places": "Wells",
-        "years": "1879"
+        "place": "Wells",
+        "year": "1879"
       },
       {
-        "places": "Wells",
-        "years": "1898"
+        "place": "Wells",
+        "year": "1898"
       }
     ]
   },
@@ -12954,20 +12954,20 @@ var dataset =
     "comName": "Scarlet Pimpernel",
     "entries": [
       {
-        "places": "FortCliffs",
-        "years": "1874"
+        "place": "FortCliffs",
+        "year": "1874"
       },
       {
-        "places": "Wells",
-        "years": "1879"
+        "place": "Wells",
+        "year": "1879"
       },
       {
-        "places": "Strong",
-        "years": "1894"
+        "place": "Strong",
+        "year": "1894"
       },
       {
-        "places": "Monhegan",
-        "years": "1910"
+        "place": "Monhegan",
+        "year": "1910"
       }
     ]
   },
@@ -12978,24 +12978,24 @@ var dataset =
     "comName": "Scotch Bellflower",
     "entries": [
       {
-        "places": "Brunswick",
-        "years": "1870"
+        "place": "Brunswick",
+        "year": "1870"
       },
       {
-        "places": "Brunswick",
-        "years": "1876"
+        "place": "Brunswick",
+        "year": "1876"
       },
       {
-        "places": "FortFairfield",
-        "years": "1880"
+        "place": "FortFairfield",
+        "year": "1880"
       },
       {
-        "places": "Rangeley",
-        "years": "1891"
+        "place": "Rangeley",
+        "year": "1891"
       },
       {
-        "places": "Fort Fairfield",
-        "years": "1880"
+        "place": "Fort Fairfield",
+        "year": "1880"
       }
     ]
   },
@@ -13006,16 +13006,16 @@ var dataset =
     "comName": "Scotch Wild Lovage",
     "entries": [
       {
-        "places": "Brunswick",
-        "years": "1876"
+        "place": "Brunswick",
+        "year": "1876"
       },
       {
-        "places": "WellsBeach",
-        "years": "1898"
+        "place": "WellsBeach",
+        "year": "1898"
       },
       {
-        "places": "IsleauHaut",
-        "years": "1909"
+        "place": "IsleauHaut",
+        "year": "1909"
       }
     ]
   },
@@ -13026,24 +13026,24 @@ var dataset =
     "comName": "Scrub Oak",
     "entries": [
       {
-        "places": "Brunswick",
-        "years": "1877"
+        "place": "Brunswick",
+        "year": "1877"
       },
       {
-        "places": "Topsham",
-        "years": "1877"
+        "place": "Topsham",
+        "year": "1877"
       },
       {
-        "places": "SouthPoland",
-        "years": "1893"
+        "place": "SouthPoland",
+        "year": "1893"
       },
       {
-        "places": "Hiram",
-        "years": "1900"
+        "place": "Hiram",
+        "year": "1900"
       },
       {
-        "places": "Gilead",
-        "years": "1897"
+        "place": "Gilead",
+        "year": "1897"
       }
     ]
   },
@@ -13054,36 +13054,36 @@ var dataset =
     "comName": "Sea Coast Angelica",
     "entries": [
       {
-        "places": "WellsBeach",
-        "years": "1879"
+        "place": "WellsBeach",
+        "year": "1879"
       },
       {
-        "places": "Harpswell",
-        "years": "1876"
+        "place": "Harpswell",
+        "year": "1876"
       },
       {
-        "places": "WestBath",
-        "years": "1892"
+        "place": "WestBath",
+        "year": "1892"
       },
       {
-        "places": "IsleauHaut",
-        "years": "1909"
+        "place": "IsleauHaut",
+        "year": "1909"
       },
       {
-        "places": "Harpswell",
-        "years": "1876"
+        "place": "Harpswell",
+        "year": "1876"
       },
       {
-        "places": "Wells Beach",
-        "years": "1879"
+        "place": "Wells Beach",
+        "year": "1879"
       },
       {
-        "places": "Isle au Haut",
-        "years": "1909"
+        "place": "Isle au Haut",
+        "year": "1909"
       },
       {
-        "places": "Wells Beach",
-        "years": "1898"
+        "place": "Wells Beach",
+        "year": "1898"
       }
     ]
   },
@@ -13094,28 +13094,28 @@ var dataset =
     "comName": "Sea Glasswort",
     "entries": [
       {
-        "places": "WellsBeach",
-        "years": "1898"
+        "place": "WellsBeach",
+        "year": "1898"
       },
       {
-        "places": "Brunswick",
-        "years": "1899"
+        "place": "Brunswick",
+        "year": "1899"
       },
       {
-        "places": "Sorrento",
-        "years": "1891"
+        "place": "Sorrento",
+        "year": "1891"
       },
       {
-        "places": "Wells",
-        "years": "1898"
+        "place": "Wells",
+        "year": "1898"
       },
       {
-        "places": "Pemaquid",
-        "years": "1889"
+        "place": "Pemaquid",
+        "year": "1889"
       },
       {
-        "places": "Lubec",
-        "years": "1902"
+        "place": "Lubec",
+        "year": "1902"
       }
     ]
   },
@@ -13126,20 +13126,20 @@ var dataset =
     "comName": "Sea-milkwort",
     "entries": [
       {
-        "places": "Brunswick",
-        "years": "1875"
+        "place": "Brunswick",
+        "year": "1875"
       },
       {
-        "places": "GreatDiamondIsland",
-        "years": "1888"
+        "place": "GreatDiamondIsland",
+        "year": "1888"
       },
       {
-        "places": "WestBath",
-        "years": "1891"
+        "place": "WestBath",
+        "year": "1891"
       },
       {
-        "places": "Wells",
-        "years": "1897"
+        "place": "Wells",
+        "year": "1897"
       }
     ]
   },
@@ -13150,12 +13150,12 @@ var dataset =
     "comName": "Seabeach Dock",
     "entries": [
       {
-        "places": "Wells",
-        "years": "1879"
+        "place": "Wells",
+        "year": "1879"
       },
       {
-        "places": "Monhegan",
-        "years": "1910"
+        "place": "Monhegan",
+        "year": "1910"
       }
     ]
   },
@@ -13166,32 +13166,32 @@ var dataset =
     "comName": "Seaside Bluebelles",
     "entries": [
       {
-        "places": "YorkBeach",
-        "years": "1878"
+        "place": "YorkBeach",
+        "year": "1878"
       },
       {
-        "places": "EastMachias",
-        "years": "1902"
+        "place": "EastMachias",
+        "year": "1902"
       },
       {
-        "places": "Cutler",
-        "years": "1902"
+        "place": "Cutler",
+        "year": "1902"
       },
       {
-        "places": "Dix Island",
-        "years": "1892"
+        "place": "Dix Island",
+        "year": "1892"
       },
       {
-        "places": "Cutler",
-        "years": "1892"
+        "place": "Cutler",
+        "year": "1892"
       },
       {
-        "places": "Machias",
-        "years": "1892"
+        "place": "Machias",
+        "year": "1892"
       },
       {
-        "places": "Monhegan",
-        "years": "1910"
+        "place": "Monhegan",
+        "year": "1910"
       }
     ]
   },
@@ -13202,16 +13202,16 @@ var dataset =
     "comName": "Seaside Brookweed",
     "entries": [
       {
-        "places": "Winnegance",
-        "years": "1899"
+        "place": "Winnegance",
+        "year": "1899"
       },
       {
-        "places": "Winnegance",
-        "years": "1899"
+        "place": "Winnegance",
+        "year": "1899"
       },
       {
-        "places": "Winnegance",
-        "years": "1910"
+        "place": "Winnegance",
+        "year": "1910"
       }
     ]
   },
@@ -13222,16 +13222,16 @@ var dataset =
     "comName": "Seaside Crowfoot",
     "entries": [
       {
-        "places": "HarpswellNeck",
-        "years": "1871"
+        "place": "HarpswellNeck",
+        "year": "1871"
       },
       {
-        "places": "Brunswick",
-        "years": "1891"
+        "place": "Brunswick",
+        "year": "1891"
       },
       {
-        "places": "Wells",
-        "years": "1898"
+        "place": "Wells",
+        "year": "1898"
       }
     ]
   },
@@ -13242,28 +13242,28 @@ var dataset =
     "comName": "Seaside Goldenrod",
     "entries": [
       {
-        "places": "SouthFreeport",
-        "years": "1905"
+        "place": "SouthFreeport",
+        "year": "1905"
       },
       {
-        "places": "WestBath",
-        "years": "1874"
+        "place": "WestBath",
+        "year": "1874"
       },
       {
-        "places": "Wells Beach",
-        "years": "1879"
+        "place": "Wells Beach",
+        "year": "1879"
       },
       {
-        "places": "Livermore Falls",
-        "years": "1878"
+        "place": "Livermore Falls",
+        "year": "1878"
       },
       {
-        "places": "WellsBeach ",
-        "years": "1879"
+        "place": "WellsBeach ",
+        "year": "1879"
       },
       {
-        "places": "Winnegance",
-        "years": "1907"
+        "place": "Winnegance",
+        "year": "1907"
       }
     ]
   },
@@ -13274,12 +13274,12 @@ var dataset =
     "comName": "Seaside Knotweed",
     "entries": [
       {
-        "places": "WellsBeach",
-        "years": "1897"
+        "place": "WellsBeach",
+        "year": "1897"
       },
       {
-        "places": "WellsBeach",
-        "years": "1907"
+        "place": "WellsBeach",
+        "year": "1907"
       }
     ]
   },
@@ -13290,12 +13290,12 @@ var dataset =
     "comName": "Seaside Plaintain",
     "entries": [
       {
-        "places": "Cutler",
-        "years": "1902"
+        "place": "Cutler",
+        "year": "1902"
       },
       {
-        "places": "Sorrento",
-        "years": "1891"
+        "place": "Sorrento",
+        "year": "1891"
       }
     ]
   },
@@ -13306,12 +13306,12 @@ var dataset =
     "comName": "Seaside Sandmat",
     "entries": [
       {
-        "places": "YorkBeach",
-        "years": "1879"
+        "place": "YorkBeach",
+        "year": "1879"
       },
       {
-        "places": "Winnegance",
-        "years": "1909"
+        "place": "Winnegance",
+        "year": "1909"
       }
     ]
   },
@@ -13322,8 +13322,8 @@ var dataset =
     "comName": "Seaside-sandwort",
     "entries": [
       {
-        "places": "Machias",
-        "years": "1902"
+        "place": "Machias",
+        "year": "1902"
       }
     ]
   },
@@ -13341,8 +13341,8 @@ var dataset =
     "comName": "Setose Blackberry",
     "entries": [
       {
-        "places": "Gilead",
-        "years": "1897"
+        "place": "Gilead",
+        "year": "1897"
       }
     ]
   },
@@ -13360,28 +13360,28 @@ var dataset =
     "comName": "Sharp-toothed Nodding-aster",
     "entries": [
       {
-        "places": "Rangeley",
-        "years": "1882"
+        "place": "Rangeley",
+        "year": "1882"
       },
       {
-        "places": "SouthPoland",
-        "years": "1893"
+        "place": "SouthPoland",
+        "year": "1893"
       },
       {
-        "places": "Cutler",
-        "years": "1902"
+        "place": "Cutler",
+        "year": "1902"
       },
       {
-        "places": "Lubec",
-        "years": "1902"
+        "place": "Lubec",
+        "year": "1902"
       },
       {
-        "places": "Van Buren",
-        "years": "1880"
+        "place": "Van Buren",
+        "year": "1880"
       },
       {
-        "places": "Van Buren",
-        "years": "1881"
+        "place": "Van Buren",
+        "year": "1881"
       }
     ]
   },
@@ -13392,24 +13392,24 @@ var dataset =
     "comName": "Sheep American-laurel",
     "entries": [
       {
-        "places": "Brunswick",
-        "years": "1870"
+        "place": "Brunswick",
+        "year": "1870"
       },
       {
-        "places": "EastLivermore",
-        "years": "1880"
+        "place": "EastLivermore",
+        "year": "1880"
       },
       {
-        "places": "Orono",
-        "years": "1880"
+        "place": "Orono",
+        "year": "1880"
       },
       {
-        "places": "SouthPoland",
-        "years": "1880"
+        "place": "SouthPoland",
+        "year": "1880"
       },
       {
-        "places": "WestBaldwin",
-        "years": "1900"
+        "place": "WestBaldwin",
+        "year": "1900"
       }
     ]
   },
@@ -13420,8 +13420,8 @@ var dataset =
     "comName": "Shepherd's Purse",
     "entries": [
       {
-        "places": "Brunswick",
-        "years": "1871"
+        "place": "Brunswick",
+        "year": "1871"
       }
     ]
   },
@@ -13439,20 +13439,20 @@ var dataset =
     "comName": "Shining Rose",
     "entries": [
       {
-        "places": "Cutler",
-        "years": "1902"
+        "place": "Cutler",
+        "year": "1902"
       },
       {
-        "places": "Ashland",
-        "years": "1881"
+        "place": "Ashland",
+        "year": "1881"
       },
       {
-        "places": "Cutler",
-        "years": "1902"
+        "place": "Cutler",
+        "year": "1902"
       },
       {
-        "places": "Rangeley",
-        "years": "1882"
+        "place": "Rangeley",
+        "year": "1882"
       }
     ]
   },
@@ -13463,16 +13463,16 @@ var dataset =
     "comName": "Shining Willow",
     "entries": [
       {
-        "places": "Brunswick",
-        "years": "1875"
+        "place": "Brunswick",
+        "year": "1875"
       },
       {
-        "places": "Brunswick",
-        "years": "1877"
+        "place": "Brunswick",
+        "year": "1877"
       },
       {
-        "places": "South Poland",
-        "years": "1893"
+        "place": "South Poland",
+        "year": "1893"
       }
     ]
   },
@@ -13497,16 +13497,16 @@ var dataset =
     "comName": "Showy Lady's-slipper",
     "entries": [
       {
-        "places": "Fayette",
-        "years": "1878"
+        "place": "Fayette",
+        "year": "1878"
       },
       {
-        "places": "Fort Kent",
-        "years": "1881"
+        "place": "Fort Kent",
+        "year": "1881"
       },
       {
-        "places": "Caribou",
-        "years": "1881"
+        "place": "Caribou",
+        "year": "1881"
       }
     ]
   },
@@ -13517,8 +13517,8 @@ var dataset =
     "comName": "Showy Orchid",
     "entries": [
       {
-        "places": "Strong",
-        "years": "1882"
+        "place": "Strong",
+        "year": "1882"
       }
     ]
   },
@@ -13529,28 +13529,28 @@ var dataset =
     "comName": "Showy Trick-trefoil",
     "entries": [
       {
-        "places": "Brunswick",
-        "years": "1870"
+        "place": "Brunswick",
+        "year": "1870"
       },
       {
-        "places": "LisbonFalls",
-        "years": "1904"
+        "place": "LisbonFalls",
+        "year": "1904"
       },
       {
-        "places": "Wells",
-        "years": "1879"
+        "place": "Wells",
+        "year": "1879"
       },
       {
-        "places": "Orono",
-        "years": "1891"
+        "place": "Orono",
+        "year": "1891"
       },
       {
-        "places": "SouthPoland",
-        "years": "1893"
+        "place": "SouthPoland",
+        "year": "1893"
       },
       {
-        "places": "Livermore Falls",
-        "years": "1877"
+        "place": "Livermore Falls",
+        "year": "1877"
       }
     ]
   },
@@ -13561,12 +13561,12 @@ var dataset =
     "comName": "Showy Trick-trefoil",
     "entries": [
       {
-        "places": "Orono",
-        "years": "1891"
+        "place": "Orono",
+        "year": "1891"
       },
       {
-        "places": "Wells",
-        "years": "1879"
+        "place": "Wells",
+        "year": "1879"
       }
     ]
   },
@@ -13577,16 +13577,16 @@ var dataset =
     "comName": "Shrubby-cinquefoil",
     "entries": [
       {
-        "places": "NorthWaynePond",
-        "years": "1878"
+        "place": "NorthWaynePond",
+        "year": "1878"
       },
       {
-        "places": "SouthPoland",
-        "years": "1893"
+        "place": "SouthPoland",
+        "year": "1893"
       },
       {
-        "places": "Rangeley",
-        "years": "1894"
+        "place": "Rangeley",
+        "year": "1894"
       }
     ]
   },
@@ -13597,20 +13597,20 @@ var dataset =
     "comName": "Silk-tree",
     "entries": [
       {
-        "places": "Rangeley",
-        "years": "1882"
+        "place": "Rangeley",
+        "year": "1882"
       },
       {
-        "places": "SouthPoland",
-        "years": "1895"
+        "place": "SouthPoland",
+        "year": "1895"
       },
       {
-        "places": "WestBaldwin",
-        "years": "1900"
+        "place": "WestBaldwin",
+        "year": "1900"
       },
       {
-        "places": "Wells",
-        "years": "1898"
+        "place": "Wells",
+        "year": "1898"
       }
     ]
   },
@@ -13621,8 +13621,8 @@ var dataset =
     "comName": "Silky Willow",
     "entries": [
       {
-        "places": "Brunswick",
-        "years": "1877"
+        "place": "Brunswick",
+        "year": "1877"
       }
     ]
   },
@@ -13633,20 +13633,20 @@ var dataset =
     "comName": "Silver Maple",
     "entries": [
       {
-        "places": "Brunswick",
-        "years": "1877"
+        "place": "Brunswick",
+        "year": "1877"
       },
       {
-        "places": "Wells",
-        "years": "1898"
+        "place": "Wells",
+        "year": "1898"
       },
       {
-        "places": "Rangeley",
-        "years": "1882"
+        "place": "Rangeley",
+        "year": "1882"
       },
       {
-        "places": "SouthPoland",
-        "years": "1893"
+        "place": "SouthPoland",
+        "year": "1893"
       }
     ]
   },
@@ -13657,16 +13657,16 @@ var dataset =
     "comName": "Silver-leavedcinquefoil",
     "entries": [
       {
-        "places": "Brunswick",
-        "years": "1890"
+        "place": "Brunswick",
+        "year": "1890"
       },
       {
-        "places": "SouthPoland",
-        "years": "1893"
+        "place": "SouthPoland",
+        "year": "1893"
       },
       {
-        "places": "Wells",
-        "years": "1879"
+        "place": "Wells",
+        "year": "1879"
       }
     ]
   },
@@ -13677,16 +13677,16 @@ var dataset =
     "comName": "Simple-stemmed Bur-reed",
     "entries": [
       {
-        "places": "Gilead",
-        "years": "1897"
+        "place": "Gilead",
+        "year": "1897"
       },
       {
-        "places": "Wells",
-        "years": "1898"
+        "place": "Wells",
+        "year": "1898"
       },
       {
-        "places": "FortKent",
-        "years": "1881"
+        "place": "FortKent",
+        "year": "1881"
       }
     ]
   },
@@ -13697,20 +13697,20 @@ var dataset =
     "comName": "Single-veined Sweetflag",
     "entries": [
       {
-        "places": "Brunswick",
-        "years": "1874"
+        "place": "Brunswick",
+        "year": "1874"
       },
       {
-        "places": "Wells",
-        "years": "1898"
+        "place": "Wells",
+        "year": "1898"
       },
       {
-        "places": "SouthPoland",
-        "years": "1893"
+        "place": "SouthPoland",
+        "year": "1893"
       },
       {
-        "places": "Avon",
-        "years": "1894"
+        "place": "Avon",
+        "year": "1894"
       }
     ]
   },
@@ -13721,20 +13721,20 @@ var dataset =
     "comName": "Skunk-cabbage",
     "entries": [
       {
-        "places": "Brunswick",
-        "years": "1871"
+        "place": "Brunswick",
+        "year": "1871"
       },
       {
-        "places": "Livermore",
-        "years": "1871"
+        "place": "Livermore",
+        "year": "1871"
       },
       {
-        "places": "Wells",
-        "years": "1898"
+        "place": "Wells",
+        "year": "1898"
       },
       {
-        "places": "SouthPoland",
-        "years": "1895"
+        "place": "SouthPoland",
+        "year": "1895"
       }
     ]
   },
@@ -13745,16 +13745,16 @@ var dataset =
     "comName": "Skunk-currant",
     "entries": [
       {
-        "places": "CushingIsland",
-        "years": "1876"
+        "place": "CushingIsland",
+        "year": "1876"
       },
       {
-        "places": "LivermoreFalls",
-        "years": "1878"
+        "place": "LivermoreFalls",
+        "year": "1878"
       },
       {
-        "places": "Rangeley",
-        "years": "1894"
+        "place": "Rangeley",
+        "year": "1894"
       }
     ]
   },
@@ -13765,12 +13765,12 @@ var dataset =
     "comName": "Sleepy Campion",
     "entries": [
       {
-        "places": "Wells",
-        "years": "1898"
+        "place": "Wells",
+        "year": "1898"
       },
       {
-        "places": "SouthPoland",
-        "years": "1895"
+        "place": "SouthPoland",
+        "year": "1895"
       }
     ]
   },
@@ -13781,8 +13781,8 @@ var dataset =
     "comName": "Slender Knotweed",
     "entries": [
       {
-        "places": "Wells",
-        "years": "1878"
+        "place": "Wells",
+        "year": "1878"
       }
     ]
   },
@@ -13793,12 +13793,12 @@ var dataset =
     "comName": "Slender Ladies'-tresses",
     "entries": [
       {
-        "places": "Orono",
-        "years": "1880"
+        "place": "Orono",
+        "year": "1880"
       },
       {
-        "places": "Monhegan",
-        "years": "1910"
+        "place": "Monhegan",
+        "year": "1910"
       }
     ]
   },
@@ -13809,20 +13809,20 @@ var dataset =
     "comName": "Slender Water-milfoil",
     "entries": [
       {
-        "places": "Fayette",
-        "years": "1876"
+        "place": "Fayette",
+        "year": "1876"
       },
       {
-        "places": "SouthPoland",
-        "years": "1893"
+        "place": "SouthPoland",
+        "year": "1893"
       },
       {
-        "places": "ChemoPond",
-        "years": "1880"
+        "place": "ChemoPond",
+        "year": "1880"
       },
       {
-        "places": "Greenvale",
-        "years": "1894"
+        "place": "Greenvale",
+        "year": "1894"
       }
     ]
   },
@@ -13833,8 +13833,8 @@ var dataset =
     "comName": "Slender-leaved Agalinis",
     "entries": [
       {
-        "places": "SouthPoland",
-        "years": "1878"
+        "place": "SouthPoland",
+        "year": "1878"
       }
     ]
   },
@@ -13845,16 +13845,16 @@ var dataset =
     "comName": "Small Bayberry",
     "entries": [
       {
-        "places": "Wells",
-        "years": "1879"
+        "place": "Wells",
+        "year": "1879"
       },
       {
-        "places": "Wells",
-        "years": "1898"
+        "place": "Wells",
+        "year": "1898"
       },
       {
-        "places": "WestBath",
-        "years": "1874"
+        "place": "WestBath",
+        "year": "1874"
       }
     ]
   },
@@ -13865,8 +13865,8 @@ var dataset =
     "comName": "Small Bugloss",
     "entries": [
       {
-        "places": "MountDesert",
-        "years": "1880"
+        "place": "MountDesert",
+        "year": "1880"
       }
     ]
   },
@@ -13877,24 +13877,24 @@ var dataset =
     "comName": "Small Cranberry",
     "entries": [
       {
-        "places": "Bangor",
-        "years": "1880"
+        "place": "Bangor",
+        "year": "1880"
       },
       {
-        "places": "SouthPoland",
-        "years": "1893"
+        "place": "SouthPoland",
+        "year": "1893"
       },
       {
-        "places": "Gilead",
-        "years": "1897"
+        "place": "Gilead",
+        "year": "1897"
       },
       {
-        "places": "Wells",
-        "years": "1898"
+        "place": "Wells",
+        "year": "1898"
       },
       {
-        "places": "Readfield",
-        "years": "1892"
+        "place": "Readfield",
+        "year": "1892"
       }
     ]
   },
@@ -13905,20 +13905,20 @@ var dataset =
     "comName": "Small Enchanter's-nightshade",
     "entries": [
       {
-        "places": "Brunswick",
-        "years": "1871"
+        "place": "Brunswick",
+        "year": "1871"
       },
       {
-        "places": "Rangeley",
-        "years": "1882"
+        "place": "Rangeley",
+        "year": "1882"
       },
       {
-        "places": "SouthPoland",
-        "years": "1895"
+        "place": "SouthPoland",
+        "year": "1895"
       },
       {
-        "places": "Caribou",
-        "years": "1880"
+        "place": "Caribou",
+        "year": "1880"
       }
     ]
   },
@@ -13929,16 +13929,16 @@ var dataset =
     "comName": "Small Pondweed",
     "entries": [
       {
-        "places": "Bridgewater",
-        "years": "1881"
+        "place": "Bridgewater",
+        "year": "1881"
       },
       {
-        "places": "Houlton",
-        "years": "1881"
+        "place": "Houlton",
+        "year": "1881"
       },
       {
-        "places": "Orono",
-        "years": "1881"
+        "place": "Orono",
+        "year": "1881"
       }
     ]
   },
@@ -13949,12 +13949,12 @@ var dataset =
     "comName": "Small Pussytoes",
     "entries": [
       {
-        "places": "NorthBerwick",
-        "years": "1898"
+        "place": "NorthBerwick",
+        "year": "1898"
       },
       {
-        "places": "North Berwick",
-        "years": "1898"
+        "place": "North Berwick",
+        "year": "1898"
       }
     ]
   },
@@ -13979,20 +13979,20 @@ var dataset =
     "comName": "Small-flowered Bitter-cress",
     "entries": [
       {
-        "places": "SouthPoland",
-        "years": "1893"
+        "place": "SouthPoland",
+        "year": "1893"
       },
       {
-        "places": "SouthPoland",
-        "years": "1895"
+        "place": "SouthPoland",
+        "year": "1895"
       },
       {
-        "places": "South Poland",
-        "years": "1893"
+        "place": "South Poland",
+        "year": "1893"
       },
       {
-        "places": "Great Diamond Island",
-        "years": "1888"
+        "place": "Great Diamond Island",
+        "year": "1888"
       }
     ]
   },
@@ -14010,12 +14010,12 @@ var dataset =
     "comName": "Small-leaved Pond-lily",
     "entries": [
       {
-        "places": "Wells",
-        "years": "1879"
+        "place": "Wells",
+        "year": "1879"
       },
       {
-        "places": "Farmington",
-        "years": "1879"
+        "place": "Farmington",
+        "year": "1879"
       }
     ]
   },
@@ -14026,20 +14026,20 @@ var dataset =
     "comName": "Small-spiked False Nettle",
     "entries": [
       {
-        "places": "Readfield",
-        "years": "1892"
+        "place": "Readfield",
+        "year": "1892"
       },
       {
-        "places": "LeedsCenter",
-        "years": "1896"
+        "place": "LeedsCenter",
+        "year": "1896"
       },
       {
-        "places": "Livermore Falls",
-        "years": "1877"
+        "place": "Livermore Falls",
+        "year": "1877"
       },
       {
-        "places": "Brunswick",
-        "years": "1903"
+        "place": "Brunswick",
+        "year": "1903"
       }
     ]
   },
@@ -14050,16 +14050,16 @@ var dataset =
     "comName": "Smooth Alder",
     "entries": [
       {
-        "places": "SouthPoland",
-        "years": "1893"
+        "place": "SouthPoland",
+        "year": "1893"
       },
       {
-        "places": "Brunswick",
-        "years": "1878"
+        "place": "Brunswick",
+        "year": "1878"
       },
       {
-        "places": "Wells",
-        "years": "1879"
+        "place": "Wells",
+        "year": "1879"
       }
     ]
   },
@@ -14070,8 +14070,8 @@ var dataset =
     "comName": "Smooth Arrowwood",
     "entries": [
       {
-        "places": "Brunswick",
-        "years": "1877"
+        "place": "Brunswick",
+        "year": "1877"
       }
     ]
   },
@@ -14082,8 +14082,8 @@ var dataset =
     "comName": "Smooth Blackberry",
     "entries": [
       {
-        "places": "Cutler",
-        "years": "1902"
+        "place": "Cutler",
+        "year": "1902"
       }
     ]
   },
@@ -14094,32 +14094,32 @@ var dataset =
     "comName": "Smooth Goldenrod",
     "entries": [
       {
-        "places": "SouthPoland",
-        "years": "1892"
+        "place": "SouthPoland",
+        "year": "1892"
       },
       {
-        "places": "CoplinPlatform",
-        "years": "1894"
+        "place": "CoplinPlatform",
+        "year": "1894"
       },
       {
-        "places": "Gilead",
-        "years": "1897"
+        "place": "Gilead",
+        "year": "1897"
       },
       {
-        "places": "Fayette",
-        "years": "1877"
+        "place": "Fayette",
+        "year": "1877"
       },
       {
-        "places": "Coplin Plantation",
-        "years": "1894"
+        "place": "Coplin Plantation",
+        "year": "1894"
       },
       {
-        "places": "Gilead",
-        "years": "1897"
+        "place": "Gilead",
+        "year": "1897"
       },
       {
-        "places": "Hiram",
-        "years": "1900"
+        "place": "Hiram",
+        "year": "1900"
       }
     ]
   },
@@ -14130,8 +14130,8 @@ var dataset =
     "comName": "Smooth Rockcress",
     "entries": [
       {
-        "places": "Wells",
-        "years": "1879"
+        "place": "Wells",
+        "year": "1879"
       }
     ]
   },
@@ -14142,16 +14142,16 @@ var dataset =
     "comName": "Smooth Rose",
     "entries": [
       {
-        "places": "FortKent",
-        "years": "1880"
+        "place": "FortKent",
+        "year": "1880"
       },
       {
-        "places": "FortFairfield",
-        "years": "1880"
+        "place": "FortFairfield",
+        "year": "1880"
       },
       {
-        "places": "Dover",
-        "years": "1897"
+        "place": "Dover",
+        "year": "1897"
       }
     ]
   },
@@ -14162,20 +14162,20 @@ var dataset =
     "comName": "Smooth Sumac",
     "entries": [
       {
-        "places": "EastLivermore",
-        "years": "1878"
+        "place": "EastLivermore",
+        "year": "1878"
       },
       {
-        "places": "Fayette",
-        "years": "1878"
+        "place": "Fayette",
+        "year": "1878"
       },
       {
-        "places": "Farmington",
-        "years": "1878"
+        "place": "Farmington",
+        "year": "1878"
       },
       {
-        "places": "SouthPoland",
-        "years": "1893"
+        "place": "SouthPoland",
+        "year": "1893"
       }
     ]
   },
@@ -14186,20 +14186,20 @@ var dataset =
     "comName": "Smooth White Violet",
     "entries": [
       {
-        "places": "Brunswick",
-        "years": "1870"
+        "place": "Brunswick",
+        "year": "1870"
       },
       {
-        "places": "SouthPoland",
-        "years": "1893"
+        "place": "SouthPoland",
+        "year": "1893"
       },
       {
-        "places": "Wells",
-        "years": "1898"
+        "place": "Wells",
+        "year": "1898"
       },
       {
-        "places": "Orono",
-        "years": "1881"
+        "place": "Orono",
+        "year": "1881"
       }
     ]
   },
@@ -14217,8 +14217,8 @@ var dataset =
     "comName": "Snowy Campion",
     "entries": [
       {
-        "places": "Orono",
-        "years": "1897"
+        "place": "Orono",
+        "year": "1897"
       }
     ]
   },
@@ -14229,24 +14229,24 @@ var dataset =
     "comName": "Southern Water-plantain",
     "entries": [
       {
-        "places": "Wells",
-        "years": "1898"
+        "place": "Wells",
+        "year": "1898"
       },
       {
-        "places": "Brunswick",
-        "years": "1899"
+        "place": "Brunswick",
+        "year": "1899"
       },
       {
-        "places": "SouthPoland",
-        "years": "1904"
+        "place": "SouthPoland",
+        "year": "1904"
       },
       {
-        "places": "York",
-        "years": "1904"
+        "place": "York",
+        "year": "1904"
       },
       {
-        "places": "LivermoreFalls",
-        "years": "1904"
+        "place": "LivermoreFalls",
+        "year": "1904"
       }
     ]
   },
@@ -14257,24 +14257,24 @@ var dataset =
     "comName": "Spanish Chestnut",
     "entries": [
       {
-        "places": "FayetteRidge",
-        "years": "1878"
+        "place": "FayetteRidge",
+        "year": "1878"
       },
       {
-        "places": "Cumberland",
-        "years": "1875"
+        "place": "Cumberland",
+        "year": "1875"
       },
       {
-        "places": "Rumford",
-        "years": "1908"
+        "place": "Rumford",
+        "year": "1908"
       },
       {
-        "places": "SouthPoland",
-        "years": "1895"
+        "place": "SouthPoland",
+        "year": "1895"
       },
       {
-        "places": "Falmouth",
-        "years": "1806"
+        "place": "Falmouth",
+        "year": "1806"
       }
     ]
   },
@@ -14285,32 +14285,32 @@ var dataset =
     "comName": "Spearscale Orache",
     "entries": [
       {
-        "places": "WellsBeach",
-        "years": "1891"
+        "place": "WellsBeach",
+        "year": "1891"
       },
       {
-        "places": "Sorrento",
-        "years": "1891"
+        "place": "Sorrento",
+        "year": "1891"
       },
       {
-        "places": "Wells",
-        "years": "1879"
+        "place": "Wells",
+        "year": "1879"
       },
       {
-        "places": "Sorrento",
-        "years": "1891"
+        "place": "Sorrento",
+        "year": "1891"
       },
       {
-        "places": "Wells",
-        "years": "1879"
+        "place": "Wells",
+        "year": "1879"
       },
       {
-        "places": "North Berwick",
-        "years": "1898"
+        "place": "North Berwick",
+        "year": "1898"
       },
       {
-        "places": "Wells Beach",
-        "years": "1898"
+        "place": "Wells Beach",
+        "year": "1898"
       }
     ]
   },
@@ -14321,16 +14321,16 @@ var dataset =
     "comName": "Speckled Alder",
     "entries": [
       {
-        "places": "Brunswick",
-        "years": "1878"
+        "place": "Brunswick",
+        "year": "1878"
       },
       {
-        "places": "Monhegan",
-        "years": "1910"
+        "place": "Monhegan",
+        "year": "1910"
       },
       {
-        "places": "SouthPoland",
-        "years": "1893"
+        "place": "SouthPoland",
+        "year": "1893"
       }
     ]
   },
@@ -14341,8 +14341,8 @@ var dataset =
     "comName": "Spiny Plumeless-thistle",
     "entries": [
       {
-        "places": "Fayette",
-        "years": "1894"
+        "place": "Fayette",
+        "year": "1894"
       }
     ]
   },
@@ -14353,16 +14353,16 @@ var dataset =
     "comName": "Spiny-leaved Sow-thistle",
     "entries": [
       {
-        "places": "Brunswick",
-        "years": "1870"
+        "place": "Brunswick",
+        "year": "1870"
       },
       {
-        "places": "Wells",
-        "years": "1876"
+        "place": "Wells",
+        "year": "1876"
       },
       {
-        "places": "Wells",
-        "years": "1898"
+        "place": "Wells",
+        "year": "1898"
       }
     ]
   },
@@ -14373,16 +14373,16 @@ var dataset =
     "comName": "Spongy-leaved Arrowhead",
     "entries": [
       {
-        "places": "WestBath",
-        "years": "1907"
+        "place": "WestBath",
+        "year": "1907"
       },
       {
-        "places": "WestBath",
-        "years": "1911"
+        "place": "WestBath",
+        "year": "1911"
       },
       {
-        "places": "Rangeley",
-        "years": "1894"
+        "place": "Rangeley",
+        "year": "1894"
       }
     ]
   },
@@ -14393,8 +14393,8 @@ var dataset =
     "comName": "Spongy-leaved Arrowhead",
     "entries": [
       {
-        "places": "Rangeley Village",
-        "years": "1894"
+        "place": "Rangeley Village",
+        "year": "1894"
       }
     ]
   },
@@ -14405,24 +14405,24 @@ var dataset =
     "comName": "Spot-leavedcrowfoot",
     "entries": [
       {
-        "places": "Great Diamond Island",
-        "years": "1888"
+        "place": "Great Diamond Island",
+        "year": "1888"
       },
       {
-        "places": "Fairfield",
-        "years": "1901"
+        "place": "Fairfield",
+        "year": "1901"
       },
       {
-        "places": "Rockland",
-        "years": "1904"
+        "place": "Rockland",
+        "year": "1904"
       },
       {
-        "places": "Cutler",
-        "years": "1903"
+        "place": "Cutler",
+        "year": "1903"
       },
       {
-        "places": "Brunswick",
-        "years": "1907"
+        "place": "Brunswick",
+        "year": "1907"
       }
     ]
   },
@@ -14433,12 +14433,12 @@ var dataset =
     "comName": "Spotted Saint John's-wort",
     "entries": [
       {
-        "places": "Litchfield",
-        "years": "1896"
+        "place": "Litchfield",
+        "year": "1896"
       },
       {
-        "places": "Gilead",
-        "years": "1897"
+        "place": "Gilead",
+        "year": "1897"
       }
     ]
   },
@@ -14449,12 +14449,12 @@ var dataset =
     "comName": "Spotted Sandmat",
     "entries": [
       {
-        "places": "NorthBerwick",
-        "years": "1891"
+        "place": "NorthBerwick",
+        "year": "1891"
       },
       {
-        "places": "Brunswick",
-        "years": "1887"
+        "place": "Brunswick",
+        "year": "1887"
       }
     ]
   },
@@ -14465,32 +14465,32 @@ var dataset =
     "comName": "Spotted Touch-me-not",
     "entries": [
       {
-        "places": "Brunswick",
-        "years": "1870"
+        "place": "Brunswick",
+        "year": "1870"
       },
       {
-        "places": "Rangeley",
-        "years": "1882"
+        "place": "Rangeley",
+        "year": "1882"
       },
       {
-        "places": "Wells",
-        "years": "1898"
+        "place": "Wells",
+        "year": "1898"
       },
       {
-        "places": "Gilead",
-        "years": "1897"
+        "place": "Gilead",
+        "year": "1897"
       },
       {
-        "places": "Saint Francis",
-        "years": "1881"
+        "place": "Saint Francis",
+        "year": "1881"
       },
       {
-        "places": "Bar Harbor",
-        "years": "1891"
+        "place": "Bar Harbor",
+        "year": "1891"
       },
       {
-        "places": "Saint Francis",
-        "years": "1881"
+        "place": "Saint Francis",
+        "year": "1881"
       }
     ]
   },
@@ -14501,16 +14501,16 @@ var dataset =
     "comName": "Spotted Water-hemlock",
     "entries": [
       {
-        "places": "Brunswick",
-        "years": "1876"
+        "place": "Brunswick",
+        "year": "1876"
       },
       {
-        "places": "Wells",
-        "years": "1898"
+        "place": "Wells",
+        "year": "1898"
       },
       {
-        "places": "SouthPoland",
-        "years": "1893"
+        "place": "SouthPoland",
+        "year": "1893"
       }
     ]
   },
@@ -14521,16 +14521,16 @@ var dataset =
     "comName": "Spottedcoral-root",
     "entries": [
       {
-        "places": "Brunswick",
-        "years": "1870"
+        "place": "Brunswick",
+        "year": "1870"
       },
       {
-        "places": "Livermore",
-        "years": "1875"
+        "place": "Livermore",
+        "year": "1875"
       },
       {
-        "places": "SouthPoland",
-        "years": "1895"
+        "place": "SouthPoland",
+        "year": "1895"
       }
     ]
   },
@@ -14541,20 +14541,20 @@ var dataset =
     "comName": "Spottedcrane's-bill",
     "entries": [
       {
-        "places": "Brunswick",
-        "years": "1870"
+        "place": "Brunswick",
+        "year": "1870"
       },
       {
-        "places": "SouthPoland",
-        "years": "1893"
+        "place": "SouthPoland",
+        "year": "1893"
       },
       {
-        "places": "Wells",
-        "years": "1898"
+        "place": "Wells",
+        "year": "1898"
       },
       {
-        "places": "Castine",
-        "years": "1903"
+        "place": "Castine",
+        "year": "1903"
       }
     ]
   },
@@ -14565,16 +14565,16 @@ var dataset =
     "comName": "Spreading Dogbane",
     "entries": [
       {
-        "places": "Harpswell",
-        "years": "1870"
+        "place": "Harpswell",
+        "year": "1870"
       },
       {
-        "places": "SouthPoland",
-        "years": "1895"
+        "place": "SouthPoland",
+        "year": "1895"
       },
       {
-        "places": "Chesterville",
-        "years": "1896"
+        "place": "Chesterville",
+        "year": "1896"
       }
     ]
   },
@@ -14585,8 +14585,8 @@ var dataset =
     "comName": "Spreading Dogbane Hybrid",
     "entries": [
       {
-        "places": "Topsham",
-        "years": "1893"
+        "place": "Topsham",
+        "year": "1893"
       }
     ]
   },
@@ -14597,20 +14597,20 @@ var dataset =
     "comName": "Squarrose Goldenrod",
     "entries": [
       {
-        "places": "Caribou",
-        "years": "1880"
+        "place": "Caribou",
+        "year": "1880"
       },
       {
-        "places": "EastLivermore",
-        "years": "1878"
+        "place": "EastLivermore",
+        "year": "1878"
       },
       {
-        "places": "Rangeley",
-        "years": "1882"
+        "place": "Rangeley",
+        "year": "1882"
       },
       {
-        "places": "Gilead",
-        "years": "1897"
+        "place": "Gilead",
+        "year": "1897"
       }
     ]
   },
@@ -14628,20 +14628,20 @@ var dataset =
     "comName": "Staghorn Sumac",
     "entries": [
       {
-        "places": "Brunswick",
-        "years": "1878"
+        "place": "Brunswick",
+        "year": "1878"
       },
       {
-        "places": "Wells",
-        "years": "1898"
+        "place": "Wells",
+        "year": "1898"
       },
       {
-        "places": "Rangeley",
-        "years": "1882"
+        "place": "Rangeley",
+        "year": "1882"
       },
       {
-        "places": "SouthPoland",
-        "years": "1893"
+        "place": "SouthPoland",
+        "year": "1893"
       }
     ]
   },
@@ -14659,16 +14659,16 @@ var dataset =
     "comName": "Starflower",
     "entries": [
       {
-        "places": "Brunswick",
-        "years": "1870"
+        "place": "Brunswick",
+        "year": "1870"
       },
       {
-        "places": "WestBaldwin",
-        "years": "1900"
+        "place": "WestBaldwin",
+        "year": "1900"
       },
       {
-        "places": "Wells",
-        "years": "1998"
+        "place": "Wells",
+        "year": "1998"
       }
     ]
   },
@@ -14679,8 +14679,8 @@ var dataset =
     "comName": "Starry Campion",
     "entries": [
       {
-        "places": "WellsBeach",
-        "years": "1879"
+        "place": "WellsBeach",
+        "year": "1879"
       }
     ]
   },
@@ -14691,12 +14691,12 @@ var dataset =
     "comName": "Starry Campion",
     "entries": [
       {
-        "places": "Brunswick",
-        "years": "1895"
+        "place": "Brunswick",
+        "year": "1895"
       },
       {
-        "places": "Brunswick",
-        "years": "1909"
+        "place": "Brunswick",
+        "year": "1909"
       }
     ]
   },
@@ -14714,20 +14714,20 @@ var dataset =
     "comName": "Stinging Nettle",
     "entries": [
       {
-        "places": "Topsham",
-        "years": "1892"
+        "place": "Topsham",
+        "year": "1892"
       },
       {
-        "places": "Brunswick",
-        "years": "1892"
+        "place": "Brunswick",
+        "year": "1892"
       },
       {
-        "places": "Monhegan",
-        "years": "1910"
+        "place": "Monhegan",
+        "year": "1910"
       },
       {
-        "places": "Orono",
-        "years": "1891"
+        "place": "Orono",
+        "year": "1891"
       }
     ]
   },
@@ -14738,16 +14738,16 @@ var dataset =
     "comName": "Stinking Chamomile",
     "entries": [
       {
-        "places": "Brunswick",
-        "years": "1874"
+        "place": "Brunswick",
+        "year": "1874"
       },
       {
-        "places": "SouthPoland",
-        "years": "1893"
+        "place": "SouthPoland",
+        "year": "1893"
       },
       {
-        "places": "Wells",
-        "years": "1898"
+        "place": "Wells",
+        "year": "1898"
       }
     ]
   },
@@ -14758,8 +14758,8 @@ var dataset =
     "comName": "Stinking Chamomile/ Corn Chamomile",
     "entries": [
       {
-        "places": "Cutler",
-        "years": "1902"
+        "place": "Cutler",
+        "year": "1902"
       }
     ]
   },
@@ -14770,16 +14770,16 @@ var dataset =
     "comName": "Strawberry-blite",
     "entries": [
       {
-        "places": "FortFairfield",
-        "years": "1880"
+        "place": "FortFairfield",
+        "year": "1880"
       },
       {
-        "places": "KingsburyPlantation",
-        "years": "1880"
+        "place": "KingsburyPlantation",
+        "year": "1880"
       },
       {
-        "places": "Chesterville",
-        "years": "1898"
+        "place": "Chesterville",
+        "year": "1898"
       }
     ]
   },
@@ -14790,16 +14790,16 @@ var dataset =
     "comName": "Striped Maple",
     "entries": [
       {
-        "places": "Fayette",
-        "years": "1878"
+        "place": "Fayette",
+        "year": "1878"
       },
       {
-        "places": "WestBaldwin",
-        "years": "1900"
+        "place": "WestBaldwin",
+        "year": "1900"
       },
       {
-        "places": "SouthPoland",
-        "years": "1895"
+        "place": "SouthPoland",
+        "year": "1895"
       }
     ]
   },
@@ -14810,12 +14810,12 @@ var dataset =
     "comName": "Sulphur Cinquefoil",
     "entries": [
       {
-        "places": "Lewiston",
-        "years": "1901"
+        "place": "Lewiston",
+        "year": "1901"
       },
       {
-        "places": "WestParis",
-        "years": "1903"
+        "place": "WestParis",
+        "year": "1903"
       }
     ]
   },
@@ -14826,12 +14826,12 @@ var dataset =
     "comName": "Sun Spurge",
     "entries": [
       {
-        "places": "SaintFrancis",
-        "years": "1881"
+        "place": "SaintFrancis",
+        "year": "1881"
       },
       {
-        "places": "CapeSmallPoint",
-        "years": "1890"
+        "place": "CapeSmallPoint",
+        "year": "1890"
       }
     ]
   },
@@ -14842,8 +14842,8 @@ var dataset =
     "comName": "Sunflower-everlasting",
     "entries": [
       {
-        "places": "Woodstock",
-        "years": "1887"
+        "place": "Woodstock",
+        "year": "1887"
       }
     ]
   },
@@ -14854,16 +14854,16 @@ var dataset =
     "comName": "Swamp Crowfoot",
     "entries": [
       {
-        "places": "Orono",
-        "years": "1880"
+        "place": "Orono",
+        "year": "1880"
       },
       {
-        "places": "Brewer",
-        "years": "1880"
+        "place": "Brewer",
+        "year": "1880"
       },
       {
-        "places": "GreatDiamondIsland",
-        "years": "1888"
+        "place": "GreatDiamondIsland",
+        "year": "1888"
       }
     ]
   },
@@ -14874,16 +14874,16 @@ var dataset =
     "comName": "Swamp Honeysuckle",
     "entries": [
       {
-        "places": "PresqueIsle",
-        "years": "1880"
+        "place": "PresqueIsle",
+        "year": "1880"
       },
       {
-        "places": "Patten",
-        "years": "1881"
+        "place": "Patten",
+        "year": "1881"
       },
       {
-        "places": "SaintFrancis",
-        "years": "1881"
+        "place": "SaintFrancis",
+        "year": "1881"
       }
     ]
   },
@@ -14894,12 +14894,12 @@ var dataset =
     "comName": "Swamp Loosestrife",
     "entries": [
       {
-        "places": "NorthWaynePond",
-        "years": "1878"
+        "place": "NorthWaynePond",
+        "year": "1878"
       },
       {
-        "places": "SouthPoland",
-        "years": "1897"
+        "place": "SouthPoland",
+        "year": "1897"
       }
     ]
   },
@@ -14910,28 +14910,28 @@ var dataset =
     "comName": "Swamp Milkweed",
     "entries": [
       {
-        "places": "Bradley",
-        "years": "1880"
+        "place": "Bradley",
+        "year": "1880"
       },
       {
-        "places": "Fayette",
-        "years": "1878"
+        "place": "Fayette",
+        "year": "1878"
       },
       {
-        "places": "Bradley",
-        "years": "1880"
+        "place": "Bradley",
+        "year": "1880"
       },
       {
-        "places": "Orono",
-        "years": "1880"
+        "place": "Orono",
+        "year": "1880"
       },
       {
-        "places": "South Poland",
-        "years": "1893"
+        "place": "South Poland",
+        "year": "1893"
       },
       {
-        "places": "South Poland",
-        "years": "1893"
+        "place": "South Poland",
+        "year": "1893"
       }
     ]
   },
@@ -14942,12 +14942,12 @@ var dataset =
     "comName": "Swamp Small-flowered Saxifrage",
     "entries": [
       {
-        "places": "Wells",
-        "years": "1879"
+        "place": "Wells",
+        "year": "1879"
       },
       {
-        "places": "Wells",
-        "years": "1898"
+        "place": "Wells",
+        "year": "1898"
       }
     ]
   },
@@ -14958,24 +14958,24 @@ var dataset =
     "comName": "Swamp Thistle",
     "entries": [
       {
-        "places": "Brunswick",
-        "years": "1870"
+        "place": "Brunswick",
+        "year": "1870"
       },
       {
-        "places": "Fayette",
-        "years": "1871"
+        "place": "Fayette",
+        "year": "1871"
       },
       {
-        "places": "Rangeley",
-        "years": "1894"
+        "place": "Rangeley",
+        "year": "1894"
       },
       {
-        "places": "Wells",
-        "years": "1898"
+        "place": "Wells",
+        "year": "1898"
       },
       {
-        "places": "SouthPoland",
-        "years": "1897"
+        "place": "SouthPoland",
+        "year": "1897"
       }
     ]
   },
@@ -14986,12 +14986,12 @@ var dataset =
     "comName": "Swamp White Oak",
     "entries": [
       {
-        "places": "Wells",
-        "years": "1877"
+        "place": "Wells",
+        "year": "1877"
       },
       {
-        "places": "Wells",
-        "years": "1897"
+        "place": "Wells",
+        "year": "1897"
       }
     ]
   },
@@ -15002,20 +15002,20 @@ var dataset =
     "comName": "Swamp Yellow-loosestrife",
     "entries": [
       {
-        "places": "Brunswick",
-        "years": "1870"
+        "place": "Brunswick",
+        "year": "1870"
       },
       {
-        "places": "Rangeley",
-        "years": "1882"
+        "place": "Rangeley",
+        "year": "1882"
       },
       {
-        "places": "SouthPoland",
-        "years": "1893"
+        "place": "SouthPoland",
+        "year": "1893"
       },
       {
-        "places": "Wells",
-        "years": "1898"
+        "place": "Wells",
+        "year": "1898"
       }
     ]
   },
@@ -15026,8 +15026,8 @@ var dataset =
     "comName": "Sweet Cherry",
     "entries": [
       {
-        "places": "SouthPoland",
-        "years": "1893"
+        "place": "SouthPoland",
+        "year": "1893"
       }
     ]
   },
@@ -15038,12 +15038,12 @@ var dataset =
     "comName": "Sweet White Violet",
     "entries": [
       {
-        "places": "Cutler",
-        "years": "1902"
+        "place": "Cutler",
+        "year": "1902"
       },
       {
-        "places": "South Poland",
-        "years": "1893"
+        "place": "South Poland",
+        "year": "1893"
       }
     ]
   },
@@ -15054,28 +15054,28 @@ var dataset =
     "comName": "Sweet-briar Rose",
     "entries": [
       {
-        "places": "Brunswick",
-        "years": "1870"
+        "place": "Brunswick",
+        "year": "1870"
       },
       {
-        "places": "SouthPoland",
-        "years": "1893"
+        "place": "SouthPoland",
+        "year": "1893"
       },
       {
-        "places": "Freeport",
-        "years": "1908"
+        "place": "Freeport",
+        "year": "1908"
       },
       {
-        "places": "South Poland",
-        "years": "1893"
+        "place": "South Poland",
+        "year": "1893"
       },
       {
-        "places": "South Freeport",
-        "years": "1907"
+        "place": "South Freeport",
+        "year": "1907"
       },
       {
-        "places": "Harpswell",
-        "years": "1870"
+        "place": "Harpswell",
+        "year": "1870"
       }
     ]
   },
@@ -15086,16 +15086,16 @@ var dataset =
     "comName": "Sweet-fern",
     "entries": [
       {
-        "places": "Brunswick",
-        "years": "1870"
+        "place": "Brunswick",
+        "year": "1870"
       },
       {
-        "places": "SouthPoland",
-        "years": "1893"
+        "place": "SouthPoland",
+        "year": "1893"
       },
       {
-        "places": "Wells",
-        "years": "1898"
+        "place": "Wells",
+        "year": "1898"
       }
     ]
   },
@@ -15106,8 +15106,8 @@ var dataset =
     "comName": "Sweet-william-catchfly",
     "entries": [
       {
-        "places": "MountDesert",
-        "years": "1888"
+        "place": "MountDesert",
+        "year": "1888"
       }
     ]
   },
@@ -15118,12 +15118,12 @@ var dataset =
     "comName": "Sweetgale",
     "entries": [
       {
-        "places": "Brunswick",
-        "years": "1874"
+        "place": "Brunswick",
+        "year": "1874"
       },
       {
-        "places": "Brunswick",
-        "years": "1877"
+        "place": "Brunswick",
+        "year": "1877"
       }
     ]
   },
@@ -15134,16 +15134,16 @@ var dataset =
     "comName": "Swollen Bladderwort",
     "entries": [
       {
-        "places": "Rangeley",
-        "years": "1894"
+        "place": "Rangeley",
+        "year": "1894"
       },
       {
-        "places": "Wayne",
-        "years": "1896"
+        "place": "Wayne",
+        "year": "1896"
       },
       {
-        "places": "SouthPoland",
-        "years": "1895"
+        "place": "SouthPoland",
+        "year": "1895"
       }
     ]
   },
@@ -15154,16 +15154,16 @@ var dataset =
     "comName": "Tall Beggar-ticks/ Devil's Beggar-ticks",
     "entries": [
       {
-        "places": "LivermoreFalls",
-        "years": "1878"
+        "place": "LivermoreFalls",
+        "year": "1878"
       },
       {
-        "places": "Rangeley",
-        "years": "1882"
+        "place": "Rangeley",
+        "year": "1882"
       },
       {
-        "places": "SouthPoland",
-        "years": "1895"
+        "place": "SouthPoland",
+        "year": "1895"
       }
     ]
   },
@@ -15174,44 +15174,44 @@ var dataset =
     "comName": "Tall Blue Lettuce",
     "entries": [
       {
-        "places": "SouthPoland",
-        "years": "1893"
+        "place": "SouthPoland",
+        "year": "1893"
       },
       {
-        "places": "ChestervillePlains",
-        "years": "1896"
+        "place": "ChestervillePlains",
+        "year": "1896"
       },
       {
-        "places": "Fayette",
-        "years": "1871"
+        "place": "Fayette",
+        "year": "1871"
       },
       {
-        "places": "Brunswick",
-        "years": "1904"
+        "place": "Brunswick",
+        "year": "1904"
       },
       {
-        "places": "Orono",
-        "years": "1880"
+        "place": "Orono",
+        "year": "1880"
       },
       {
-        "places": "Brunswick",
-        "years": "1872"
+        "place": "Brunswick",
+        "year": "1872"
       },
       {
-        "places": "Rangeley",
-        "years": "1882"
+        "place": "Rangeley",
+        "year": "1882"
       },
       {
-        "places": "Wells",
-        "years": "1898"
+        "place": "Wells",
+        "year": "1898"
       },
       {
-        "places": "Orono",
-        "years": "1891"
+        "place": "Orono",
+        "year": "1891"
       },
       {
-        "places": "South Poland",
-        "years": "1895"
+        "place": "South Poland",
+        "year": "1895"
       }
     ]
   },
@@ -15222,8 +15222,8 @@ var dataset =
     "comName": "Tall Blue Lettuce",
     "entries": [
       {
-        "places": "Brunswick",
-        "years": "1870"
+        "place": "Brunswick",
+        "year": "1870"
       }
     ]
   },
@@ -15241,8 +15241,8 @@ var dataset =
     "comName": "Tall Hairy Lettuce",
     "entries": [
       {
-        "places": "Orono",
-        "years": "1891"
+        "place": "Orono",
+        "year": "1891"
       }
     ]
   },
@@ -15253,8 +15253,8 @@ var dataset =
     "comName": "Tall Hawkweed",
     "entries": [
       {
-        "places": "WestGardiner",
-        "years": "1896"
+        "place": "WestGardiner",
+        "year": "1896"
       }
     ]
   },
@@ -15265,24 +15265,24 @@ var dataset =
     "comName": "Tall Lettuce",
     "entries": [
       {
-        "places": "Fayette",
-        "years": "1871"
+        "place": "Fayette",
+        "year": "1871"
       },
       {
-        "places": "Brunswick",
-        "years": "1870"
+        "place": "Brunswick",
+        "year": "1870"
       },
       {
-        "places": "SouthPoland",
-        "years": "1893"
+        "place": "SouthPoland",
+        "year": "1893"
       },
       {
-        "places": "SouthPoland",
-        "years": "1895"
+        "place": "SouthPoland",
+        "year": "1895"
       },
       {
-        "places": "ChestervillePlains",
-        "years": "1896"
+        "place": "ChestervillePlains",
+        "year": "1896"
       }
     ]
   },
@@ -15293,36 +15293,36 @@ var dataset =
     "comName": "Tall Meadow-rue",
     "entries": [
       {
-        "places": "Brunswick",
-        "years": "1892"
+        "place": "Brunswick",
+        "year": "1892"
       },
       {
-        "places": "MooseheadLake",
-        "years": "1891"
+        "place": "MooseheadLake",
+        "year": "1891"
       },
       {
-        "places": "SouthPoland",
-        "years": "1895"
+        "place": "SouthPoland",
+        "year": "1895"
       },
       {
-        "places": "Brunswick",
-        "years": "1874"
+        "place": "Brunswick",
+        "year": "1874"
       },
       {
-        "places": "Moosehead Lake",
-        "years": "1895"
+        "place": "Moosehead Lake",
+        "year": "1895"
       },
       {
-        "places": "South Poland",
-        "years": "1895"
+        "place": "South Poland",
+        "year": "1895"
       },
       {
-        "places": "Wells",
-        "years": "1898"
+        "place": "Wells",
+        "year": "1898"
       },
       {
-        "places": "Livermore Falls",
-        "years": "1875"
+        "place": "Livermore Falls",
+        "year": "1875"
       }
     ]
   },
@@ -15333,20 +15333,20 @@ var dataset =
     "comName": "Tall Rattlesnake-root",
     "entries": [
       {
-        "places": "EastLivermore",
-        "years": "1878"
+        "place": "EastLivermore",
+        "year": "1878"
       },
       {
-        "places": "Orono",
-        "years": "1891"
+        "place": "Orono",
+        "year": "1891"
       },
       {
-        "places": "Northport",
-        "years": "1891"
+        "place": "Northport",
+        "year": "1891"
       },
       {
-        "places": "Chesterville",
-        "years": "1896"
+        "place": "Chesterville",
+        "year": "1896"
       }
     ]
   },
@@ -15357,12 +15357,12 @@ var dataset =
     "comName": "Tall Sunflower",
     "entries": [
       {
-        "places": "EastLivermore",
-        "years": "1878"
+        "place": "EastLivermore",
+        "year": "1878"
       },
       {
-        "places": "SouthPoland",
-        "years": "1895"
+        "place": "SouthPoland",
+        "year": "1895"
       }
     ]
   },
@@ -15373,16 +15373,16 @@ var dataset =
     "comName": "Tall White-aster",
     "entries": [
       {
-        "places": "EastLivermore",
-        "years": "1875"
+        "place": "EastLivermore",
+        "year": "1875"
       },
       {
-        "places": "SouthPoland",
-        "years": "1893"
+        "place": "SouthPoland",
+        "year": "1893"
       },
       {
-        "places": "Fort Kent",
-        "years": "1881"
+        "place": "Fort Kent",
+        "year": "1881"
       }
     ]
   },
@@ -15393,28 +15393,28 @@ var dataset =
     "comName": "Tall Windflower",
     "entries": [
       {
-        "places": "FortFairfield",
-        "years": "1880"
+        "place": "FortFairfield",
+        "year": "1880"
       },
       {
-        "places": "Chesterville",
-        "years": "1896"
+        "place": "Chesterville",
+        "year": "1896"
       },
       {
-        "places": "SouthPoland",
-        "years": "1895"
+        "place": "SouthPoland",
+        "year": "1895"
       },
       {
-        "places": "KentsHill",
-        "years": "1892"
+        "place": "KentsHill",
+        "year": "1892"
       },
       {
-        "places": "Fort Kent",
-        "years": "1881"
+        "place": "Fort Kent",
+        "year": "1881"
       },
       {
-        "places": "Gilead",
-        "years": "1897"
+        "place": "Gilead",
+        "year": "1897"
       }
     ]
   },
@@ -15425,8 +15425,8 @@ var dataset =
     "comName": "Tall Wood-beauty",
     "entries": [
       {
-        "places": "Waterville",
-        "years": "1876"
+        "place": "Waterville",
+        "year": "1876"
       }
     ]
   },
@@ -15437,8 +15437,8 @@ var dataset =
     "comName": "Tall Wood-beauty",
     "entries": [
       {
-        "places": "FortFairfield",
-        "years": "1880"
+        "place": "FortFairfield",
+        "year": "1880"
       }
     ]
   },
@@ -15449,12 +15449,12 @@ var dataset =
     "comName": "Tape-grass",
     "entries": [
       {
-        "places": "Waterville",
-        "years": "1898"
+        "place": "Waterville",
+        "year": "1898"
       },
       {
-        "places": "EastEddington",
-        "years": "1898"
+        "place": "EastEddington",
+        "year": "1898"
       }
     ]
   },
@@ -15465,24 +15465,24 @@ var dataset =
     "comName": "Thin-leaved Sunflower",
     "entries": [
       {
-        "places": "Farmington",
-        "years": "1882"
+        "place": "Farmington",
+        "year": "1882"
       },
       {
-        "places": "Farmington",
-        "years": "1894"
+        "place": "Farmington",
+        "year": "1894"
       },
       {
-        "places": "LivermoreFalls",
-        "years": "1875"
+        "place": "LivermoreFalls",
+        "year": "1875"
       },
       {
-        "places": "Gilead",
-        "years": "1897"
+        "place": "Gilead",
+        "year": "1897"
       },
       {
-        "places": "Strong",
-        "years": "1882"
+        "place": "Strong",
+        "year": "1882"
       }
     ]
   },
@@ -15500,8 +15500,8 @@ var dataset =
     "comName": "Thread Rush",
     "entries": [
       {
-        "places": "SaintJohnsRiver",
-        "years": "1881"
+        "place": "SaintJohnsRiver",
+        "year": "1881"
       }
     ]
   },
@@ -15519,20 +15519,20 @@ var dataset =
     "comName": "Three-leaved Goldthread",
     "entries": [
       {
-        "places": "Brunswick",
-        "years": "1878"
+        "place": "Brunswick",
+        "year": "1878"
       },
       {
-        "places": "Topsham",
-        "years": "1870"
+        "place": "Topsham",
+        "year": "1870"
       },
       {
-        "places": "Rangeley",
-        "years": "1882"
+        "place": "Rangeley",
+        "year": "1882"
       },
       {
-        "places": "SouthPoland",
-        "years": "1893"
+        "place": "SouthPoland",
+        "year": "1893"
       }
     ]
   },
@@ -15543,32 +15543,32 @@ var dataset =
     "comName": "Three-leaved Rattlesnake-root",
     "entries": [
       {
-        "places": "LivermoreFalls",
-        "years": "1878"
+        "place": "LivermoreFalls",
+        "year": "1878"
       },
       {
-        "places": "Gilead",
-        "years": "1897"
+        "place": "Gilead",
+        "year": "1897"
       },
       {
-        "places": "Wells",
-        "years": "1887"
+        "place": "Wells",
+        "year": "1887"
       },
       {
-        "places": "South Poland",
-        "years": "1893"
+        "place": "South Poland",
+        "year": "1893"
       },
       {
-        "places": "Northport",
-        "years": "1891"
+        "place": "Northport",
+        "year": "1891"
       },
       {
-        "places": "Cutler",
-        "years": "1902"
+        "place": "Cutler",
+        "year": "1902"
       },
       {
-        "places": "Cutler",
-        "years": "1902"
+        "place": "Cutler",
+        "year": "1902"
       }
     ]
   },
@@ -15579,36 +15579,36 @@ var dataset =
     "comName": "Three-petaled Bedstraw",
     "entries": [
       {
-        "places": "Brunswick",
-        "years": "1870"
+        "place": "Brunswick",
+        "year": "1870"
       },
       {
-        "places": "Orono",
-        "years": "1880"
+        "place": "Orono",
+        "year": "1880"
       },
       {
-        "places": "Rangeley",
-        "years": "1882"
+        "place": "Rangeley",
+        "year": "1882"
       },
       {
-        "places": "FortFairfield",
-        "years": "1880"
+        "place": "FortFairfield",
+        "year": "1880"
       },
       {
-        "places": "Orono",
-        "years": "1891"
+        "place": "Orono",
+        "year": "1891"
       },
       {
-        "places": "Rangeley",
-        "years": "1894"
+        "place": "Rangeley",
+        "year": "1894"
       },
       {
-        "places": "South Poland",
-        "years": "1893"
+        "place": "South Poland",
+        "year": "1893"
       },
       {
-        "places": "South Poland",
-        "years": "1895"
+        "place": "South Poland",
+        "year": "1895"
       }
     ]
   },
@@ -15619,12 +15619,12 @@ var dataset =
     "comName": "Thyme-leaved Sandwort",
     "entries": [
       {
-        "places": "Elliotsville",
-        "years": "1895"
+        "place": "Elliotsville",
+        "year": "1895"
       },
       {
-        "places": "Bustin's Island",
-        "years": "1909"
+        "place": "Bustin's Island",
+        "year": "1909"
       }
     ]
   },
@@ -15635,20 +15635,20 @@ var dataset =
     "comName": "Thyme-leaved Speedwell",
     "entries": [
       {
-        "places": "Brunswick",
-        "years": "1871"
+        "place": "Brunswick",
+        "year": "1871"
       },
       {
-        "places": "Orono",
-        "years": "1880"
+        "place": "Orono",
+        "year": "1880"
       },
       {
-        "places": "MooseheadLake",
-        "years": "1891"
+        "place": "MooseheadLake",
+        "year": "1891"
       },
       {
-        "places": "Wells",
-        "years": "1898"
+        "place": "Wells",
+        "year": "1898"
       }
     ]
   },
@@ -15666,12 +15666,12 @@ var dataset =
     "comName": "Toothed Medick",
     "entries": [
       {
-        "places": "Wells",
-        "years": "1898"
+        "place": "Wells",
+        "year": "1898"
       },
       {
-        "places": "NorthBerwick",
-        "years": "1898"
+        "place": "NorthBerwick",
+        "year": "1898"
       }
     ]
   },
@@ -15682,16 +15682,16 @@ var dataset =
     "comName": "Tower-mustard",
     "entries": [
       {
-        "places": "Wells",
-        "years": "1879"
+        "place": "Wells",
+        "year": "1879"
       },
       {
-        "places": "Ashland",
-        "years": "1881"
+        "place": "Ashland",
+        "year": "1881"
       },
       {
-        "places": "Wells Beach",
-        "years": "1879"
+        "place": "Wells Beach",
+        "year": "1879"
       }
     ]
   },
@@ -15702,20 +15702,20 @@ var dataset =
     "comName": "Tradescant's American-aster",
     "entries": [
       {
-        "places": "LivermoreFalls",
-        "years": "1878"
+        "place": "LivermoreFalls",
+        "year": "1878"
       },
       {
-        "places": "Orono",
-        "years": "1880"
+        "place": "Orono",
+        "year": "1880"
       },
       {
-        "places": "SouthPoland",
-        "years": "1893"
+        "place": "SouthPoland",
+        "year": "1893"
       },
       {
-        "places": "Orono",
-        "years": "1880"
+        "place": "Orono",
+        "year": "1880"
       }
     ]
   },
@@ -15726,8 +15726,8 @@ var dataset =
     "comName": "Trailing Bush-clover",
     "entries": [
       {
-        "places": "SouthPoland",
-        "years": "1895"
+        "place": "SouthPoland",
+        "year": "1895"
       }
     ]
   },
@@ -15738,32 +15738,32 @@ var dataset =
     "comName": "Trailing-arbutus",
     "entries": [
       {
-        "places": "FortKent",
-        "years": "1894"
+        "place": "FortKent",
+        "year": "1894"
       },
       {
-        "places": "EastLivermore",
-        "years": "1906"
+        "place": "EastLivermore",
+        "year": "1906"
       },
       {
-        "places": "Brunswick",
-        "years": "1870"
+        "place": "Brunswick",
+        "year": "1870"
       },
       {
-        "places": "Topsham",
-        "years": "1870"
+        "place": "Topsham",
+        "year": "1870"
       },
       {
-        "places": "Wells",
-        "years": "1878"
+        "place": "Wells",
+        "year": "1878"
       },
       {
-        "places": "South Poland",
-        "years": "1893"
+        "place": "South Poland",
+        "year": "1893"
       },
       {
-        "places": "Gilead",
-        "years": "1897"
+        "place": "Gilead",
+        "year": "1897"
       }
     ]
   },
@@ -15781,8 +15781,8 @@ var dataset =
     "comName": "Tube Beardtongue",
     "entries": [
       {
-        "places": "Wells",
-        "years": "1879"
+        "place": "Wells",
+        "year": "1879"
       }
     ]
   },
@@ -15793,24 +15793,24 @@ var dataset =
     "comName": "Tuberous Grass-pink",
     "entries": [
       {
-        "places": "Brunswick",
-        "years": "1870"
+        "place": "Brunswick",
+        "year": "1870"
       },
       {
-        "places": "Brunswick",
-        "years": "1888"
+        "place": "Brunswick",
+        "year": "1888"
       },
       {
-        "places": "SouthPoland",
-        "years": "1893"
+        "place": "SouthPoland",
+        "year": "1893"
       },
       {
-        "places": "SouthPoland",
-        "years": "1895"
+        "place": "SouthPoland",
+        "year": "1895"
       },
       {
-        "places": "Wells",
-        "years": "1898"
+        "place": "Wells",
+        "year": "1898"
       }
     ]
   },
@@ -15821,16 +15821,16 @@ var dataset =
     "comName": "Tufted Yellow-loosestrife",
     "entries": [
       {
-        "places": "Orono",
-        "years": "1880"
+        "place": "Orono",
+        "year": "1880"
       },
       {
-        "places": "SouthPoland",
-        "years": "1893"
+        "place": "SouthPoland",
+        "year": "1893"
       },
       {
-        "places": "WestBaldwin",
-        "years": "1900"
+        "place": "WestBaldwin",
+        "year": "1900"
       }
     ]
   },
@@ -15841,16 +15841,16 @@ var dataset =
     "comName": "Tumbleweed Amaranth",
     "entries": [
       {
-        "places": "Brunswick",
-        "years": "1891"
+        "place": "Brunswick",
+        "year": "1891"
       },
       {
-        "places": "SouthPoland",
-        "years": "1893"
+        "place": "SouthPoland",
+        "year": "1893"
       },
       {
-        "places": "Wells",
-        "years": "1898"
+        "place": "Wells",
+        "year": "1898"
       }
     ]
   },
@@ -15861,12 +15861,12 @@ var dataset =
     "comName": "Tumbling Hedge-mustard",
     "entries": [
       {
-        "places": "EastLivermore",
-        "years": "1894"
+        "place": "EastLivermore",
+        "year": "1894"
       },
       {
-        "places": "Brunswick",
-        "years": "1905"
+        "place": "Brunswick",
+        "year": "1905"
       }
     ]
   },
@@ -15877,12 +15877,12 @@ var dataset =
     "comName": "Two Leaved Bishop's-cap",
     "entries": [
       {
-        "places": "LivermoreFalls",
-        "years": "1878"
+        "place": "LivermoreFalls",
+        "year": "1878"
       },
       {
-        "places": "Wells",
-        "years": "1898"
+        "place": "Wells",
+        "year": "1898"
       }
     ]
   },
@@ -15893,28 +15893,28 @@ var dataset =
     "comName": "Two-leaved Toothwort",
     "entries": [
       {
-        "places": "Gilead",
-        "years": "1887"
+        "place": "Gilead",
+        "year": "1887"
       },
       {
-        "places": "East Livermore",
-        "years": "1879"
+        "place": "East Livermore",
+        "year": "1879"
       },
       {
-        "places": "Chesterville",
-        "years": "1879"
+        "place": "Chesterville",
+        "year": "1879"
       },
       {
-        "places": "Strong",
-        "years": "1882"
+        "place": "Strong",
+        "year": "1882"
       },
       {
-        "places": "Rangeley",
-        "years": "1897"
+        "place": "Rangeley",
+        "year": "1897"
       },
       {
-        "places": "Gilead",
-        "years": "1897"
+        "place": "Gilead",
+        "year": "1897"
       }
     ]
   },
@@ -15925,12 +15925,12 @@ var dataset =
     "comName": "Two-rowed Water Cress",
     "entries": [
       {
-        "places": "Wells",
-        "years": "1879"
+        "place": "Wells",
+        "year": "1879"
       },
       {
-        "places": "Shapleigh",
-        "years": "1901"
+        "place": "Shapleigh",
+        "year": "1901"
       }
     ]
   },
@@ -15941,12 +15941,12 @@ var dataset =
     "comName": "Two-rowed Water Cress",
     "entries": [
       {
-        "places": "Biddeford",
-        "years": "1888"
+        "place": "Biddeford",
+        "year": "1888"
       },
       {
-        "places": "Wells",
-        "years": "1879"
+        "place": "Wells",
+        "year": "1879"
       }
     ]
   },
@@ -15964,8 +15964,8 @@ var dataset =
     "comName": "Upright Knotweed",
     "entries": [
       {
-        "places": "WellsBeach",
-        "years": "1879"
+        "place": "WellsBeach",
+        "year": "1879"
       }
     ]
   },
@@ -15976,12 +15976,12 @@ var dataset =
     "comName": "Upright Yellow-rocket",
     "entries": [
       {
-        "places": "FortKent",
-        "years": "1880"
+        "place": "FortKent",
+        "year": "1880"
       },
       {
-        "places": "FortKent",
-        "years": "1881"
+        "place": "FortKent",
+        "year": "1881"
       }
     ]
   },
@@ -15999,24 +15999,24 @@ var dataset =
     "comName": "Velvet-leaved Bluberry",
     "entries": [
       {
-        "places": "SouthPoland",
-        "years": "1893"
+        "place": "SouthPoland",
+        "year": "1893"
       },
       {
-        "places": "Ashland",
-        "years": "1881"
+        "place": "Ashland",
+        "year": "1881"
       },
       {
-        "places": "Strong",
-        "years": "1882"
+        "place": "Strong",
+        "year": "1882"
       },
       {
-        "places": "Chesterville",
-        "years": "1896"
+        "place": "Chesterville",
+        "year": "1896"
       },
       {
-        "places": "West Baldwin",
-        "years": "1900"
+        "place": "West Baldwin",
+        "year": "1900"
       }
     ]
   },
@@ -16027,24 +16027,24 @@ var dataset =
     "comName": "Vernal Water-starwort",
     "entries": [
       {
-        "places": "EastLivermore",
-        "years": "1878"
+        "place": "EastLivermore",
+        "year": "1878"
       },
       {
-        "places": "Rangeley",
-        "years": "1882"
+        "place": "Rangeley",
+        "year": "1882"
       },
       {
-        "places": "SouthPoland",
-        "years": "1893"
+        "place": "SouthPoland",
+        "year": "1893"
       },
       {
-        "places": "Gilead",
-        "years": "1897"
+        "place": "Gilead",
+        "year": "1897"
       },
       {
-        "places": "Wells",
-        "years": "1898"
+        "place": "Wells",
+        "year": "1898"
       }
     ]
   },
@@ -16055,8 +16055,8 @@ var dataset =
     "comName": "Violet Bush-clover",
     "entries": [
       {
-        "places": "SouthPoland",
-        "years": "1895"
+        "place": "SouthPoland",
+        "year": "1895"
       }
     ]
   },
@@ -16067,20 +16067,20 @@ var dataset =
     "comName": "Virginia Creeper",
     "entries": [
       {
-        "places": "Brunswick",
-        "years": "1876"
+        "place": "Brunswick",
+        "year": "1876"
       },
       {
-        "places": "Orono",
-        "years": "1880"
+        "place": "Orono",
+        "year": "1880"
       },
       {
-        "places": "Wells",
-        "years": "1898"
+        "place": "Wells",
+        "year": "1898"
       },
       {
-        "places": "Fayette",
-        "years": "1878"
+        "place": "Fayette",
+        "year": "1878"
       }
     ]
   },
@@ -16091,16 +16091,16 @@ var dataset =
     "comName": "Virginia Dwarf-dandelion",
     "entries": [
       {
-        "places": "Wells",
-        "years": "1879"
+        "place": "Wells",
+        "year": "1879"
       },
       {
-        "places": "Wells",
-        "years": "1897"
+        "place": "Wells",
+        "year": "1897"
       },
       {
-        "places": "Wells",
-        "years": "1898"
+        "place": "Wells",
+        "year": "1898"
       }
     ]
   },
@@ -16111,16 +16111,16 @@ var dataset =
     "comName": "Virginia Marsh-saint John's-wort",
     "entries": [
       {
-        "places": "Fayette",
-        "years": "1878"
+        "place": "Fayette",
+        "year": "1878"
       },
       {
-        "places": "Fayette Ridge",
-        "years": "1878"
+        "place": "Fayette Ridge",
+        "year": "1878"
       },
       {
-        "places": "South Poland",
-        "years": "1893"
+        "place": "South Poland",
+        "year": "1893"
       }
     ]
   },
@@ -16131,16 +16131,16 @@ var dataset =
     "comName": "Virginia Meadow-beauty",
     "entries": [
       {
-        "places": "Bradley",
-        "years": "1892"
+        "place": "Bradley",
+        "year": "1892"
       },
       {
-        "places": "SouthPoland",
-        "years": "1893"
+        "place": "SouthPoland",
+        "year": "1893"
       },
       {
-        "places": "WestBaldwin",
-        "years": "1900"
+        "place": "WestBaldwin",
+        "year": "1900"
       }
     ]
   },
@@ -16151,20 +16151,20 @@ var dataset =
     "comName": "Virginia Mountain-mint",
     "entries": [
       {
-        "places": "Madison",
-        "years": "1892"
+        "place": "Madison",
+        "year": "1892"
       },
       {
-        "places": "SouthPoland",
-        "years": "1895"
+        "place": "SouthPoland",
+        "year": "1895"
       },
       {
-        "places": "FayetteRidge",
-        "years": "1877"
+        "place": "FayetteRidge",
+        "year": "1877"
       },
       {
-        "places": "Fayette Ridge",
-        "years": "1877"
+        "place": "Fayette Ridge",
+        "year": "1877"
       }
     ]
   },
@@ -16175,12 +16175,12 @@ var dataset =
     "comName": "Virginia Rose",
     "entries": [
       {
-        "places": "MtHoward",
-        "years": "1902"
+        "place": "MtHoward",
+        "year": "1902"
       },
       {
-        "places": "Brunswick",
-        "years": "1876"
+        "place": "Brunswick",
+        "year": "1876"
       }
     ]
   },
@@ -16191,8 +16191,8 @@ var dataset =
     "comName": "Virginia Screwstem",
     "entries": [
       {
-        "places": "CapeElizabeth",
-        "years": "1902"
+        "place": "CapeElizabeth",
+        "year": "1902"
       }
     ]
   },
@@ -16203,20 +16203,20 @@ var dataset =
     "comName": "Virginia Three-seeded Mercury",
     "entries": [
       {
-        "places": "Orono",
-        "years": "1891"
+        "place": "Orono",
+        "year": "1891"
       },
       {
-        "places": "EastLivermore",
-        "years": "1894"
+        "place": "EastLivermore",
+        "year": "1894"
       },
       {
-        "places": "SouthPoland",
-        "years": "1895"
+        "place": "SouthPoland",
+        "year": "1895"
       },
       {
-        "places": "Brunswick",
-        "years": "1907"
+        "place": "Brunswick",
+        "year": "1907"
       }
     ]
   },
@@ -16227,8 +16227,8 @@ var dataset =
     "comName": "Virginia Virgin's-bower",
     "entries": [
       {
-        "places": "Orono",
-        "years": "1891"
+        "place": "Orono",
+        "year": "1891"
       }
     ]
   },
@@ -16239,24 +16239,24 @@ var dataset =
     "comName": "Virginia Water-horehound",
     "entries": [
       {
-        "places": "Orono",
-        "years": "1880"
+        "place": "Orono",
+        "year": "1880"
       },
       {
-        "places": "Caribou",
-        "years": "1880"
+        "place": "Caribou",
+        "year": "1880"
       },
       {
-        "places": "Brunswick",
-        "years": "1870"
+        "place": "Brunswick",
+        "year": "1870"
       },
       {
-        "places": "SouthPoland",
-        "years": "1893"
+        "place": "SouthPoland",
+        "year": "1893"
       },
       {
-        "places": "Wells",
-        "years": "1898"
+        "place": "Wells",
+        "year": "1898"
       }
     ]
   },
@@ -16267,20 +16267,20 @@ var dataset =
     "comName": "Water Avens",
     "entries": [
       {
-        "places": "FayetteRidge",
-        "years": "1871"
+        "place": "FayetteRidge",
+        "year": "1871"
       },
       {
-        "places": "Orono",
-        "years": "1882"
+        "place": "Orono",
+        "year": "1882"
       },
       {
-        "places": "Wells",
-        "years": "1898"
+        "place": "Wells",
+        "year": "1898"
       },
       {
-        "places": "SouthPoland",
-        "years": "1893"
+        "place": "SouthPoland",
+        "year": "1893"
       }
     ]
   },
@@ -16291,44 +16291,44 @@ var dataset =
     "comName": "Water Lobelia",
     "entries": [
       {
-        "places": "FayetteRidge",
-        "years": "1869"
+        "place": "FayetteRidge",
+        "year": "1869"
       },
       {
-        "places": "FayetteRidge",
-        "years": "1871"
+        "place": "FayetteRidge",
+        "year": "1871"
       },
       {
-        "places": "FayetteRidge",
-        "years": "1878"
+        "place": "FayetteRidge",
+        "year": "1878"
       },
       {
-        "places": "SouthPoland",
-        "years": "1893"
+        "place": "SouthPoland",
+        "year": "1893"
       },
       {
-        "places": "Rangeley",
-        "years": "1894"
+        "place": "Rangeley",
+        "year": "1894"
       },
       {
-        "places": "Fayette Ridge",
-        "years": "1871"
+        "place": "Fayette Ridge",
+        "year": "1871"
       },
       {
-        "places": "Wilton",
-        "years": "1871"
+        "place": "Wilton",
+        "year": "1871"
       },
       {
-        "places": "Rangeley",
-        "years": "1882"
+        "place": "Rangeley",
+        "year": "1882"
       },
       {
-        "places": "Coplin Plantation",
-        "years": "1894"
+        "place": "Coplin Plantation",
+        "year": "1894"
       },
       {
-        "places": "South Poland",
-        "years": "1895"
+        "place": "South Poland",
+        "year": "1895"
       }
     ]
   },
@@ -16339,24 +16339,24 @@ var dataset =
     "comName": "Water Mint Hybrid",
     "entries": [
       {
-        "places": "Brunswick",
-        "years": "1871"
+        "place": "Brunswick",
+        "year": "1871"
       },
       {
-        "places": "SouthPoland",
-        "years": "1893"
+        "place": "SouthPoland",
+        "year": "1893"
       },
       {
-        "places": "Rangeley",
-        "years": "1894"
+        "place": "Rangeley",
+        "year": "1894"
       },
       {
-        "places": "Bethel",
-        "years": "1897"
+        "place": "Bethel",
+        "year": "1897"
       },
       {
-        "places": "Strong",
-        "years": "1882"
+        "place": "Strong",
+        "year": "1882"
       }
     ]
   },
@@ -16367,32 +16367,32 @@ var dataset =
     "comName": "Water Smartweed",
     "entries": [
       {
-        "places": "Orono",
-        "years": "1880"
+        "place": "Orono",
+        "year": "1880"
       },
       {
-        "places": "Greenvale",
-        "years": "1891"
+        "place": "Greenvale",
+        "year": "1891"
       },
       {
-        "places": "Bradley",
-        "years": "1880"
+        "place": "Bradley",
+        "year": "1880"
       },
       {
-        "places": "Fayette",
-        "years": "1871"
+        "place": "Fayette",
+        "year": "1871"
       },
       {
-        "places": "Pushaw Pond",
-        "years": "1880"
+        "place": "Pushaw Pond",
+        "year": "1880"
       },
       {
-        "places": "Greenville",
-        "years": "1891"
+        "place": "Greenville",
+        "year": "1891"
       },
       {
-        "places": "South Poland",
-        "years": "1893"
+        "place": "South Poland",
+        "year": "1893"
       }
     ]
   },
@@ -16403,12 +16403,12 @@ var dataset =
     "comName": "Water-parsnip",
     "entries": [
       {
-        "places": "Brunswick",
-        "years": "1876"
+        "place": "Brunswick",
+        "year": "1876"
       },
       {
-        "places": "Gilead",
-        "years": "1897"
+        "place": "Gilead",
+        "year": "1897"
       }
     ]
   },
@@ -16419,8 +16419,8 @@ var dataset =
     "comName": "Water-plantain Crowfoot",
     "entries": [
       {
-        "places": "NorthBerwick",
-        "years": "1896"
+        "place": "NorthBerwick",
+        "year": "1896"
       }
     ]
   },
@@ -16431,20 +16431,20 @@ var dataset =
     "comName": "Water-shield",
     "entries": [
       {
-        "places": "FayetteRidge",
-        "years": "1875"
+        "place": "FayetteRidge",
+        "year": "1875"
       },
       {
-        "places": "RangeleyVillage",
-        "years": "1882"
+        "place": "RangeleyVillage",
+        "year": "1882"
       },
       {
-        "places": "SouthPoland",
-        "years": "1893"
+        "place": "SouthPoland",
+        "year": "1893"
       },
       {
-        "places": "Brunswick",
-        "years": "1908"
+        "place": "Brunswick",
+        "year": "1908"
       }
     ]
   },
@@ -16455,24 +16455,24 @@ var dataset =
     "comName": "Wavy-leaved American-aster",
     "entries": [
       {
-        "places": "Brunswick",
-        "years": "1879"
+        "place": "Brunswick",
+        "year": "1879"
       },
       {
-        "places": "Strong",
-        "years": "1882"
+        "place": "Strong",
+        "year": "1882"
       },
       {
-        "places": "SouthPoland",
-        "years": "1893"
+        "place": "SouthPoland",
+        "year": "1893"
       },
       {
-        "places": "Gilead",
-        "years": "1897"
+        "place": "Gilead",
+        "year": "1897"
       },
       {
-        "places": "Wells",
-        "years": "1898"
+        "place": "Wells",
+        "year": "1898"
       }
     ]
   },
@@ -16483,12 +16483,12 @@ var dataset =
     "comName": "Western Dock",
     "entries": [
       {
-        "places": "Cutler",
-        "years": "1902"
+        "place": "Cutler",
+        "year": "1902"
       },
       {
-        "places": "Cutler",
-        "years": "1902"
+        "place": "Cutler",
+        "year": "1902"
       }
     ]
   },
@@ -16499,12 +16499,12 @@ var dataset =
     "comName": "White Adder's-mouth",
     "entries": [
       {
-        "places": "Caribou",
-        "years": "1880"
+        "place": "Caribou",
+        "year": "1880"
       },
       {
-        "places": "VanBuren",
-        "years": "1880"
+        "place": "VanBuren",
+        "year": "1880"
       }
     ]
   },
@@ -16515,8 +16515,8 @@ var dataset =
     "comName": "White Ash",
     "entries": [
       {
-        "places": "Brunswick",
-        "years": "1898"
+        "place": "Brunswick",
+        "year": "1898"
       }
     ]
   },
@@ -16527,20 +16527,20 @@ var dataset =
     "comName": "White Avens",
     "entries": [
       {
-        "places": "Brunswick",
-        "years": "1892"
+        "place": "Brunswick",
+        "year": "1892"
       },
       {
-        "places": "Harpswell",
-        "years": "1876"
+        "place": "Harpswell",
+        "year": "1876"
       },
       {
-        "places": "WellsBeach",
-        "years": "1898"
+        "place": "WellsBeach",
+        "year": "1898"
       },
       {
-        "places": "SouthPoland",
-        "years": "1893"
+        "place": "SouthPoland",
+        "year": "1893"
       }
     ]
   },
@@ -16558,16 +16558,16 @@ var dataset =
     "comName": "White Campion",
     "entries": [
       {
-        "places": "Rangeley",
-        "years": "1894"
+        "place": "Rangeley",
+        "year": "1894"
       },
       {
-        "places": "Sabattus",
-        "years": "1901"
+        "place": "Sabattus",
+        "year": "1901"
       },
       {
-        "places": "EastLivermore",
-        "years": "1901"
+        "place": "EastLivermore",
+        "year": "1901"
       }
     ]
   },
@@ -16578,8 +16578,8 @@ var dataset =
     "comName": "White Clover",
     "entries": [
       {
-        "places": "SouthPoland",
-        "years": "1893"
+        "place": "SouthPoland",
+        "year": "1893"
       }
     ]
   },
@@ -16590,20 +16590,20 @@ var dataset =
     "comName": "White Fringed Bog-orchid",
     "entries": [
       {
-        "places": "FayetteRidge",
-        "years": "1876"
+        "place": "FayetteRidge",
+        "year": "1876"
       },
       {
-        "places": "Brunswick",
-        "years": "1904"
+        "place": "Brunswick",
+        "year": "1904"
       },
       {
-        "places": "Bangor",
-        "years": "1881"
+        "place": "Bangor",
+        "year": "1881"
       },
       {
-        "places": "Bangor",
-        "years": "1880"
+        "place": "Bangor",
+        "year": "1880"
       }
     ]
   },
@@ -16614,40 +16614,40 @@ var dataset =
     "comName": "White Goldenrod",
     "entries": [
       {
-        "places": "Brunswick",
-        "years": "1877"
+        "place": "Brunswick",
+        "year": "1877"
       },
       {
-        "places": "Gilead",
-        "years": "1897"
+        "place": "Gilead",
+        "year": "1897"
       },
       {
-        "places": "WestBaldwin",
-        "years": "1900"
+        "place": "WestBaldwin",
+        "year": "1900"
       },
       {
-        "places": "Saint Francis",
-        "years": "1881"
+        "place": "Saint Francis",
+        "year": "1881"
       },
       {
-        "places": "Van Buren",
-        "years": "1880"
+        "place": "Van Buren",
+        "year": "1880"
       },
       {
-        "places": "Strong",
-        "years": "1881"
+        "place": "Strong",
+        "year": "1881"
       },
       {
-        "places": "Caribou",
-        "years": "1880"
+        "place": "Caribou",
+        "year": "1880"
       },
       {
-        "places": "Van Buren",
-        "years": "1880"
+        "place": "Van Buren",
+        "year": "1880"
       },
       {
-        "places": "Strong",
-        "years": "1882"
+        "place": "Strong",
+        "year": "1882"
       }
     ]
   },
@@ -16658,8 +16658,8 @@ var dataset =
     "comName": "White Goosefoot",
     "entries": [
       {
-        "places": "WellsBeach",
-        "years": "1879"
+        "place": "WellsBeach",
+        "year": "1879"
       }
     ]
   },
@@ -16670,16 +16670,16 @@ var dataset =
     "comName": "White Meadowsweet",
     "entries": [
       {
-        "places": "Brunswick",
-        "years": "1876"
+        "place": "Brunswick",
+        "year": "1876"
       },
       {
-        "places": "Rangeley",
-        "years": "1892"
+        "place": "Rangeley",
+        "year": "1892"
       },
       {
-        "places": "WestBaldwin",
-        "years": "1900"
+        "place": "WestBaldwin",
+        "year": "1900"
       }
     ]
   },
@@ -16690,8 +16690,8 @@ var dataset =
     "comName": "White Mountain Avens",
     "entries": [
       {
-        "places": "FayetteRidge",
-        "years": "1871"
+        "place": "FayetteRidge",
+        "year": "1871"
       }
     ]
   },
@@ -16702,16 +16702,16 @@ var dataset =
     "comName": "White Northern Bog-orchid",
     "entries": [
       {
-        "places": "Brunswick",
-        "years": "1880"
+        "place": "Brunswick",
+        "year": "1880"
       },
       {
-        "places": "Rangeley",
-        "years": "1882"
+        "place": "Rangeley",
+        "year": "1882"
       },
       {
-        "places": "Farmington",
-        "years": "1896"
+        "place": "Farmington",
+        "year": "1896"
       }
     ]
   },
@@ -16722,24 +16722,24 @@ var dataset =
     "comName": "White Snakeroot",
     "entries": [
       {
-        "places": "VanBuren",
-        "years": "1880"
+        "place": "VanBuren",
+        "year": "1880"
       },
       {
-        "places": "Caribou",
-        "years": "1880"
+        "place": "Caribou",
+        "year": "1880"
       },
       {
-        "places": "Rangeley",
-        "years": "1894"
+        "place": "Rangeley",
+        "year": "1894"
       },
       {
-        "places": "LongPlantation",
-        "years": "1894"
+        "place": "LongPlantation",
+        "year": "1894"
       },
       {
-        "places": "Coplin",
-        "years": "1894"
+        "place": "Coplin",
+        "year": "1894"
       }
     ]
   },
@@ -16750,12 +16750,12 @@ var dataset =
     "comName": "White Spruce",
     "entries": [
       {
-        "places": "Brunswick",
-        "years": "1878"
+        "place": "Brunswick",
+        "year": "1878"
       },
       {
-        "places": "Monhegan",
-        "years": "1910"
+        "place": "Monhegan",
+        "year": "1910"
       }
     ]
   },
@@ -16766,8 +16766,8 @@ var dataset =
     "comName": "White Sweet-clover",
     "entries": [
       {
-        "places": "SouthPoland",
-        "years": "1895"
+        "place": "SouthPoland",
+        "year": "1895"
       }
     ]
   },
@@ -16778,12 +16778,12 @@ var dataset =
     "comName": "White Turtlehead",
     "entries": [
       {
-        "places": "Brunswick",
-        "years": "1871"
+        "place": "Brunswick",
+        "year": "1871"
       },
       {
-        "places": "SouthPoland",
-        "years": "1893"
+        "place": "SouthPoland",
+        "year": "1893"
       }
     ]
   },
@@ -16794,8 +16794,8 @@ var dataset =
     "comName": "White Vervain",
     "entries": [
       {
-        "places": "Wells",
-        "years": "1879"
+        "place": "Wells",
+        "year": "1879"
       }
     ]
   },
@@ -16806,8 +16806,8 @@ var dataset =
     "comName": "White Walnut",
     "entries": [
       {
-        "places": "FayetteRidge",
-        "years": "1875"
+        "place": "FayetteRidge",
+        "year": "1875"
       }
     ]
   },
@@ -16818,8 +16818,8 @@ var dataset =
     "comName": "White Water Crowfoot",
     "entries": [
       {
-        "places": "FortKent",
-        "years": "1881"
+        "place": "FortKent",
+        "year": "1881"
       }
     ]
   },
@@ -16830,36 +16830,36 @@ var dataset =
     "comName": "White Water-lily",
     "entries": [
       {
-        "places": "Brunswick",
-        "years": "1870"
+        "place": "Brunswick",
+        "year": "1870"
       },
       {
-        "places": "SouthPoland",
-        "years": "1882"
+        "place": "SouthPoland",
+        "year": "1882"
       },
       {
-        "places": "RangeleyRegion",
-        "years": "1882"
+        "place": "RangeleyRegion",
+        "year": "1882"
       },
       {
-        "places": "Wells",
-        "years": "1898"
+        "place": "Wells",
+        "year": "1898"
       },
       {
-        "places": "York",
-        "years": "1898"
+        "place": "York",
+        "year": "1898"
       },
       {
-        "places": "South Poland",
-        "years": "1895"
+        "place": "South Poland",
+        "year": "1895"
       },
       {
-        "places": "York Beach",
-        "years": "1898"
+        "place": "York Beach",
+        "year": "1898"
       },
       {
-        "places": "West Baldwin",
-        "years": "1900"
+        "place": "West Baldwin",
+        "year": "1900"
       }
     ]
   },
@@ -16870,8 +16870,8 @@ var dataset =
     "comName": "White Willow",
     "entries": [
       {
-        "places": "FortKent",
-        "years": "1880"
+        "place": "FortKent",
+        "year": "1880"
       }
     ]
   },
@@ -16882,20 +16882,20 @@ var dataset =
     "comName": "White Willow [Hybrid]",
     "entries": [
       {
-        "places": "Wells",
-        "years": "1898"
+        "place": "Wells",
+        "year": "1898"
       },
       {
-        "places": "SouthPoland",
-        "years": "1893"
+        "place": "SouthPoland",
+        "year": "1893"
       },
       {
-        "places": "Brunswick",
-        "years": "1892"
+        "place": "Brunswick",
+        "year": "1892"
       },
       {
-        "places": "East Livermore",
-        "years": "1894"
+        "place": "East Livermore",
+        "year": "1894"
       }
     ]
   },
@@ -16906,20 +16906,20 @@ var dataset =
     "comName": "White Wood-aster",
     "entries": [
       {
-        "places": "EastLivermore",
-        "years": "1878"
+        "place": "EastLivermore",
+        "year": "1878"
       },
       {
-        "places": "SouthPoland",
-        "years": "1895"
+        "place": "SouthPoland",
+        "year": "1895"
       },
       {
-        "places": "Gilead",
-        "years": "1897"
+        "place": "Gilead",
+        "year": "1897"
       },
       {
-        "places": "Wells",
-        "years": "1898"
+        "place": "Wells",
+        "year": "1898"
       }
     ]
   },
@@ -16930,12 +16930,12 @@ var dataset =
     "comName": "Whorled Bedstraw",
     "entries": [
       {
-        "places": "Orono",
-        "years": "1891"
+        "place": "Orono",
+        "year": "1891"
       },
       {
-        "places": "BustinsIsland",
-        "years": "1909"
+        "place": "BustinsIsland",
+        "year": "1909"
       }
     ]
   },
@@ -16946,8 +16946,8 @@ var dataset =
     "comName": "Whorled Milkwort",
     "entries": [
       {
-        "places": "Brunswick",
-        "years": "1887"
+        "place": "Brunswick",
+        "year": "1887"
       }
     ]
   },
@@ -16958,16 +16958,16 @@ var dataset =
     "comName": "Whorled Water-milfoil",
     "entries": [
       {
-        "places": "SaintFrancis",
-        "years": "1881"
+        "place": "SaintFrancis",
+        "year": "1881"
       },
       {
-        "places": "Rangeley",
-        "years": "1882"
+        "place": "Rangeley",
+        "year": "1882"
       },
       {
-        "places": "Readfield",
-        "years": "1892"
+        "place": "Readfield",
+        "year": "1892"
       }
     ]
   },
@@ -16978,20 +16978,20 @@ var dataset =
     "comName": "Wild Basil",
     "entries": [
       {
-        "places": "VanBuren",
-        "years": "1880"
+        "place": "VanBuren",
+        "year": "1880"
       },
       {
-        "places": "Caribou",
-        "years": "1881"
+        "place": "Caribou",
+        "year": "1881"
       },
       {
-        "places": "Strong",
-        "years": "1882"
+        "place": "Strong",
+        "year": "1882"
       },
       {
-        "places": "Gilead",
-        "years": "1897"
+        "place": "Gilead",
+        "year": "1897"
       }
     ]
   },
@@ -17002,8 +17002,8 @@ var dataset =
     "comName": "Wild Hound's Tongue",
     "entries": [
       {
-        "places": "Chesterville",
-        "years": "1878"
+        "place": "Chesterville",
+        "year": "1878"
       }
     ]
   },
@@ -17014,8 +17014,8 @@ var dataset =
     "comName": "Wild Leek",
     "entries": [
       {
-        "places": "EagleIsland",
-        "years": "1902"
+        "place": "EagleIsland",
+        "year": "1902"
       }
     ]
   },
@@ -17026,12 +17026,12 @@ var dataset =
     "comName": "Wild Parsnip",
     "entries": [
       {
-        "places": "Brunswick",
-        "years": "1876"
+        "place": "Brunswick",
+        "year": "1876"
       },
       {
-        "places": "SouthPoland",
-        "years": "1893"
+        "place": "SouthPoland",
+        "year": "1893"
       }
     ]
   },
@@ -17042,16 +17042,16 @@ var dataset =
     "comName": "Wild Radish",
     "entries": [
       {
-        "places": "Orono",
-        "years": "1891"
+        "place": "Orono",
+        "year": "1891"
       },
       {
-        "places": "SouthPoland",
-        "years": "1893"
+        "place": "SouthPoland",
+        "year": "1893"
       },
       {
-        "places": "Wells",
-        "years": "1898"
+        "place": "Wells",
+        "year": "1898"
       }
     ]
   },
@@ -17062,20 +17062,20 @@ var dataset =
     "comName": "Wild Sasparilla",
     "entries": [
       {
-        "places": "Topsham",
-        "years": "1881"
+        "place": "Topsham",
+        "year": "1881"
       },
       {
-        "places": "East Livermore",
-        "years": "1893"
+        "place": "East Livermore",
+        "year": "1893"
       },
       {
-        "places": "South Poland",
-        "years": "1893"
+        "place": "South Poland",
+        "year": "1893"
       },
       {
-        "places": "Fayette",
-        "years": "1876"
+        "place": "Fayette",
+        "year": "1876"
       }
     ]
   },
@@ -17086,20 +17086,20 @@ var dataset =
     "comName": "Wildcalla",
     "entries": [
       {
-        "places": "Brunswick",
-        "years": "1870"
+        "place": "Brunswick",
+        "year": "1870"
       },
       {
-        "places": "FortKent",
-        "years": "1880"
+        "place": "FortKent",
+        "year": "1880"
       },
       {
-        "places": "Rangeley",
-        "years": "1894"
+        "place": "Rangeley",
+        "year": "1894"
       },
       {
-        "places": "Fort Kent",
-        "years": "1880"
+        "place": "Fort Kent",
+        "year": "1880"
       }
     ]
   },
@@ -17110,8 +17110,8 @@ var dataset =
     "comName": "Wildcarrot",
     "entries": [
       {
-        "places": "Brunswick",
-        "years": "1876"
+        "place": "Brunswick",
+        "year": "1876"
       }
     ]
   },
@@ -17136,8 +17136,8 @@ var dataset =
     "comName": "Winged Sumac",
     "entries": [
       {
-        "places": "Shapleigh",
-        "years": "1891"
+        "place": "Shapleigh",
+        "year": "1891"
       }
     ]
   },
@@ -17148,20 +17148,20 @@ var dataset =
     "comName": "Withe-rod",
     "entries": [
       {
-        "places": "Brunswick",
-        "years": "1877"
+        "place": "Brunswick",
+        "year": "1877"
       },
       {
-        "places": "SouthPoland",
-        "years": "1893"
+        "place": "SouthPoland",
+        "year": "1893"
       },
       {
-        "places": "Gilead",
-        "years": "1897"
+        "place": "Gilead",
+        "year": "1897"
       },
       {
-        "places": "Caribou",
-        "years": "1881"
+        "place": "Caribou",
+        "year": "1881"
       }
     ]
   },
@@ -17179,8 +17179,8 @@ var dataset =
     "comName": "Woodland Arctic Cudweed",
     "entries": [
       {
-        "places": "AroostookCounty",
-        "years": "1899"
+        "place": "AroostookCounty",
+        "year": "1899"
       }
     ]
   },
@@ -17191,24 +17191,24 @@ var dataset =
     "comName": "Woodland Figwort",
     "entries": [
       {
-        "places": "Brunswick",
-        "years": "1900"
+        "place": "Brunswick",
+        "year": "1900"
       },
       {
-        "places": "DrakesIsland",
-        "years": "1897"
+        "place": "DrakesIsland",
+        "year": "1897"
       },
       {
-        "places": "Castine",
-        "years": "1903"
+        "place": "Castine",
+        "year": "1903"
       },
       {
-        "places": "SouthPoland",
-        "years": "1891"
+        "place": "SouthPoland",
+        "year": "1891"
       },
       {
-        "places": "Orono",
-        "years": "1893"
+        "place": "Orono",
+        "year": "1893"
       }
     ]
   },
@@ -17219,12 +17219,12 @@ var dataset =
     "comName": "Woodland Ragwort",
     "entries": [
       {
-        "places": "Cutler",
-        "years": "1902"
+        "place": "Cutler",
+        "year": "1902"
       },
       {
-        "places": "NorthLubec",
-        "years": "1902"
+        "place": "NorthLubec",
+        "year": "1902"
       }
     ]
   },
@@ -17235,28 +17235,28 @@ var dataset =
     "comName": "Woodland Strawberry",
     "entries": [
       {
-        "places": "FortKent",
-        "years": "1881"
+        "place": "FortKent",
+        "year": "1881"
       },
       {
-        "places": "SouthPoland",
-        "years": "1897"
+        "place": "SouthPoland",
+        "year": "1897"
       },
       {
-        "places": "Gilead",
-        "years": "1897"
+        "place": "Gilead",
+        "year": "1897"
       },
       {
-        "places": "Orono",
-        "years": "1880"
+        "place": "Orono",
+        "year": "1880"
       },
       {
-        "places": "Wells",
-        "years": "1898"
+        "place": "Wells",
+        "year": "1898"
       },
       {
-        "places": "Fort Kent",
-        "years": "1881"
+        "place": "Fort Kent",
+        "year": "1881"
       }
     ]
   },
@@ -17267,16 +17267,16 @@ var dataset =
     "comName": "Woodland Sunflower",
     "entries": [
       {
-        "places": "WestBaldwin",
-        "years": "1900"
+        "place": "WestBaldwin",
+        "year": "1900"
       },
       {
-        "places": "Harpswell Neck",
-        "years": "1870"
+        "place": "Harpswell Neck",
+        "year": "1870"
       },
       {
-        "places": "South Poland",
-        "years": "1893"
+        "place": "South Poland",
+        "year": "1893"
       }
     ]
   },
@@ -17294,12 +17294,12 @@ var dataset =
     "comName": "Woolly Blue Violet",
     "entries": [
       {
-        "places": "Gray",
-        "years": "1908"
+        "place": "Gray",
+        "year": "1908"
       },
       {
-        "places": "WestBath",
-        "years": "1902"
+        "place": "WestBath",
+        "year": "1902"
       }
     ]
   },
@@ -17310,12 +17310,12 @@ var dataset =
     "comName": "Wormseed Wallflower",
     "entries": [
       {
-        "places": "WellsBeach",
-        "years": "1879"
+        "place": "WellsBeach",
+        "year": "1879"
       },
       {
-        "places": "Strong",
-        "years": "1882"
+        "place": "Strong",
+        "year": "1882"
       }
     ]
   },
@@ -17326,24 +17326,24 @@ var dataset =
     "comName": "Yellow Avens",
     "entries": [
       {
-        "places": "Brunswick",
-        "years": "1870"
+        "place": "Brunswick",
+        "year": "1870"
       },
       {
-        "places": "WestBath",
-        "years": "1892"
+        "place": "WestBath",
+        "year": "1892"
       },
       {
-        "places": "Strong",
-        "years": "1882"
+        "place": "Strong",
+        "year": "1882"
       },
       {
-        "places": "Fayette",
-        "years": "1876"
+        "place": "Fayette",
+        "year": "1876"
       },
       {
-        "places": "Wells",
-        "years": "1898"
+        "place": "Wells",
+        "year": "1898"
       }
     ]
   },
@@ -17354,12 +17354,12 @@ var dataset =
     "comName": "Yellow Birch",
     "entries": [
       {
-        "places": "EastLivermore",
-        "years": "1881"
+        "place": "EastLivermore",
+        "year": "1881"
       },
       {
-        "places": "SouthPoland",
-        "years": "1893"
+        "place": "SouthPoland",
+        "year": "1893"
       }
     ]
   },
@@ -17377,16 +17377,16 @@ var dataset =
     "comName": "Yellow Chestnut Oak",
     "entries": [
       {
-        "places": "York",
-        "years": "1876"
+        "place": "York",
+        "year": "1876"
       },
       {
-        "places": "York",
-        "years": "1879"
+        "place": "York",
+        "year": "1879"
       },
       {
-        "places": "York",
-        "years": "1898"
+        "place": "York",
+        "year": "1898"
       }
     ]
   },
@@ -17397,24 +17397,24 @@ var dataset =
     "comName": "Yellow Forest Violet",
     "entries": [
       {
-        "places": "Topsham",
-        "years": "1870"
+        "place": "Topsham",
+        "year": "1870"
       },
       {
-        "places": "Fayette",
-        "years": "1878"
+        "place": "Fayette",
+        "year": "1878"
       },
       {
-        "places": "South Poland",
-        "years": "1893"
+        "place": "South Poland",
+        "year": "1893"
       },
       {
-        "places": "Gardiner",
-        "years": "1896"
+        "place": "Gardiner",
+        "year": "1896"
       },
       {
-        "places": "Gray",
-        "years": "1896"
+        "place": "Gray",
+        "year": "1896"
       }
     ]
   },
@@ -17425,8 +17425,8 @@ var dataset =
     "comName": "Yellow Hawkweed",
     "entries": [
       {
-        "places": "Cutler",
-        "years": "1902"
+        "place": "Cutler",
+        "year": "1902"
       }
     ]
   },
@@ -17437,36 +17437,36 @@ var dataset =
     "comName": "Yellow Lady's-slipper",
     "entries": [
       {
-        "places": "Livermore",
-        "years": "1878"
+        "place": "Livermore",
+        "year": "1878"
       },
       {
-        "places": "Caribou",
-        "years": "1880"
+        "place": "Caribou",
+        "year": "1880"
       },
       {
-        "places": "Exeter",
-        "years": "1880"
+        "place": "Exeter",
+        "year": "1880"
       },
       {
-        "places": "Livermore",
-        "years": "1876"
+        "place": "Livermore",
+        "year": "1876"
       },
       {
-        "places": "Fayette",
-        "years": "1877"
+        "place": "Fayette",
+        "year": "1877"
       },
       {
-        "places": "Caribou",
-        "years": "1880"
+        "place": "Caribou",
+        "year": "1880"
       },
       {
-        "places": "Patten",
-        "years": "1880"
+        "place": "Patten",
+        "year": "1880"
       },
       {
-        "places": "Orono",
-        "years": "1880"
+        "place": "Orono",
+        "year": "1880"
       }
     ]
   },
@@ -17477,12 +17477,12 @@ var dataset =
     "comName": "Yellow Pine-sap",
     "entries": [
       {
-        "places": "Brunswick",
-        "years": "1973"
+        "place": "Brunswick",
+        "year": "1973"
       },
       {
-        "places": "SouthPoland",
-        "years": "1899"
+        "place": "SouthPoland",
+        "year": "1899"
       }
     ]
   },
@@ -17493,16 +17493,16 @@ var dataset =
     "comName": "Yellow Sweet-clover",
     "entries": [
       {
-        "places": "Brunswick",
-        "years": "1891"
+        "place": "Brunswick",
+        "year": "1891"
       },
       {
-        "places": "Bangor",
-        "years": "1891"
+        "place": "Bangor",
+        "year": "1891"
       },
       {
-        "places": "SouthPoland",
-        "years": "1895"
+        "place": "SouthPoland",
+        "year": "1895"
       }
     ]
   },
@@ -17513,8 +17513,8 @@ var dataset =
     "comName": "Yellow Wild Indigo",
     "entries": [
       {
-        "places": "Wells",
-        "years": "1877"
+        "place": "Wells",
+        "year": "1877"
       }
     ]
   },
@@ -17525,8 +17525,8 @@ var dataset =
     "comName": "Yellow-flowered Knotweed",
     "entries": [
       {
-        "places": "NorthBerwick",
-        "years": "1879"
+        "place": "NorthBerwick",
+        "year": "1879"
       }
     ]
   },
@@ -17537,16 +17537,16 @@ var dataset =
     "comName": "Yellow-seeded False Pimpernel",
     "entries": [
       {
-        "places": "Topsham",
-        "years": "1876"
+        "place": "Topsham",
+        "year": "1876"
       },
       {
-        "places": "SouthPoland",
-        "years": "1893"
+        "place": "SouthPoland",
+        "year": "1893"
       },
       {
-        "places": "ScarboroughBeach",
-        "years": "1901"
+        "place": "ScarboroughBeach",
+        "year": "1901"
       }
     ]
   },
@@ -17557,20 +17557,20 @@ var dataset =
     "comName": "Zig-zag Goldenrod",
     "entries": [
       {
-        "places": "EastLivermore",
-        "years": "1878"
+        "place": "EastLivermore",
+        "year": "1878"
       },
       {
-        "places": "Rangeley",
-        "years": "1882"
+        "place": "Rangeley",
+        "year": "1882"
       },
       {
-        "places": "SouthPoland",
-        "years": "1893"
+        "place": "SouthPoland",
+        "year": "1893"
       },
       {
-        "places": "Gilead",
-        "years": "1897"
+        "place": "Gilead",
+        "year": "1897"
       }
     ]
   },
@@ -17581,8 +17581,8 @@ var dataset =
     "comName": "Zigzag Clover",
     "entries": [
       {
-        "places": "SouthPoland",
-        "years": "1897"
+        "place": "SouthPoland",
+        "year": "1897"
       }
     ]
   }

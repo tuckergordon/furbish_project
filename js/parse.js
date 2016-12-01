@@ -68,20 +68,20 @@ function parseData() {
 		// check to see if the map already contains a flora with that name
 		// (this indicates that we have more entries to add to that flora's object)
 		if (sciName in floraObjects) {
-			// loop through place and year columns until there
-			// are no more places left in that row
+			// loop through places and year columns until there
+			// are no more place left in that row
 			var colIndex = 1;
 			while(row["Place Name-" + colIndex + ""] != null) {
 
 				// add the place and year to a newly created entry object
 				var entry = {
-					"places" : row["Place Name-" + colIndex + ""],
-					"years"  : row["Year-" + colIndex + ""]
+					"place" : row["Place Name-" + colIndex + ""],
+					"year"  : row["Year-" + colIndex + ""]
 				};
 
 				// ignore entries that are missing data
-				if (entry["places"] == "" || entry["years"] == "" ||
-					entry["places"] == "nd" || entry["years"] == "nd") {
+				if (entry["place"] == "" || entry["year"] == "" ||
+					entry["place"] == "nd" || entry["year"] == "nd") {
 					colIndex++;
 					continue;
 				}
@@ -124,11 +124,11 @@ function parseData() {
 			var colIndex = 1;
 			while(row["Place Name-" + colIndex + ""] != null) {
 				var entry = {};
-				entry["places"] = removeNonAlphanumeric(row["Place Name-" + colIndex + ""]);
-				entry["years"] = row["Year-" + colIndex + ""];
+				entry["place"] = removeNonAlphanumeric(row["Place Name-" + colIndex + ""]);
+				entry["year"] = row["Year-" + colIndex + ""];
 
-				if (entry["places"] == "" || entry["years"] == "" ||
-					entry["places"] == "nd" || entry["years"] == "nd") {
+				if (entry["place"] == "" || entry["year"] == "" ||
+					entry["place"] == "nd" || entry["year"] == "nd") {
 					colIndex++;
 					continue;
 				}

@@ -137,7 +137,8 @@ function selectFlora(floraID) {
 		document.getElementById('sel' + floraID).style.display = 'block';
 	}
 
-	addFloraToInspector(floraID);
+	addFlora(floraID);
+	// addFloraToInspector(floraID);
 	// initalizeMap();
 }
 
