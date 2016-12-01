@@ -56,6 +56,7 @@ figure figcaption {
 #mainContainer {
 	width: 1024px;
 	height: 590px;	
+	margin: auto;
 }
 
 #svgContainer {
@@ -87,7 +88,6 @@ figure figcaption {
   	margin-bottom: 5px;
   	padding: 6px 0px 6px 0px;
   	border: 1px solid #ddd;
-  	clear: left;
 }
 
 #searchResultsContainer, #selectedListContainer {
@@ -150,6 +150,20 @@ input[type="button"]:hover {
 	margin-left: 8px;
 }
 
+h5.tableTitle {
+	margin: 0;
+	font-size: 14px;
+}
+
 #tableInspector {
-	border: 1px solid #ddd;
+	width: 100%;
+	border: solid #ddd;
+	border-width: 1px 0px 1px 0px;
+	text-align: left;
+}
+
+#tableInspector th {
+	font-size: 12px;
+	border: solid #ddd;
+	border-width: 0px 1px 1px 0px;
 }
