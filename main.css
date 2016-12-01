@@ -2,7 +2,7 @@
 	width: 600px;
 }
 
-#sciSearchBar {
+#searchBar {
   	width: 100%;
   	font-size: 12px;
   	padding: 6px 0px 6px 0px;
@@ -12,7 +12,7 @@
   	clear: left;
 }
 
-#sciSearchResults, #sciSearchSelected {
+#searchResultsContainer, #selectedListContainer {
 	float: left;
 	border: solid #ddd;
 	border-width: 1px 1px 1px 1px;
@@ -26,16 +26,16 @@
 	margin-left: 1%;
 }
 
-#sciSearchSelected {
+#selectedListContainer {
 	float: right;
 }
 
-#sciList, #sciSelectedList {
+#searchList, #selectedList {
 	margin: 0;
 	padding: 0;
 }
 
-#sciList li, #sciSelectedList li {
+#searchList li, #selectedList li {
   	border: solid #ddd;
   	border-width: 1px 0px 1px 0px;
   	margin-top: -1px; /* Prevent double borders */
@@ -45,15 +45,14 @@
   	font-size: 14px;
   	color: black;
   	display: block;
-  	/*min-height: 30px;*/
 }
 
-#sciList li:hover {
+#searchList li:hover {
   	background-color: #eee;
   	cursor: pointer;
 }
 
-#sciSelectedList li:hover {
+#selectedList li:hover {
 	opacity: 0.8;
 	background-color: crimson;
 	cursor: pointer;

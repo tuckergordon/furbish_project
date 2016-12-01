@@ -3,7 +3,7 @@
 <head>
 	<meta charset="utf-8">
 	<title>Search Dialog Test</title>
-	<link rel="stylesheet" type="text/css" href="main.css">
+	<link rel="stylesheet" type="text/css" href="stylesheet.css">
 	<script type="text/javascript" src="js/jquery-3.1.1.min.js"></script>
 	<script type="text/javascript" src="js/list.min.js"></script>
 	<script type="text/javascript" src="js/parsedFurbishData.js"></script>
@@ -11,14 +11,14 @@
 <body>
 
 <div id="searchContainer">
-	<input type="text" id="sciSearchBar" onkeyup="searchFlora()" placeholder="Search for flora by scientific name.." title="Type in a flora">
-	<div id="sciSearchResults">
+	<input type="text" id="searchBar" onkeyup="searchFlora()" placeholder="Search for flora by scientific name.." title="Type in a flora">
+	<div id="searchResultsContainer">
 		<div id='noResultMsg' style="display: none">No Results</div>
-		<ul id="sciList"></ul>
+		<ul id="searchList"></ul>
 
 	</div>
-	<div id="sciSearchSelected">
-		<ul id="sciSelectedList"></ul>
+	<div id="selectedListContainer">
+		<ul id="selectedList"></ul>
 	</div>
 	<input type="button" name="btnSelectAll" value="Select All" onclick="selectAll()">
 	<input type="button" name="btnDeselectAll" value="Deselect All" onclick="deselectAll()">

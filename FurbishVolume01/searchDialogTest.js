@@ -1,3 +1,6 @@
+// call the make lists function to build the lists
+makeLists();
+
 // an array that will hold all the flora that are selected by the 
 // user for displaying on the map
 var selectedFlora = [];
@@ -28,7 +31,7 @@ function makeLists() {
 		// and italicize it
 		var sciNameItal = document.createElement('span');
 		sciNameItal.setAttribute('style', 'font-style: italic');
-		sciNameItal.appendChild(document.createTextNode(' ' + dataset[i].sciName));
+		sciNameItal.appendChild(document.createTextNode(dataset[i].sciName));
 
 		// set contents of the list element
 		flora.appendChild(comNameBold);
@@ -140,27 +143,36 @@ function selectFlora(floraID) {
 function deselectFlora(floraID) {
 	// get reference to element
 	var flora = document.getElementById(floraID);
-	// checking to see if floraID is the ID of an element in the searchList
-	// or in the selectedList. If it's in the
+	// if the selected element is in the selectedList, then we need to cut off
+	// the "sel" from its ID in order to be able to access the same flora in 
+	// the search results list
 	if (flora.parentElement.id == 'selectedList') {
+		// cut off the first 3 characters ('sel')
 		floraID = floraID.slice(3);
 		flora = document.getElementById(floraID);
 	}
+	// uncheck it in search results list
 	flora.setAttribute('checked', 'false');
+	// return color to original gray/white
 	flora.setAttribute("style", "background-color: #f6f6f6");
+	// remove it from the selected flora array
 	for (var i = 0; i < selectedFlora.length; i++) {
 		if (selectedFlora[i] == floraID) {
 			selectedFlora.splice(i, 1);
 			break;
 		}
 	}
+	// hide the flora in the selected flora list
 	document.getElementById('sel' + floraID).style.display = 'none';
 }
 
+// select all flora
 function selectAll() {
+	// iterate through the dataset and select all of the flora
 	for (var i = 0; i < dataset.length; i++) {
-		var floraID = removeQuotes(dataset[i].sciName);
+		var floraID = dataset[i].sciName;
 		var flora = document.getElementById(floraID);
+		// avoid adding duplicates to the selected flora array
 		if (!isChecked(flora)) {
 			selectedFlora.push(floraID);
 		}
@@ -170,6 +182,7 @@ function selectAll() {
 	}
 }
 
+// deselect all flora
 function deselectAll() {
 	for (var i = 0; i < selectedFlora.length; i++) {
 		var flora = document.getElementById(selectedFlora[i]);
@@ -177,18 +190,18 @@ function deselectAll() {
 		flora.setAttribute("style", "background-color: #f6f6f6");
 		document.getElementById('sel' + selectedFlora[i]).style.display = 'none';
 	}
+	// empty out the selectedFlora array
 	selectedFlora.length = 0;
 }
 
+// returns true if the flora is checked (which means its selected)
 function isChecked(flora) {
 	return flora.getAttribute('checked') == 'true';
 }
 
+// remove all single and double quotation marks from a string.
+// code adopted from:
 // http://stackoverflow.com/questions/19156148/i-want-to-remove-double-quotes-from-a-string
 function removeQuotes(string) {
 	return string.replace(/['"]+/g, '');
 }
-
-makeLists();
-// start with the scientific search tab open
-// document.getElementById("defaultOpen").click();

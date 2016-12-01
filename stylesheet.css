@@ -1,19 +1,20 @@
+body {
+	font-family: "Times New Roman", Times, serif;
+}
+
 h1 {
 	text-align: center;
 	font-size: 40px;
-	font-family: "Times New Roman", Times, serif;
 }
 
 h2 {
 	text-align: center;
 	font-size: 25px;
-	font-family: "Times New Roman", Times, serif;
 }
 
 h3 {
 	text-align: center;
 	font-size: 18px;
-	font-family: "Times New Roman", Times, serif;
 }
 
 hr {
@@ -22,18 +23,15 @@ hr {
 
 p {
 	text-align: justify;
-	font-family: "Times New Roman", Times, serif;
 	font-size: 14px;
 }
 
 ul {
-	font-family: "Times New Roman", Times, serif;
 	font-size: 14px;
-	text-align: justify;
 }
 
 td {
-	font-family: "Times New Roman", Times, serif;
+	
 	font-size: 14px;
 	text-align: justify;
 }
@@ -53,4 +51,154 @@ figure figcaption {
     border: 1px dotted blue;
     text-align: center;
     font-size: 8px;
+}
+
+#mainContainer {
+	width: 1024px;
+	height: 590px;	
+	margin: auto;
+}
+
+#svgContainer {
+	width: 505px;
+	height: 100%;
+	float: left;
+	background-color: green;
+}
+
+#searchContainer {
+	height: 50%;
+	width: 505px;
+	display: block;
+	float: right;
+	margin-bottom: 1%;
+}
+
+#inspectorContainer {
+	height: 48%;
+	width: 505px;
+	display: block;
+	float: right;
+	border: 1px solid #ddd;
+}
+
+#searchBar {
+  	width: 100%;
+  	font-size: 12px;
+  	margin-bottom: 5px;
+  	padding: 6px 0px 6px 0px;
+  	border: 1px solid #ddd;
+}
+
+#searchResultsContainer, #selectedListContainer {
+	float: left;
+	border: solid #ddd;
+	border-width: 1px 1px 1px 1px;
+	width: 245px;
+	list-style-type: none;
+	padding: 0;
+	height: 80%;
+	overflow-y: scroll;
+}
+
+#selectedListContainer {
+	float: right;
+}
+
+#searchList, #selectedList {
+	margin: 0;
+	padding: 0;
+}
+
+#searchList li, #selectedList li {
+  	border: solid #ddd;
+  	border-width: 1px 0px 1px 0px;
+  	margin-top: -1px; /* Prevent double borders */
+  	background-color: #f6f6f6;
+  	padding: 3px;
+  	text-decoration: none;
+  	font-size: 12px;
+  	color: black;
+  	display: block;
+}
+
+#searchList li:hover {
+  	background-color: #eee;
+  	cursor: pointer;
+}
+
+#selectedList li:hover {
+	opacity: 0.8;
+	background-color: crimson;
+	cursor: pointer;
+}
+
+input[type="button"] {
+	width: 245px;
+	margin-top: 5px;
+}
+
+input[type="button"]:hover {
+	cursor: pointer;
+}
+
+#btnSelectAll {
+	margin-left: 1px;
+}
+
+#btnDeselectAll {
+	margin-left: 8px;
+}
+
+h5.tableTitle {
+	margin: 0;
+	font-size: 14px;
+	height: 8%;
+	background-color: gray;
+}
+
+/*#tableInspector {
+	width: 100%;
+	border: solid #ddd;
+	border-width: 1px 0px 1px 0px;
+}*/
+
+table{
+  width:100%;
+  height: 100%;
+  table-layout: auto;
+}
+.tbl-header{
+	height: 10%;
+  	background-color: green;
+ }
+.tbl-content{
+  /*height: 92%;*/
+  overflow-x:auto;
+  margin-top: 0px;
+  /*border: 1px solid #ddd;*/
+}
+tbody tr {
+	background: #f6f6f6;
+}
+tbody tr:nth-of-type(odd) {
+  background: #e9e9e9;
+}
+th{
+  padding: auto 8px;
+  text-align: center;
+  font-weight: bold;
+  font-size: 12px;
+  color: white;
+}
+td{
+  padding: 6px 0px;
+  text-align: center;
+  vertical-align:middle;
+  font-size: 12px;
+  color: black;
+}
+
+tbody td {
+	height: 5px;
 }
