@@ -12,7 +12,7 @@
 var dataset = [];
 
 // read the data into the dataset array, and call the parse function
-d3.csv("kateFurbish_edit5.csv", function(error, data) {
+d3.csv("./Data/kateFurbish_edit5.csv", function(error, data) {
 
 	if (error) {
 		console.log(error);
