@@ -11,40 +11,42 @@ function makeLists() {
 	var selectedList = document.getElementById('selectedList');
 
 	// iterate through the parsed dataset of flora (parsedFurbishData.js)
-	for (var i = 0; i < dataset.length; i++) {
+	for (var key in dataset) {
+
+		var flora = dataset[key]
 
 		// ADDING ELEMENTS TO SEARCH RESULTS LIST
 
 		// create the list item
-		var flora = document.createElement('li');
+		var floraLi = document.createElement('li');
 
 		// create a span element that will wrap around the common name
 		// of the flora and make it bold
 		var comNameBold = document.createElement('span');
 		comNameBold.setAttribute('style', 'font-weight: bold');
-		comNameBold.appendChild(document.createTextNode(dataset[i].comName));
+		comNameBold.appendChild(document.createTextNode(flora.comName));
 
 		// create another span element that will wrap around the scientific name
 		// and italicize it
 		var sciNameItal = document.createElement('span');
 		sciNameItal.setAttribute('style', 'font-style: italic');
-		sciNameItal.appendChild(document.createTextNode(' ' + dataset[i].sciName));
+		sciNameItal.appendChild(document.createTextNode(' ' + flora.sciName));
 
 		// set contents of the list element
-		flora.appendChild(comNameBold);
-		flora.appendChild(sciNameItal);
+		floraLi.appendChild(comNameBold);
+		floraLi.appendChild(sciNameItal);
 
 		// set the id of the list element to be the scientific name of the flora.
 		// (remove quotes to make sure that there are no issues when using the id
 		// as a function parameter)
-		flora.setAttribute("id", "" + removeQuotes(dataset[i].sciName) + "");
+		floraLi.setAttribute("id", "" + removeQuotes(flora.sciName) + "");
 
 		// when the list element is clicked, this will call a function to select
 		// that flora
-		flora.setAttribute("onclick", "selectFlora('" + removeQuotes(dataset[i].sciName) + "')");
+		floraLi.setAttribute("onclick", "selectFlora('" + removeQuotes(flora.sciName) + "')");
 		
 		// Add it to the list
-		searchList.appendChild(flora);
+		searchList.appendChild(floraLi);
 
 		// ADDING ELEMENTS TO SELECTED FLORA LIST
 
@@ -52,14 +54,14 @@ function makeLists() {
 
 		// adding "sel" to the scientific name for the id, to distinguish it from
 		// the same flora in the search results list
-		selectFlora.setAttribute("id", "sel" + removeQuotes(dataset[i].sciName) + "");
+		selectFlora.setAttribute("id", "sel" + removeQuotes(flora.sciName) + "");
 
 		// add the bold common name and italic scientific name (must clone them, 
 		// otherwise the elements will be pulled from the first list)
 		selectFlora.appendChild(comNameBold.cloneNode(true));
 		selectFlora.appendChild(sciNameItal.cloneNode(true));
 		selectFlora.setAttribute("onclick", "deselectFlora('" + "sel" + 
-									removeQuotes(dataset[i].sciName) + "')");
+									removeQuotes(flora.sciName) + "')");
 		// start off by hiding all of the elements in the selected list, 
 		// since none are selected at the start
 		selectFlora.style.display = 'none';
@@ -161,8 +163,8 @@ function deselectFlora(floraID) {
 }
 
 function selectAll() {
-	for (var i = 0; i < dataset.length; i++) {
-		var floraID = removeQuotes(dataset[i].sciName);
+	for (var key in dataset) {
+		var floraID = removeQuotes(dataset[key].sciName);
 		var flora = document.getElementById(floraID);
 		if (!isChecked(flora)) {
 			selectedFlora.push(floraID);

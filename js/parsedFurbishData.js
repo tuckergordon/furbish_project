@@ -15,11 +15,12 @@
 //    -entries: an arraylist where each element contains the town and data of one Furbish's entries
 //          for that flora
 
-var dataset = [
-  {
+var dataset = 
+{
+  "Rhamnus anifolia L'Hér": {
     "volume": "3",
     "page": "13",
-    "sciName": "Rhamnus anifolia L'HÃ©r",
+    "sciName": "Rhamnus anifolia L'Hér",
     "comName": "Alder-leaved Buckthorn",
     "entries": [
       {
@@ -44,7 +45,7 @@ var dataset = [
       }
     ]
   },
-  {
+  "Potamogeton confervoides Reichenb": {
     "volume": "13",
     "page": "27",
     "sciName": "Potamogeton confervoides Reichenb",
@@ -56,7 +57,7 @@ var dataset = [
       }
     ]
   },
-  {
+  "Mimulus ringens L": {
     "volume": "9",
     "page": "33",
     "sciName": "Mimulus ringens L",
@@ -76,7 +77,7 @@ var dataset = [
       }
     ]
   },
-  {
+  "Adlumia fungosa (Ait) Greene ex B S P": {
     "volume": "1",
     "page": "57",
     "sciName": "Adlumia fungosa (Ait) Greene ex B S P",
@@ -88,7 +89,7 @@ var dataset = [
       }
     ]
   },
-  {
+  "Cardamine bellidifolia L": {
     "volume": "1",
     "page": "63, 103",
     "sciName": "Cardamine bellidifolia L",
@@ -104,7 +105,7 @@ var dataset = [
       }
     ]
   },
-  {
+  "Vaccinium uliginosum L": {
     "volume": "8",
     "page": "21, 39",
     "sciName": "Vaccinium uliginosum L",
@@ -120,7 +121,7 @@ var dataset = [
       }
     ]
   },
-  {
+  "Astragalus alpinus L": {
     "volume": "3",
     "page": "50",
     "sciName": "Astragalus alpinus L",
@@ -136,7 +137,7 @@ var dataset = [
       }
     ]
   },
-  {
+  "Kalmia procumbens L": {
     "volume": "8",
     "page": "55",
     "sciName": "Kalmia procumbens L",
@@ -148,7 +149,7 @@ var dataset = [
       }
     ]
   },
-  {
+  "Trifolium hybridum L": {
     "volume": "3",
     "page": "41",
     "sciName": "Trifolium hybridum L",
@@ -164,7 +165,7 @@ var dataset = [
       }
     ]
   },
-  {
+  "Myriophyllum alterniflorum DC": {
     "volume": "5",
     "page": "119",
     "sciName": "Myriophyllum alterniflorum DC",
@@ -180,7 +181,7 @@ var dataset = [
       }
     ]
   },
-  {
+  "Swida alternifolia (L f) Small": {
     "volume": "5",
     "page": "79, 80, 115",
     "sciName": "Swida alternifolia (L f) Small",
@@ -200,7 +201,7 @@ var dataset = [
       }
     ]
   },
-  {
+  "Fagus grandifolia Ehrh": {
     "volume": "12",
     "page": "19, 20",
     "sciName": "Fagus grandifolia Ehrh",
@@ -224,7 +225,7 @@ var dataset = [
       }
     ]
   },
-  {
+  "Celastrus scandens L": {
     "volume": "3",
     "page": "12",
     "sciName": "Celastrus scandens L",
@@ -252,7 +253,7 @@ var dataset = [
       }
     ]
   },
-  {
+  "Sparganium americanum Nutt": {
     "volume": "13",
     "page": "6",
     "sciName": "Sparganium americanum Nutt",
@@ -272,7 +273,7 @@ var dataset = [
       }
     ]
   },
-  {
+  "Erechtites hieraciifolius (L) Raf": {
     "volume": "7",
     "page": "32",
     "sciName": "Erechtites hieraciifolius (L) Raf",
@@ -296,7 +297,7 @@ var dataset = [
       }
     ]
   },
-  {
+  "Heracleum maximum Bartr": {
     "volume": "5",
     "page": "42, 112",
     "sciName": "Heracleum maximum Bartr",
@@ -328,7 +329,7 @@ var dataset = [
       }
     ]
   },
-  {
+  "Melampyrum lineare Desr": {
     "volume": "9",
     "page": "58",
     "sciName": "Melampyrum lineare Desr",
@@ -352,7 +353,7 @@ var dataset = [
       }
     ]
   },
-  {
+  "Viola labradorica Schrank": {
     "volume": "2",
     "page": "29",
     "sciName": "Viola labradorica Schrank",
@@ -364,7 +365,7 @@ var dataset = [
       }
     ]
   },
-  {
+  "Ulmus americana L": {
     "volume": "11",
     "page": "53",
     "sciName": "Ulmus americana L",
@@ -380,14 +381,14 @@ var dataset = [
       }
     ]
   },
-  {
+  "Veratrum viride Ait": {
     "volume": "1",
     "page": "71v",
     "sciName": "Veratrum viride Ait",
     "comName": "American False Hellebore",
     "entries": []
   },
-  {
+  "Hedeoma pulegioides (L) Pers": {
     "volume": "9",
     "page": "79",
     "sciName": "Hedeoma pulegioides (L) Pers",
@@ -399,7 +400,7 @@ var dataset = [
       }
     ]
   },
-  {
+  "Teucrium canadense L": {
     "volume": "9",
     "page": "63, 70",
     "sciName": "Teucrium canadense L",
@@ -435,7 +436,7 @@ var dataset = [
       }
     ]
   },
-  {
+  "Panax quinquefolius L": {
     "volume": "5",
     "page": "66",
     "sciName": "Panax quinquefolius L",
@@ -447,7 +448,7 @@ var dataset = [
       }
     ]
   },
-  {
+  "Corylus americana Walt": {
     "volume": "12",
     "page": "22",
     "sciName": "Corylus americana Walt",
@@ -467,7 +468,7 @@ var dataset = [
       }
     ]
   },
-  {
+  "Carpinus caroliniana Walt": {
     "volume": "12",
     "page": "25",
     "sciName": "Carpinus caroliniana Walt",
@@ -487,7 +488,7 @@ var dataset = [
       }
     ]
   },
-  {
+  "Larix laricina (Du Roi) K Koch": {
     "volume": "12",
     "page": "80",
     "sciName": "Larix laricina (Du Roi) K Koch",
@@ -507,7 +508,7 @@ var dataset = [
       }
     ]
   },
-  {
+  "Tilia americana L": {
     "volume": "2",
     "page": "89",
     "sciName": "Tilia americana L",
@@ -531,7 +532,7 @@ var dataset = [
       }
     ]
   },
-  {
+  "Phryma leptostachya L": {
     "volume": "9",
     "page": "61, 62",
     "sciName": "Phryma leptostachya L",
@@ -547,7 +548,7 @@ var dataset = [
       }
     ]
   },
-  {
+  "Hydrocotyle americana L": {
     "volume": "5",
     "page": "38",
     "sciName": "Hydrocotyle americana L",
@@ -563,7 +564,7 @@ var dataset = [
       }
     ]
   },
-  {
+  "Sorbus americana Marsh": {
     "volume": "4",
     "page": "80, 81",
     "sciName": "Sorbus americana Marsh",
@@ -591,7 +592,7 @@ var dataset = [
       }
     ]
   },
-  {
+  "Prunus americana Marsh": {
     "volume": "4",
     "page": "2",
     "sciName": "Prunus americana Marsh",
@@ -607,7 +608,7 @@ var dataset = [
       }
     ]
   },
-  {
+  "Phytolacca americana L": {
     "volume": "10",
     "page": "56",
     "sciName": "Phytolacca americana L",
@@ -619,7 +620,7 @@ var dataset = [
       }
     ]
   },
-  {
+  "Suaeda calceoliformis (Hook) Moq": {
     "volume": "10",
     "page": "76",
     "sciName": "Suaeda calceoliformis (Hook) Moq",
@@ -631,7 +632,7 @@ var dataset = [
       }
     ]
   },
-  {
+  "Cakile edentula (Bigelow) Hook": {
     "volume": "1",
     "page": "91",
     "sciName": "Cakile edentula (Bigelow) Hook",
@@ -651,7 +652,7 @@ var dataset = [
       }
     ]
   },
-  {
+  "Littorella americana Fern": {
     "volume": "8",
     "page": "91",
     "sciName": "Littorella americana Fern",
@@ -663,7 +664,7 @@ var dataset = [
       }
     ]
   },
-  {
+  "Veronica americana Schwein ex Benth": {
     "volume": "9",
     "page": "38",
     "sciName": "Veronica americana Schwein ex Benth",
@@ -679,7 +680,7 @@ var dataset = [
       }
     ]
   },
-  {
+  "Aralia racemosa L": {
     "volume": "5",
     "page": "60, 61",
     "sciName": "Aralia racemosa L",
@@ -707,7 +708,7 @@ var dataset = [
       }
     ]
   },
-  {
+  "Halenia deflexa (Sm) Griseb": {
     "volume": "10",
     "page": "26",
     "sciName": "Halenia deflexa (Sm) Griseb",
@@ -731,7 +732,7 @@ var dataset = [
       }
     ]
   },
-  {
+  "Conophilis americana (L) Wallr. f": {
     "volume": "9",
     "page": "22",
     "sciName": "Conophilis americana (L) Wallr. f",
@@ -747,7 +748,7 @@ var dataset = [
       }
     ]
   },
-  {
+  "Platanus occidentalis L": {
     "volume": "12",
     "page": "1",
     "sciName": "Platanus occidentalis L",
@@ -759,14 +760,14 @@ var dataset = [
       }
     ]
   },
-  {
+  "Erythronium americanum Ker-Gawl": {
     "volume": "14",
     "page": "38",
     "sciName": "Erythronium americanum Ker-Gawl",
     "comName": "American Trout-lily",
     "entries": []
   },
-  {
+  "Linnaea borealis L": {
     "volume": "5",
     "page": "82",
     "sciName": "Linnaea borealis L",
@@ -782,7 +783,7 @@ var dataset = [
       }
     ]
   },
-  {
+  "Lycopus americanus Muhl Ex W Bart": {
     "volume": "9",
     "page": "74",
     "sciName": "Lycopus americanus Muhl Ex W Bart",
@@ -810,7 +811,7 @@ var dataset = [
       }
     ]
   },
-  {
+  "Elatine americana Pursh": {
     "volume": "2",
     "page": "75",
     "sciName": "Elatine americana Pursh",
@@ -822,7 +823,7 @@ var dataset = [
       }
     ]
   },
-  {
+  "Mentha canadensis L": {
     "volume": "9",
     "page": "67, 71, 91",
     "sciName": "Mentha canadensis L",
@@ -846,7 +847,7 @@ var dataset = [
       }
     ]
   },
-  {
+  "Hamamelis viriginiana L": {
     "volume": "5",
     "page": "5",
     "sciName": "Hamamelis viriginiana L",
@@ -862,7 +863,7 @@ var dataset = [
       }
     ]
   },
-  {
+  "Taxus canadensis Marsh": {
     "volume": "12",
     "page": "85, 86",
     "sciName": "Taxus canadensis Marsh",
@@ -890,7 +891,7 @@ var dataset = [
       }
     ]
   },
-  {
+  "Gentiana andrewsii Griseb": {
     "volume": "10",
     "page": "29",
     "sciName": "Gentiana andrewsii Griseb",
@@ -914,7 +915,7 @@ var dataset = [
       }
     ]
   },
-  {
+  "Erigeron annuus (L) Pers": {
     "volume": "6",
     "page": "59",
     "sciName": "Erigeron annuus (L) Pers",
@@ -942,7 +943,7 @@ var dataset = [
       }
     ]
   },
-  {
+  "Suaeda linearis (Ell) Moq": {
     "volume": "10",
     "page": "77",
     "sciName": "Suaeda linearis (Ell) Moq",
@@ -962,7 +963,7 @@ var dataset = [
       }
     ]
   },
-  {
+  "Prunus susquehanae hort ex Willd": {
     "volume": "4",
     "page": "11",
     "sciName": "Prunus susquehanae hort ex Willd",
@@ -974,7 +975,7 @@ var dataset = [
       }
     ]
   },
-  {
+  "Prunus susquehanae hort. ex Willd": {
     "volume": "4",
     "page": "12",
     "sciName": "Prunus susquehanae hort. ex Willd",
@@ -986,7 +987,7 @@ var dataset = [
       }
     ]
   },
-  {
+  "Sparganium natans L": {
     "volume": "13",
     "page": "10, 11",
     "sciName": "Sparganium natans L",
@@ -1006,7 +1007,7 @@ var dataset = [
       }
     ]
   },
-  {
+  "Viola sagittata Ait": {
     "volume": "2",
     "page": "8, 10, 15, 17",
     "sciName": "Viola sagittata Ait",
@@ -1034,7 +1035,7 @@ var dataset = [
       }
     ]
   },
-  {
+  "Solidago caesia L": {
     "volume": "6",
     "page": "67",
     "sciName": "Solidago caesia L",
@@ -1054,7 +1055,7 @@ var dataset = [
       }
     ]
   },
-  {
+  "Rubus chamaemorus L": {
     "volume": "4",
     "page": "25",
     "sciName": "Rubus chamaemorus L",
@@ -1066,7 +1067,7 @@ var dataset = [
       }
     ]
   },
-  {
+  "Abies balsamea (L) P Mill": {
     "volume": "12",
     "page": "78",
     "sciName": "Abies balsamea (L) P Mill",
@@ -1078,7 +1079,7 @@ var dataset = [
       }
     ]
   },
-  {
+  "Populus balsamifera L": {
     "volume": "12",
     "page": "66",
     "sciName": "Populus balsamifera L",
@@ -1102,7 +1103,7 @@ var dataset = [
       }
     ]
   },
-  {
+  "Salix pyrifolia Anderss": {
     "volume": "12",
     "page": "58",
     "sciName": "Salix pyrifolia Anderss",
@@ -1122,7 +1123,7 @@ var dataset = [
       }
     ]
   },
-  {
+  "Juncus balticus Willd": {
     "volume": "14",
     "page": "47",
     "sciName": "Juncus balticus Willd",
@@ -1134,7 +1135,7 @@ var dataset = [
       }
     ]
   },
-  {
+  "Comandra umbellata (L) Nutt": {
     "volume": "11",
     "page": "39",
     "sciName": "Comandra umbellata (L) Nutt",
@@ -1150,7 +1151,7 @@ var dataset = [
       }
     ]
   },
-  {
+  "Salix myricoides Muhl": {
     "volume": "12",
     "page": "64",
     "sciName": "Salix myricoides Muhl",
@@ -1162,14 +1163,14 @@ var dataset = [
       }
     ]
   },
-  {
+  "Juncus militaris Bigelow": {
     "volume": "14",
     "page": "61",
     "sciName": "Juncus militaris Bigelow",
     "comName": "Bayonet Rush",
     "entries": []
   },
-  {
+  "Prunus maritima Marsh": {
     "volume": "4",
     "page": "3, 5",
     "sciName": "Prunus maritima Marsh",
@@ -1193,7 +1194,7 @@ var dataset = [
       }
     ]
   },
-  {
+  "Lathyrus japonicus Willd": {
     "volume": "3",
     "page": "65, 71",
     "sciName": "Lathyrus japonicus Willd",
@@ -1221,7 +1222,7 @@ var dataset = [
       }
     ]
   },
-  {
+  "Artemisia stelleriana Bess": {
     "volume": "7",
     "page": "25",
     "sciName": "Artemisia stelleriana Bess",
@@ -1245,7 +1246,7 @@ var dataset = [
       }
     ]
   },
-  {
+  "Iris hookeri Penny ex D Don": {
     "volume": "14",
     "page": "1b",
     "sciName": "Iris hookeri Penny ex D Don",
@@ -1257,7 +1258,7 @@ var dataset = [
       }
     ]
   },
-  {
+  "Ruppia maritima L": {
     "volume": "13",
     "page": "13",
     "sciName": "Ruppia maritima L",
@@ -1277,7 +1278,7 @@ var dataset = [
       }
     ]
   },
-  {
+  "Hieracium gronovii L": {
     "volume": "7",
     "page": "102",
     "sciName": "Hieracium gronovii L",
@@ -1289,7 +1290,7 @@ var dataset = [
       }
     ]
   },
-  {
+  "Corylus cornuta Marsh": {
     "volume": "12",
     "page": "23",
     "sciName": "Corylus cornuta Marsh",
@@ -1309,14 +1310,14 @@ var dataset = [
       }
     ]
   },
-  {
+  "Salix uva-ursi Pursh": {
     "volume": "12",
     "page": "59",
     "sciName": "Salix uva-ursi Pursh",
     "comName": "Bearberry Willow",
     "entries": []
   },
-  {
+  "Bidens beckii Torr ex Spreng": {
     "volume": "7",
     "page": "14",
     "sciName": "Bidens beckii Torr ex Spreng",
@@ -1328,7 +1329,7 @@ var dataset = [
       }
     ]
   },
-  {
+  "Epifagus virginiana (L) W Bart": {
     "volume": "9",
     "page": "21",
     "sciName": "Epifagus virginiana (L) W Bart",
@@ -1344,7 +1345,7 @@ var dataset = [
       }
     ]
   },
-  {
+  "Artemisia biennis Willd": {
     "volume": "7",
     "page": "24",
     "sciName": "Artemisia biennis Willd",
@@ -1360,7 +1361,7 @@ var dataset = [
       }
     ]
   },
-  {
+  "Potamogeton amplifolius Tuckerman": {
     "volume": "13",
     "page": "19",
     "sciName": "Potamogeton amplifolius Tuckerman",
@@ -1384,7 +1385,7 @@ var dataset = [
       }
     ]
   },
-  {
+  "Populus grandidentata Michx": {
     "volume": "12",
     "page": "65",
     "sciName": "Populus grandidentata Michx",
@@ -1408,7 +1409,7 @@ var dataset = [
       }
     ]
   },
-  {
+  "Vicia cracca L": {
     "volume": "3",
     "page": "64",
     "sciName": "Vicia cracca L",
@@ -1432,7 +1433,7 @@ var dataset = [
       }
     ]
   },
-  {
+  "Sagina procumbens L": {
     "volume": "2",
     "page": "63, 64",
     "sciName": "Sagina procumbens L",
@@ -1452,7 +1453,7 @@ var dataset = [
       }
     ]
   },
-  {
+  "Primula laurentiana Fern": {
     "volume": "9",
     "page": "2",
     "sciName": "Primula laurentiana Fern",
@@ -1464,7 +1465,7 @@ var dataset = [
       }
     ]
   },
-  {
+  "Veronica persica Poir": {
     "volume": "9",
     "page": "44",
     "sciName": "Veronica persica Poir",
@@ -1480,7 +1481,7 @@ var dataset = [
       }
     ]
   },
-  {
+  "Rumex obtusifolius L": {
     "volume": "11",
     "page": "5, 6",
     "sciName": "Rumex obtusifolius L",
@@ -1500,7 +1501,7 @@ var dataset = [
       }
     ]
   },
-  {
+  "Erigeron acris L": {
     "volume": "6",
     "page": "108",
     "sciName": "Erigeron acris L",
@@ -1512,7 +1513,7 @@ var dataset = [
       }
     ]
   },
-  {
+  "Carya cordiformis (Wangenh) K Koch": {
     "volume": "12",
     "page": "5",
     "sciName": "Carya cordiformis (Wangenh) K Koch",
@@ -1524,7 +1525,7 @@ var dataset = [
       }
     ]
   },
-  {
+  "Fraxinus nigra Marsh": {
     "volume": "10",
     "page": "53",
     "sciName": "Fraxinus nigra Marsh",
@@ -1536,7 +1537,7 @@ var dataset = [
       }
     ]
   },
-  {
+  "Fallopia convolvulus A Love": {
     "volume": "11",
     "page": "31",
     "sciName": "Fallopia convolvulus A Love",
@@ -1564,7 +1565,7 @@ var dataset = [
       }
     ]
   },
-  {
+  "Prunus serotina Ehrh": {
     "volume": "4",
     "page": "19, 20",
     "sciName": "Prunus serotina Ehrh",
@@ -1580,7 +1581,7 @@ var dataset = [
       }
     ]
   },
-  {
+  "Empetrum nigrum L": {
     "volume": "11",
     "page": "50",
     "sciName": "Empetrum nigrum L",
@@ -1596,7 +1597,7 @@ var dataset = [
       }
     ]
   },
-  {
+  "Sambucus nigra L": {
     "volume": "5",
     "page": "93",
     "sciName": "Sambucus nigra L",
@@ -1616,7 +1617,7 @@ var dataset = [
       }
     ]
   },
-  {
+  "Hyoscyamus niger L": {
     "volume": "10",
     "page": "24",
     "sciName": "Hyoscyamus niger L",
@@ -1632,7 +1633,7 @@ var dataset = [
       }
     ]
   },
-  {
+  "Gaylussacia baccata (Wagenh) K Koch": {
     "volume": "8",
     "page": "13, 14",
     "sciName": "Gaylussacia baccata (Wagenh) K Koch",
@@ -1668,7 +1669,7 @@ var dataset = [
       }
     ]
   },
-  {
+  "Centaurea nigra L": {
     "volume": "7",
     "page": "39",
     "sciName": "Centaurea nigra L",
@@ -1680,7 +1681,7 @@ var dataset = [
       }
     ]
   },
-  {
+  "Robinia pseudoacacia L": {
     "volume": "3",
     "page": "48",
     "sciName": "Robinia pseudoacacia L",
@@ -1700,7 +1701,7 @@ var dataset = [
       }
     ]
   },
-  {
+  "Medicago lupulina L": {
     "volume": "3",
     "page": "46",
     "sciName": "Medicago lupulina L",
@@ -1720,7 +1721,7 @@ var dataset = [
       }
     ]
   },
-  {
+  "Brassica nigra (L) WDJ Koch": {
     "volume": "1",
     "page": "85",
     "sciName": "Brassica nigra (L) WDJ Koch",
@@ -1732,7 +1733,7 @@ var dataset = [
       }
     ]
   },
-  {
+  "Rubus occidentalis L": {
     "volume": "4",
     "page": "30",
     "sciName": "Rubus occidentalis L",
@@ -1748,7 +1749,7 @@ var dataset = [
       }
     ]
   },
-  {
+  "Picea mariana (P Mill) B S P": {
     "volume": "12",
     "page": "74",
     "sciName": "Picea mariana (P Mill) B S P",
@@ -1760,7 +1761,7 @@ var dataset = [
       }
     ]
   },
-  {
+  "Cynanchum louiseae Kartesz & Gandhi": {
     "volume": "10",
     "page": "48",
     "sciName": "Cynanchum louiseae Kartesz & Gandhi",
@@ -1772,14 +1773,14 @@ var dataset = [
       }
     ]
   },
-  {
+  "Nyssa sylvatica Marsh": {
     "volume": "5",
     "page": "81",
     "sciName": "Nyssa sylvatica Marsh",
     "comName": "Black Tupelo",
     "entries": []
   },
-  {
+  "Salix nigra Marsh": {
     "volume": "12",
     "page": "52, 62",
     "sciName": "Salix nigra Marsh",
@@ -1803,7 +1804,7 @@ var dataset = [
       }
     ]
   },
-  {
+  "Rudbeckia hirta L": {
     "volume": "7",
     "page": "7, 92",
     "sciName": "Rudbeckia hirta L",
@@ -1827,7 +1828,7 @@ var dataset = [
       }
     ]
   },
-  {
+  "Lobelia inflata L": {
     "volume": "8",
     "page": "5, 6",
     "sciName": "Lobelia inflata L",
@@ -1859,7 +1860,7 @@ var dataset = [
       }
     ]
   },
-  {
+  "Oclemena x blakei (Porter) Nesom": {
     "volume": "6",
     "page": "54",
     "sciName": "Oclemena x blakei (Porter) Nesom",
@@ -1871,7 +1872,7 @@ var dataset = [
       }
     ]
   },
-  {
+  "Osmorhiza claytonii (Michx ) C B Clarke": {
     "volume": "5",
     "page": "58",
     "sciName": "Osmorhiza claytonii (Michx ) C B Clarke",
@@ -1899,7 +1900,7 @@ var dataset = [
       }
     ]
   },
-  {
+  "Amaranthus cruentus L": {
     "volume": "10",
     "page": "80",
     "sciName": "Amaranthus cruentus L",
@@ -1911,7 +1912,7 @@ var dataset = [
       }
     ]
   },
-  {
+  "Sanguinaria canadensis L": {
     "volume": "1",
     "page": "55",
     "sciName": "Sanguinaria canadensis L",
@@ -1935,7 +1936,7 @@ var dataset = [
       }
     ]
   },
-  {
+  "Polygala sanguinea L": {
     "volume": "3",
     "page": "32",
     "sciName": "Polygala sanguinea L",
@@ -1955,7 +1956,7 @@ var dataset = [
       }
     ]
   },
-  {
+  "Caulophyllum thalictroides Michx": {
     "volume": "1",
     "page": "42",
     "sciName": "Caulophyllum thalictroides Michx",
@@ -1983,7 +1984,7 @@ var dataset = [
       }
     ]
   },
-  {
+  "Iris versicolor L": {
     "volume": "14",
     "page": "1, 1c",
     "sciName": "Iris versicolor L",
@@ -1995,7 +1996,7 @@ var dataset = [
       }
     ]
   },
-  {
+  "Viola cucullata Ait": {
     "volume": "2",
     "page": "1, 2, 3, 4, 5, 6, 7, 11, 12",
     "sciName": "Viola cucullata Ait",
@@ -2051,14 +2052,14 @@ var dataset = [
       }
     ]
   },
-  {
+  "Verbena hastata L": {
     "volume": "9",
     "page": "59",
     "sciName": "Verbena hastata L",
     "comName": "Blue Vervain",
     "entries": []
   },
-  {
+  "Platanthera obtusata (Banks ex Pursh) Lindl": {
     "volume": "13",
     "page": "52",
     "sciName": "Platanthera obtusata (Banks ex Pursh) Lindl",
@@ -2086,7 +2087,7 @@ var dataset = [
       }
     ]
   },
-  {
+  "Moehringia laterifloria (L) Fenzl": {
     "volume": "2",
     "page": "51, 52",
     "sciName": "Moehringia laterifloria (L) Fenzl",
@@ -2114,14 +2115,14 @@ var dataset = [
       }
     ]
   },
-  {
+  "Potamogeton obtusfolius Mert & Koch": {
     "volume": "13",
     "page": "93",
     "sciName": "Potamogeton obtusfolius Mert & Koch",
     "comName": "Blunt-leaved Pondweed",
     "entries": []
   },
-  {
+  "Anemone americana (DC) H Hara": {
     "volume": "1",
     "page": "10, 12, 21",
     "sciName": "Anemone americana (DC) H Hara",
@@ -2153,7 +2154,7 @@ var dataset = [
       }
     ]
   },
-  {
+  "Kalmia polifolia Wangenh": {
     "volume": "8",
     "page": "53",
     "sciName": "Kalmia polifolia Wangenh",
@@ -2181,14 +2182,14 @@ var dataset = [
       }
     ]
   },
-  {
+  "Betula pumila L": {
     "volume": "12",
     "page": "35",
     "sciName": "Betula pumila L",
     "comName": "Bog Birch",
     "entries": []
   },
-  {
+  "Solidago uliginosa Nutt": {
     "volume": "6",
     "page": "69, 72, 77, 78",
     "sciName": "Solidago uliginosa Nutt",
@@ -2228,7 +2229,7 @@ var dataset = [
       }
     ]
   },
-  {
+  "Oclemena nemoralis (Ait) Greene": {
     "volume": "6",
     "page": "53",
     "sciName": "Oclemena nemoralis (Ait) Greene",
@@ -2240,7 +2241,7 @@ var dataset = [
       }
     ]
   },
-  {
+  "Stellaria alsine Grimm": {
     "volume": "2",
     "page": "57, 58",
     "sciName": "Stellaria alsine Grimm",
@@ -2260,14 +2261,14 @@ var dataset = [
       }
     ]
   },
-  {
+  "Salix pedicellaris Pursh": {
     "volume": "12",
     "page": "56",
     "sciName": "Salix pedicellaris Pursh",
     "comName": "Bog Willow",
     "entries": []
   },
-  {
+  "Epilobium leptophyllum Raf": {
     "volume": "5",
     "page": "19",
     "sciName": "Epilobium leptophyllum Raf",
@@ -2287,7 +2288,7 @@ var dataset = [
       }
     ]
   },
-  {
+  "Andromeda polifolia L": {
     "volume": "8",
     "page": "46",
     "sciName": "Andromeda polifolia L",
@@ -2303,7 +2304,7 @@ var dataset = [
       }
     ]
   },
-  {
+  "Eupatorium perfoliatum L": {
     "volume": "6",
     "page": "20",
     "sciName": "Eupatorium perfoliatum L",
@@ -2327,7 +2328,7 @@ var dataset = [
       }
     ]
   },
-  {
+  "Nabalus boottii DC": {
     "volume": "7",
     "page": "62",
     "sciName": "Nabalus boottii DC",
@@ -2339,7 +2340,7 @@ var dataset = [
       }
     ]
   },
-  {
+  "Stellaria borealis Bigelow": {
     "volume": "2",
     "page": "59, 58VA",
     "sciName": "Stellaria borealis Bigelow",
@@ -2371,7 +2372,7 @@ var dataset = [
       }
     ]
   },
-  {
+  "Rubus hispidus L": {
     "volume": "4",
     "page": "35",
     "sciName": "Rubus hispidus L",
@@ -2391,7 +2392,7 @@ var dataset = [
       }
     ]
   },
-  {
+  "Ranunculus pensylvanicus L f": {
     "volume": "1",
     "page": "29",
     "sciName": "Ranunculus pensylvanicus L f",
@@ -2411,7 +2412,7 @@ var dataset = [
       }
     ]
   },
-  {
+  "Leontodon hispidus L": {
     "volume": "7",
     "page": "82",
     "sciName": "Leontodon hispidus L",
@@ -2427,7 +2428,7 @@ var dataset = [
       }
     ]
   },
-  {
+  "Robinia hispida L": {
     "volume": "3",
     "page": "49",
     "sciName": "Robinia hispida L",
@@ -2439,7 +2440,7 @@ var dataset = [
       }
     ]
   },
-  {
+  "Rosa acicularis Lindl": {
     "volume": "4",
     "page": "61, 66",
     "sciName": "Rosa acicularis Lindl",
@@ -2471,7 +2472,7 @@ var dataset = [
       }
     ]
   },
-  {
+  "Aralia hispida Vent": {
     "volume": "5",
     "page": "62",
     "sciName": "Aralia hispida Vent",
@@ -2499,7 +2500,7 @@ var dataset = [
       }
     ]
   },
-  {
+  "Ribes lacustre (Pers) Poir": {
     "volume": "4",
     "page": "110, 111",
     "sciName": "Ribes lacustre (Pers) Poir",
@@ -2531,7 +2532,7 @@ var dataset = [
       }
     ]
   },
-  {
+  "Galeopsis tetrahit L": {
     "volume": "9",
     "page": "88",
     "sciName": "Galeopsis tetrahit L",
@@ -2547,7 +2548,7 @@ var dataset = [
       }
     ]
   },
-  {
+  "Circaea canadensis (L) Hill": {
     "volume": "5",
     "page": "13, 117",
     "sciName": "Circaea canadensis (L) Hill",
@@ -2571,7 +2572,7 @@ var dataset = [
       }
     ]
   },
-  {
+  "Neottia convallarioides Rich": {
     "volume": "13",
     "page": "67",
     "sciName": "Neottia convallarioides Rich",
@@ -2583,7 +2584,7 @@ var dataset = [
       }
     ]
   },
-  {
+  "Typha latifolia L": {
     "volume": "13",
     "page": "2, 3",
     "sciName": "Typha latifolia L",
@@ -2607,7 +2608,7 @@ var dataset = [
       }
     ]
   },
-  {
+  "Lobelia kalmii L": {
     "volume": "8",
     "page": "4",
     "sciName": "Lobelia kalmii L",
@@ -2619,7 +2620,7 @@ var dataset = [
       }
     ]
   },
-  {
+  "Corema conradii (Torr) Torr ex Loud": {
     "volume": "11",
     "page": "51",
     "sciName": "Corema conradii (Torr) Torr ex Loud",
@@ -2639,7 +2640,7 @@ var dataset = [
       }
     ]
   },
-  {
+  "Gnaphalium uliginosum L": {
     "volume": "7",
     "page": "28",
     "sciName": "Gnaphalium uliginosum L",
@@ -2667,7 +2668,7 @@ var dataset = [
       }
     ]
   },
-  {
+  "Juncus pelocarpus E Mey": {
     "volume": "14",
     "page": "57, 58",
     "sciName": "Juncus pelocarpus E Mey",
@@ -2679,7 +2680,7 @@ var dataset = [
       }
     ]
   },
-  {
+  "Menyanthes trifoliata L": {
     "volume": "10",
     "page": "35",
     "sciName": "Menyanthes trifoliata L",
@@ -2707,7 +2708,7 @@ var dataset = [
       }
     ]
   },
-  {
+  "Cicuta bulbifera L": {
     "volume": "5",
     "page": "53",
     "sciName": "Cicuta bulbifera L",
@@ -2723,7 +2724,7 @@ var dataset = [
       }
     ]
   },
-  {
+  "Ranunculus bulbosus L": {
     "volume": "1",
     "page": "30",
     "sciName": "Ranunculus bulbosus L",
@@ -2739,7 +2740,7 @@ var dataset = [
       }
     ]
   },
-  {
+  "Diervilla lonicera P Mill": {
     "volume": "5",
     "page": "91",
     "sciName": "Diervilla lonicera P Mill",
@@ -2755,7 +2756,7 @@ var dataset = [
       }
     ]
   },
-  {
+  "Symphyotrichum dumosum (L) Nesom": {
     "volume": "6",
     "page": "32, 33, 94",
     "sciName": "Symphyotrichum dumosum (L) Nesom",
@@ -2795,7 +2796,7 @@ var dataset = [
       }
     ]
   },
-  {
+  "Linaria vulgaris P Mill": {
     "volume": "9",
     "page": "27",
     "sciName": "Linaria vulgaris P Mill",
@@ -2819,7 +2820,7 @@ var dataset = [
       }
     ]
   },
-  {
+  "Symphyotrichum lateriflorum (L) A & D Love": {
     "volume": "6",
     "page": "39, 98, 99",
     "sciName": "Symphyotrichum lateriflorum (L) A & D Love",
@@ -2839,7 +2840,7 @@ var dataset = [
       }
     ]
   },
-  {
+  "Pilea pumila (L) Gray": {
     "volume": "11",
     "page": "60",
     "sciName": "Pilea pumila (L) Gray",
@@ -2855,7 +2856,7 @@ var dataset = [
       }
     ]
   },
-  {
+  "Chamaepericlymenum canadense (L) Aschers & Graebn": {
     "volume": "5",
     "page": "68, 69, 70",
     "sciName": "Chamaepericlymenum canadense (L) Aschers & Graebn",
@@ -2875,7 +2876,7 @@ var dataset = [
       }
     ]
   },
-  {
+  "Erigeron canadensis L": {
     "volume": "6",
     "page": "56",
     "sciName": "Erigeron canadensis L",
@@ -2903,7 +2904,7 @@ var dataset = [
       }
     ]
   },
-  {
+  "Crocanthemum canadense (L) Britt": {
     "volume": "1",
     "page": "93",
     "sciName": "Crocanthemum canadense (L) Britt",
@@ -2915,7 +2916,7 @@ var dataset = [
       }
     ]
   },
-  {
+  "Solidago canadensis L": {
     "volume": "6",
     "page": "85",
     "sciName": "Solidago canadensis L",
@@ -2935,7 +2936,7 @@ var dataset = [
       }
     ]
   },
-  {
+  "Cryptotaenia canadensis (L) DC": {
     "volume": "5",
     "page": "55",
     "sciName": "Cryptotaenia canadensis (L) DC",
@@ -2947,14 +2948,14 @@ var dataset = [
       }
     ]
   },
-  {
+  "Lilium canadense L": {
     "volume": "14",
     "page": "36",
     "sciName": "Lilium canadense L",
     "comName": "Canada Lily",
     "entries": []
   },
-  {
+  "Prunus nigra Ait": {
     "volume": "4",
     "page": "1",
     "sciName": "Prunus nigra Ait",
@@ -2966,7 +2967,7 @@ var dataset = [
       }
     ]
   },
-  {
+  "Boechera stricta (Graham) Al-Shehbaz": {
     "volume": "1",
     "page": "72",
     "sciName": "Boechera stricta (Graham) Al-Shehbaz",
@@ -2990,14 +2991,14 @@ var dataset = [
       }
     ]
   },
-  {
+  "Juncus canadensis J Gay ex Laharpe": {
     "volume": "14",
     "page": "67",
     "sciName": "Juncus canadensis J Gay ex Laharpe",
     "comName": "Canada Rush",
     "entries": []
   },
-  {
+  "Spergularia canadensis Griseb": {
     "volume": "2",
     "page": "71",
     "sciName": "Spergularia canadensis Griseb",
@@ -3021,7 +3022,7 @@ var dataset = [
       }
     ]
   },
-  {
+  "Asarum canadense L": {
     "volume": "10",
     "page": "55",
     "sciName": "Asarum canadense L",
@@ -3033,7 +3034,7 @@ var dataset = [
       }
     ]
   },
-  {
+  "Laportea canadensis (L) Weddell": {
     "volume": "11",
     "page": "59",
     "sciName": "Laportea canadensis (L) Weddell",
@@ -3049,7 +3050,7 @@ var dataset = [
       }
     ]
   },
-  {
+  "Carum carvi L": {
     "volume": "5",
     "page": "51",
     "sciName": "Carum carvi L",
@@ -3065,7 +3066,7 @@ var dataset = [
       }
     ]
   },
-  {
+  "Persicaria careyi (Olney) Greene": {
     "volume": "11",
     "page": "24, 25",
     "sciName": "Persicaria careyi (Olney) Greene",
@@ -3089,7 +3090,7 @@ var dataset = [
       }
     ]
   },
-  {
+  "Geranium carolinianum L": {
     "volume": "3",
     "page": "3",
     "sciName": "Geranium carolinianum L",
@@ -3105,7 +3106,7 @@ var dataset = [
       }
     ]
   },
-  {
+  "Rosa carolina L": {
     "volume": "4",
     "page": "68, 69",
     "sciName": "Rosa carolina L",
@@ -3133,7 +3134,7 @@ var dataset = [
       }
     ]
   },
-  {
+  "Rosa carolina L ssp carolina": {
     "volume": "4",
     "page": "72",
     "sciName": "Rosa carolina L ssp carolina",
@@ -3153,7 +3154,7 @@ var dataset = [
       }
     ]
   },
-  {
+  "Limonium carolinianum (Walt) Britt": {
     "volume": "9",
     "page": "1",
     "sciName": "Limonium carolinianum (Walt) Britt",
@@ -3169,14 +3170,14 @@ var dataset = [
       }
     ]
   },
-  {
+  "Smilax herbacea L": {
     "volume": "14",
     "page": "4",
     "sciName": "Smilax herbacea L",
     "comName": "Carrion-flower",
     "entries": []
   },
-  {
+  "Nepeta cataria L": {
     "volume": "9",
     "page": "81",
     "sciName": "Nepeta cataria L",
@@ -3192,7 +3193,7 @@ var dataset = [
       }
     ]
   },
-  {
+  "Goodyera tesselata Lodd": {
     "volume": "13",
     "page": "61a",
     "sciName": "Goodyera tesselata Lodd",
@@ -3208,7 +3209,7 @@ var dataset = [
       }
     ]
   },
-  {
+  "Betula lenta L": {
     "volume": "12",
     "page": "29",
     "sciName": "Betula lenta L",
@@ -3228,7 +3229,7 @@ var dataset = [
       }
     ]
   },
-  {
+  "Cichorium intubys L": {
     "volume": "7",
     "page": "49",
     "sciName": "Cichorium intubys L",
@@ -3248,7 +3249,7 @@ var dataset = [
       }
     ]
   },
-  {
+  "Conioselinum chinense (L ) B S P": {
     "volume": "5",
     "page": "46",
     "sciName": "Conioselinum chinense (L ) B S P",
@@ -3272,14 +3273,14 @@ var dataset = [
       }
     ]
   },
-  {
+  "Conioselinum chinense (L) B S P": {
     "volume": "5",
     "page": "111",
     "sciName": "Conioselinum chinense (L) B S P",
     "comName": "Chinese Hemlock-parsley",
     "entries": []
   },
-  {
+  "Prunus virginiana L": {
     "volume": "4",
     "page": "15, 17, 18, 21",
     "sciName": "Prunus virginiana L",
@@ -3319,7 +3320,7 @@ var dataset = [
       }
     ]
   },
-  {
+  "Rhododendron viscosum (L) Torr": {
     "volume": "8",
     "page": "54",
     "sciName": "Rhododendron viscosum (L) Torr",
@@ -3339,7 +3340,7 @@ var dataset = [
       }
     ]
   },
-  {
+  "Physalis heterophylla Nees": {
     "volume": "10",
     "page": "23",
     "sciName": "Physalis heterophylla Nees",
@@ -3363,7 +3364,7 @@ var dataset = [
       }
     ]
   },
-  {
+  "Potamogeton perfoliatus L": {
     "volume": "13",
     "page": "22, 23",
     "sciName": "Potamogeton perfoliatus L",
@@ -3395,14 +3396,14 @@ var dataset = [
       }
     ]
   },
-  {
+  "Streptopus amplexifolius (L) DC": {
     "volume": "14",
     "page": "21",
     "sciName": "Streptopus amplexifolius (L) DC",
     "comName": "Clasping-leaved Twistedstalk",
     "entries": []
   },
-  {
+  "Fallopia scandens (L) Holub": {
     "volume": "11",
     "page": "34",
     "sciName": "Fallopia scandens (L) Holub",
@@ -3418,7 +3419,7 @@ var dataset = [
       }
     ]
   },
-  {
+  "Solanum dulcamara L": {
     "volume": "10",
     "page": "20",
     "sciName": "Solanum dulcamara L",
@@ -3438,7 +3439,7 @@ var dataset = [
       }
     ]
   },
-  {
+  "Potentilla litoralis Rydb": {
     "volume": "4",
     "page": "55",
     "sciName": "Potentilla litoralis Rydb",
@@ -3462,7 +3463,7 @@ var dataset = [
       }
     ]
   },
-  {
+  "Polygonum articulatum L": {
     "volume": "11",
     "page": "35",
     "sciName": "Polygonum articulatum L",
@@ -3474,7 +3475,7 @@ var dataset = [
       }
     ]
   },
-  {
+  "Clethra alnifolia L": {
     "volume": "8",
     "page": "50",
     "sciName": "Clethra alnifolia L",
@@ -3494,7 +3495,7 @@ var dataset = [
       }
     ]
   },
-  {
+  "Crataegus crus-galli L": {
     "volume": "4",
     "page": "88",
     "sciName": "Crataegus crus-galli L",
@@ -3506,7 +3507,7 @@ var dataset = [
       }
     ]
   },
-  {
+  "Tussilago farfara L": {
     "volume": "6",
     "page": "23, 24",
     "sciName": "Tussilago farfara L",
@@ -3530,7 +3531,7 @@ var dataset = [
       }
     ]
   },
-  {
+  "Proserpinaca pectinata Lam": {
     "volume": "5",
     "page": "10, 11",
     "sciName": "Proserpinaca pectinata Lam",
@@ -3546,7 +3547,7 @@ var dataset = [
       }
     ]
   },
-  {
+  "Sagittaria latifolia Willd": {
     "volume": "13",
     "page": "34, 36, 39, 40",
     "sciName": "Sagittaria latifolia Willd",
@@ -3574,7 +3575,7 @@ var dataset = [
       }
     ]
   },
-  {
+  "Berberis vulgaris L": {
     "volume": "1",
     "page": "41",
     "sciName": "Berberis vulgaris L",
@@ -3590,7 +3591,7 @@ var dataset = [
       }
     ]
   },
-  {
+  "Rubus allegheniensis Porter": {
     "volume": "4",
     "page": "31, 33",
     "sciName": "Rubus allegheniensis Porter",
@@ -3614,7 +3615,7 @@ var dataset = [
       }
     ]
   },
-  {
+  "Cephalanthalus occidentalis L": {
     "volume": "6",
     "page": "11, 12",
     "sciName": "Cephalanthalus occidentalis L",
@@ -3642,7 +3643,7 @@ var dataset = [
       }
     ]
   },
-  {
+  "Symphytum officinale L": {
     "volume": "10",
     "page": "5",
     "sciName": "Symphytum officinale L",
@@ -3658,7 +3659,7 @@ var dataset = [
       }
     ]
   },
-  {
+  "Agrostemma githago L": {
     "volume": "2",
     "page": "48",
     "sciName": "Agrostemma githago L",
@@ -3678,7 +3679,7 @@ var dataset = [
       }
     ]
   },
-  {
+  "Taraxacum officinale G H Weber ex Wiggers": {
     "volume": "7",
     "page": "65",
     "sciName": "Taraxacum officinale G H Weber ex Wiggers",
@@ -3690,7 +3691,7 @@ var dataset = [
       }
     ]
   },
-  {
+  "Rumex acetosella L": {
     "volume": "11",
     "page": "11",
     "sciName": "Rumex acetosella L",
@@ -3702,7 +3703,7 @@ var dataset = [
       }
     ]
   },
-  {
+  "Cuscuta gronovii Willd ex J A Schultes": {
     "volume": "10",
     "page": "17",
     "sciName": "Cuscuta gronovii Willd ex J A Schultes",
@@ -3722,7 +3723,7 @@ var dataset = [
       }
     ]
   },
-  {
+  "Spirodela polyrrhiza (L) Schleid": {
     "volume": "13",
     "page": "1",
     "sciName": "Spirodela polyrrhiza (L) Schleid",
@@ -3734,7 +3735,7 @@ var dataset = [
       }
     ]
   },
-  {
+  "Oenothera biennis L": {
     "volume": "5",
     "page": "22, 24, 28, 29",
     "sciName": "Oenothera biennis L",
@@ -3766,7 +3767,7 @@ var dataset = [
       }
     ]
   },
-  {
+  "Euphrasia nemorosa (Pers) Wallr": {
     "volume": "9",
     "page": "53",
     "sciName": "Euphrasia nemorosa (Pers) Wallr",
@@ -3782,7 +3783,7 @@ var dataset = [
       }
     ]
   },
-  {
+  "Ziza aurea (L) WDJ Koch": {
     "volume": "5",
     "page": "48",
     "sciName": "Ziza aurea (L) WDJ Koch",
@@ -3794,7 +3795,7 @@ var dataset = [
       }
     ]
   },
-  {
+  "Zizia aurea (L) W D J Koch": {
     "volume": "5",
     "page": "118",
     "sciName": "Zizia aurea (L) W D J Koch",
@@ -3806,7 +3807,7 @@ var dataset = [
       }
     ]
   },
-  {
+  "Euthamia graminifolia (L) Nutt": {
     "volume": "6",
     "page": "88",
     "sciName": "Euthamia graminifolia (L) Nutt",
@@ -3830,14 +3831,14 @@ var dataset = [
       }
     ]
   },
-  {
+  "Smilax rotundifolia L": {
     "volume": "14",
     "page": "2",
     "sciName": "Smilax rotundifolia L",
     "comName": "Common Greenbrier",
     "entries": []
   },
-  {
+  "Apios americana Medik": {
     "volume": "3",
     "page": "67",
     "sciName": "Apios americana Medik",
@@ -3865,7 +3866,7 @@ var dataset = [
       }
     ]
   },
-  {
+  "Hieracium lachenalii K C Gmel": {
     "volume": "7",
     "page": "85",
     "sciName": "Hieracium lachenalii K C Gmel",
@@ -3877,7 +3878,7 @@ var dataset = [
       }
     ]
   },
-  {
+  "Sisymbrium officinale (L) Scop": {
     "volume": "1",
     "page": "82, 83",
     "sciName": "Sisymbrium officinale (L) Scop",
@@ -3905,7 +3906,7 @@ var dataset = [
       }
     ]
   },
-  {
+  "Lamium amplexicaule L": {
     "volume": "9",
     "page": "92",
     "sciName": "Lamium amplexicaule L",
@@ -3917,7 +3918,7 @@ var dataset = [
       }
     ]
   },
-  {
+  "Humulus lupulus L": {
     "volume": "11",
     "page": "56",
     "sciName": "Humulus lupulus L",
@@ -3937,7 +3938,7 @@ var dataset = [
       }
     ]
   },
-  {
+  "Ceratophyllum demersum L": {
     "volume": "11",
     "page": "52",
     "sciName": "Ceratophyllum demersum L",
@@ -3957,7 +3958,7 @@ var dataset = [
       }
     ]
   },
-  {
+  "Juniperus communis L": {
     "volume": "12",
     "page": "82",
     "sciName": "Juniperus communis L",
@@ -3977,7 +3978,7 @@ var dataset = [
       }
     ]
   },
-  {
+  "Hippuris vulgaris L": {
     "volume": "5",
     "page": "12",
     "sciName": "Hippuris vulgaris L",
@@ -3997,7 +3998,7 @@ var dataset = [
       }
     ]
   },
-  {
+  "Asclepias syriaca L": {
     "volume": "10",
     "page": "40, 41",
     "sciName": "Asclepias syriaca L",
@@ -4025,7 +4026,7 @@ var dataset = [
       }
     ]
   },
-  {
+  "Verbascum thapsus L": {
     "volume": "9",
     "page": "24",
     "sciName": "Verbascum thapsus L",
@@ -4041,7 +4042,7 @@ var dataset = [
       }
     ]
   },
-  {
+  "Plantago major L": {
     "volume": "8",
     "page": "80, 81, 84",
     "sciName": "Plantago major L",
@@ -4073,7 +4074,7 @@ var dataset = [
       }
     ]
   },
-  {
+  "Portulaca oleracea L": {
     "volume": "2",
     "page": "73, 74v",
     "sciName": "Portulaca oleracea L",
@@ -4093,7 +4094,7 @@ var dataset = [
       }
     ]
   },
-  {
+  "Senecio vulgaris L": {
     "volume": "7",
     "page": "33, 77",
     "sciName": "Senecio vulgaris L",
@@ -4113,7 +4114,7 @@ var dataset = [
       }
     ]
   },
-  {
+  "Hypericum perforatum L": {
     "volume": "2",
     "page": "78",
     "sciName": "Hypericum perforatum L",
@@ -4125,7 +4126,7 @@ var dataset = [
       }
     ]
   },
-  {
+  "Prunella vulgaris L": {
     "volume": "9",
     "page": "83",
     "sciName": "Prunella vulgaris L",
@@ -4141,7 +4142,7 @@ var dataset = [
       }
     ]
   },
-  {
+  "Saponaria officinalis L": {
     "volume": "2",
     "page": "40",
     "sciName": "Saponaria officinalis L",
@@ -4169,14 +4170,14 @@ var dataset = [
       }
     ]
   },
-  {
+  "Juncus effusus L": {
     "volume": "14",
     "page": "44",
     "sciName": "Juncus effusus L",
     "comName": "Common Soft Rush",
     "entries": []
   },
-  {
+  "Sonchus oleraceus L": {
     "volume": "7",
     "page": "71, 89a, 89b",
     "sciName": "Sonchus oleraceus L",
@@ -4204,7 +4205,7 @@ var dataset = [
       }
     ]
   },
-  {
+  "Veronica officinalis L": {
     "volume": "9",
     "page": "40",
     "sciName": "Veronica officinalis L",
@@ -4224,7 +4225,7 @@ var dataset = [
       }
     ]
   },
-  {
+  "Stellaria media (L) Vill": {
     "volume": "2",
     "page": "54",
     "sciName": "Stellaria media (L) Vill",
@@ -4236,7 +4237,7 @@ var dataset = [
       }
     ]
   },
-  {
+  "Fragaria virginiana Duchesne": {
     "volume": "4",
     "page": "48, 49",
     "sciName": "Fragaria virginiana Duchesne",
@@ -4252,7 +4253,7 @@ var dataset = [
       }
     ]
   },
-  {
+  "Helianthus annuus L": {
     "volume": "7",
     "page": "97a, 97b",
     "sciName": "Helianthus annuus L",
@@ -4268,7 +4269,7 @@ var dataset = [
       }
     ]
   },
-  {
+  "Cirsium vulgare (Savi) Ten": {
     "volume": "7",
     "page": "40, 78",
     "sciName": "Cirsium vulgare (Savi) Ten",
@@ -4304,7 +4305,7 @@ var dataset = [
       }
     ]
   },
-  {
+  "Vicia sativa L": {
     "volume": "3",
     "page": "63",
     "sciName": "Vicia sativa L",
@@ -4320,7 +4321,7 @@ var dataset = [
       }
     ]
   },
-  {
+  "Echium vulgare L": {
     "volume": "10",
     "page": "1, 3",
     "sciName": "Echium vulgare L",
@@ -4340,7 +4341,7 @@ var dataset = [
       }
     ]
   },
-  {
+  "Ludwigia palustris (L) Ell": {
     "volume": "5",
     "page": "31",
     "sciName": "Ludwigia palustris (L) Ell",
@@ -4360,7 +4361,7 @@ var dataset = [
       }
     ]
   },
-  {
+  "Elodea canadensis Michx": {
     "volume": "13",
     "page": "44",
     "sciName": "Elodea canadensis Michx",
@@ -4376,7 +4377,7 @@ var dataset = [
       }
     ]
   },
-  {
+  "Ilex verticillata (L) Gray": {
     "volume": "3",
     "page": "10V, 74, 77, 78",
     "sciName": "Ilex verticillata (L) Gray",
@@ -4412,7 +4413,7 @@ var dataset = [
       }
     ]
   },
-  {
+  "Artemisia vulgaris L": {
     "volume": "7",
     "page": "23",
     "sciName": "Artemisia vulgaris L",
@@ -4428,7 +4429,7 @@ var dataset = [
       }
     ]
   },
-  {
+  "Solidago rugosa P Mill": {
     "volume": "6",
     "page": "81",
     "sciName": "Solidago rugosa P Mill",
@@ -4456,7 +4457,7 @@ var dataset = [
       }
     ]
   },
-  {
+  "Achillea millefolium L": {
     "volume": "7",
     "page": "17",
     "sciName": "Achillea millefolium L",
@@ -4484,7 +4485,7 @@ var dataset = [
       }
     ]
   },
-  {
+  "Rorippa palustris (L) Bess": {
     "volume": "1",
     "page": "76",
     "sciName": "Rorippa palustris (L) Bess",
@@ -4512,7 +4513,7 @@ var dataset = [
       }
     ]
   },
-  {
+  "Anthemis arvensis L": {
     "volume": "7",
     "page": "76",
     "sciName": "Anthemis arvensis L",
@@ -4524,7 +4525,7 @@ var dataset = [
       }
     ]
   },
-  {
+  "Sinapis arvensis L": {
     "volume": "1",
     "page": "113",
     "sciName": "Sinapis arvensis L",
@@ -4536,7 +4537,7 @@ var dataset = [
       }
     ]
   },
-  {
+  "Spergula arvensis L": {
     "volume": "2",
     "page": "72",
     "sciName": "Spergula arvensis L",
@@ -4548,7 +4549,7 @@ var dataset = [
       }
     ]
   },
-  {
+  "Buglossoides arvensis (L) I M Johnson": {
     "volume": "10",
     "page": "6",
     "sciName": "Buglossoides arvensis (L) I M Johnson",
@@ -4560,7 +4561,7 @@ var dataset = [
       }
     ]
   },
-  {
+  "Vaccaria hispanica Rauschert": {
     "volume": "2",
     "page": "43VB",
     "sciName": "Vaccaria hispanica Rauschert",
@@ -4572,7 +4573,7 @@ var dataset = [
       }
     ]
   },
-  {
+  "Geum virginianum L": {
     "volume": "4",
     "page": "41, 42",
     "sciName": "Geum virginianum L",
@@ -4596,7 +4597,7 @@ var dataset = [
       }
     ]
   },
-  {
+  "Ranunculus flammulla L": {
     "volume": "1",
     "page": "22, 28",
     "sciName": "Ranunculus flammulla L",
@@ -4632,7 +4633,7 @@ var dataset = [
       }
     ]
   },
-  {
+  "Juniperus horizontalis Moench": {
     "volume": "12",
     "page": "84",
     "sciName": "Juniperus horizontalis Moench",
@@ -4648,7 +4649,7 @@ var dataset = [
       }
     ]
   },
-  {
+  "Cirsium arvense (L) Scop": {
     "volume": "7",
     "page": "44ab",
     "sciName": "Cirsium arvense (L) Scop",
@@ -4660,7 +4661,7 @@ var dataset = [
       }
     ]
   },
-  {
+  "Oxalis corniculata L": {
     "volume": "3",
     "page": "6, 7",
     "sciName": "Oxalis corniculata L",
@@ -4688,7 +4689,7 @@ var dataset = [
       }
     ]
   },
-  {
+  "Rorippa sylvestris (L) Bess": {
     "volume": "1",
     "page": "75",
     "sciName": "Rorippa sylvestris (L) Bess",
@@ -4700,7 +4701,7 @@ var dataset = [
       }
     ]
   },
-  {
+  "Dysphania cristata (F Muell) Mosyakin & Clemants": {
     "volume": "10",
     "page": "62",
     "sciName": "Dysphania cristata (F Muell) Mosyakin & Clemants",
@@ -4712,7 +4713,7 @@ var dataset = [
       }
     ]
   },
-  {
+  "Linum usitatissimum L": {
     "volume": "2",
     "page": "90",
     "sciName": "Linum usitatissimum L",
@@ -4740,7 +4741,7 @@ var dataset = [
       }
     ]
   },
-  {
+  "Raphanus sativus L": {
     "volume": "1",
     "page": "87",
     "sciName": "Raphanus sativus L",
@@ -4752,7 +4753,7 @@ var dataset = [
       }
     ]
   },
-  {
+  "Rumex crispus L": {
     "volume": "11",
     "page": "4",
     "sciName": "Rumex crispus L",
@@ -4764,7 +4765,7 @@ var dataset = [
       }
     ]
   },
-  {
+  "Ranunculus sceleratus L": {
     "volume": "1",
     "page": "25",
     "sciName": "Ranunculus sceleratus L",
@@ -4780,7 +4781,7 @@ var dataset = [
       }
     ]
   },
-  {
+  "Diapensia lapponica L": {
     "volume": "8",
     "page": "58",
     "sciName": "Diapensia lapponica L",
@@ -4796,7 +4797,7 @@ var dataset = [
       }
     ]
   },
-  {
+  "Anemone multifida Poir": {
     "volume": "1",
     "page": "4",
     "sciName": "Anemone multifida Poir",
@@ -4808,7 +4809,7 @@ var dataset = [
       }
     ]
   },
-  {
+  "Solidago leiocarpa DC": {
     "volume": "6",
     "page": "70, 71",
     "sciName": "Solidago leiocarpa DC",
@@ -4824,7 +4825,7 @@ var dataset = [
       }
     ]
   },
-  {
+  "Rubus dalibarda L": {
     "volume": "4",
     "page": "39",
     "sciName": "Rubus dalibarda L",
@@ -4836,7 +4837,7 @@ var dataset = [
       }
     ]
   },
-  {
+  "Penthorum sedoides L": {
     "volume": "5",
     "page": "1a, 1b",
     "sciName": "Penthorum sedoides L",
@@ -4856,7 +4857,7 @@ var dataset = [
       }
     ]
   },
-  {
+  "Persicaria lapathifolia (L) S F Gray": {
     "volume": "11",
     "page": "17, 19",
     "sciName": "Persicaria lapathifolia (L) S F Gray",
@@ -4872,7 +4873,7 @@ var dataset = [
       }
     ]
   },
-  {
+  "Polygonum aviculare L": {
     "volume": "11",
     "page": "13",
     "sciName": "Polygonum aviculare L",
@@ -4884,7 +4885,7 @@ var dataset = [
       }
     ]
   },
-  {
+  "Aureolaria virginica (L) Pennell": {
     "volume": "9",
     "page": "49",
     "sciName": "Aureolaria virginica (L) Pennell",
@@ -4900,7 +4901,7 @@ var dataset = [
       }
     ]
   },
-  {
+  "Solidago puberula Nutt": {
     "volume": "6",
     "page": "68, 111",
     "sciName": "Solidago puberula Nutt",
@@ -4928,7 +4929,7 @@ var dataset = [
       }
     ]
   },
-  {
+  "Goodyera pubescens R Br in Ait & Ait": {
     "volume": "13",
     "page": "61",
     "sciName": "Goodyera pubescens R Br in Ait & Ait",
@@ -4940,7 +4941,7 @@ var dataset = [
       }
     ]
   },
-  {
+  "Arethusa bulbosa L": {
     "volume": "13",
     "page": "69, 70, 71a",
     "sciName": "Arethusa bulbosa L",
@@ -4972,7 +4973,7 @@ var dataset = [
       }
     ]
   },
-  {
+  "Polygala cruciata L": {
     "volume": "3",
     "page": "33",
     "sciName": "Polygala cruciata L",
@@ -4984,7 +4985,7 @@ var dataset = [
       }
     ]
   },
-  {
+  "Dicentra cucullaria (L) Bernh": {
     "volume": "1",
     "page": "58",
     "sciName": "Dicentra cucullaria (L) Bernh",
@@ -5000,7 +5001,7 @@ var dataset = [
       }
     ]
   },
-  {
+  "Betula minor (Tuckerman) Fern": {
     "volume": "12",
     "page": "33",
     "sciName": "Betula minor (Tuckerman) Fern",
@@ -5024,7 +5025,7 @@ var dataset = [
       }
     ]
   },
-  {
+  "Vaccinium cespitosum Michx": {
     "volume": "8",
     "page": "23, 24, 25, 26, 29",
     "sciName": "Vaccinium cespitosum Michx",
@@ -5092,7 +5093,7 @@ var dataset = [
       }
     ]
   },
-  {
+  "Quercus prinoides Willd": {
     "volume": "12",
     "page": "9",
     "sciName": "Quercus prinoides Willd",
@@ -5104,7 +5105,7 @@ var dataset = [
       }
     ]
   },
-  {
+  "Potentilla canadensis L": {
     "volume": "4",
     "page": "60, 62, 63",
     "sciName": "Potentilla canadensis L",
@@ -5152,7 +5153,7 @@ var dataset = [
       }
     ]
   },
-  {
+  "Panax trifolius L": {
     "volume": "5",
     "page": "67",
     "sciName": "Panax trifolius L",
@@ -5172,7 +5173,7 @@ var dataset = [
       }
     ]
   },
-  {
+  "Gaylussacia bigeloviana (Fern) Sorrie & Weakley": {
     "volume": "8",
     "page": "12",
     "sciName": "Gaylussacia bigeloviana (Fern) Sorrie & Weakley",
@@ -5200,7 +5201,7 @@ var dataset = [
       }
     ]
   },
-  {
+  "Rubus pubescens Raf": {
     "volume": "4",
     "page": "26",
     "sciName": "Rubus pubescens Raf",
@@ -5228,7 +5229,7 @@ var dataset = [
       }
     ]
   },
-  {
+  "Goodyera repens (L) R Br": {
     "volume": "13",
     "page": "60",
     "sciName": "Goodyera repens (L) R Br",
@@ -5244,7 +5245,7 @@ var dataset = [
       }
     ]
   },
-  {
+  "Hypericum mutilum L": {
     "volume": "2",
     "page": "84",
     "sciName": "Hypericum mutilum L",
@@ -5268,7 +5269,7 @@ var dataset = [
       }
     ]
   },
-  {
+  "Prunus pumila L": {
     "volume": "4",
     "page": "7, 8",
     "sciName": "Prunus pumila L",
@@ -5300,7 +5301,7 @@ var dataset = [
       }
     ]
   },
-  {
+  "Genista tinctoria L": {
     "volume": "3",
     "page": "36",
     "sciName": "Genista tinctoria L",
@@ -5316,7 +5317,7 @@ var dataset = [
       }
     ]
   },
-  {
+  "Corallorhiza trifida Chatelain": {
     "volume": "13",
     "page": "79",
     "sciName": "Corallorhiza trifida Chatelain",
@@ -5336,7 +5337,7 @@ var dataset = [
       }
     ]
   },
-  {
+  "Thalictrum doicium L": {
     "volume": "1",
     "page": "14",
     "sciName": "Thalictrum doicium L",
@@ -5360,7 +5361,7 @@ var dataset = [
       }
     ]
   },
-  {
+  "Michranthes virginiensis (Michx) Small": {
     "volume": "4",
     "page": "101",
     "sciName": "Michranthes virginiensis (Michx) Small",
@@ -5380,7 +5381,7 @@ var dataset = [
       }
     ]
   },
-  {
+  "Ribes americanum P Mill": {
     "volume": "4",
     "page": "113",
     "sciName": "Ribes americanum P Mill",
@@ -5392,7 +5393,7 @@ var dataset = [
       }
     ]
   },
-  {
+  "Tsuga canadensis (L) Carr": {
     "volume": "12",
     "page": "77",
     "sciName": "Tsuga canadensis (L) Carr",
@@ -5408,14 +5409,14 @@ var dataset = [
       }
     ]
   },
-  {
+  "Tsunga canadensis Carr": {
     "volume": "12",
     "page": "76",
     "sciName": "Tsunga canadensis Carr",
     "comName": "Eastern Hemlock",
     "entries": []
   },
-  {
+  "Dirca palustris L": {
     "volume": "11",
     "page": "38",
     "sciName": "Dirca palustris L",
@@ -5431,7 +5432,7 @@ var dataset = [
       }
     ]
   },
-  {
+  "Ribes cynosbati L": {
     "volume": "4",
     "page": "108",
     "sciName": "Ribes cynosbati L",
@@ -5451,7 +5452,7 @@ var dataset = [
       }
     ]
   },
-  {
+  "Juniperus virginiana L": {
     "volume": "12",
     "page": "83",
     "sciName": "Juniperus virginiana L",
@@ -5471,7 +5472,7 @@ var dataset = [
       }
     ]
   },
-  {
+  "Amelanchier canadensis (L) Medik": {
     "volume": "4",
     "page": "93, 94, 95, 97, 98",
     "sciName": "Amelanchier canadensis (L) Medik",
@@ -5519,7 +5520,7 @@ var dataset = [
       }
     ]
   },
-  {
+  "Penstemon laevigatus Ait": {
     "volume": "9",
     "page": "32",
     "sciName": "Penstemon laevigatus Ait",
@@ -5531,7 +5532,7 @@ var dataset = [
       }
     ]
   },
-  {
+  "Gaultheria procumbens L": {
     "volume": "8",
     "page": "41",
     "sciName": "Gaultheria procumbens L",
@@ -5559,7 +5560,7 @@ var dataset = [
       }
     ]
   },
-  {
+  "Tanacetum bipinnatum (L) Schultz-Bip": {
     "volume": "7",
     "page": "21",
     "sciName": "Tanacetum bipinnatum (L) Schultz-Bip",
@@ -5575,7 +5576,7 @@ var dataset = [
       }
     ]
   },
-  {
+  "Quercus alba L": {
     "volume": "12",
     "page": "6, 7",
     "sciName": "Quercus alba L",
@@ -5603,7 +5604,7 @@ var dataset = [
       }
     ]
   },
-  {
+  "Pinus strobus L": {
     "volume": "12",
     "page": "71",
     "sciName": "Pinus strobus L",
@@ -5619,7 +5620,7 @@ var dataset = [
       }
     ]
   },
-  {
+  "Epilobium coloratum Biehler": {
     "volume": "5",
     "page": "21",
     "sciName": "Epilobium coloratum Biehler",
@@ -5643,7 +5644,7 @@ var dataset = [
       }
     ]
   },
-  {
+  "Zostera marina L": {
     "volume": "13",
     "page": "12",
     "sciName": "Zostera marina L",
@@ -5659,7 +5660,7 @@ var dataset = [
       }
     ]
   },
-  {
+  "Astragalus eucosmus B L Robins": {
     "volume": "3",
     "page": "73",
     "sciName": "Astragalus eucosmus B L Robins",
@@ -5671,7 +5672,7 @@ var dataset = [
       }
     ]
   },
-  {
+  "Pyrola Elliptica Nutt": {
     "volume": "8",
     "page": "64",
     "sciName": "Pyrola Elliptica Nutt",
@@ -5695,7 +5696,7 @@ var dataset = [
       }
     ]
   },
-  {
+  "Pyrola elliptica Nutt": {
     "volume": "8",
     "page": "63",
     "sciName": "Pyrola elliptica Nutt",
@@ -5707,7 +5708,7 @@ var dataset = [
       }
     ]
   },
-  {
+  "Solidago ulmifolia Muhl ex Willd": {
     "volume": "6",
     "page": "82",
     "sciName": "Solidago ulmifolia Muhl ex Willd",
@@ -5735,7 +5736,7 @@ var dataset = [
       }
     ]
   },
-  {
+  "Plantago lanceolata L": {
     "volume": "8",
     "page": "86, 89, 90",
     "sciName": "Plantago lanceolata L",
@@ -5779,14 +5780,14 @@ var dataset = [
       }
     ]
   },
-  {
+  "Sorbus aucuparia L": {
     "volume": "4",
     "page": "116",
     "sciName": "Sorbus aucuparia L",
     "comName": "European Mountain Ash",
     "entries": []
   },
-  {
+  "Solanum nigrum L": {
     "volume": "10",
     "page": "21, 22",
     "sciName": "Solanum nigrum L",
@@ -5810,7 +5811,7 @@ var dataset = [
       }
     ]
   },
-  {
+  "Lycopus europaeus L": {
     "volume": "9",
     "page": "73",
     "sciName": "Lycopus europaeus L",
@@ -5830,7 +5831,7 @@ var dataset = [
       }
     ]
   },
-  {
+  "Anemone nermorosa L": {
     "volume": "1",
     "page": "9",
     "sciName": "Anemone nermorosa L",
@@ -5858,7 +5859,7 @@ var dataset = [
       }
     ]
   },
-  {
+  "Calypso bulbosa (L) Oakes": {
     "volume": "13",
     "page": "73, 74",
     "sciName": "Calypso bulbosa (L) Oakes",
@@ -5870,7 +5871,7 @@ var dataset = [
       }
     ]
   },
-  {
+  "Corallorhiza odontorhiza Poir": {
     "volume": "13",
     "page": "80",
     "sciName": "Corallorhiza odontorhiza Poir",
@@ -5886,7 +5887,7 @@ var dataset = [
       }
     ]
   },
-  {
+  "Scorzoneroides autumnalis (L) Moench": {
     "volume": "7",
     "page": "48",
     "sciName": "Scorzoneroides autumnalis (L) Moench",
@@ -5902,7 +5903,7 @@ var dataset = [
       }
     ]
   },
-  {
+  "Geocaulon lividum (Richards) Fern": {
     "volume": "11",
     "page": "40",
     "sciName": "Geocaulon lividum (Richards) Fern",
@@ -5914,7 +5915,7 @@ var dataset = [
       }
     ]
   },
-  {
+  "Persicaria hydropiperoides (Michx) Small": {
     "volume": "11",
     "page": "27, 28",
     "sciName": "Persicaria hydropiperoides (Michx) Small",
@@ -5946,7 +5947,7 @@ var dataset = [
       }
     ]
   },
-  {
+  "Myriophyllum farwellii Morong": {
     "volume": "5",
     "page": "7",
     "sciName": "Myriophyllum farwellii Morong",
@@ -5970,14 +5971,14 @@ var dataset = [
       }
     ]
   },
-  {
+  "Maianthemum racemosum (L) Link": {
     "volume": "14",
     "page": "28",
     "sciName": "Maianthemum racemosum (L) Link",
     "comName": "Feathery False Solomon's Seal",
     "entries": []
   },
-  {
+  "Aureolaria pedicularia (L) Raf": {
     "volume": "9",
     "page": "50",
     "sciName": "Aureolaria pedicularia (L) Raf",
@@ -5993,7 +5994,7 @@ var dataset = [
       }
     ]
   },
-  {
+  "Convolvulus arvensis L": {
     "volume": "10",
     "page": "11",
     "sciName": "Convolvulus arvensis L",
@@ -6009,7 +6010,7 @@ var dataset = [
       }
     ]
   },
-  {
+  "Myosotis arvensis (L) Hill": {
     "volume": "10",
     "page": "9",
     "sciName": "Myosotis arvensis (L) Hill",
@@ -6021,7 +6022,7 @@ var dataset = [
       }
     ]
   },
-  {
+  "Thlaspi arvense L": {
     "volume": "1",
     "page": "88, 115",
     "sciName": "Thlaspi arvense L",
@@ -6041,14 +6042,14 @@ var dataset = [
       }
     ]
   },
-  {
+  "Antennaria neglecta Greene": {
     "volume": "7",
     "page": "31a",
     "sciName": "Antennaria neglecta Greene",
     "comName": "Field Pussytoes",
     "entries": []
   },
-  {
+  "Sonchus arvensis L": {
     "volume": "7",
     "page": "74",
     "sciName": "Sonchus arvensis L",
@@ -6060,7 +6061,7 @@ var dataset = [
       }
     ]
   },
-  {
+  "Cirsium discolor (Muhl ex Willd) Spreng": {
     "volume": "7",
     "page": "41, 101",
     "sciName": "Cirsium discolor (Muhl ex Willd) Spreng",
@@ -6080,14 +6081,14 @@ var dataset = [
       }
     ]
   },
-  {
+  "Luzula campestris (L) DC": {
     "volume": "14",
     "page": "43",
     "sciName": "Luzula campestris (L) DC",
     "comName": "Field Wood Rush",
     "entries": []
   },
-  {
+  "Artemisia campestris L": {
     "volume": "7",
     "page": "22",
     "sciName": "Artemisia campestris L",
@@ -6103,7 +6104,7 @@ var dataset = [
       }
     ]
   },
-  {
+  "Cerastium arvense L": {
     "volume": "2",
     "page": "56, 62",
     "sciName": "Cerastium arvense L",
@@ -6123,7 +6124,7 @@ var dataset = [
       }
     ]
   },
-  {
+  "Utricularia intermedia Hayne": {
     "volume": "9",
     "page": "17",
     "sciName": "Utricularia intermedia Hayne",
@@ -6151,7 +6152,7 @@ var dataset = [
       }
     ]
   },
-  {
+  "Potamogeton zosteriformis Fern": {
     "volume": "13",
     "page": "24",
     "sciName": "Potamogeton zosteriformis Fern",
@@ -6175,7 +6176,7 @@ var dataset = [
       }
     ]
   },
-  {
+  "Ionactis linariifolia (L) Greene": {
     "volume": "6",
     "page": "55, 61",
     "sciName": "Ionactis linariifolia (L) Greene",
@@ -6203,7 +6204,7 @@ var dataset = [
       }
     ]
   },
-  {
+  "Sparganium fluctuans (Morong) B L Robins": {
     "volume": "13",
     "page": "8",
     "sciName": "Sparganium fluctuans (Morong) B L Robins",
@@ -6215,7 +6216,7 @@ var dataset = [
       }
     ]
   },
-  {
+  "Potamogeton natans L": {
     "volume": "13",
     "page": "14",
     "sciName": "Potamogeton natans L",
@@ -6235,14 +6236,14 @@ var dataset = [
       }
     ]
   },
-  {
+  "Benthamidia florida (L) Spach": {
     "volume": "5",
     "page": "71",
     "sciName": "Benthamidia florida (L) Spach",
     "comName": "Flowering Big-bracted-dogwood",
     "entries": []
   },
-  {
+  "Rubus odoratus L": {
     "volume": "4",
     "page": "24",
     "sciName": "Rubus odoratus L",
@@ -6258,7 +6259,7 @@ var dataset = [
       }
     ]
   },
-  {
+  "Tiarella cordifolia L": {
     "volume": "4",
     "page": "103",
     "sciName": "Tiarella cordifolia L",
@@ -6270,7 +6271,7 @@ var dataset = [
       }
     ]
   },
-  {
+  "Aethusa cynapium L": {
     "volume": "5",
     "page": "110",
     "sciName": "Aethusa cynapium L",
@@ -6282,7 +6283,7 @@ var dataset = [
       }
     ]
   },
-  {
+  "Solidago arguta Ait": {
     "volume": "6",
     "page": "80",
     "sciName": "Solidago arguta Ait",
@@ -6302,7 +6303,7 @@ var dataset = [
       }
     ]
   },
-  {
+  "Galium circaezans Michx": {
     "volume": "6",
     "page": "9",
     "sciName": "Galium circaezans Michx",
@@ -6314,7 +6315,7 @@ var dataset = [
       }
     ]
   },
-  {
+  "Pedicularis canadensis L": {
     "volume": "9",
     "page": "56",
     "sciName": "Pedicularis canadensis L",
@@ -6334,7 +6335,7 @@ var dataset = [
       }
     ]
   },
-  {
+  "Trichostema dichotomum L": {
     "volume": "9",
     "page": "64",
     "sciName": "Trichostema dichotomum L",
@@ -6354,7 +6355,7 @@ var dataset = [
       }
     ]
   },
-  {
+  "Silene dichotoma Ehrh": {
     "volume": "2",
     "page": "46",
     "sciName": "Silene dichotoma Ehrh",
@@ -6374,7 +6375,7 @@ var dataset = [
       }
     ]
   },
-  {
+  "Lysimachia quadriflora L": {
     "volume": "9",
     "page": "7, 8, 93",
     "sciName": "Lysimachia quadriflora L",
@@ -6406,14 +6407,14 @@ var dataset = [
       }
     ]
   },
-  {
+  "Vicia tetrasperma (L) Schreb": {
     "volume": "3",
     "page": "63V",
     "sciName": "Vicia tetrasperma (L) Schreb",
     "comName": "Four-seeded Vetch",
     "entries": []
   },
-  {
+  "Vitis labrusca L": {
     "volume": "3",
     "page": "14",
     "sciName": "Vitis labrusca L",
@@ -6425,7 +6426,7 @@ var dataset = [
       }
     ]
   },
-  {
+  "Galium triflorum Michx": {
     "volume": "6",
     "page": "7",
     "sciName": "Galium triflorum Michx",
@@ -6453,7 +6454,7 @@ var dataset = [
       }
     ]
   },
-  {
+  "Fallopia cilinodis (Michx) Holub": {
     "volume": "11",
     "page": "32, 33",
     "sciName": "Fallopia cilinodis (Michx) Holub",
@@ -6473,7 +6474,7 @@ var dataset = [
       }
     ]
   },
-  {
+  "Polygala paucifolia Willd": {
     "volume": "3",
     "page": "30, 29V",
     "sciName": "Polygala paucifolia Willd",
@@ -6497,7 +6498,7 @@ var dataset = [
       }
     ]
   },
-  {
+  "Epilobium cilatum Raf": {
     "volume": "5",
     "page": "20",
     "sciName": "Epilobium cilatum Raf",
@@ -6517,7 +6518,7 @@ var dataset = [
       }
     ]
   },
-  {
+  "Lysimachia ciliata L": {
     "volume": "9",
     "page": "9",
     "sciName": "Lysimachia ciliata L",
@@ -6541,7 +6542,7 @@ var dataset = [
       }
     ]
   },
-  {
+  "Vitis vulpina L": {
     "volume": "3",
     "page": "15, 16, 17, 17V",
     "sciName": "Vitis vulpina L",
@@ -6569,7 +6570,7 @@ var dataset = [
       }
     ]
   },
-  {
+  "Pedicularis furbishiae S Wats": {
     "volume": "9",
     "page": "57",
     "sciName": "Pedicularis furbishiae S Wats",
@@ -6581,7 +6582,7 @@ var dataset = [
       }
     ]
   },
-  {
+  "Ribes rubrum L": {
     "volume": "4",
     "page": "114",
     "sciName": "Ribes rubrum L",
@@ -6609,7 +6610,7 @@ var dataset = [
       }
     ]
   },
-  {
+  "Barbarea vulgaris Ait f": {
     "volume": "1",
     "page": "78, 80",
     "sciName": "Barbarea vulgaris Ait f",
@@ -6649,14 +6650,14 @@ var dataset = [
       }
     ]
   },
-  {
+  "Veronica chamaedrys L": {
     "volume": "9",
     "page": "39",
     "sciName": "Veronica chamaedrys L",
     "comName": "Germander Speedwell",
     "entries": []
   },
-  {
+  "Ambrosia trifida L var trifida": {
     "volume": "7",
     "page": "1a",
     "sciName": "Ambrosia trifida L var trifida",
@@ -6676,7 +6677,7 @@ var dataset = [
       }
     ]
   },
-  {
+  "Goodyera oblongifolia Raf": {
     "volume": "13",
     "page": "62",
     "sciName": "Goodyera oblongifolia Raf",
@@ -6688,14 +6689,14 @@ var dataset = [
       }
     ]
   },
-  {
+  "Glechoma hederacea L": {
     "volume": "9",
     "page": "82",
     "sciName": "Glechoma hederacea L",
     "comName": "Gill-over-the-ground",
     "entries": []
   },
-  {
+  "Mentha arvensis L": {
     "volume": "9",
     "page": "68, 69",
     "sciName": "Mentha arvensis L",
@@ -6711,7 +6712,7 @@ var dataset = [
       }
     ]
   },
-  {
+  "Nabalus racemosus (Michx) Hook": {
     "volume": "7",
     "page": "63, 64",
     "sciName": "Nabalus racemosus (Michx) Hook",
@@ -6731,7 +6732,7 @@ var dataset = [
       }
     ]
   },
-  {
+  "Ribes aureum Pursh": {
     "volume": "4",
     "page": "115",
     "sciName": "Ribes aureum Pursh",
@@ -6743,7 +6744,7 @@ var dataset = [
       }
     ]
   },
-  {
+  "Rumex maritimus L": {
     "volume": "11",
     "page": "10",
     "sciName": "Rumex maritimus L",
@@ -6755,7 +6756,7 @@ var dataset = [
       }
     ]
   },
-  {
+  "Packera aurea (L) A & D Love": {
     "volume": "7",
     "page": "34, 35",
     "sciName": "Packera aurea (L) A & D Love",
@@ -6791,7 +6792,7 @@ var dataset = [
       }
     ]
   },
-  {
+  "Gratiola aurea Pursh": {
     "volume": "9",
     "page": "35",
     "sciName": "Gratiola aurea Pursh",
@@ -6807,7 +6808,7 @@ var dataset = [
       }
     ]
   },
-  {
+  "Chrysoplenium americanum Schwein ex Hook": {
     "volume": "4",
     "page": "106",
     "sciName": "Chrysoplenium americanum Schwein ex Hook",
@@ -6819,7 +6820,7 @@ var dataset = [
       }
     ]
   },
-  {
+  "Sagittaria graminea Michx": {
     "volume": "13",
     "page": "37, 38",
     "sciName": "Sagittaria graminea Michx",
@@ -6835,14 +6836,14 @@ var dataset = [
       }
     ]
   },
-  {
+  "Juncus marginatus Rostk": {
     "volume": "14",
     "page": "50",
     "sciName": "Juncus marginatus Rostk",
     "comName": "Grass-leaved Rush",
     "entries": []
   },
-  {
+  "Stellaria graminea L": {
     "volume": "2",
     "page": "55",
     "sciName": "Stellaria graminea L",
@@ -6858,7 +6859,7 @@ var dataset = [
       }
     ]
   },
-  {
+  "Potamogeton gramineus L": {
     "volume": "13",
     "page": "15, 16, 18, 21",
     "sciName": "Potamogeton gramineus L",
@@ -6890,7 +6891,7 @@ var dataset = [
       }
     ]
   },
-  {
+  "Betula populifolia Marsh": {
     "volume": "12",
     "page": "31, 32",
     "sciName": "Betula populifolia Marsh",
@@ -6914,7 +6915,7 @@ var dataset = [
       }
     ]
   },
-  {
+  "Swida racemosa (Lam) Moldenke": {
     "volume": "5",
     "page": "78",
     "sciName": "Swida racemosa (Lam) Moldenke",
@@ -6926,7 +6927,7 @@ var dataset = [
       }
     ]
   },
-  {
+  "Solidago nemoralis Ait": {
     "volume": "6",
     "page": "83, 84",
     "sciName": "Solidago nemoralis Ait",
@@ -6958,7 +6959,7 @@ var dataset = [
       }
     ]
   },
-  {
+  "Sparganium eurycarpum Engelm ex Gray": {
     "volume": "13",
     "page": "5",
     "sciName": "Sparganium eurycarpum Engelm ex Gray",
@@ -6974,7 +6975,7 @@ var dataset = [
       }
     ]
   },
-  {
+  "Arctium lappa L": {
     "volume": "7",
     "page": "45, 46, 47",
     "sciName": "Arctium lappa L",
@@ -6998,7 +6999,7 @@ var dataset = [
       }
     ]
   },
-  {
+  "Lobelia siphilitica L": {
     "volume": "8",
     "page": "2",
     "sciName": "Lobelia siphilitica L",
@@ -7010,7 +7011,7 @@ var dataset = [
       }
     ]
   },
-  {
+  "Rhododendron maximum L": {
     "volume": "8",
     "page": "56",
     "sciName": "Rhododendron maximum L",
@@ -7022,7 +7023,7 @@ var dataset = [
       }
     ]
   },
-  {
+  "Viola selkirkii Pursh": {
     "volume": "2",
     "page": "18",
     "sciName": "Viola selkirkii Pursh",
@@ -7046,7 +7047,7 @@ var dataset = [
       }
     ]
   },
-  {
+  "Utricularia vulgaris L": {
     "volume": "9",
     "page": "16",
     "sciName": "Utricularia vulgaris L",
@@ -7070,7 +7071,7 @@ var dataset = [
       }
     ]
   },
-  {
+  "Chelidonium majus L": {
     "volume": "1",
     "page": "56",
     "sciName": "Chelidonium majus L",
@@ -7094,7 +7095,7 @@ var dataset = [
       }
     ]
   },
-  {
+  "Cuscuta europaea L": {
     "volume": "10",
     "page": "18",
     "sciName": "Cuscuta europaea L",
@@ -7106,7 +7107,7 @@ var dataset = [
       }
     ]
   },
-  {
+  "Gentianopsis crinita (Froel) Ma": {
     "volume": "10",
     "page": "27, 28",
     "sciName": "Gentianopsis crinita (Froel) Ma",
@@ -7134,7 +7135,7 @@ var dataset = [
       }
     ]
   },
-  {
+  "Platanthera grandiflora (Bigelow) Lindl": {
     "volume": "13",
     "page": "59",
     "sciName": "Platanthera grandiflora (Bigelow) Lindl",
@@ -7146,14 +7147,14 @@ var dataset = [
       }
     ]
   },
-  {
+  "Platanthera grandiflora Lindl": {
     "volume": "13",
     "page": "82",
     "sciName": "Platanthera grandiflora Lindl",
     "comName": "Greater Purple Fringed Bog-orchid",
     "entries": []
   },
-  {
+  "Rumex britannica L": {
     "volume": "11",
     "page": "1",
     "sciName": "Rumex britannica L",
@@ -7173,7 +7174,7 @@ var dataset = [
       }
     ]
   },
-  {
+  "Malaxis unifolia Michx": {
     "volume": "13",
     "page": "76",
     "sciName": "Malaxis unifolia Michx",
@@ -7197,7 +7198,7 @@ var dataset = [
       }
     ]
   },
-  {
+  "Alnus viridis (Vill) Lam & DC": {
     "volume": "12",
     "page": "36",
     "sciName": "Alnus viridis (Vill) Lam & DC",
@@ -7213,7 +7214,7 @@ var dataset = [
       }
     ]
   },
-  {
+  "Peltandra virginica (L) Raf ex Schott": {
     "volume": "12",
     "page": "90",
     "sciName": "Peltandra virginica (L) Raf ex Schott",
@@ -7225,7 +7226,7 @@ var dataset = [
       }
     ]
   },
-  {
+  "Fraxinus pennsylvanica Marsh": {
     "volume": "10",
     "page": "50, 51",
     "sciName": "Fraxinus pennsylvanica Marsh",
@@ -7249,21 +7250,21 @@ var dataset = [
       }
     ]
   },
-  {
+  "Mollugo verticillata L": {
     "volume": "8",
     "page": "1a",
     "sciName": "Mollugo verticillata L",
     "comName": "Green Carpetweed",
     "entries": []
   },
-  {
+  "Veronica agrestis L": {
     "volume": "9",
     "page": "43",
     "sciName": "Veronica agrestis L",
     "comName": "Green Field Speedwell",
     "entries": []
   },
-  {
+  "Platanthera lacera (Michx) G Don": {
     "volume": "13",
     "page": "57",
     "sciName": "Platanthera lacera (Michx) G Don",
@@ -7279,7 +7280,7 @@ var dataset = [
       }
     ]
   },
-  {
+  "Pyrola chlorantha Sw": {
     "volume": "8",
     "page": "65, 66",
     "sciName": "Pyrola chlorantha Sw",
@@ -7307,7 +7308,7 @@ var dataset = [
       }
     ]
   },
-  {
+  "Cardamine hirsuta L": {
     "volume": "1",
     "page": "64",
     "sciName": "Cardamine hirsuta L",
@@ -7323,7 +7324,7 @@ var dataset = [
       }
     ]
   },
-  {
+  "Lespedeza hirta (L ) Hornem": {
     "volume": "3",
     "page": "61",
     "sciName": "Lespedeza hirta (L ) Hornem",
@@ -7343,7 +7344,7 @@ var dataset = [
       }
     ]
   },
-  {
+  "Euphorbia vermiculata Raf": {
     "volume": "11",
     "page": "45, 46",
     "sciName": "Euphorbia vermiculata Raf",
@@ -7363,14 +7364,14 @@ var dataset = [
       }
     ]
   },
-  {
+  "Luzula acuminata Raf": {
     "volume": "14",
     "page": "41",
     "sciName": "Luzula acuminata Raf",
     "comName": "Hairy Wood Rush",
     "entries": []
   },
-  {
+  "Ribes hirtellum Michx": {
     "volume": "4",
     "page": "109",
     "sciName": "Ribes hirtellum Michx",
@@ -7398,7 +7399,7 @@ var dataset = [
       }
     ]
   },
-  {
+  "Persicaria arifolia (L) Haroldson": {
     "volume": "11",
     "page": "29",
     "sciName": "Persicaria arifolia (L) Haroldson",
@@ -7426,7 +7427,7 @@ var dataset = [
       }
     ]
   },
-  {
+  "Persicaria arifolia Haroldson": {
     "volume": "11",
     "page": "30",
     "sciName": "Persicaria arifolia Haroldson",
@@ -7438,7 +7439,7 @@ var dataset = [
       }
     ]
   },
-  {
+  "Atriplex prostrata BouchÃ©r ex DC": {
     "volume": "10",
     "page": "68",
     "sciName": "Atriplex prostrata BouchÃ©r ex DC",
@@ -7450,7 +7451,7 @@ var dataset = [
       }
     ]
   },
-  {
+  "Neottia cordata Rich": {
     "volume": "13",
     "page": "66, 68",
     "sciName": "Neottia cordata Rich",
@@ -7466,7 +7467,7 @@ var dataset = [
       }
     ]
   },
-  {
+  "Salix eriocephala Michx": {
     "volume": "12",
     "page": "47, 48",
     "sciName": "Salix eriocephala Michx",
@@ -7486,7 +7487,7 @@ var dataset = [
       }
     ]
   },
-  {
+  "Symphyotrichum ericoides (L) Nesom": {
     "volume": "6",
     "page": "35, 36, 95, 96",
     "sciName": "Symphyotrichum ericoides (L) Nesom",
@@ -7514,14 +7515,14 @@ var dataset = [
       }
     ]
   },
-  {
+  "Calystegia sepium (L) R Br": {
     "volume": "10",
     "page": "12",
     "sciName": "Calystegia sepium (L) R Br",
     "comName": "Hedge False Bindweed",
     "entries": []
   },
-  {
+  "Cannabis sativa L": {
     "volume": "11",
     "page": "54, 55",
     "sciName": "Cannabis sativa L",
@@ -7537,7 +7538,7 @@ var dataset = [
       }
     ]
   },
-  {
+  "Apocynum cannabinum L": {
     "volume": "10",
     "page": "39",
     "sciName": "Apocynum cannabinum L",
@@ -7561,7 +7562,7 @@ var dataset = [
       }
     ]
   },
-  {
+  "Suaeda maritima (L) Dumort": {
     "volume": "10",
     "page": "74, 75, 79",
     "sciName": "Suaeda maritima (L) Dumort",
@@ -7589,7 +7590,7 @@ var dataset = [
       }
     ]
   },
-  {
+  "Vaccinium corymbosom L": {
     "volume": "8",
     "page": "34, 35, 36",
     "sciName": "Vaccinium corymbosom L",
@@ -7621,7 +7622,7 @@ var dataset = [
       }
     ]
   },
-  {
+  "Viburnum opulus L": {
     "volume": "5",
     "page": "106",
     "sciName": "Viburnum opulus L",
@@ -7645,7 +7646,7 @@ var dataset = [
       }
     ]
   },
-  {
+  "Juncus trifidus L": {
     "volume": "14",
     "page": "49",
     "sciName": "Juncus trifidus L",
@@ -7657,7 +7658,7 @@ var dataset = [
       }
     ]
   },
-  {
+  "Vaccinium pallidum Ait": {
     "volume": "8",
     "page": "33",
     "sciName": "Vaccinium pallidum Ait",
@@ -7677,7 +7678,7 @@ var dataset = [
       }
     ]
   },
-  {
+  "Berteroa incana (L) DC": {
     "volume": "1",
     "page": "73",
     "sciName": "Berteroa incana (L) DC",
@@ -7689,7 +7690,7 @@ var dataset = [
       }
     ]
   },
-  {
+  "Viburnum lantanoides Michx": {
     "volume": "5",
     "page": "107, 108, 109",
     "sciName": "Viburnum lantanoides Michx",
@@ -7717,14 +7718,14 @@ var dataset = [
       }
     ]
   },
-  {
+  "Spiranthes romanzoffiana Cham": {
     "volume": "13",
     "page": "63",
     "sciName": "Spiranthes romanzoffiana Cham",
     "comName": "Hooded Ladies'-tresses",
     "entries": []
   },
-  {
+  "Scutellaria galericulata L": {
     "volume": "9",
     "page": "84, 85",
     "sciName": "Scutellaria galericulata L",
@@ -7744,7 +7745,7 @@ var dataset = [
       }
     ]
   },
-  {
+  "Viola adunca Sm": {
     "volume": "2",
     "page": "33",
     "sciName": "Viola adunca Sm",
@@ -7768,7 +7769,7 @@ var dataset = [
       }
     ]
   },
-  {
+  "Ranunculus recurvatus Poir": {
     "volume": "1",
     "page": "26",
     "sciName": "Ranunculus recurvatus Poir",
@@ -7788,7 +7789,7 @@ var dataset = [
       }
     ]
   },
-  {
+  "Platanthera hookeri (Torr ex Gray) Lindl": {
     "volume": "13",
     "page": "53",
     "sciName": "Platanthera hookeri (Torr ex Gray) Lindl",
@@ -7808,7 +7809,7 @@ var dataset = [
       }
     ]
   },
-  {
+  "Ostrya virginiana (P Mill) K Koch": {
     "volume": "12",
     "page": "24",
     "sciName": "Ostrya virginiana (P Mill) K Koch",
@@ -7836,7 +7837,7 @@ var dataset = [
       }
     ]
   },
-  {
+  "Utricularia cornuta Michx": {
     "volume": "9",
     "page": "20",
     "sciName": "Utricularia cornuta Michx",
@@ -7864,7 +7865,7 @@ var dataset = [
       }
     ]
   },
-  {
+  "Solanum rostratum Dunal": {
     "volume": "10",
     "page": "19",
     "sciName": "Solanum rostratum Dunal",
@@ -7876,7 +7877,7 @@ var dataset = [
       }
     ]
   },
-  {
+  "Inula helenium L": {
     "volume": "7",
     "page": "1",
     "sciName": "Inula helenium L",
@@ -7904,7 +7905,7 @@ var dataset = [
       }
     ]
   },
-  {
+  "Armoracia rusticana P G Gaertn B Mey & Scherb": {
     "volume": "1",
     "page": "77",
     "sciName": "Armoracia rusticana P G Gaertn B Mey & Scherb",
@@ -7916,7 +7917,7 @@ var dataset = [
       }
     ]
   },
-  {
+  "Erigeron hyssopifolius Michx": {
     "volume": "6",
     "page": "50",
     "sciName": "Erigeron hyssopifolius Michx",
@@ -7932,7 +7933,7 @@ var dataset = [
       }
     ]
   },
-  {
+  "Lythrum hyssopifolia L": {
     "volume": "5",
     "page": "33, 34, 35b",
     "sciName": "Lythrum hyssopifolia L",
@@ -7952,7 +7953,7 @@ var dataset = [
       }
     ]
   },
-  {
+  "Nuphar advena (Ait) Ait f": {
     "volume": "1",
     "page": "46, 47, 48, 49",
     "sciName": "Nuphar advena (Ait) Ait f",
@@ -7996,14 +7997,14 @@ var dataset = [
       }
     ]
   },
-  {
+  "Medeola virginiana L": {
     "volume": "14",
     "page": "14",
     "sciName": "Medeola virginiana L",
     "comName": "Indian Cucumber Root",
     "entries": []
   },
-  {
+  "Pinus banksiana Lamb": {
     "volume": "12",
     "page": "68, 69",
     "sciName": "Pinus banksiana Lamb",
@@ -8015,7 +8016,7 @@ var dataset = [
       }
     ]
   },
-  {
+  "Arisaema triphyllum (L) Schott": {
     "volume": "12",
     "page": "88, 89",
     "sciName": "Arisaema triphyllum (L) Schott",
@@ -8035,14 +8036,14 @@ var dataset = [
       }
     ]
   },
-  {
+  "Juncus articulatus L": {
     "volume": "14",
     "page": "59",
     "sciName": "Juncus articulatus L",
     "comName": "Joint-leaved Rush",
     "entries": []
   },
-  {
+  "Viola renifolia Gray": {
     "volume": "2",
     "page": "22",
     "sciName": "Viola renifolia Gray",
@@ -8058,7 +8059,7 @@ var dataset = [
       }
     ]
   },
-  {
+  "Ranunculus abortivus L": {
     "volume": "1",
     "page": "23, 24",
     "sciName": "Ranunculus abortivus L",
@@ -8082,14 +8083,14 @@ var dataset = [
       }
     ]
   },
-  {
+  "Polygonatum biflorum (Walt) Ell": {
     "volume": "14",
     "page": "33",
     "sciName": "Polygonatum biflorum (Walt) Ell",
     "comName": "King Solomon's-seal",
     "entries": []
   },
-  {
+  "Sagina nodosa Fenzl": {
     "volume": "2",
     "page": "66, 67, 65v",
     "sciName": "Sagina nodosa Fenzl",
@@ -8129,21 +8130,21 @@ var dataset = [
       }
     ]
   },
-  {
+  "Juncus nodosus L": {
     "volume": "14",
     "page": "63",
     "sciName": "Juncus nodosus L",
     "comName": "Knotted Rush",
     "entries": []
   },
-  {
+  "Salix argyrocarpa Anderss": {
     "volume": "12",
     "page": "60",
     "sciName": "Salix argyrocarpa Anderss",
     "comName": "Labrador Willow",
     "entries": []
   },
-  {
+  "Rhododendron groenlandicum (Oeder) Kron & Judd": {
     "volume": "8",
     "page": "60",
     "sciName": "Rhododendron groenlandicum (Oeder) Kron & Judd",
@@ -8159,7 +8160,7 @@ var dataset = [
       }
     ]
   },
-  {
+  "Platanthera huronensis (Nutt) Lindl": {
     "volume": "13",
     "page": "50",
     "sciName": "Platanthera huronensis (Nutt) Lindl",
@@ -8183,7 +8184,7 @@ var dataset = [
       }
     ]
   },
-  {
+  "Primula mistassinica Michx": {
     "volume": "9",
     "page": "3",
     "sciName": "Primula mistassinica Michx",
@@ -8199,7 +8200,7 @@ var dataset = [
       }
     ]
   },
-  {
+  "Symphyotrichum lanceolatum (Willd) Nesom": {
     "volume": "6",
     "page": "40, 41",
     "sciName": "Symphyotrichum lanceolatum (Willd) Nesom",
@@ -8235,7 +8236,7 @@ var dataset = [
       }
     ]
   },
-  {
+  "Galium lanceolatum Torr": {
     "volume": "6",
     "page": "8",
     "sciName": "Galium lanceolatum Torr",
@@ -8251,14 +8252,14 @@ var dataset = [
       }
     ]
   },
-  {
+  "Streptopus lanceolatus (Ait) Reveal": {
     "volume": "14",
     "page": "23",
     "sciName": "Streptopus lanceolatus (Ait) Reveal",
     "comName": "Lance-leaved Twistedstalk",
     "entries": []
   },
-  {
+  "Viola lanceolota L": {
     "volume": "2",
     "page": "23",
     "sciName": "Viola lanceolota L",
@@ -8286,7 +8287,7 @@ var dataset = [
       }
     ]
   },
-  {
+  "Rhododendron lapponicum (L) Wahlenb": {
     "volume": "8",
     "page": "57",
     "sciName": "Rhododendron lapponicum (L) Wahlenb",
@@ -8298,7 +8299,7 @@ var dataset = [
       }
     ]
   },
-  {
+  "Houstonia purpurea L": {
     "volume": "6",
     "page": "14",
     "sciName": "Houstonia purpurea L",
@@ -8310,7 +8311,7 @@ var dataset = [
       }
     ]
   },
-  {
+  "Vaccinium macrocarpon Ait": {
     "volume": "8",
     "page": "17, 18",
     "sciName": "Vaccinium macrocarpon Ait",
@@ -8338,7 +8339,7 @@ var dataset = [
       }
     ]
   },
-  {
+  "Isotria verticillata Raf": {
     "volume": "13",
     "page": "71",
     "sciName": "Isotria verticillata Raf",
@@ -8350,14 +8351,14 @@ var dataset = [
       }
     ]
   },
-  {
+  "Uvularia grandiflora J E Sm": {
     "volume": "14",
     "page": "18",
     "sciName": "Uvularia grandiflora J E Sm",
     "comName": "Large-flowered Bellwort",
     "entries": []
   },
-  {
+  "Geum macrophyllum Willd": {
     "volume": "4",
     "page": "43, 44",
     "sciName": "Geum macrophyllum Willd",
@@ -8385,7 +8386,7 @@ var dataset = [
       }
     ]
   },
-  {
+  "Solidago macrophylla Pursh": {
     "volume": "6",
     "page": "73, 74",
     "sciName": "Solidago macrophylla Pursh",
@@ -8401,7 +8402,7 @@ var dataset = [
       }
     ]
   },
-  {
+  "Eurybia macrophylla (L) Cass": {
     "volume": "6",
     "page": "26, 27",
     "sciName": "Eurybia macrophylla (L) Cass",
@@ -8429,7 +8430,7 @@ var dataset = [
       }
     ]
   },
-  {
+  "Camelina sativa (L) Crantz": {
     "volume": "1",
     "page": "74",
     "sciName": "Camelina sativa (L) Crantz",
@@ -8445,7 +8446,7 @@ var dataset = [
       }
     ]
   },
-  {
+  "Crateagus macrosperma Ashe": {
     "volume": "4",
     "page": "89",
     "sciName": "Crateagus macrosperma Ashe",
@@ -8461,7 +8462,7 @@ var dataset = [
       }
     ]
   },
-  {
+  "Symphyotrichum patens (Ait) Nesom": {
     "volume": "6",
     "page": "30, 92",
     "sciName": "Symphyotrichum patens (Ait) Nesom",
@@ -8481,7 +8482,7 @@ var dataset = [
       }
     ]
   },
-  {
+  "Rubus frondosus Bigelow": {
     "volume": "4",
     "page": "36",
     "sciName": "Rubus frondosus Bigelow",
@@ -8493,7 +8494,7 @@ var dataset = [
       }
     ]
   },
-  {
+  "Chamaedaphne calyculataÂ (L) Moench": {
     "volume": "8",
     "page": "45",
     "sciName": "Chamaedaphne calyculataÂ (L) Moench",
@@ -8513,7 +8514,7 @@ var dataset = [
       }
     ]
   },
-  {
+  "Hypericum canadense L": {
     "volume": "2",
     "page": "82, 83",
     "sciName": "Hypericum canadense L",
@@ -8537,7 +8538,7 @@ var dataset = [
       }
     ]
   },
-  {
+  "Platanthera psycodes (L) Lindl": {
     "volume": "13",
     "page": "58",
     "sciName": "Platanthera psycodes (L) Lindl",
@@ -8557,7 +8558,7 @@ var dataset = [
       }
     ]
   },
-  {
+  "Galinsoga parviflora Cav": {
     "volume": "7",
     "page": "75",
     "sciName": "Galinsoga parviflora Cav",
@@ -8569,14 +8570,14 @@ var dataset = [
       }
     ]
   },
-  {
+  "Liparis liliifolia L C Rich": {
     "volume": "13",
     "page": "77",
     "sciName": "Liparis liliifolia L C Rich",
     "comName": "Lily-leaved Wide-lipped Orchid",
     "entries": []
   },
-  {
+  "Symphyotrichum ciliolatum (Lindl) A & D Love": {
     "volume": "6",
     "page": "34",
     "sciName": "Symphyotrichum ciliolatum (Lindl) A & D Love",
@@ -8600,7 +8601,7 @@ var dataset = [
       }
     ]
   },
-  {
+  "Houstonia caerulea L": {
     "volume": "6",
     "page": "16",
     "sciName": "Houstonia caerulea L",
@@ -8612,7 +8613,7 @@ var dataset = [
       }
     ]
   },
-  {
+  "Platanthera clavellata (Michx) Leur": {
     "volume": "13",
     "page": "47",
     "sciName": "Platanthera clavellata (Michx) Leur",
@@ -8632,7 +8633,7 @@ var dataset = [
       }
     ]
   },
-  {
+  "Oenothera perennis L": {
     "volume": "5",
     "page": "25, 26",
     "sciName": "Oenothera perennis L",
@@ -8660,7 +8661,7 @@ var dataset = [
       }
     ]
   },
-  {
+  "Nymphoides cordata Fern": {
     "volume": "10",
     "page": "36",
     "sciName": "Nymphoides cordata Fern",
@@ -8684,7 +8685,7 @@ var dataset = [
       }
     ]
   },
-  {
+  "Pyrola minor L": {
     "volume": "8",
     "page": "70",
     "sciName": "Pyrola minor L",
@@ -8704,7 +8705,7 @@ var dataset = [
       }
     ]
   },
-  {
+  "Scutellaria parvula Michx": {
     "volume": "9",
     "page": "87",
     "sciName": "Scutellaria parvula Michx",
@@ -8720,7 +8721,7 @@ var dataset = [
       }
     ]
   },
-  {
+  "Rhinanthus minor L": {
     "volume": "9",
     "page": "54",
     "sciName": "Rhinanthus minor L",
@@ -8740,7 +8741,7 @@ var dataset = [
       }
     ]
   },
-  {
+  "Liparis loeselii (L) L C Rich": {
     "volume": "13",
     "page": "78",
     "sciName": "Liparis loeselii (L) L C Rich",
@@ -8756,7 +8757,7 @@ var dataset = [
       }
     ]
   },
-  {
+  "Salix bebbiana Sarg": {
     "volume": "12",
     "page": "39, 49",
     "sciName": "Salix bebbiana Sarg",
@@ -8788,7 +8789,7 @@ var dataset = [
       }
     ]
   },
-  {
+  "Coeloglossum viride (L) Hartman": {
     "volume": "13",
     "page": "49",
     "sciName": "Coeloglossum viride (L) Hartman",
@@ -8808,7 +8809,7 @@ var dataset = [
       }
     ]
   },
-  {
+  "Anemone cylindrica Gray": {
     "volume": "1",
     "page": "5",
     "sciName": "Anemone cylindrica Gray",
@@ -8824,7 +8825,7 @@ var dataset = [
       }
     ]
   },
-  {
+  "Houstonia longifolia, Gaertn": {
     "volume": "6",
     "page": "15",
     "sciName": "Houstonia longifolia, Gaertn",
@@ -8844,7 +8845,7 @@ var dataset = [
       }
     ]
   },
-  {
+  "Osmorhiza longistylis (Torr) DC": {
     "volume": "5",
     "page": "56",
     "sciName": "Osmorhiza longistylis (Torr) DC",
@@ -8864,14 +8865,14 @@ var dataset = [
       }
     ]
   },
-  {
+  "Juncus secundus Beauv ex Poir": {
     "volume": "14",
     "page": "54",
     "sciName": "Juncus secundus Beauv ex Poir",
     "comName": "Lopsided Rush",
     "entries": []
   },
-  {
+  "Gypsophilia muralis L": {
     "volume": "2",
     "page": "38, 39",
     "sciName": "Gypsophilia muralis L",
@@ -8887,7 +8888,7 @@ var dataset = [
       }
     ]
   },
-  {
+  "Malva rotundifula L": {
     "volume": "2",
     "page": "88",
     "sciName": "Malva rotundifula L",
@@ -8911,7 +8912,7 @@ var dataset = [
       }
     ]
   },
-  {
+  "Lysimachia hybrida Michx": {
     "volume": "9",
     "page": "10",
     "sciName": "Lysimachia hybrida Michx",
@@ -8927,7 +8928,7 @@ var dataset = [
       }
     ]
   },
-  {
+  "Pseudognaphalium macounii (Greene) Kartesz": {
     "volume": "7",
     "page": "26",
     "sciName": "Pseudognaphalium macounii (Greene) Kartesz",
@@ -8947,7 +8948,7 @@ var dataset = [
       }
     ]
   },
-  {
+  "Scutellaria lateriflora L": {
     "volume": "9",
     "page": "86",
     "sciName": "Scutellaria lateriflora L",
@@ -8975,7 +8976,7 @@ var dataset = [
       }
     ]
   },
-  {
+  "Dianthus deltoides L": {
     "volume": "2",
     "page": "35, 36",
     "sciName": "Dianthus deltoides L",
@@ -8991,7 +8992,7 @@ var dataset = [
       }
     ]
   },
-  {
+  "Lyonia ligustrina (L) DC": {
     "volume": "8",
     "page": "47, 48, 49",
     "sciName": "Lyonia ligustrina (L) DC",
@@ -9031,7 +9032,7 @@ var dataset = [
       }
     ]
   },
-  {
+  "Chenopodium polyspermum L": {
     "volume": "10",
     "page": "57",
     "sciName": "Chenopodium polyspermum L",
@@ -9043,7 +9044,7 @@ var dataset = [
       }
     ]
   },
-  {
+  "Viburnum acerifolium L": {
     "volume": "5",
     "page": "103, 104, 116",
     "sciName": "Viburnum acerifolium L",
@@ -9079,7 +9080,7 @@ var dataset = [
       }
     ]
   },
-  {
+  "Campanula aparinoides Pursh": {
     "volume": "8",
     "page": "11",
     "sciName": "Campanula aparinoides Pursh",
@@ -9099,7 +9100,7 @@ var dataset = [
       }
     ]
   },
-  {
+  "Triglochin palustre L": {
     "volume": "13",
     "page": "30",
     "sciName": "Triglochin palustre L",
@@ -9111,7 +9112,7 @@ var dataset = [
       }
     ]
   },
-  {
+  "Galium palustre L": {
     "volume": "6",
     "page": "5",
     "sciName": "Galium palustre L",
@@ -9123,7 +9124,7 @@ var dataset = [
       }
     ]
   },
-  {
+  "Stachys palustris L": {
     "volume": "9",
     "page": "89",
     "sciName": "Stachys palustris L",
@@ -9139,7 +9140,7 @@ var dataset = [
       }
     ]
   },
-  {
+  "Proserpinaca palustris L": {
     "volume": "5",
     "page": "9",
     "sciName": "Proserpinaca palustris L",
@@ -9167,7 +9168,7 @@ var dataset = [
       }
     ]
   },
-  {
+  "Cirsium pumilum (Nutt) Spreng": {
     "volume": "7",
     "page": "43",
     "sciName": "Cirsium pumilum (Nutt) Spreng",
@@ -9183,7 +9184,7 @@ var dataset = [
       }
     ]
   },
-  {
+  "Lathyrus palustris L": {
     "volume": "3",
     "page": "66, 72, 71V",
     "sciName": "Lathyrus palustris L",
@@ -9215,7 +9216,7 @@ var dataset = [
       }
     ]
   },
-  {
+  "Epilobium palustre L": {
     "volume": "5",
     "page": "16, 17, 18",
     "sciName": "Epilobium palustre L",
@@ -9259,7 +9260,7 @@ var dataset = [
       }
     ]
   },
-  {
+  "Comarum palustre L": {
     "volume": "4",
     "page": "57",
     "sciName": "Comarum palustre L",
@@ -9275,7 +9276,7 @@ var dataset = [
       }
     ]
   },
-  {
+  "Caltha palustris L": {
     "volume": "1",
     "page": "33",
     "sciName": "Caltha palustris L",
@@ -9295,7 +9296,7 @@ var dataset = [
       }
     ]
   },
-  {
+  "Sanicula marilandica L": {
     "volume": "5",
     "page": "39, 40",
     "sciName": "Sanicula marilandica L",
@@ -9319,7 +9320,7 @@ var dataset = [
       }
     ]
   },
-  {
+  "Euphorbia serpyllifolia Pers": {
     "volume": "8",
     "page": "40",
     "sciName": "Euphorbia serpyllifolia Pers",
@@ -9339,14 +9340,14 @@ var dataset = [
       }
     ]
   },
-  {
+  "Allium canadense L": {
     "volume": "14",
     "page": "40",
     "sciName": "Allium canadense L",
     "comName": "Meadow Garlic",
     "entries": []
   },
-  {
+  "Tragopogon pratensis L": {
     "volume": "7",
     "page": "80, 87",
     "sciName": "Tragopogon pratensis L",
@@ -9366,7 +9367,7 @@ var dataset = [
       }
     ]
   },
-  {
+  "Lathyrus pratensis L": {
     "volume": "3",
     "page": "65V",
     "sciName": "Lathyrus pratensis L",
@@ -9378,7 +9379,7 @@ var dataset = [
       }
     ]
   },
-  {
+  "Agrimonia eupatoria L": {
     "volume": "4",
     "page": "65",
     "sciName": "Agrimonia eupatoria L",
@@ -9402,7 +9403,7 @@ var dataset = [
       }
     ]
   },
-  {
+  "Carya tomentosa (Poir in Lam) Nutt": {
     "volume": "12",
     "page": "3, 4",
     "sciName": "Carya tomentosa (Poir in Lam) Nutt",
@@ -9426,14 +9427,14 @@ var dataset = [
       }
     ]
   },
-  {
+  "Juncus stygius L": {
     "volume": "14",
     "page": "48",
     "sciName": "Juncus stygius L",
     "comName": "Moor Rush",
     "entries": []
   },
-  {
+  "Sedum acre L": {
     "volume": "5",
     "page": "2",
     "sciName": "Sedum acre L",
@@ -9453,7 +9454,7 @@ var dataset = [
       }
     ]
   },
-  {
+  "Verbascum blattaria L": {
     "volume": "9",
     "page": "25",
     "sciName": "Verbascum blattaria L",
@@ -9473,7 +9474,7 @@ var dataset = [
       }
     ]
   },
-  {
+  "Leonurus cardiaca L": {
     "volume": "9",
     "page": "90a",
     "sciName": "Leonurus cardiaca L",
@@ -9493,7 +9494,7 @@ var dataset = [
       }
     ]
   },
-  {
+  "Kalmia latifolia L": {
     "volume": "8",
     "page": "51",
     "sciName": "Kalmia latifolia L",
@@ -9513,7 +9514,7 @@ var dataset = [
       }
     ]
   },
-  {
+  "Vaccinium vitis-idaea L": {
     "volume": "8",
     "page": "19, 20",
     "sciName": "Vaccinium vitis-idaea L",
@@ -9545,7 +9546,7 @@ var dataset = [
       }
     ]
   },
-  {
+  "Geranium robertianum L": {
     "volume": "3",
     "page": "2",
     "sciName": "Geranium robertianum L",
@@ -9557,7 +9558,7 @@ var dataset = [
       }
     ]
   },
-  {
+  "Ilex mucronata (L) M Powell, Savol, & S Andrews": {
     "volume": "8",
     "page": "79",
     "sciName": "Ilex mucronata (L) M Powell, Savol, & S Andrews",
@@ -9573,7 +9574,7 @@ var dataset = [
       }
     ]
   },
-  {
+  "Lonicera villosa (Michx) J A Schultes": {
     "volume": "5",
     "page": "86, 87, 89",
     "sciName": "Lonicera villosa (Michx) J A Schultes",
@@ -9605,7 +9606,7 @@ var dataset = [
       }
     ]
   },
-  {
+  "Acer spicatum Lam": {
     "volume": "3",
     "page": "20",
     "sciName": "Acer spicatum Lam",
@@ -9629,7 +9630,7 @@ var dataset = [
       }
     ]
   },
-  {
+  "Minuartia groenlandica (Retz) Ostenf": {
     "volume": "2",
     "page": "50",
     "sciName": "Minuartia groenlandica (Retz) Ostenf",
@@ -9641,7 +9642,7 @@ var dataset = [
       }
     ]
   },
-  {
+  "Amelanchier bartramiana Tausch) M Roemer": {
     "volume": "4",
     "page": "99",
     "sciName": "Amelanchier bartramiana Tausch) M Roemer",
@@ -9653,14 +9654,14 @@ var dataset = [
       }
     ]
   },
-  {
+  "Cerastium fontanum Baumg": {
     "volume": "2",
     "page": "61",
     "sciName": "Cerastium fontanum Baumg",
     "comName": "Mouse-ear Chickweed",
     "entries": []
   },
-  {
+  "Hieracium pilosella L": {
     "volume": "7",
     "page": "84",
     "sciName": "Hieracium pilosella L",
@@ -9672,7 +9673,7 @@ var dataset = [
       }
     ]
   },
-  {
+  "Mitella nuda L": {
     "volume": "4",
     "page": "104",
     "sciName": "Mitella nuda L",
@@ -9692,7 +9693,7 @@ var dataset = [
       }
     ]
   },
-  {
+  "Hylodesmum nudiflorum (L) H Ohashi & R R Mill": {
     "volume": "3",
     "page": "55",
     "sciName": "Hylodesmum nudiflorum (L) H Ohashi & R R Mill",
@@ -9716,7 +9717,7 @@ var dataset = [
       }
     ]
   },
-  {
+  "Viburnum lentago L": {
     "volume": "5",
     "page": "97",
     "sciName": "Viburnum lentago L",
@@ -9740,14 +9741,14 @@ var dataset = [
       }
     ]
   },
-  {
+  "Sparganium angustifolium Michx": {
     "volume": "13",
     "page": "9",
     "sciName": "Sparganium angustifolium Michx",
     "comName": "Narrow-leaved Bur-reed",
     "entries": []
   },
-  {
+  "Chamerion angustifolium (L) Holub": {
     "volume": "5",
     "page": "15",
     "sciName": "Chamerion angustifolium (L) Holub",
@@ -9775,7 +9776,7 @@ var dataset = [
       }
     ]
   },
-  {
+  "Gentiana linearis Froel": {
     "volume": "10",
     "page": "30, 31, 32",
     "sciName": "Gentiana linearis Froel",
@@ -9807,7 +9808,7 @@ var dataset = [
       }
     ]
   },
-  {
+  "Chenopodium leptophyllum (Moq) Nutt ex S Wats": {
     "volume": "10",
     "page": "58, 60",
     "sciName": "Chenopodium leptophyllum (Moq) Nutt ex S Wats",
@@ -9823,7 +9824,7 @@ var dataset = [
       }
     ]
   },
-  {
+  "Pycnanthemum tenuifolium Schrad": {
     "volume": "9",
     "page": "76",
     "sciName": "Pycnanthemum tenuifolium Schrad",
@@ -9839,7 +9840,7 @@ var dataset = [
       }
     ]
   },
-  {
+  "Veronica scutellata L": {
     "volume": "9",
     "page": "37",
     "sciName": "Veronica scutellata L",
@@ -9859,7 +9860,7 @@ var dataset = [
       }
     ]
   },
-  {
+  "Typha angustifolia L": {
     "volume": "13",
     "page": "4",
     "sciName": "Typha angustifolia L",
@@ -9883,7 +9884,7 @@ var dataset = [
       }
     ]
   },
-  {
+  "Chenopodium murale L": {
     "volume": "10",
     "page": "61",
     "sciName": "Chenopodium murale L",
@@ -9895,7 +9896,7 @@ var dataset = [
       }
     ]
   },
-  {
+  "Symphyotrichum novae-angliae (L) Nesom": {
     "volume": "6",
     "page": "49",
     "sciName": "Symphyotrichum novae-angliae (L) Nesom",
@@ -9911,7 +9912,7 @@ var dataset = [
       }
     ]
   },
-  {
+  "Packera schweinitziana (Nutt) W A Weber & A Love": {
     "volume": "7",
     "page": "36, 37",
     "sciName": "Packera schweinitziana (Nutt) W A Weber & A Love",
@@ -9931,7 +9932,7 @@ var dataset = [
       }
     ]
   },
-  {
+  "Symphyotrichum novae-belgii (L) Nesom": {
     "volume": "6",
     "page": "43, 44",
     "sciName": "Symphyotrichum novae-belgii (L) Nesom",
@@ -9943,7 +9944,7 @@ var dataset = [
       }
     ]
   },
-  {
+  "Symphyotrichum novi-belgii (L) Nesom": {
     "volume": "6",
     "page": "42, 45, 46, 107",
     "sciName": "Symphyotrichum novi-belgii (L) Nesom",
@@ -9983,7 +9984,7 @@ var dataset = [
       }
     ]
   },
-  {
+  "Silene noctiflora L": {
     "volume": "2",
     "page": "45, 43VA",
     "sciName": "Silene noctiflora L",
@@ -10007,7 +10008,7 @@ var dataset = [
       }
     ]
   },
-  {
+  "Chimaphila umbellata (L) W Bart": {
     "volume": "8",
     "page": "72",
     "sciName": "Chimaphila umbellata (L) W Bart",
@@ -10023,7 +10024,7 @@ var dataset = [
       }
     ]
   },
-  {
+  "Bidens cernua L": {
     "volume": "7",
     "page": "13",
     "sciName": "Bidens cernua L",
@@ -10043,7 +10044,7 @@ var dataset = [
       }
     ]
   },
-  {
+  "Spiranthes cernua (L) L C Rich": {
     "volume": "13",
     "page": "64",
     "sciName": "Spiranthes cernua (L) L C Rich",
@@ -10059,14 +10060,14 @@ var dataset = [
       }
     ]
   },
-  {
+  "Trillium cernuum L": {
     "volume": "14",
     "page": "11",
     "sciName": "Trillium cernuum L",
     "comName": "Nodding Wakerobin",
     "entries": []
   },
-  {
+  "Penstemon hirsutus (L) Willd": {
     "volume": "9",
     "page": "31",
     "sciName": "Penstemon hirsutus (L) Willd",
@@ -10078,7 +10079,7 @@ var dataset = [
       }
     ]
   },
-  {
+  "Sagittaria cuneta Sheldon": {
     "volume": "13",
     "page": "43",
     "sciName": "Sagittaria cuneta Sheldon",
@@ -10090,7 +10091,7 @@ var dataset = [
       }
     ]
   },
-  {
+  "Galium boreale L": {
     "volume": "6",
     "page": "10",
     "sciName": "Galium boreale L",
@@ -10102,7 +10103,7 @@ var dataset = [
       }
     ]
   },
-  {
+  "Rubus flagellaris Willd": {
     "volume": "4",
     "page": "32",
     "sciName": "Rubus flagellaris Willd",
@@ -10114,7 +10115,7 @@ var dataset = [
       }
     ]
   },
-  {
+  "Liatris novae-angliae (Lunell) Shinners": {
     "volume": "6",
     "page": "18",
     "sciName": "Liatris novae-angliae (Lunell) Shinners",
@@ -10130,7 +10131,7 @@ var dataset = [
       }
     ]
   },
-  {
+  "Galium labradoricum (Wieg) Wieg": {
     "volume": "6",
     "page": "4",
     "sciName": "Galium labradoricum (Wieg) Wieg",
@@ -10150,7 +10151,7 @@ var dataset = [
       }
     ]
   },
-  {
+  "Geranium bicknelii Britt": {
     "volume": "3",
     "page": "4",
     "sciName": "Geranium bicknelii Britt",
@@ -10166,7 +10167,7 @@ var dataset = [
       }
     ]
   },
-  {
+  "Gentianella amarella (L) Boerner": {
     "volume": "10",
     "page": "33",
     "sciName": "Gentianella amarella (L) Boerner",
@@ -10178,7 +10179,7 @@ var dataset = [
       }
     ]
   },
-  {
+  "Juncus alpinoarticulatus Chaix ex Vill": {
     "volume": "14",
     "page": "60",
     "sciName": "Juncus alpinoarticulatus Chaix ex Vill",
@@ -10190,7 +10191,7 @@ var dataset = [
       }
     ]
   },
-  {
+  "Castilleja septentrionalis Lindl": {
     "volume": "9",
     "page": "52",
     "sciName": "Castilleja septentrionalis Lindl",
@@ -10206,7 +10207,7 @@ var dataset = [
       }
     ]
   },
-  {
+  "Quercus rubra L": {
     "volume": "12",
     "page": "13, 15, 16",
     "sciName": "Quercus rubra L",
@@ -10238,7 +10239,7 @@ var dataset = [
       }
     ]
   },
-  {
+  "Hypericum boreale Bickn": {
     "volume": "2",
     "page": "80, 81",
     "sciName": "Hypericum boreale Bickn",
@@ -10262,7 +10263,7 @@ var dataset = [
       }
     ]
   },
-  {
+  "Potamogeton spirillus Tuckerman": {
     "volume": "13",
     "page": "17",
     "sciName": "Potamogeton spirillus Tuckerman",
@@ -10282,7 +10283,7 @@ var dataset = [
       }
     ]
   },
-  {
+  "Petasites frigidus (L) Fries": {
     "volume": "6",
     "page": "22",
     "sciName": "Petasites frigidus (L) Fries",
@@ -10298,7 +10299,7 @@ var dataset = [
       }
     ]
   },
-  {
+  "Platanthera flava (L) Lindl": {
     "volume": "13",
     "page": "48",
     "sciName": "Platanthera flava (L) Lindl",
@@ -10314,7 +10315,7 @@ var dataset = [
       }
     ]
   },
-  {
+  "Thuja occidentalis L": {
     "volume": "12",
     "page": "81",
     "sciName": "Thuja occidentalis L",
@@ -10330,7 +10331,7 @@ var dataset = [
       }
     ]
   },
-  {
+  "Lindera benzoin (L) Blume": {
     "volume": "11",
     "page": "37",
     "sciName": "Lindera benzoin (L) Blume",
@@ -10346,7 +10347,7 @@ var dataset = [
       }
     ]
   },
-  {
+  "Potentilla norvegica L": {
     "volume": "4",
     "page": "54",
     "sciName": "Potentilla norvegica L",
@@ -10374,7 +10375,7 @@ var dataset = [
       }
     ]
   },
-  {
+  "Oenothera oakesiana (Gray) J W Robbins": {
     "volume": "5",
     "page": "23",
     "sciName": "Oenothera oakesiana (Gray) J W Robbins",
@@ -10390,7 +10391,7 @@ var dataset = [
       }
     ]
   },
-  {
+  "Nuttallanthus canadensis (L) D A Sutton": {
     "volume": "9",
     "page": "26",
     "sciName": "Nuttallanthus canadensis (L) D A Sutton",
@@ -10410,14 +10411,14 @@ var dataset = [
       }
     ]
   },
-  {
+  "Nuttallanthus canadensis D A Sutton": {
     "volume": "2",
     "page": "89v",
     "sciName": "Nuttallanthus canadensis D A Sutton",
     "comName": "Oldfield-toadflax",
     "entries": []
   },
-  {
+  "Orobanche uniflora L": {
     "volume": "9",
     "page": "23",
     "sciName": "Orobanche uniflora L",
@@ -10437,7 +10438,7 @@ var dataset = [
       }
     ]
   },
-  {
+  "Monotropa uniflora L": {
     "volume": "8",
     "page": "73",
     "sciName": "Monotropa uniflora L",
@@ -10457,7 +10458,7 @@ var dataset = [
       }
     ]
   },
-  {
+  "Moneses uniflora (L) Gray": {
     "volume": "8",
     "page": "71",
     "sciName": "Moneses uniflora (L) Gray",
@@ -10481,7 +10482,7 @@ var dataset = [
       }
     ]
   },
-  {
+  "Sicyos angulatus L": {
     "volume": "5",
     "page": "36",
     "sciName": "Sicyos angulatus L",
@@ -10493,7 +10494,7 @@ var dataset = [
       }
     ]
   },
-  {
+  "Crataegus monogyna Jacq": {
     "volume": "4",
     "page": "84",
     "sciName": "Crataegus monogyna Jacq",
@@ -10505,7 +10506,7 @@ var dataset = [
       }
     ]
   },
-  {
+  "Orithilia seconda (L) House": {
     "volume": "8",
     "page": "67, 69",
     "sciName": "Orithilia seconda (L) House",
@@ -10533,14 +10534,14 @@ var dataset = [
       }
     ]
   },
-  {
+  "Orithilia seconda House": {
     "volume": "8",
     "page": "68",
     "sciName": "Orithilia seconda House",
     "comName": "One-sided Shinleaf",
     "entries": []
   },
-  {
+  "Hieracium aurantiacum L": {
     "volume": "7",
     "page": "55",
     "sciName": "Hieracium aurantiacum L",
@@ -10560,7 +10561,7 @@ var dataset = [
       }
     ]
   },
-  {
+  "Triosteum aurantiacum Bickn": {
     "volume": "5",
     "page": "92",
     "sciName": "Triosteum aurantiacum Bickn",
@@ -10576,7 +10577,7 @@ var dataset = [
       }
     ]
   },
-  {
+  "Hypericum gentianoides B S P": {
     "volume": "2",
     "page": "85",
     "sciName": "Hypericum gentianoides B S P",
@@ -10592,7 +10593,7 @@ var dataset = [
       }
     ]
   },
-  {
+  "Salix viminalis L": {
     "volume": "12",
     "page": "46",
     "sciName": "Salix viminalis L",
@@ -10608,7 +10609,7 @@ var dataset = [
       }
     ]
   },
-  {
+  "Leucantheum vulgare Lam": {
     "volume": "7",
     "page": "19",
     "sciName": "Leucantheum vulgare Lam",
@@ -10628,14 +10629,14 @@ var dataset = [
       }
     ]
   },
-  {
+  "Trillium undulatum Willd": {
     "volume": "14",
     "page": "12",
     "sciName": "Trillium undulatum Willd",
     "comName": "Painted Wakerobin",
     "entries": []
   },
-  {
+  "Echinacea pallida (Nutt) Nutt": {
     "volume": "7",
     "page": "6",
     "sciName": "Echinacea pallida (Nutt) Nutt",
@@ -10647,7 +10648,7 @@ var dataset = [
       }
     ]
   },
-  {
+  "Hypericum ellipticum Hook": {
     "volume": "2",
     "page": "76, 77",
     "sciName": "Hypericum ellipticum Hook",
@@ -10671,7 +10672,7 @@ var dataset = [
       }
     ]
   },
-  {
+  "Impatiens pallida Nutt": {
     "volume": "3",
     "page": "8",
     "sciName": "Impatiens pallida Nutt",
@@ -10683,7 +10684,7 @@ var dataset = [
       }
     ]
   },
-  {
+  "Plantago virginca L": {
     "volume": "8",
     "page": "83",
     "sciName": "Plantago virginca L",
@@ -10695,7 +10696,7 @@ var dataset = [
       }
     ]
   },
-  {
+  "Lobelia spicata Lam": {
     "volume": "8",
     "page": "3",
     "sciName": "Lobelia spicata Lam",
@@ -10719,7 +10720,7 @@ var dataset = [
       }
     ]
   },
-  {
+  "Hieracium paniculatum L": {
     "volume": "7",
     "page": "54",
     "sciName": "Hieracium paniculatum L",
@@ -10747,7 +10748,7 @@ var dataset = [
       }
     ]
   },
-  {
+  "Desmodium paniculatum (L) DC": {
     "volume": "3",
     "page": "57",
     "sciName": "Desmodium paniculatum (L) DC",
@@ -10759,7 +10760,7 @@ var dataset = [
       }
     ]
   },
-  {
+  "Betula papyrifera Marsh": {
     "volume": "12",
     "page": "34",
     "sciName": "Betula papyrifera Marsh",
@@ -10771,7 +10772,7 @@ var dataset = [
       }
     ]
   },
-  {
+  "Antennaria parlinii Fern": {
     "volume": "7",
     "page": "103, 104",
     "sciName": "Antennaria parlinii Fern",
@@ -10787,7 +10788,7 @@ var dataset = [
       }
     ]
   },
-  {
+  "Mitchella repens L": {
     "volume": "6",
     "page": "13",
     "sciName": "Mitchella repens L",
@@ -10799,14 +10800,14 @@ var dataset = [
       }
     ]
   },
-  {
+  "Juncus tenuis Willd": {
     "volume": "14",
     "page": "53",
     "sciName": "Juncus tenuis Willd",
     "comName": "Path Rush",
     "entries": []
   },
-  {
+  "Achillea ptarmica L": {
     "volume": "7",
     "page": "18",
     "sciName": "Achillea ptarmica L",
@@ -10818,7 +10819,7 @@ var dataset = [
       }
     ]
   },
-  {
+  "Anaphalis margaritacea (L) Benth & Hook f": {
     "volume": "7",
     "page": "30",
     "sciName": "Anaphalis margaritacea (L) Benth & Hook f",
@@ -10842,7 +10843,7 @@ var dataset = [
       }
     ]
   },
-  {
+  "Rubus pensilvanicus Poir": {
     "volume": "4",
     "page": "29",
     "sciName": "Rubus pensilvanicus Poir",
@@ -10854,7 +10855,7 @@ var dataset = [
       }
     ]
   },
-  {
+  "Persicaria pensylvanica (L) G Maza": {
     "volume": "11",
     "page": "20, 21",
     "sciName": "Persicaria pensylvanica (L) G Maza",
@@ -10882,7 +10883,7 @@ var dataset = [
       }
     ]
   },
-  {
+  "Cardamine pensylvanica Muhl ex Willd": {
     "volume": "1",
     "page": "68",
     "sciName": "Cardamine pensylvanica Muhl ex Willd",
@@ -10898,7 +10899,7 @@ var dataset = [
       }
     ]
   },
-  {
+  "Symphyotrichum tenuifolium (L) Nesom": {
     "volume": "6",
     "page": "105, 106",
     "sciName": "Symphyotrichum tenuifolium (L) Nesom",
@@ -10914,7 +10915,7 @@ var dataset = [
       }
     ]
   },
-  {
+  "Euphorbia peplus L": {
     "volume": "11",
     "page": "48",
     "sciName": "Euphorbia peplus L",
@@ -10926,7 +10927,7 @@ var dataset = [
       }
     ]
   },
-  {
+  "Erigeron philadelphicus L": {
     "volume": "6",
     "page": "58",
     "sciName": "Erigeron philadelphicus L",
@@ -10954,14 +10955,14 @@ var dataset = [
       }
     ]
   },
-  {
+  "Pontederia cordata L": {
     "volume": "14",
     "page": "69",
     "sciName": "Pontederia cordata L",
     "comName": "Pickerelweed",
     "entries": []
   },
-  {
+  "Prunus pensylvanica L": {
     "volume": "4",
     "page": "9, 13",
     "sciName": "Prunus pensylvanica L",
@@ -10989,7 +10990,7 @@ var dataset = [
       }
     ]
   },
-  {
+  "Hudsonia ericoides L": {
     "volume": "1",
     "page": "94",
     "sciName": "Hudsonia ericoides L",
@@ -11001,7 +11002,7 @@ var dataset = [
       }
     ]
   },
-  {
+  "Cardamine douglassii Britt": {
     "volume": "1",
     "page": "62",
     "sciName": "Cardamine douglassii Britt",
@@ -11013,7 +11014,7 @@ var dataset = [
       }
     ]
   },
-  {
+  "Cypripedium acaule Ait": {
     "volume": "13",
     "page": "86, 88",
     "sciName": "Cypripedium acaule Ait",
@@ -11037,7 +11038,7 @@ var dataset = [
       }
     ]
   },
-  {
+  "Pyrola asarifolia Michx": {
     "volume": "8",
     "page": "61, 62",
     "sciName": "Pyrola asarifolia Michx",
@@ -11061,7 +11062,7 @@ var dataset = [
       }
     ]
   },
-  {
+  "Capnoides sempervirens (L) Borkh": {
     "volume": "1",
     "page": "59",
     "sciName": "Capnoides sempervirens (L) Borkh",
@@ -11089,7 +11090,7 @@ var dataset = [
       }
     ]
   },
-  {
+  "Trifolium campestre Schreb": {
     "volume": "3",
     "page": "42",
     "sciName": "Trifolium campestre Schreb",
@@ -11109,7 +11110,7 @@ var dataset = [
       }
     ]
   },
-  {
+  "Pinus rigida P Mill": {
     "volume": "12",
     "page": "67",
     "sciName": "Pinus rigida P Mill",
@@ -11121,7 +11122,7 @@ var dataset = [
       }
     ]
   },
-  {
+  "Antennaria plantaginifolia (L) Richardson": {
     "volume": "7",
     "page": "29",
     "sciName": "Antennaria plantaginifolia (L) Richardson",
@@ -11137,7 +11138,7 @@ var dataset = [
       }
     ]
   },
-  {
+  "Scheuchzeria palustris L": {
     "volume": "13",
     "page": "32",
     "sciName": "Scheuchzeria palustris L",
@@ -11149,7 +11150,7 @@ var dataset = [
       }
     ]
   },
-  {
+  "Hylodesmum glutinosum (L) H Ohashi & R R Mill": {
     "volume": "3",
     "page": "56",
     "sciName": "Hylodesmum glutinosum (L) H Ohashi & R R Mill",
@@ -11173,7 +11174,7 @@ var dataset = [
       }
     ]
   },
-  {
+  "Conium maculatum L": {
     "volume": "5",
     "page": "59",
     "sciName": "Conium maculatum L",
@@ -11197,7 +11198,7 @@ var dataset = [
       }
     ]
   },
-  {
+  "Toxicodendron radicans (L) Kuntze": {
     "volume": "3",
     "page": "29",
     "sciName": "Toxicodendron radicans (L) Kuntze",
@@ -11221,7 +11222,7 @@ var dataset = [
       }
     ]
   },
-  {
+  "Toxicodendron vernix (L) Kuntze": {
     "volume": "3",
     "page": "28, 27V",
     "sciName": "Toxicodendron vernix (L) Kuntze",
@@ -11245,7 +11246,7 @@ var dataset = [
       }
     ]
   },
-  {
+  "Asclepias exaltata L": {
     "volume": "10",
     "page": "43, 44",
     "sciName": "Asclepias exaltata L",
@@ -11269,7 +11270,7 @@ var dataset = [
       }
     ]
   },
-  {
+  "Lepidicum virginicum L": {
     "volume": "1",
     "page": "89",
     "sciName": "Lepidicum virginicum L",
@@ -11289,7 +11290,7 @@ var dataset = [
       }
     ]
   },
-  {
+  "Lepidium virginicum L": {
     "volume": "1",
     "page": "90",
     "sciName": "Lepidium virginicum L",
@@ -11309,7 +11310,7 @@ var dataset = [
       }
     ]
   },
-  {
+  "Helianthus petiolaris Nutt": {
     "volume": "7",
     "page": "100",
     "sciName": "Helianthus petiolaris Nutt",
@@ -11321,7 +11322,7 @@ var dataset = [
       }
     ]
   },
-  {
+  "Salix humilis Marsh": {
     "volume": "12",
     "page": "40",
     "sciName": "Salix humilis Marsh",
@@ -11337,7 +11338,7 @@ var dataset = [
       }
     ]
   },
-  {
+  "Viola primulifolia L": {
     "volume": "2",
     "page": "14",
     "sciName": "Viola primulifolia L",
@@ -11353,7 +11354,7 @@ var dataset = [
       }
     ]
   },
-  {
+  "Agalinis purpurea (Gray) Pennell": {
     "volume": "9",
     "page": "46",
     "sciName": "Agalinis purpurea (Gray) Pennell",
@@ -11369,7 +11370,7 @@ var dataset = [
       }
     ]
   },
-  {
+  "Gamochaeta purpurea (L) Cabrera": {
     "volume": "7",
     "page": "109",
     "sciName": "Gamochaeta purpurea (L) Cabrera",
@@ -11381,7 +11382,7 @@ var dataset = [
       }
     ]
   },
-  {
+  "Eutrochium purpureum (L) E E Lamont var. purpureum": {
     "volume": "6",
     "page": "19",
     "sciName": "Eutrochium purpureum (L) E E Lamont var. purpureum",
@@ -11405,7 +11406,7 @@ var dataset = [
       }
     ]
   },
-  {
+  "Medicago sativa L": {
     "volume": "3",
     "page": "45",
     "sciName": "Medicago sativa L",
@@ -11417,7 +11418,7 @@ var dataset = [
       }
     ]
   },
-  {
+  "Hylotelephium telephium (L) H Ohba": {
     "volume": "5",
     "page": "3",
     "sciName": "Hylotelephium telephium (L) H Ohba",
@@ -11441,7 +11442,7 @@ var dataset = [
       }
     ]
   },
-  {
+  "Sarracenia purpurea L": {
     "volume": "1",
     "page": "51, 52",
     "sciName": "Sarracenia purpurea L",
@@ -11469,7 +11470,7 @@ var dataset = [
       }
     ]
   },
-  {
+  "Clematis occidentalis (Hornem) DC": {
     "volume": "",
     "page": "1",
     "sciName": "Clematis occidentalis (Hornem) DC",
@@ -11485,7 +11486,7 @@ var dataset = [
       }
     ]
   },
-  {
+  "Symphyotrichum puniceum (L) A & D Love": {
     "volume": "6",
     "page": "100",
     "sciName": "Symphyotrichum puniceum (L) A & D Love",
@@ -11497,7 +11498,7 @@ var dataset = [
       }
     ]
   },
-  {
+  "Symphyotrichum puniceum (L) A & D Love var. puniceum": {
     "volume": "6",
     "page": "47, 48",
     "sciName": "Symphyotrichum puniceum (L) A & D Love var. puniceum",
@@ -11521,7 +11522,7 @@ var dataset = [
       }
     ]
   },
-  {
+  "Symphyotrichum puniceum (L) A & Love": {
     "volume": "6",
     "page": "102",
     "sciName": "Symphyotrichum puniceum (L) A & Love",
@@ -11533,7 +11534,7 @@ var dataset = [
       }
     ]
   },
-  {
+  "Angelica atropurpurea L": {
     "volume": "5",
     "page": "44",
     "sciName": "Angelica atropurpurea L",
@@ -11557,7 +11558,7 @@ var dataset = [
       }
     ]
   },
-  {
+  "Bidens connata Muhl ex Willd": {
     "volume": "7",
     "page": "12, 99",
     "sciName": "Bidens connata Muhl ex Willd",
@@ -11577,7 +11578,7 @@ var dataset = [
       }
     ]
   },
-  {
+  "Plantago patagonica Jacq": {
     "volume": "8",
     "page": "92, 93",
     "sciName": "Plantago patagonica Jacq",
@@ -11597,7 +11598,7 @@ var dataset = [
       }
     ]
   },
-  {
+  "Veronica peregrina L": {
     "volume": "9",
     "page": "42",
     "sciName": "Veronica peregrina L",
@@ -11613,7 +11614,7 @@ var dataset = [
       }
     ]
   },
-  {
+  "Salix discolor Muhl": {
     "volume": "12",
     "page": "41, 42",
     "sciName": "Salix discolor Muhl",
@@ -11633,7 +11634,7 @@ var dataset = [
       }
     ]
   },
-  {
+  "Populus tremuloides Michx": {
     "volume": "12",
     "page": "63",
     "sciName": "Populus tremuloides Michx",
@@ -11657,7 +11658,7 @@ var dataset = [
       }
     ]
   },
-  {
+  "Trifolium arvense L": {
     "volume": "3",
     "page": "37",
     "sciName": "Trifolium arvense L",
@@ -11677,7 +11678,7 @@ var dataset = [
       }
     ]
   },
-  {
+  "Polygala polygama Walt": {
     "volume": "3",
     "page": "31, 31V",
     "sciName": "Polygala polygama Walt",
@@ -11697,7 +11698,7 @@ var dataset = [
       }
     ]
   },
-  {
+  "Lychnis flos-cuculi L": {
     "volume": "2",
     "page": "48VA",
     "sciName": "Lychnis flos-cuculi L",
@@ -11709,7 +11710,7 @@ var dataset = [
       }
     ]
   },
-  {
+  "Euphrasia randii B L Robins": {
     "volume": "9",
     "page": "51",
     "sciName": "Euphrasia randii B L Robins",
@@ -11721,7 +11722,7 @@ var dataset = [
       }
     ]
   },
-  {
+  "Hieracium venosum L": {
     "volume": "7",
     "page": "53",
     "sciName": "Hieracium venosum L",
@@ -11737,7 +11738,7 @@ var dataset = [
       }
     ]
   },
-  {
+  "Matricaria discoidea DC": {
     "volume": "7",
     "page": "20",
     "sciName": "Matricaria discoidea DC",
@@ -11761,7 +11762,7 @@ var dataset = [
       }
     ]
   },
-  {
+  "Actaea rubra (Ait) Willd": {
     "volume": "1",
     "page": "37",
     "sciName": "Actaea rubra (Ait) Willd",
@@ -11785,7 +11786,7 @@ var dataset = [
       }
     ]
   },
-  {
+  "Arctostaphylos uva-ursi (L) Spreng": {
     "volume": "8",
     "page": "42",
     "sciName": "Arctostaphylos uva-ursi (L) Spreng",
@@ -11805,7 +11806,7 @@ var dataset = [
       }
     ]
   },
-  {
+  "Sambucus racemosa L": {
     "volume": "5",
     "page": "95, 96",
     "sciName": "Sambucus racemosa L",
@@ -11833,7 +11834,7 @@ var dataset = [
       }
     ]
   },
-  {
+  "Odontites vernus (Bellardi) Dumort": {
     "volume": "9",
     "page": "55",
     "sciName": "Odontites vernus (Bellardi) Dumort",
@@ -11849,7 +11850,7 @@ var dataset = [
       }
     ]
   },
-  {
+  "Chenopodium rubrum L": {
     "volume": "10",
     "page": "64",
     "sciName": "Chenopodium rubrum L",
@@ -11865,7 +11866,7 @@ var dataset = [
       }
     ]
   },
-  {
+  "Lobelia cardinalis L": {
     "volume": "8",
     "page": "1",
     "sciName": "Lobelia cardinalis L",
@@ -11893,7 +11894,7 @@ var dataset = [
       }
     ]
   },
-  {
+  "Acer rubrum L": {
     "volume": "3",
     "page": "24, 22V, 23V",
     "sciName": "Acer rubrum L",
@@ -11917,7 +11918,7 @@ var dataset = [
       }
     ]
   },
-  {
+  "Pinus resinosa Ait": {
     "volume": "12",
     "page": "70",
     "sciName": "Pinus resinosa Ait",
@@ -11945,7 +11946,7 @@ var dataset = [
       }
     ]
   },
-  {
+  "Rubus idaeus L": {
     "volume": "4",
     "page": "28",
     "sciName": "Rubus idaeus L",
@@ -11965,7 +11966,7 @@ var dataset = [
       }
     ]
   },
-  {
+  "Spergularia rubra (L) J & K Presl": {
     "volume": "2",
     "page": "68",
     "sciName": "Spergularia rubra (L) J & K Presl",
@@ -11985,7 +11986,7 @@ var dataset = [
       }
     ]
   },
-  {
+  "Picea rubens Sarg": {
     "volume": "12",
     "page": "72, 73",
     "sciName": "Picea rubens Sarg",
@@ -12001,14 +12002,14 @@ var dataset = [
       }
     ]
   },
-  {
+  "Trillium erectum L": {
     "volume": "14",
     "page": "6",
     "sciName": "Trillium erectum L",
     "comName": "Red Wakerobin",
     "entries": []
   },
-  {
+  "Swida sericea (L) Holub": {
     "volume": "5",
     "page": "74, 75, 77",
     "sciName": "Swida sericea (L) Holub",
@@ -12036,7 +12037,7 @@ var dataset = [
       }
     ]
   },
-  {
+  "Amaranthus retroflexus L": {
     "volume": "10",
     "page": "81",
     "sciName": "Amaranthus retroflexus L",
@@ -12056,7 +12057,7 @@ var dataset = [
       }
     ]
   },
-  {
+  "Erodium cicutarium (L) L'HÃ©r": {
     "volume": "3",
     "page": "5",
     "sciName": "Erodium cicutarium (L) L'HÃ©r",
@@ -12068,7 +12069,7 @@ var dataset = [
       }
     ]
   },
-  {
+  "Aronia arbutifolia (L) Pers": {
     "volume": "4",
     "page": "10, 78, 79",
     "sciName": "Aronia arbutifolia (L) Pers",
@@ -12088,7 +12089,7 @@ var dataset = [
       }
     ]
   },
-  {
+  "Trifolium pratense L": {
     "volume": "3",
     "page": "38",
     "sciName": "Trifolium pratense L",
@@ -12100,7 +12101,7 @@ var dataset = [
       }
     ]
   },
-  {
+  "Aquilegia canadensis L": {
     "volume": "1",
     "page": "35, 53",
     "sciName": "Aquilegia canadensis L",
@@ -12132,7 +12133,7 @@ var dataset = [
       }
     ]
   },
-  {
+  "Potamogeton alpinus Balbis": {
     "volume": "13",
     "page": "29",
     "sciName": "Potamogeton alpinus Balbis",
@@ -12148,7 +12149,7 @@ var dataset = [
       }
     ]
   },
-  {
+  "Utricularia resupinata B D Greene ex Bigelow": {
     "volume": "9",
     "page": "19",
     "sciName": "Utricularia resupinata B D Greene ex Bigelow",
@@ -12164,14 +12165,14 @@ var dataset = [
       }
     ]
   },
-  {
+  "Rhododendron canadense (L) Torr": {
     "volume": "8",
     "page": "59",
     "sciName": "Rhododendron canadense (L) Torr",
     "comName": "Rhodora",
     "entries": []
   },
-  {
+  "Euphorbia glyptosperma Engelm": {
     "volume": "11",
     "page": "42, 43",
     "sciName": "Euphorbia glyptosperma Engelm",
@@ -12191,7 +12192,7 @@ var dataset = [
       }
     ]
   },
-  {
+  "Potamogeton epihydrus Raf": {
     "volume": "13",
     "page": "25",
     "sciName": "Potamogeton epihydrus Raf",
@@ -12203,7 +12204,7 @@ var dataset = [
       }
     ]
   },
-  {
+  "Vitis riparia Michx": {
     "volume": "3",
     "page": "16V",
     "sciName": "Vitis riparia Michx",
@@ -12227,7 +12228,7 @@ var dataset = [
       }
     ]
   },
-  {
+  "Astragalus robbinsii (Oakes) Gray": {
     "volume": "3",
     "page": "51, 52",
     "sciName": "Astragalus robbinsii (Oakes) Gray",
@@ -12243,7 +12244,7 @@ var dataset = [
       }
     ]
   },
-  {
+  "Potamogeton robbinsii Oakes": {
     "volume": "13",
     "page": "28",
     "sciName": "Potamogeton robbinsii Oakes",
@@ -12259,7 +12260,7 @@ var dataset = [
       }
     ]
   },
-  {
+  "Erigeron pulchellus Michx": {
     "volume": "6",
     "page": "57",
     "sciName": "Erigeron pulchellus Michx",
@@ -12279,7 +12280,7 @@ var dataset = [
       }
     ]
   },
-  {
+  "Rhodiola rosea L": {
     "volume": "5",
     "page": "4",
     "sciName": "Rhodiola rosea L",
@@ -12299,7 +12300,7 @@ var dataset = [
       }
     ]
   },
-  {
+  "Spiraea tomentosa L": {
     "volume": "4",
     "page": "23",
     "sciName": "Spiraea tomentosa L",
@@ -12315,7 +12316,7 @@ var dataset = [
       }
     ]
   },
-  {
+  "Galium asprellum Michx": {
     "volume": "6",
     "page": "2",
     "sciName": "Galium asprellum Michx",
@@ -12339,7 +12340,7 @@ var dataset = [
       }
     ]
   },
-  {
+  "Xanthium strumarium L": {
     "volume": "7",
     "page": "2, 3, 4",
     "sciName": "Xanthium strumarium L",
@@ -12355,7 +12356,7 @@ var dataset = [
       }
     ]
   },
-  {
+  "Erigeron strigosus Muhl ex Willd": {
     "volume": "6",
     "page": "60",
     "sciName": "Erigeron strigosus Muhl ex Willd",
@@ -12379,7 +12380,7 @@ var dataset = [
       }
     ]
   },
-  {
+  "Hieracium scabrum Michx": {
     "volume": "7",
     "page": "52, 56, 57",
     "sciName": "Hieracium scabrum Michx",
@@ -12419,7 +12420,7 @@ var dataset = [
       }
     ]
   },
-  {
+  "Eurybia radula (Ait) Nesom": {
     "volume": "6",
     "page": "28, 29, 90, 91",
     "sciName": "Eurybia radula (Ait) Nesom",
@@ -12451,7 +12452,7 @@ var dataset = [
       }
     ]
   },
-  {
+  "Eurybia radula Nesom": {
     "volume": "6",
     "page": "89",
     "sciName": "Eurybia radula Nesom",
@@ -12463,7 +12464,7 @@ var dataset = [
       }
     ]
   },
-  {
+  "Solidago patula Muhl ex Willd": {
     "volume": "6",
     "page": "79",
     "sciName": "Solidago patula Muhl ex Willd",
@@ -12479,7 +12480,7 @@ var dataset = [
       }
     ]
   },
-  {
+  "Gratiola virginiana L": {
     "volume": "9",
     "page": "34",
     "sciName": "Gratiola virginiana L",
@@ -12491,7 +12492,7 @@ var dataset = [
       }
     ]
   },
-  {
+  "Lechea intermedia Leggett ex Britt": {
     "volume": "1",
     "page": "97, 98, 99, 100",
     "sciName": "Lechea intermedia Leggett ex Britt",
@@ -12531,7 +12532,7 @@ var dataset = [
       }
     ]
   },
-  {
+  "Lespedeza capitata Michx": {
     "volume": "3",
     "page": "62",
     "sciName": "Lespedeza capitata Michx",
@@ -12551,7 +12552,7 @@ var dataset = [
       }
     ]
   },
-  {
+  "Platanthera orbiculata (Pursh) Lindl": {
     "volume": "13",
     "page": "54",
     "sciName": "Platanthera orbiculata (Pursh) Lindl",
@@ -12571,7 +12572,7 @@ var dataset = [
       }
     ]
   },
-  {
+  "Swida rugosa (Lam ) Rydb": {
     "volume": "5",
     "page": "72, 73",
     "sciName": "Swida rugosa (Lam ) Rydb",
@@ -12595,7 +12596,7 @@ var dataset = [
       }
     ]
   },
-  {
+  "Swida rugosa (Lam) Rydb": {
     "volume": "5",
     "page": "113, 114",
     "sciName": "Swida rugosa (Lam) Rydb",
@@ -12611,7 +12612,7 @@ var dataset = [
       }
     ]
   },
-  {
+  "Amelanchier sanguinea (Pursh) DC": {
     "volume": "4",
     "page": "96",
     "sciName": "Amelanchier sanguinea (Pursh) DC",
@@ -12623,7 +12624,7 @@ var dataset = [
       }
     ]
   },
-  {
+  "Viola rotundifolia Michx": {
     "volume": "2",
     "page": "24, 25",
     "sciName": "Viola rotundifolia Michx",
@@ -12659,7 +12660,7 @@ var dataset = [
       }
     ]
   },
-  {
+  "Plantago rugelli Dcne": {
     "volume": "8",
     "page": "85",
     "sciName": "Plantago rugelli Dcne",
@@ -12687,7 +12688,7 @@ var dataset = [
       }
     ]
   },
-  {
+  "Oxytropis campestris (L) DC": {
     "volume": "3",
     "page": "53",
     "sciName": "Oxytropis campestris (L) DC",
@@ -12703,7 +12704,7 @@ var dataset = [
       }
     ]
   },
-  {
+  "Agalinis maritima (Raf) Raf": {
     "volume": "9",
     "page": "47",
     "sciName": "Agalinis maritima (Raf) Raf",
@@ -12715,7 +12716,7 @@ var dataset = [
       }
     ]
   },
-  {
+  "Triglochin maritima L": {
     "volume": "13",
     "page": "31",
     "sciName": "Triglochin maritima L",
@@ -12735,14 +12736,14 @@ var dataset = [
       }
     ]
   },
-  {
+  "Juncus gerardii Loisel": {
     "volume": "14",
     "page": "52",
     "sciName": "Juncus gerardii Loisel",
     "comName": "Saltmarsh Rush",
     "entries": []
   },
-  {
+  "Spergularia marina Griseb": {
     "volume": "2",
     "page": "69, 70",
     "sciName": "Spergularia marina Griseb",
@@ -12770,7 +12771,7 @@ var dataset = [
       }
     ]
   },
-  {
+  "Stellaria humifusa Rottb": {
     "volume": "2",
     "page": "60",
     "sciName": "Stellaria humifusa Rottb",
@@ -12782,7 +12783,7 @@ var dataset = [
       }
     ]
   },
-  {
+  "Salsola kali L": {
     "volume": "10",
     "page": "78",
     "sciName": "Salsola kali L",
@@ -12798,7 +12799,7 @@ var dataset = [
       }
     ]
   },
-  {
+  "Hudsonia tomentosa Nutt": {
     "volume": "1",
     "page": "95",
     "sciName": "Hudsonia tomentosa Nutt",
@@ -12822,7 +12823,7 @@ var dataset = [
       }
     ]
   },
-  {
+  "Salix exigua Nutt": {
     "volume": "12",
     "page": "55",
     "sciName": "Salix exigua Nutt",
@@ -12838,7 +12839,7 @@ var dataset = [
       }
     ]
   },
-  {
+  "Sassafras albidum (Nutt) Nees": {
     "volume": "11",
     "page": "36",
     "sciName": "Sassafras albidum (Nutt) Nees",
@@ -12858,7 +12859,7 @@ var dataset = [
       }
     ]
   },
-  {
+  "Monarda didyma L": {
     "volume": "9",
     "page": "80",
     "sciName": "Monarda didyma L",
@@ -12870,7 +12871,7 @@ var dataset = [
       }
     ]
   },
-  {
+  "Crataegus macracantha Lodd ex Loud": {
     "volume": "4",
     "page": "85, 86, 87",
     "sciName": "Crataegus macracantha Lodd ex Loud",
@@ -12906,7 +12907,7 @@ var dataset = [
       }
     ]
   },
-  {
+  "Quercus coccinea Muenchh": {
     "volume": "12",
     "page": "12, 14",
     "sciName": "Quercus coccinea Muenchh",
@@ -12946,7 +12947,7 @@ var dataset = [
       }
     ]
   },
-  {
+  "Lysimachia arvensis (L) U Manns & A Anderb": {
     "volume": "9",
     "page": "12",
     "sciName": "Lysimachia arvensis (L) U Manns & A Anderb",
@@ -12970,7 +12971,7 @@ var dataset = [
       }
     ]
   },
-  {
+  "Campanula rotundifolia L": {
     "volume": "8",
     "page": "9, 10",
     "sciName": "Campanula rotundifolia L",
@@ -12998,7 +12999,7 @@ var dataset = [
       }
     ]
   },
-  {
+  "Ligusticum scoticum L": {
     "volume": "5",
     "page": "47",
     "sciName": "Ligusticum scoticum L",
@@ -13018,7 +13019,7 @@ var dataset = [
       }
     ]
   },
-  {
+  "Quercus ilicifolia Wangenh": {
     "volume": "12",
     "page": "11",
     "sciName": "Quercus ilicifolia Wangenh",
@@ -13046,7 +13047,7 @@ var dataset = [
       }
     ]
   },
-  {
+  "Angelica lucida L": {
     "volume": "5",
     "page": "45, 49, 50",
     "sciName": "Angelica lucida L",
@@ -13086,7 +13087,7 @@ var dataset = [
       }
     ]
   },
-  {
+  "Salicornia maritima Wolff & Jefferies": {
     "volume": "10",
     "page": "70, 71, 72, 73",
     "sciName": "Salicornia maritima Wolff & Jefferies",
@@ -13118,7 +13119,7 @@ var dataset = [
       }
     ]
   },
-  {
+  "Lysimachia maritima (L) Galasso, Banfi, & Soldano": {
     "volume": "9",
     "page": "11",
     "sciName": "Lysimachia maritima (L) Galasso, Banfi, & Soldano",
@@ -13142,7 +13143,7 @@ var dataset = [
       }
     ]
   },
-  {
+  "Rumex pallidus Bigelow": {
     "volume": "11",
     "page": "3",
     "sciName": "Rumex pallidus Bigelow",
@@ -13158,7 +13159,7 @@ var dataset = [
       }
     ]
   },
-  {
+  "Mertensia maritima (L) S F Gray": {
     "volume": "10",
     "page": "7, 8",
     "sciName": "Mertensia maritima (L) S F Gray",
@@ -13194,7 +13195,7 @@ var dataset = [
       }
     ]
   },
-  {
+  "Samolus valerandi L": {
     "volume": "9",
     "page": "13, 14",
     "sciName": "Samolus valerandi L",
@@ -13214,7 +13215,7 @@ var dataset = [
       }
     ]
   },
-  {
+  "Ranunculus cymbalaria Pursh": {
     "volume": "1",
     "page": "18",
     "sciName": "Ranunculus cymbalaria Pursh",
@@ -13234,7 +13235,7 @@ var dataset = [
       }
     ]
   },
-  {
+  "Solidago sempervirens L": {
     "volume": "6",
     "page": "75, 76, 112",
     "sciName": "Solidago sempervirens L",
@@ -13266,7 +13267,7 @@ var dataset = [
       }
     ]
   },
-  {
+  "Polygonum glaucum Nutt": {
     "volume": "11",
     "page": "12",
     "sciName": "Polygonum glaucum Nutt",
@@ -13282,7 +13283,7 @@ var dataset = [
       }
     ]
   },
-  {
+  "Plantago maritima L": {
     "volume": "8",
     "page": "87, 88",
     "sciName": "Plantago maritima L",
@@ -13298,7 +13299,7 @@ var dataset = [
       }
     ]
   },
-  {
+  "Euphorbia polygonifolia L": {
     "volume": "11",
     "page": "41",
     "sciName": "Euphorbia polygonifolia L",
@@ -13314,7 +13315,7 @@ var dataset = [
       }
     ]
   },
-  {
+  "Honckenya peploides (L) Ehrh": {
     "volume": "2",
     "page": "53",
     "sciName": "Honckenya peploides (L) Ehrh",
@@ -13326,14 +13327,14 @@ var dataset = [
       }
     ]
   },
-  {
+  "Uvularia sessifolia L": {
     "volume": "14",
     "page": "20",
     "sciName": "Uvularia sessifolia L",
     "comName": "Sessile-leaved Bellwort",
     "entries": []
   },
-  {
+  "Rubus setosus Bigelow": {
     "volume": "4",
     "page": "38",
     "sciName": "Rubus setosus Bigelow",
@@ -13345,14 +13346,14 @@ var dataset = [
       }
     ]
   },
-  {
+  "Eriocaulon aquaticum (Hill) Duce": {
     "volume": "14",
     "page": "71",
     "sciName": "Eriocaulon aquaticum (Hill) Duce",
     "comName": "Seven-angled Pipewort",
     "entries": []
   },
-  {
+  "Oclemena acuminata (Michx) Nesom": {
     "volume": "6",
     "page": "51, 52",
     "sciName": "Oclemena acuminata (Michx) Nesom",
@@ -13384,7 +13385,7 @@ var dataset = [
       }
     ]
   },
-  {
+  "Kalmia angustifolia L": {
     "volume": "8",
     "page": "52",
     "sciName": "Kalmia angustifolia L",
@@ -13412,7 +13413,7 @@ var dataset = [
       }
     ]
   },
-  {
+  "Capsella bursa-pastoris (L) Medik": {
     "volume": "1",
     "page": "86",
     "sciName": "Capsella bursa-pastoris (L) Medik",
@@ -13424,14 +13425,14 @@ var dataset = [
       }
     ]
   },
-  {
+  "Spiranthes lucida (H H Eat) Ames": {
     "volume": "13",
     "page": "90",
     "sciName": "Spiranthes lucida (H H Eat) Ames",
     "comName": "Shining Ladies'-tresses",
     "entries": []
   },
-  {
+  "Rosa nitida Willd": {
     "volume": "4",
     "page": "73, 74",
     "sciName": "Rosa nitida Willd",
@@ -13455,7 +13456,7 @@ var dataset = [
       }
     ]
   },
-  {
+  "Salix lucida Muhl": {
     "volume": "12",
     "page": "50, 51",
     "sciName": "Salix lucida Muhl",
@@ -13475,21 +13476,21 @@ var dataset = [
       }
     ]
   },
-  {
+  "Juncus brevicaudatus (Engelm ) Fern": {
     "volume": "14",
     "page": "68",
     "sciName": "Juncus brevicaudatus (Engelm ) Fern",
     "comName": "Short-tailed Rush",
     "entries": []
   },
-  {
+  "Juncus brevicaudatus (Engelm) Fern": {
     "volume": "14",
     "page": "56",
     "sciName": "Juncus brevicaudatus (Engelm) Fern",
     "comName": "Short-tailed Rush",
     "entries": []
   },
-  {
+  "Cypripedium reginae Walt": {
     "volume": "13",
     "page": "85, 89",
     "sciName": "Cypripedium reginae Walt",
@@ -13509,7 +13510,7 @@ var dataset = [
       }
     ]
   },
-  {
+  "Galearis spectabilis (L) Raf": {
     "volume": "13",
     "page": "46",
     "sciName": "Galearis spectabilis (L) Raf",
@@ -13521,7 +13522,7 @@ var dataset = [
       }
     ]
   },
-  {
+  "Desmodium canadense (L) DC": {
     "volume": "3",
     "page": "58, 69V",
     "sciName": "Desmodium canadense (L) DC",
@@ -13553,7 +13554,7 @@ var dataset = [
       }
     ]
   },
-  {
+  "Desmodium canadense DC": {
     "volume": "3",
     "page": "70, 57V",
     "sciName": "Desmodium canadense DC",
@@ -13569,7 +13570,7 @@ var dataset = [
       }
     ]
   },
-  {
+  "Dasiphora floribunda Raf": {
     "volume": "4",
     "page": "59",
     "sciName": "Dasiphora floribunda Raf",
@@ -13589,7 +13590,7 @@ var dataset = [
       }
     ]
   },
-  {
+  "Amphicarpaea bracteata (L) Fern": {
     "volume": "3",
     "page": "68",
     "sciName": "Amphicarpaea bracteata (L) Fern",
@@ -13613,7 +13614,7 @@ var dataset = [
       }
     ]
   },
-  {
+  "Salix sericea Marsh": {
     "volume": "12",
     "page": "44",
     "sciName": "Salix sericea Marsh",
@@ -13625,7 +13626,7 @@ var dataset = [
       }
     ]
   },
-  {
+  "Acer saccharinum L": {
     "volume": "3",
     "page": "21",
     "sciName": "Acer saccharinum L",
@@ -13649,7 +13650,7 @@ var dataset = [
       }
     ]
   },
-  {
+  "Potentilla argentea L": {
     "volume": "4",
     "page": "56",
     "sciName": "Potentilla argentea L",
@@ -13669,7 +13670,7 @@ var dataset = [
       }
     ]
   },
-  {
+  "Sparganium emersum Rehmann": {
     "volume": "13",
     "page": "7",
     "sciName": "Sparganium emersum Rehmann",
@@ -13689,7 +13690,7 @@ var dataset = [
       }
     ]
   },
-  {
+  "Acorus calamus L": {
     "volume": "12",
     "page": "95",
     "sciName": "Acorus calamus L",
@@ -13713,7 +13714,7 @@ var dataset = [
       }
     ]
   },
-  {
+  "Symplocarpus foetidus (L) Salisb ex Nutt": {
     "volume": "12",
     "page": "93",
     "sciName": "Symplocarpus foetidus (L) Salisb ex Nutt",
@@ -13737,7 +13738,7 @@ var dataset = [
       }
     ]
   },
-  {
+  "Ribes glandulosum Grauer": {
     "volume": "4",
     "page": "112",
     "sciName": "Ribes glandulosum Grauer",
@@ -13757,7 +13758,7 @@ var dataset = [
       }
     ]
   },
-  {
+  "Silene antirrhina L": {
     "volume": "2",
     "page": "44",
     "sciName": "Silene antirrhina L",
@@ -13773,7 +13774,7 @@ var dataset = [
       }
     ]
   },
-  {
+  "Polygonum tenue Michx": {
     "volume": "11",
     "page": "14",
     "sciName": "Polygonum tenue Michx",
@@ -13785,7 +13786,7 @@ var dataset = [
       }
     ]
   },
-  {
+  "Spiranthes lacera Raf": {
     "volume": "13",
     "page": "65",
     "sciName": "Spiranthes lacera Raf",
@@ -13801,7 +13802,7 @@ var dataset = [
       }
     ]
   },
-  {
+  "Myriophyllum tenellum Bigelow": {
     "volume": "5",
     "page": "8",
     "sciName": "Myriophyllum tenellum Bigelow",
@@ -13825,7 +13826,7 @@ var dataset = [
       }
     ]
   },
-  {
+  "Agalinis tenuifolia (Vahl) Raf": {
     "volume": "9",
     "page": "48",
     "sciName": "Agalinis tenuifolia (Vahl) Raf",
@@ -13837,7 +13838,7 @@ var dataset = [
       }
     ]
   },
-  {
+  "Morella caroliniensis (P Mill) Small": {
     "volume": "12",
     "page": "27",
     "sciName": "Morella caroliniensis (P Mill) Small",
@@ -13857,7 +13858,7 @@ var dataset = [
       }
     ]
   },
-  {
+  "Anchusa arvensis (L) Bieb": {
     "volume": "10",
     "page": "4",
     "sciName": "Anchusa arvensis (L) Bieb",
@@ -13869,7 +13870,7 @@ var dataset = [
       }
     ]
   },
-  {
+  "Vaccinium oxycoccos L": {
     "volume": "8",
     "page": "16",
     "sciName": "Vaccinium oxycoccos L",
@@ -13897,7 +13898,7 @@ var dataset = [
       }
     ]
   },
-  {
+  "Circaea alpina L": {
     "volume": "5",
     "page": "14",
     "sciName": "Circaea alpina L",
@@ -13921,7 +13922,7 @@ var dataset = [
       }
     ]
   },
-  {
+  "Potamogeton pusillus L": {
     "volume": "13",
     "page": "26",
     "sciName": "Potamogeton pusillus L",
@@ -13941,7 +13942,7 @@ var dataset = [
       }
     ]
   },
-  {
+  "Antennaria howellii Greene": {
     "volume": "7",
     "page": "105, 107",
     "sciName": "Antennaria howellii Greene",
@@ -13957,21 +13958,21 @@ var dataset = [
       }
     ]
   },
-  {
+  "Xyris smalliana Nash": {
     "volume": "14",
     "page": "70",
     "sciName": "Xyris smalliana Nash",
     "comName": "Small's Yellow-eyed-grass",
     "entries": []
   },
-  {
+  "Agalinis paupercula (Gray) Britt": {
     "volume": "9",
     "page": "45",
     "sciName": "Agalinis paupercula (Gray) Britt",
     "comName": "Small-flowered Agalinis",
     "entries": []
   },
-  {
+  "Cardamine parviflora L": {
     "volume": "1",
     "page": "65, 66",
     "sciName": "Cardamine parviflora L",
@@ -13995,14 +13996,14 @@ var dataset = [
       }
     ]
   },
-  {
+  "Luzula parviflora (Ehrh) Desv": {
     "volume": "14",
     "page": "42",
     "sciName": "Luzula parviflora (Ehrh) Desv",
     "comName": "Small-flowered Wood Rush",
     "entries": []
   },
-  {
+  "Nuphar microphylla (Pers) Fern": {
     "volume": "1",
     "page": "50",
     "sciName": "Nuphar microphylla (Pers) Fern",
@@ -14018,7 +14019,7 @@ var dataset = [
       }
     ]
   },
-  {
+  "Boehmeria cylindrica (L) Sw": {
     "volume": "11",
     "page": "61, 62",
     "sciName": "Boehmeria cylindrica (L) Sw",
@@ -14042,7 +14043,7 @@ var dataset = [
       }
     ]
   },
-  {
+  "Alnus serrulata (Ait) Willd": {
     "volume": "12",
     "page": "38",
     "sciName": "Alnus serrulata (Ait) Willd",
@@ -14062,7 +14063,7 @@ var dataset = [
       }
     ]
   },
-  {
+  "Viburnum dentatum L": {
     "volume": "5",
     "page": "101",
     "sciName": "Viburnum dentatum L",
@@ -14074,7 +14075,7 @@ var dataset = [
       }
     ]
   },
-  {
+  "Rubus canadensis L": {
     "volume": "4",
     "page": "37",
     "sciName": "Rubus canadensis L",
@@ -14086,7 +14087,7 @@ var dataset = [
       }
     ]
   },
-  {
+  "Solidago gigantea Ait": {
     "volume": "6",
     "page": "86, 87",
     "sciName": "Solidago gigantea Ait",
@@ -14122,7 +14123,7 @@ var dataset = [
       }
     ]
   },
-  {
+  "Boechera laevigata (Muhl ex Willd) Al-Shehbaz": {
     "volume": "1",
     "page": "69",
     "sciName": "Boechera laevigata (Muhl ex Willd) Al-Shehbaz",
@@ -14134,7 +14135,7 @@ var dataset = [
       }
     ]
   },
-  {
+  "Rosa blanda Ait": {
     "volume": "4",
     "page": "67",
     "sciName": "Rosa blanda Ait",
@@ -14154,7 +14155,7 @@ var dataset = [
       }
     ]
   },
-  {
+  "Rhus glabra L": {
     "volume": "3",
     "page": "26",
     "sciName": "Rhus glabra L",
@@ -14178,7 +14179,7 @@ var dataset = [
       }
     ]
   },
-  {
+  "Viola pallens (Banks ex DC) Brainerd": {
     "volume": "2",
     "page": "19, 20",
     "sciName": "Viola pallens (Banks ex DC) Brainerd",
@@ -14202,14 +14203,14 @@ var dataset = [
       }
     ]
   },
-  {
+  "Salix herbacea L": {
     "volume": "12",
     "page": "61",
     "sciName": "Salix herbacea L",
     "comName": "Snow-bed Willow",
     "entries": []
   },
-  {
+  "Silene nivea (Nutt) Muhl ex Otth": {
     "volume": "2",
     "page": "41",
     "sciName": "Silene nivea (Nutt) Muhl ex Otth",
@@ -14221,7 +14222,7 @@ var dataset = [
       }
     ]
   },
-  {
+  "Alisma subcordatum Raf": {
     "volume": "13",
     "page": "33",
     "sciName": "Alisma subcordatum Raf",
@@ -14249,7 +14250,7 @@ var dataset = [
       }
     ]
   },
-  {
+  "Castanea sativa P Mill": {
     "volume": "12",
     "page": "18",
     "sciName": "Castanea sativa P Mill",
@@ -14277,7 +14278,7 @@ var dataset = [
       }
     ]
   },
-  {
+  "Atriplex patula L": {
     "volume": "10",
     "page": "65, 66, 67, 69",
     "sciName": "Atriplex patula L",
@@ -14313,7 +14314,7 @@ var dataset = [
       }
     ]
   },
-  {
+  "Alnus incana (L) Moench": {
     "volume": "12",
     "page": "37",
     "sciName": "Alnus incana (L) Moench",
@@ -14333,7 +14334,7 @@ var dataset = [
       }
     ]
   },
-  {
+  "Carduus acanthoides L": {
     "volume": "7",
     "page": "79",
     "sciName": "Carduus acanthoides L",
@@ -14345,7 +14346,7 @@ var dataset = [
       }
     ]
   },
-  {
+  "Sonchus asper (L) Hill": {
     "volume": "7",
     "page": "73",
     "sciName": "Sonchus asper (L) Hill",
@@ -14365,7 +14366,7 @@ var dataset = [
       }
     ]
   },
-  {
+  "Sagittaria montevidensis Cham & Schlecht": {
     "volume": "13",
     "page": "41, 42",
     "sciName": "Sagittaria montevidensis Cham & Schlecht",
@@ -14385,7 +14386,7 @@ var dataset = [
       }
     ]
   },
-  {
+  "Sagittaria montevidensis Cham & Schlect": {
     "volume": "13",
     "page": "42a, 42b",
     "sciName": "Sagittaria montevidensis Cham & Schlect",
@@ -14397,7 +14398,7 @@ var dataset = [
       }
     ]
   },
-  {
+  "Ranunculus repens L": {
     "volume": "1",
     "page": "31, 105",
     "sciName": "Ranunculus repens L",
@@ -14425,7 +14426,7 @@ var dataset = [
       }
     ]
   },
-  {
+  "Hypericum punctatum Lam": {
     "volume": "2",
     "page": "79",
     "sciName": "Hypericum punctatum Lam",
@@ -14441,7 +14442,7 @@ var dataset = [
       }
     ]
   },
-  {
+  "Euphorbia maculata L": {
     "volume": "11",
     "page": "44",
     "sciName": "Euphorbia maculata L",
@@ -14457,7 +14458,7 @@ var dataset = [
       }
     ]
   },
-  {
+  "Impatiens capensis Meerb": {
     "volume": "3",
     "page": "9, 10, 8v",
     "sciName": "Impatiens capensis Meerb",
@@ -14493,7 +14494,7 @@ var dataset = [
       }
     ]
   },
-  {
+  "Cicuta maculata L": {
     "volume": "5",
     "page": "52",
     "sciName": "Cicuta maculata L",
@@ -14513,7 +14514,7 @@ var dataset = [
       }
     ]
   },
-  {
+  "Corallorhiza maculata Raf": {
     "volume": "13",
     "page": "81",
     "sciName": "Corallorhiza maculata Raf",
@@ -14533,7 +14534,7 @@ var dataset = [
       }
     ]
   },
-  {
+  "Geranium maculatum L": {
     "volume": "3",
     "page": "1",
     "sciName": "Geranium maculatum L",
@@ -14557,7 +14558,7 @@ var dataset = [
       }
     ]
   },
-  {
+  "Apocynum androsaemifolium L": {
     "volume": "10",
     "page": "38",
     "sciName": "Apocynum androsaemifolium L",
@@ -14577,7 +14578,7 @@ var dataset = [
       }
     ]
   },
-  {
+  "Apocynum x floribundum Greene": {
     "volume": "10",
     "page": "37",
     "sciName": "Apocynum x floribundum Greene",
@@ -14589,7 +14590,7 @@ var dataset = [
       }
     ]
   },
-  {
+  "Solidago squarrosa Muhl": {
     "volume": "6",
     "page": "63",
     "sciName": "Solidago squarrosa Muhl",
@@ -14613,14 +14614,14 @@ var dataset = [
       }
     ]
   },
-  {
+  "Viburnum edule (Michx) Raf": {
     "volume": "5",
     "page": "105",
     "sciName": "Viburnum edule (Michx) Raf",
     "comName": "Squashberry",
     "entries": []
   },
-  {
+  "Rhus hirta (L) Sudworth": {
     "volume": "3",
     "page": "25",
     "sciName": "Rhus hirta (L) Sudworth",
@@ -14644,14 +14645,14 @@ var dataset = [
       }
     ]
   },
-  {
+  "Maianthemum stellatum (L) Link": {
     "volume": "14",
     "page": "30",
     "sciName": "Maianthemum stellatum (L) Link",
     "comName": "Star-like False Solomon's Seal",
     "entries": []
   },
-  {
+  "Lysimachia borealis (Raf) U Manns & A Anderb": {
     "volume": "9",
     "page": "4",
     "sciName": "Lysimachia borealis (Raf) U Manns & A Anderb",
@@ -14671,7 +14672,7 @@ var dataset = [
       }
     ]
   },
-  {
+  "Silene stellata (L) Ait f": {
     "volume": "2",
     "page": "43",
     "sciName": "Silene stellata (L) Ait f",
@@ -14683,7 +14684,7 @@ var dataset = [
       }
     ]
   },
-  {
+  "Silene stellata Ait": {
     "volume": "2",
     "page": "42",
     "sciName": "Silene stellata Ait",
@@ -14699,14 +14700,14 @@ var dataset = [
       }
     ]
   },
-  {
+  "Triantha glutinosa (Michx) Baker": {
     "volume": "14",
     "page": "17",
     "sciName": "Triantha glutinosa (Michx) Baker",
     "comName": "Sticky False Asphodel",
     "entries": []
   },
-  {
+  "Urtica dioica L": {
     "volume": "11",
     "page": "57, 58",
     "sciName": "Urtica dioica L",
@@ -14730,7 +14731,7 @@ var dataset = [
       }
     ]
   },
-  {
+  "Anthemis cotula L": {
     "volume": "7",
     "page": "15",
     "sciName": "Anthemis cotula L",
@@ -14750,7 +14751,7 @@ var dataset = [
       }
     ]
   },
-  {
+  "Anthemis cotula L / Anthemis arvensis L": {
     "volume": "7",
     "page": "16",
     "sciName": "Anthemis cotula L / Anthemis arvensis L",
@@ -14762,7 +14763,7 @@ var dataset = [
       }
     ]
   },
-  {
+  "Chenopodium capitatum (L) Aschers": {
     "volume": "10",
     "page": "63",
     "sciName": "Chenopodium capitatum (L) Aschers",
@@ -14782,7 +14783,7 @@ var dataset = [
       }
     ]
   },
-  {
+  "Acer pensylvanicum L": {
     "volume": "3",
     "page": "19",
     "sciName": "Acer pensylvanicum L",
@@ -14802,7 +14803,7 @@ var dataset = [
       }
     ]
   },
-  {
+  "Potentilla recta L": {
     "volume": "4",
     "page": "58",
     "sciName": "Potentilla recta L",
@@ -14818,7 +14819,7 @@ var dataset = [
       }
     ]
   },
-  {
+  "Euphorbia helioscopia L": {
     "volume": "11",
     "page": "47",
     "sciName": "Euphorbia helioscopia L",
@@ -14834,7 +14835,7 @@ var dataset = [
       }
     ]
   },
-  {
+  "Helopsis helianthoides (L) Sweet": {
     "volume": "7",
     "page": "5",
     "sciName": "Helopsis helianthoides (L) Sweet",
@@ -14846,7 +14847,7 @@ var dataset = [
       }
     ]
   },
-  {
+  "Ranunculus caricetorum Greene": {
     "volume": "1",
     "page": "27",
     "sciName": "Ranunculus caricetorum Greene",
@@ -14866,7 +14867,7 @@ var dataset = [
       }
     ]
   },
-  {
+  "Lonicera oblongifolia (Goldie) Hook": {
     "volume": "5",
     "page": "90",
     "sciName": "Lonicera oblongifolia (Goldie) Hook",
@@ -14886,7 +14887,7 @@ var dataset = [
       }
     ]
   },
-  {
+  "Decodon verticillatus (L) Ell": {
     "volume": "5",
     "page": "35A",
     "sciName": "Decodon verticillatus (L) Ell",
@@ -14902,7 +14903,7 @@ var dataset = [
       }
     ]
   },
-  {
+  "Asclepias incarnata L": {
     "volume": "10",
     "page": "45, 46, 47",
     "sciName": "Asclepias incarnata L",
@@ -14934,7 +14935,7 @@ var dataset = [
       }
     ]
   },
-  {
+  "Michranths pensylvanica (L) Haw": {
     "volume": "4",
     "page": "102",
     "sciName": "Michranths pensylvanica (L) Haw",
@@ -14950,7 +14951,7 @@ var dataset = [
       }
     ]
   },
-  {
+  "Cirsium muticum Michx": {
     "volume": "7",
     "page": "42",
     "sciName": "Cirsium muticum Michx",
@@ -14978,7 +14979,7 @@ var dataset = [
       }
     ]
   },
-  {
+  "Quercus bicolor Willd": {
     "volume": "12",
     "page": "8",
     "sciName": "Quercus bicolor Willd",
@@ -14994,7 +14995,7 @@ var dataset = [
       }
     ]
   },
-  {
+  "Lysimachia terrestris (L) B S P": {
     "volume": "9",
     "page": "6",
     "sciName": "Lysimachia terrestris (L) B S P",
@@ -15018,7 +15019,7 @@ var dataset = [
       }
     ]
   },
-  {
+  "Prunus avium (L) L": {
     "volume": "4",
     "page": "6",
     "sciName": "Prunus avium (L) L",
@@ -15030,7 +15031,7 @@ var dataset = [
       }
     ]
   },
-  {
+  "Viola blanda Willd": {
     "volume": "2",
     "page": "13, 21",
     "sciName": "Viola blanda Willd",
@@ -15046,7 +15047,7 @@ var dataset = [
       }
     ]
   },
-  {
+  "Rosa rubiginosa L": {
     "volume": "4",
     "page": "75, 76, 77",
     "sciName": "Rosa rubiginosa L",
@@ -15078,7 +15079,7 @@ var dataset = [
       }
     ]
   },
-  {
+  "Comptonia peregrina (L) Coult": {
     "volume": "12",
     "page": "28",
     "sciName": "Comptonia peregrina (L) Coult",
@@ -15098,7 +15099,7 @@ var dataset = [
       }
     ]
   },
-  {
+  "Atocion armeria (L) Raf": {
     "volume": "2",
     "page": "37",
     "sciName": "Atocion armeria (L) Raf",
@@ -15110,7 +15111,7 @@ var dataset = [
       }
     ]
   },
-  {
+  "Myrica gale L": {
     "volume": "12",
     "page": "26",
     "sciName": "Myrica gale L",
@@ -15126,7 +15127,7 @@ var dataset = [
       }
     ]
   },
-  {
+  "Utricularia inflata Walt": {
     "volume": "9",
     "page": "15",
     "sciName": "Utricularia inflata Walt",
@@ -15146,7 +15147,7 @@ var dataset = [
       }
     ]
   },
-  {
+  "Bidens vulgata Greene / Bidens frondosa L": {
     "volume": "7",
     "page": "11",
     "sciName": "Bidens vulgata Greene / Bidens frondosa L",
@@ -15166,7 +15167,7 @@ var dataset = [
       }
     ]
   },
-  {
+  "Lactuca biennis (Moench) Fern": {
     "volume": "7",
     "page": "68, 70",
     "sciName": "Lactuca biennis (Moench) Fern",
@@ -15214,7 +15215,7 @@ var dataset = [
       }
     ]
   },
-  {
+  "Lactuca biennis (Moench) Fernald": {
     "volume": "7",
     "page": "88",
     "sciName": "Lactuca biennis (Moench) Fernald",
@@ -15226,14 +15227,14 @@ var dataset = [
       }
     ]
   },
-  {
+  "Ranunculus acris L": {
     "volume": "1",
     "page": "32",
     "sciName": "Ranunculus acris L",
     "comName": "Tall Crowfoot",
     "entries": []
   },
-  {
+  "Lactuca hirsuta Muhl ex Nutt": {
     "volume": "7",
     "page": "69",
     "sciName": "Lactuca hirsuta Muhl ex Nutt",
@@ -15245,7 +15246,7 @@ var dataset = [
       }
     ]
   },
-  {
+  "Hieracium praealtum Vill ex Gochnat": {
     "volume": "7",
     "page": "86",
     "sciName": "Hieracium praealtum Vill ex Gochnat",
@@ -15257,7 +15258,7 @@ var dataset = [
       }
     ]
   },
-  {
+  "Lactuca canadensis L": {
     "volume": "7",
     "page": "67",
     "sciName": "Lactuca canadensis L",
@@ -15285,7 +15286,7 @@ var dataset = [
       }
     ]
   },
-  {
+  "Thalictrum pubescens Pursh": {
     "volume": "1",
     "page": "13, 15, 16",
     "sciName": "Thalictrum pubescens Pursh",
@@ -15325,7 +15326,7 @@ var dataset = [
       }
     ]
   },
-  {
+  "Nabalus altissimus (L) Hook": {
     "volume": "7",
     "page": "60",
     "sciName": "Nabalus altissimus (L) Hook",
@@ -15349,7 +15350,7 @@ var dataset = [
       }
     ]
   },
-  {
+  "Helianthus giganteus L": {
     "volume": "7",
     "page": "10",
     "sciName": "Helianthus giganteus L",
@@ -15365,7 +15366,7 @@ var dataset = [
       }
     ]
   },
-  {
+  "Doellingeria umbellata (P Mill) Nees": {
     "volume": "6",
     "page": "62, 104",
     "sciName": "Doellingeria umbellata (P Mill) Nees",
@@ -15385,7 +15386,7 @@ var dataset = [
       }
     ]
   },
-  {
+  "Anemone virginiana L": {
     "volume": "1",
     "page": "6, 8",
     "sciName": "Anemone virginiana L",
@@ -15417,7 +15418,7 @@ var dataset = [
       }
     ]
   },
-  {
+  "Drymocallis arguta (Pursh) Rydb": {
     "volume": "4",
     "page": "52",
     "sciName": "Drymocallis arguta (Pursh) Rydb",
@@ -15429,7 +15430,7 @@ var dataset = [
       }
     ]
   },
-  {
+  "Drymocallis arguta Rydb": {
     "volume": "4",
     "page": "53",
     "sciName": "Drymocallis arguta Rydb",
@@ -15441,7 +15442,7 @@ var dataset = [
       }
     ]
   },
-  {
+  "Vallisneria americana Michx": {
     "volume": "13",
     "page": "45",
     "sciName": "Vallisneria americana Michx",
@@ -15457,7 +15458,7 @@ var dataset = [
       }
     ]
   },
-  {
+  "Helianthus decapetalus L": {
     "volume": "7",
     "page": "9",
     "sciName": "Helianthus decapetalus L",
@@ -15485,14 +15486,14 @@ var dataset = [
       }
     ]
   },
-  {
+  "Datura stramonium L": {
     "volume": "10",
     "page": "25",
     "sciName": "Datura stramonium L",
     "comName": "Thorn-apple",
     "entries": []
   },
-  {
+  "Juncus filiformis L": {
     "volume": "14",
     "page": "46",
     "sciName": "Juncus filiformis L",
@@ -15504,14 +15505,14 @@ var dataset = [
       }
     ]
   },
-  {
+  "Maianthemum trifolium (L) Sloboda": {
     "volume": "14",
     "page": "31",
     "sciName": "Maianthemum trifolium (L) Sloboda",
     "comName": "Three-leaved False Solomon's Seal",
     "entries": []
   },
-  {
+  "Coptis trifolia (L) Salisb": {
     "volume": "1",
     "page": "34",
     "sciName": "Coptis trifolia (L) Salisb",
@@ -15535,7 +15536,7 @@ var dataset = [
       }
     ]
   },
-  {
+  "Nabalus trifoliolatus Cass": {
     "volume": "7",
     "page": "58, 59, 61",
     "sciName": "Nabalus trifoliolatus Cass",
@@ -15571,7 +15572,7 @@ var dataset = [
       }
     ]
   },
-  {
+  "Galium trifidum L": {
     "volume": "6",
     "page": "3, 6",
     "sciName": "Galium trifidum L",
@@ -15611,7 +15612,7 @@ var dataset = [
       }
     ]
   },
-  {
+  "Arenaria serpyllifolia L": {
     "volume": "2",
     "page": "49, 53VA",
     "sciName": "Arenaria serpyllifolia L",
@@ -15627,7 +15628,7 @@ var dataset = [
       }
     ]
   },
-  {
+  "Veronica serpyllifolia L": {
     "volume": "9",
     "page": "41",
     "sciName": "Veronica serpyllifolia L",
@@ -15651,14 +15652,14 @@ var dataset = [
       }
     ]
   },
-  {
+  "Juncus bufonius L": {
     "volume": "14",
     "page": "51",
     "sciName": "Juncus bufonius L",
     "comName": "Toad Rush",
     "entries": []
   },
-  {
+  "Medicago polymorpha L": {
     "volume": "3",
     "page": "47",
     "sciName": "Medicago polymorpha L",
@@ -15674,7 +15675,7 @@ var dataset = [
       }
     ]
   },
-  {
+  "Turritis glabra L": {
     "volume": "1",
     "page": "70, 71",
     "sciName": "Turritis glabra L",
@@ -15694,7 +15695,7 @@ var dataset = [
       }
     ]
   },
-  {
+  "Symphyotrichum tradescantii (L) Nesom": {
     "volume": "6",
     "page": "37, 38",
     "sciName": "Symphyotrichum tradescantii (L) Nesom",
@@ -15718,7 +15719,7 @@ var dataset = [
       }
     ]
   },
-  {
+  "Lespedeza procumbens Michx": {
     "volume": "3",
     "page": "59",
     "sciName": "Lespedeza procumbens Michx",
@@ -15730,7 +15731,7 @@ var dataset = [
       }
     ]
   },
-  {
+  "Epigaea repens L": {
     "volume": "8",
     "page": "43, 44",
     "sciName": "Epigaea repens L",
@@ -15766,14 +15767,14 @@ var dataset = [
       }
     ]
   },
-  {
+  "Lonicera sempervirens L": {
     "volume": "5",
     "page": "83",
     "sciName": "Lonicera sempervirens L",
     "comName": "Trumpet Honeysuckle",
     "entries": []
   },
-  {
+  "Penstemon tubiflorus Nutt": {
     "volume": "9",
     "page": "30",
     "sciName": "Penstemon tubiflorus Nutt",
@@ -15785,7 +15786,7 @@ var dataset = [
       }
     ]
   },
-  {
+  "Calopogon tuberosus B S P": {
     "volume": "13",
     "page": "72",
     "sciName": "Calopogon tuberosus B S P",
@@ -15813,7 +15814,7 @@ var dataset = [
       }
     ]
   },
-  {
+  "Lysimachia thyrsiflora L": {
     "volume": "9",
     "page": "5",
     "sciName": "Lysimachia thyrsiflora L",
@@ -15833,7 +15834,7 @@ var dataset = [
       }
     ]
   },
-  {
+  "Amaranthus albus L": {
     "volume": "10",
     "page": "83",
     "sciName": "Amaranthus albus L",
@@ -15853,7 +15854,7 @@ var dataset = [
       }
     ]
   },
-  {
+  "Sisymbrium altissimum L": {
     "volume": "1",
     "page": "84",
     "sciName": "Sisymbrium altissimum L",
@@ -15869,7 +15870,7 @@ var dataset = [
       }
     ]
   },
-  {
+  "Mitella diphylla L": {
     "volume": "4",
     "page": "105",
     "sciName": "Mitella diphylla L",
@@ -15885,7 +15886,7 @@ var dataset = [
       }
     ]
   },
-  {
+  "Cardamine diphylla (Michx) Wood": {
     "volume": "1",
     "page": "60, 61",
     "sciName": "Cardamine diphylla (Michx) Wood",
@@ -15917,7 +15918,7 @@ var dataset = [
       }
     ]
   },
-  {
+  "Nasturium officinale Ait f": {
     "volume": "1",
     "page": "67",
     "sciName": "Nasturium officinale Ait f",
@@ -15933,7 +15934,7 @@ var dataset = [
       }
     ]
   },
-  {
+  "Nasturtium officinale Ait f": {
     "volume": "1",
     "page": "110, 111",
     "sciName": "Nasturtium officinale Ait f",
@@ -15949,14 +15950,14 @@ var dataset = [
       }
     ]
   },
-  {
+  "Calystegia spithamaea (L) Pursh": {
     "volume": "10",
     "page": "15",
     "sciName": "Calystegia spithamaea (L) Pursh",
     "comName": "Upright False Bindweed",
     "entries": []
   },
-  {
+  "Polygonum erectum L": {
     "volume": "11",
     "page": "15",
     "sciName": "Polygonum erectum L",
@@ -15968,7 +15969,7 @@ var dataset = [
       }
     ]
   },
-  {
+  "Barbarea stricta Andrz": {
     "volume": "1",
     "page": "79",
     "sciName": "Barbarea stricta Andrz",
@@ -15984,14 +15985,14 @@ var dataset = [
       }
     ]
   },
-  {
+  "Juncus vaseyi Engelm": {
     "volume": "14",
     "page": "55",
     "sciName": "Juncus vaseyi Engelm",
     "comName": "Vasey's Rush",
     "entries": []
   },
-  {
+  "Vaccinium myrtilloides Michx.": {
     "volume": "8",
     "page": "31, 32",
     "sciName": "Vaccinium myrtilloides Michx.",
@@ -16019,7 +16020,7 @@ var dataset = [
       }
     ]
   },
-  {
+  "Callitriche palustris L": {
     "volume": "5",
     "page": "121",
     "sciName": "Callitriche palustris L",
@@ -16047,7 +16048,7 @@ var dataset = [
       }
     ]
   },
-  {
+  "Lespedeza frutescens (L) Hornem": {
     "volume": "3",
     "page": "60",
     "sciName": "Lespedeza frutescens (L) Hornem",
@@ -16059,7 +16060,7 @@ var dataset = [
       }
     ]
   },
-  {
+  "Parthenocissus quinquefoli (L) Planch": {
     "volume": "3",
     "page": "18",
     "sciName": "Parthenocissus quinquefoli (L) Planch",
@@ -16083,7 +16084,7 @@ var dataset = [
       }
     ]
   },
-  {
+  "Krigia virginica (L) Willd": {
     "volume": "7",
     "page": "50",
     "sciName": "Krigia virginica (L) Willd",
@@ -16103,7 +16104,7 @@ var dataset = [
       }
     ]
   },
-  {
+  "Triadenum virginicum Raf": {
     "volume": "2",
     "page": "86, 87",
     "sciName": "Triadenum virginicum Raf",
@@ -16123,7 +16124,7 @@ var dataset = [
       }
     ]
   },
-  {
+  "Rhexia virginica L": {
     "volume": "5",
     "page": "32",
     "sciName": "Rhexia virginica L",
@@ -16143,7 +16144,7 @@ var dataset = [
       }
     ]
   },
-  {
+  "Pycnanthenum virginianum (L) T Dur & B D Jackson ex B L Robins & Fern": {
     "volume": "9",
     "page": "75, 77",
     "sciName": "Pycnanthenum virginianum (L) T Dur & B D Jackson ex B L Robins & Fern",
@@ -16167,7 +16168,7 @@ var dataset = [
       }
     ]
   },
-  {
+  "Rosa virginiana P Mill": {
     "volume": "4",
     "page": "70, 71",
     "sciName": "Rosa virginiana P Mill",
@@ -16183,7 +16184,7 @@ var dataset = [
       }
     ]
   },
-  {
+  "Bartonia virginica (L) B S P": {
     "volume": "10",
     "page": "34",
     "sciName": "Bartonia virginica (L) B S P",
@@ -16195,7 +16196,7 @@ var dataset = [
       }
     ]
   },
-  {
+  "Acalypha virginica L ": {
     "volume": "11",
     "page": "49",
     "sciName": "Acalypha virginica L ",
@@ -16219,7 +16220,7 @@ var dataset = [
       }
     ]
   },
-  {
+  "Clematis virginiana L": {
     "volume": "1",
     "page": "3",
     "sciName": "Clematis virginiana L",
@@ -16231,7 +16232,7 @@ var dataset = [
       }
     ]
   },
-  {
+  "Lycopus virginicus L": {
     "volume": "9",
     "page": "72",
     "sciName": "Lycopus virginicus L",
@@ -16259,7 +16260,7 @@ var dataset = [
       }
     ]
   },
-  {
+  "Geum rivale L": {
     "volume": "4",
     "page": "46",
     "sciName": "Geum rivale L",
@@ -16283,7 +16284,7 @@ var dataset = [
       }
     ]
   },
-  {
+  "Lobelia dortmanna L": {
     "volume": "8",
     "page": "7, 8",
     "sciName": "Lobelia dortmanna L",
@@ -16331,7 +16332,7 @@ var dataset = [
       }
     ]
   },
-  {
+  "Mentha x piperita L": {
     "volume": "9",
     "page": "65, 66",
     "sciName": "Mentha x piperita L",
@@ -16359,7 +16360,7 @@ var dataset = [
       }
     ]
   },
-  {
+  "Persicaria amphibia (L) S F Gray": {
     "volume": "11",
     "page": "22, 23, 26",
     "sciName": "Persicaria amphibia (L) S F Gray",
@@ -16395,7 +16396,7 @@ var dataset = [
       }
     ]
   },
-  {
+  "Sium suave Walt": {
     "volume": "5",
     "page": "54",
     "sciName": "Sium suave Walt",
@@ -16411,7 +16412,7 @@ var dataset = [
       }
     ]
   },
-  {
+  "Rannuculus ambigens S Wats": {
     "volume": "1",
     "page": "20",
     "sciName": "Rannuculus ambigens S Wats",
@@ -16423,7 +16424,7 @@ var dataset = [
       }
     ]
   },
-  {
+  "Brasenia schreberi J F Gmel": {
     "volume": "1",
     "page": "43",
     "sciName": "Brasenia schreberi J F Gmel",
@@ -16447,7 +16448,7 @@ var dataset = [
       }
     ]
   },
-  {
+  "Symphyotrichum undulatum (L) Nesom": {
     "volume": "6",
     "page": "31",
     "sciName": "Symphyotrichum undulatum (L) Nesom",
@@ -16475,7 +16476,7 @@ var dataset = [
       }
     ]
   },
-  {
+  "Rumex occidentalis S Wats": {
     "volume": "11",
     "page": "8, 9",
     "sciName": "Rumex occidentalis S Wats",
@@ -16491,7 +16492,7 @@ var dataset = [
       }
     ]
   },
-  {
+  "Malaxis monophyllos Sw": {
     "volume": "13",
     "page": "75",
     "sciName": "Malaxis monophyllos Sw",
@@ -16507,7 +16508,7 @@ var dataset = [
       }
     ]
   },
-  {
+  "Fraxinus americana L": {
     "volume": "10",
     "page": "49",
     "sciName": "Fraxinus americana L",
@@ -16519,7 +16520,7 @@ var dataset = [
       }
     ]
   },
-  {
+  "Geum canadense Jacq": {
     "volume": "4",
     "page": "40",
     "sciName": "Geum canadense Jacq",
@@ -16543,14 +16544,14 @@ var dataset = [
       }
     ]
   },
-  {
+  "Actaea pachypoda Ell": {
     "volume": "1",
     "page": "39",
     "sciName": "Actaea pachypoda Ell",
     "comName": "White Baneberry",
     "entries": []
   },
-  {
+  "Silene latifolia Poir": {
     "volume": "2",
     "page": "47",
     "sciName": "Silene latifolia Poir",
@@ -16570,7 +16571,7 @@ var dataset = [
       }
     ]
   },
-  {
+  "Trifolium repens L": {
     "volume": "3",
     "page": "40",
     "sciName": "Trifolium repens L",
@@ -16582,7 +16583,7 @@ var dataset = [
       }
     ]
   },
-  {
+  "Platanthera blephariglottis (Willd) Lindl": {
     "volume": "13",
     "page": "55, 56",
     "sciName": "Platanthera blephariglottis (Willd) Lindl",
@@ -16606,7 +16607,7 @@ var dataset = [
       }
     ]
   },
-  {
+  "Solidago bicolor L": {
     "volume": "6",
     "page": "64, 65, 110",
     "sciName": "Solidago bicolor L",
@@ -16650,7 +16651,7 @@ var dataset = [
       }
     ]
   },
-  {
+  "Chenopodium album L": {
     "volume": "10",
     "page": "59",
     "sciName": "Chenopodium album L",
@@ -16662,7 +16663,7 @@ var dataset = [
       }
     ]
   },
-  {
+  "Spiraea alba Du Roi": {
     "volume": "4",
     "page": "22",
     "sciName": "Spiraea alba Du Roi",
@@ -16682,7 +16683,7 @@ var dataset = [
       }
     ]
   },
-  {
+  "Geum peckii Pursh": {
     "volume": "4",
     "page": "47",
     "sciName": "Geum peckii Pursh",
@@ -16694,7 +16695,7 @@ var dataset = [
       }
     ]
   },
-  {
+  "Platanthera dilatata (Pursh) Lindl ex Beck": {
     "volume": "13",
     "page": "51",
     "sciName": "Platanthera dilatata (Pursh) Lindl ex Beck",
@@ -16714,7 +16715,7 @@ var dataset = [
       }
     ]
   },
-  {
+  "Ageratina altissima (L) King & H E Robins": {
     "volume": "6",
     "page": "21",
     "sciName": "Ageratina altissima (L) King & H E Robins",
@@ -16742,7 +16743,7 @@ var dataset = [
       }
     ]
   },
-  {
+  "Picea glauca (Moench) Voss": {
     "volume": "12",
     "page": "75",
     "sciName": "Picea glauca (Moench) Voss",
@@ -16758,7 +16759,7 @@ var dataset = [
       }
     ]
   },
-  {
+  "Melilotus alba Medik": {
     "volume": "3",
     "page": "44",
     "sciName": "Melilotus alba Medik",
@@ -16770,7 +16771,7 @@ var dataset = [
       }
     ]
   },
-  {
+  "Chelone glabra L": {
     "volume": "9",
     "page": "29",
     "sciName": "Chelone glabra L",
@@ -16786,7 +16787,7 @@ var dataset = [
       }
     ]
   },
-  {
+  "Verbena urticifolia L": {
     "volume": "9",
     "page": "60",
     "sciName": "Verbena urticifolia L",
@@ -16798,7 +16799,7 @@ var dataset = [
       }
     ]
   },
-  {
+  "Juglans cinerea L": {
     "volume": "12",
     "page": "2",
     "sciName": "Juglans cinerea L",
@@ -16810,7 +16811,7 @@ var dataset = [
       }
     ]
   },
-  {
+  "Ranunculus aquatilis L": {
     "volume": "1",
     "page": "17",
     "sciName": "Ranunculus aquatilis L",
@@ -16822,7 +16823,7 @@ var dataset = [
       }
     ]
   },
-  {
+  "Nymphaea odorata Ait": {
     "volume": "1",
     "page": "44, 45",
     "sciName": "Nymphaea odorata Ait",
@@ -16862,7 +16863,7 @@ var dataset = [
       }
     ]
   },
-  {
+  "Salix alba L": {
     "volume": "12",
     "page": "54",
     "sciName": "Salix alba L",
@@ -16874,7 +16875,7 @@ var dataset = [
       }
     ]
   },
-  {
+  "Salix x fragilis L": {
     "volume": "12",
     "page": "45, 53",
     "sciName": "Salix x fragilis L",
@@ -16898,7 +16899,7 @@ var dataset = [
       }
     ]
   },
-  {
+  "Eurybia divaricata (L) Nesom": {
     "volume": "6",
     "page": "25",
     "sciName": "Eurybia divaricata (L) Nesom",
@@ -16922,7 +16923,7 @@ var dataset = [
       }
     ]
   },
-  {
+  "Galium mollugo L": {
     "volume": "6",
     "page": "1",
     "sciName": "Galium mollugo L",
@@ -16938,7 +16939,7 @@ var dataset = [
       }
     ]
   },
-  {
+  "Polygala verticillata L": {
     "volume": "3",
     "page": "34",
     "sciName": "Polygala verticillata L",
@@ -16950,7 +16951,7 @@ var dataset = [
       }
     ]
   },
-  {
+  "Myriophyllum verticillatum L": {
     "volume": "5",
     "page": "6, 120",
     "sciName": "Myriophyllum verticillatum L",
@@ -16970,7 +16971,7 @@ var dataset = [
       }
     ]
   },
-  {
+  "Clinopodium vulgare L": {
     "volume": "9",
     "page": "78",
     "sciName": "Clinopodium vulgare L",
@@ -16994,7 +16995,7 @@ var dataset = [
       }
     ]
   },
-  {
+  "Cynoglossum virginianum L": {
     "volume": "10",
     "page": "10",
     "sciName": "Cynoglossum virginianum L",
@@ -17006,7 +17007,7 @@ var dataset = [
       }
     ]
   },
-  {
+  "Allium tricoccum Ait": {
     "volume": "14",
     "page": "40a",
     "sciName": "Allium tricoccum Ait",
@@ -17018,7 +17019,7 @@ var dataset = [
       }
     ]
   },
-  {
+  "Pastinaca sativa L": {
     "volume": "5",
     "page": "43",
     "sciName": "Pastinaca sativa L",
@@ -17034,7 +17035,7 @@ var dataset = [
       }
     ]
   },
-  {
+  "Raphanus raphanistrum L": {
     "volume": "1",
     "page": "92",
     "sciName": "Raphanus raphanistrum L",
@@ -17054,7 +17055,7 @@ var dataset = [
       }
     ]
   },
-  {
+  "Aralia nudicaulis L": {
     "volume": "5",
     "page": "64, 65",
     "sciName": "Aralia nudicaulis L",
@@ -17078,7 +17079,7 @@ var dataset = [
       }
     ]
   },
-  {
+  "Calla palustris L": {
     "volume": "12",
     "page": "91, 92",
     "sciName": "Calla palustris L",
@@ -17102,7 +17103,7 @@ var dataset = [
       }
     ]
   },
-  {
+  "Daucus carota L": {
     "volume": "5",
     "page": "41",
     "sciName": "Daucus carota L",
@@ -17114,21 +17115,21 @@ var dataset = [
       }
     ]
   },
-  {
+  "Allium shoenoprasum L": {
     "volume": "14",
     "page": "39",
     "sciName": "Allium shoenoprasum L",
     "comName": "Wildchives",
     "entries": []
   },
-  {
+  "Echinocystis labata (Michx) Torr & Gray": {
     "volume": "5",
     "page": "37",
     "sciName": "Echinocystis labata (Michx) Torr & Gray",
     "comName": "Wildcucumber",
     "entries": []
   },
-  {
+  "Rhus copallinum L": {
     "volume": "3",
     "page": "27",
     "sciName": "Rhus copallinum L",
@@ -17140,7 +17141,7 @@ var dataset = [
       }
     ]
   },
-  {
+  "Viburnum nudum L": {
     "volume": "5",
     "page": "99",
     "sciName": "Viburnum nudum L",
@@ -17164,14 +17165,14 @@ var dataset = [
       }
     ]
   },
-  {
+  "Lilium philadelphicum L": {
     "volume": "14",
     "page": "35",
     "sciName": "Lilium philadelphicum L",
     "comName": "Wood Lily",
     "entries": []
   },
-  {
+  "Omalotheca sylvatica Schultz-Bip & F W Schultz": {
     "volume": "7",
     "page": "108",
     "sciName": "Omalotheca sylvatica Schultz-Bip & F W Schultz",
@@ -17183,7 +17184,7 @@ var dataset = [
       }
     ]
   },
-  {
+  "Scrophularia nodosa L": {
     "volume": "9",
     "page": "28",
     "sciName": "Scrophularia nodosa L",
@@ -17211,7 +17212,7 @@ var dataset = [
       }
     ]
   },
-  {
+  "Senecio sylvaticus L": {
     "volume": "7",
     "page": "93",
     "sciName": "Senecio sylvaticus L",
@@ -17227,7 +17228,7 @@ var dataset = [
       }
     ]
   },
-  {
+  "Fragaria vesca L": {
     "volume": "4",
     "page": "50, 51",
     "sciName": "Fragaria vesca L",
@@ -17259,7 +17260,7 @@ var dataset = [
       }
     ]
   },
-  {
+  "Helianthus divaricatus L": {
     "volume": "7",
     "page": "8, 90, 94",
     "sciName": "Helianthus divaricatus L",
@@ -17279,14 +17280,14 @@ var dataset = [
       }
     ]
   },
-  {
+  "Linum virginianum L": {
     "volume": "2",
     "page": "90v",
     "sciName": "Linum virginianum L",
     "comName": "Woodland Yellow Flax",
     "entries": []
   },
-  {
+  "Viola sororia Willd": {
     "volume": "2",
     "page": "9",
     "sciName": "Viola sororia Willd",
@@ -17302,7 +17303,7 @@ var dataset = [
       }
     ]
   },
-  {
+  "Erysimum cheiranthoides L": {
     "volume": "1",
     "page": "81",
     "sciName": "Erysimum cheiranthoides L",
@@ -17318,7 +17319,7 @@ var dataset = [
       }
     ]
   },
-  {
+  "Geum aleppicum Jacq": {
     "volume": "4",
     "page": "45",
     "sciName": "Geum aleppicum Jacq",
@@ -17346,7 +17347,7 @@ var dataset = [
       }
     ]
   },
-  {
+  "Betula alleghaniensis Britt": {
     "volume": "12",
     "page": "30",
     "sciName": "Betula alleghaniensis Britt",
@@ -17362,14 +17363,14 @@ var dataset = [
       }
     ]
   },
-  {
+  "Clintonia borealis (Ait) Raf": {
     "volume": "14",
     "page": "26",
     "sciName": "Clintonia borealis (Ait) Raf",
     "comName": "Yellow Bluebead-lily",
     "entries": []
   },
-  {
+  "Quercus muehlenbergii Engelm": {
     "volume": "12",
     "page": "10",
     "sciName": "Quercus muehlenbergii Engelm",
@@ -17389,7 +17390,7 @@ var dataset = [
       }
     ]
   },
-  {
+  "Viola pubescens var scabriuscula Torr & Gray": {
     "volume": "2",
     "page": "26, 27, 28, 30",
     "sciName": "Viola pubescens var scabriuscula Torr & Gray",
@@ -17417,7 +17418,7 @@ var dataset = [
       }
     ]
   },
-  {
+  "Hieracium caespitosum Dumort": {
     "volume": "7",
     "page": "83",
     "sciName": "Hieracium caespitosum Dumort",
@@ -17429,7 +17430,7 @@ var dataset = [
       }
     ]
   },
-  {
+  "Cypripedium parviflorum Salisb": {
     "volume": "8",
     "page": "1b, 83, 84",
     "sciName": "Cypripedium parviflorum Salisb",
@@ -17469,7 +17470,7 @@ var dataset = [
       }
     ]
   },
-  {
+  "Hypopitys monotropa Crantz": {
     "volume": "8",
     "page": "75",
     "sciName": "Hypopitys monotropa Crantz",
@@ -17485,7 +17486,7 @@ var dataset = [
       }
     ]
   },
-  {
+  "Melilotus officinalis (L) Lam": {
     "volume": "3",
     "page": "43",
     "sciName": "Melilotus officinalis (L) Lam",
@@ -17505,7 +17506,7 @@ var dataset = [
       }
     ]
   },
-  {
+  "Baptisia tinctoria (L) R Br ex Ait f": {
     "volume": "3",
     "page": "35",
     "sciName": "Baptisia tinctoria (L) R Br ex Ait f",
@@ -17517,7 +17518,7 @@ var dataset = [
       }
     ]
   },
-  {
+  "Polygonum ramosissimum Michx": {
     "volume": "11",
     "page": "16",
     "sciName": "Polygonum ramosissimum Michx",
@@ -17529,7 +17530,7 @@ var dataset = [
       }
     ]
   },
-  {
+  "Lindernia dubia (L) Pennell": {
     "volume": "9",
     "page": "36",
     "sciName": "Lindernia dubia (L) Pennell",
@@ -17549,7 +17550,7 @@ var dataset = [
       }
     ]
   },
-  {
+  "Solidago flexicaulis L": {
     "volume": "6",
     "page": "66",
     "sciName": "Solidago flexicaulis L",
@@ -17573,7 +17574,7 @@ var dataset = [
       }
     ]
   },
-  {
+  "Trifolium medium L": {
     "volume": "3",
     "page": "39",
     "sciName": "Trifolium medium L",
@@ -17585,4 +17586,4 @@ var dataset = [
       }
     ]
   }
-]
+}

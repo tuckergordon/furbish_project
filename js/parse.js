@@ -164,11 +164,19 @@ function parseData() {
 		return 0;
 	});
 
+	floraObjects = {};
+
+	for (var i = 0; i < floraObjectsArray.length; i++) {
+		var flora = floraObjectsArray[i];
+		// var keyedOjbect = {key: flora.sciName, value: flora};
+		floraObjects[flora.sciName] = flora;
+	}
+
 	// export the JSON string to a .txt file because it's too big to be printed to the console.
 	// this code was adopted from: 
 	// http://stackoverflow.com/questions/22872147/save-or-display-long-string-in-javascript
 	var link = document.createElement('a');
-	link.setAttribute('href', 'data:text/plain,' + JSON.stringify(floraObjectsArray) + '');
+	link.setAttribute('href', 'data:text/plain,' + JSON.stringify(floraObjects) + '');
 	link.setAttribute('download','example.txt');
 	document.getElementsByTagName("body")[0].appendChild(link).click();
 }
@@ -187,5 +195,3 @@ function toTitleCase(str)
 function removeNonAlphanumeric(str) {
 	return str.replace(/[^0-9a-z]/gi, '')
 }
-
-alert(removePunctuation("hi there"));
