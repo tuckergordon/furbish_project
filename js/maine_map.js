@@ -65,8 +65,10 @@ function initalizeMap() {
 
         var townName = d.properties.TOWN;
 
-        //if (townName != "null" && townName != null) {
-          allTowns[townName] = 0;
+        if (townName == "null" || townName == null) {
+          townName = "Moosehead Lake";
+        }
+        allTowns[townName] = 0;
         //}
         // else{
         //   townName = "Moosehead Lake";
@@ -74,7 +76,7 @@ function initalizeMap() {
         // }
 
         // this maps from US JSON data into id-value data
-        return quantize(allTowns[d.properties.TOWN]); 
+        return quantize(allTowns[townName]); 
       });
       console.log("number of towns in choropleth: " + Object.keys(allTowns).length);
 
@@ -94,6 +96,7 @@ function initalizeMap() {
 function drawMap() {
 	
   map_svg.selectAll("path").remove();
+  map_svg.selectAll("circle").remove();
 
   d3.json("METOWNS_POLY.geojson", function(error, METOWNS_POLY) {
 
@@ -108,16 +111,26 @@ function drawMap() {
     //.style("fill", "#85C3C0")
     .attr("class", function(d) { 
 
+      var townName = d.properties.TOWN;
+
+      if (townName == "null" || townName == null) {
+        townName = "Moosehead Lake";
+      }
+
       // this maps from US JSON data into id-value data
-      return quantize(allTowns[d.properties.TOWN]); 
+      return quantize(allTowns[townName]); 
     })
     .on("click", function(d){
 
       var townName = d.properties.TOWN;
 
-      d3.select(this).style("stroke-width", 5);
+        if (townName == "null" || townName == null) {
+          townName = "Moosehead Lake";
+        }
 
-      console.log(allTowns[townName] + " " + townName);
+        d3.select(this).style("stroke-width", 5);
+
+        console.log(allTowns[townName] + " " + townName);
     })
     .on("mouseout", function(){
       d3.select(this).style("stroke-width", .5);
@@ -221,8 +234,6 @@ function updateCounters() {
         }
       }
     }
-
-
 
 }
 
