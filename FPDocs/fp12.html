@@ -12,7 +12,42 @@
 	<h3>Kate Furbish Collection</h3>
 	<hr/>
 	<h3>Approximately the visualization we hope to create by the end of the semester</h3>
-	<center><img src="../img/sketch_2.JPG" width="400" style="image-orientation:90deg"></center>
+	<center><img src="../img/map1.JPG" width="600"></center>
+	<br>
+	<center><img src="../img/map2.JPG" width="600"></center>
+	<hr/>
+	<h3>General Description and Interactions</h3>
+	<p>For our project, we are doing one "super-visualization" with many features. The main interface includes a map of Maine split by towns, a slider for selecting date ranges to examine, a searchable dialog box for both scientific and common names, and a "town inspector" box. The goal of this visulization is to be able to explore when and where Furbish found specific flora. By walking through each of the possible interactions, the functionality of each of these should become clear: </p>
+	<ul>
+		<li>
+			The <strong>year slider</strong> allows a user to select a range of years that they want to explore. Only samples that occured within that range will appear in the visualization.
+		</li>
+		<li>
+			The <strong>search box</strong> allows for searching by AH Scientific name, and by common name. The user can search for a flora by name, and then check any results that they want to visualize. Whenever a flora is checked, a dot will appear at all of the towns in which that flora was sampled (within the specified year range). If there is already a dot there (i.e. there has already been a flora checked with a sample there), the dot will increase in size. There is also be a way to select or deselect all flora.
+		</li>
+		<li>
+			The <strong>towns</strong> have multiple interactions:
+			<ul>
+				<li>Fill: the towns will be a choropleth, where the darker their fill, the greater the number of samples.</li>
+				<li>Mouse-over: The fill of the town will change to encourage user interaction. A tool-tip will also appear, showing town name (to help facillitate town-specific queries) and number of samples.</li>
+				<li>Click: This will make the map SVG zoom in (if it isn't already), and trigger two processes that will be elaborated upon below, the sample distribution doughnut chart and the town inspector. Additionally, the click changes the fill of the town to help the user place it on the map, and to make the relationship between the information the town inspector shows and their click even more clear.</li>
+			</ul>
+		</li>
+		<li>
+			The <strong>dots</strong> have similar interactions as the towns:
+			<ul>
+				<li>Size: the dots will only occur if there are samples present for the current flora selction within the town. The radius will increase (to an extent) proportional to number of samples in a town.</li>
+				<li>Mouse-over: The fill of the town will change to encourage user interaction, and help show that the outcome from clicking the dot vs. the town is the same. A tool-tip will also appear, showing town name (to help facillitate town-specific queries) and number of samples.</li>
+				<li>Click: This will make the map SVG zoom in (if it isn't already), and trigger two processes that will be elaborated upon below, the sample distribution doughnut chart and the town inspector. Additionally, the click changes the fill of the town to help the user place it on the map, and to make the relationship between the information the town inspector shows and their click even more clear. Upon zooming in, the dot disappears. It will return when the user zooms back out.</li>
+			</ul>
+		</li>
+		<li>
+			The <strong>sample distribution doughnut chart</strong> only shows when the user is zoomed in and has selected a specific town. The chart will show what proportion of the total samples in the town were of each selected species. If the user does a mouse-over on specific segements, a tool-tip will appear with some basic information about the species (common name, scientific name) and the number of samples in the town.
+		</li>
+		<li>
+			The <strong>town inspector</strong> will only show information for a specific town that is selected. It will allow the user to see all species of the current flora selection that are present in the town, in addition to the number of samples, years the samples were taken, and where to find its illustrations in the Furbish Collection
+		</li>
+	</ul>
 	<hr/>
 	<h3>Goals by date</h3>
 	<strong>Week 1 (Nov. 13-19)</strong>
@@ -58,6 +93,7 @@
 			<li>Finish inspection box</li>
 			<li>Debug and clean code</li>
 			<li>Make everything look better!</li>
+			<li>Flex goal (so only if everything goes really well): Create a timelapse function, where the user can look at the map for their current sample and watch it automatically flip through samples by year.</li>
 		</ul>
 	<hr/>
 </body>
