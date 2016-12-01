@@ -6,16 +6,16 @@ function initInspector() {
 	floraList = document.getElementById('floraTableBody');
 }
 
-function addFloraToInspector(flora) {
+function addFloraToInspector(sciName) {
 	var lastRow = $('#floraTableBody:last');
-	var tr = document.createElement("TR");
-	var tdComName = document.createElement("TD");
-	var tdSciName = document.createElement("TD");
-	var tdDate = document.createElement("TD");
-	var tdVolume = document.createElement("TD");
-	var tdPage = document.createElement("TD");
+	var tr = $('<tr></tr>');
+	var tdComName = $('<td></td>');
+	var tdSciName = $('<td></td>');
+	var tdDate = $('<td></td>');
+	var tdVolume = $('<td></td>');
+	var tdPage = $('<td></td>');
 
-	tdComName.appendChild(document.createTextNode(flora));
-	tr.appendChild(tdComName);
+	$(tdSciName).text(sciName);
+	$(tr).append(tdSciName);
 	$(tr).insertBefore(lastRow);
 }
