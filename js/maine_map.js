@@ -22,7 +22,7 @@ var allTowns = {};  //empty dictionary to hold all town names as keys, and all v
 
 
 //establishing map element
-var map_svg = d3.select(".map_SVG").attr("style", "outline: thick solid black"),
+var map_svg = d3.select(".map_SVG"),
 width = map_svg.attr("width"),
 height = map_svg.attr("height");
 

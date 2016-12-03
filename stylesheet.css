@@ -48,6 +48,10 @@ body {
 	background-color: var(--plum-color);
 }
 
+#mainContainer a {
+	color: var(--ornate-color);
+}
+
 #headerContainer ol {
 	width: 70%;
 	margin: 2px;
@@ -151,8 +155,8 @@ path {
 }
 
 #inspectorContainer {
-	height: 48.8%;
-	width: 500px;
+	height: 48.1%;
+	width: 504px;
 	display: block;
 	float: right;
 	border: 1px solid var(--sleekGrey-color);
@@ -228,7 +232,6 @@ input[type="button"]:hover {
 
 h5.tableTitle {
 	margin: 0;
-	height: 8%;
 	background-color: var(--ornate-color);
 	padding: 0px 8px;
 }
