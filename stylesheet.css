@@ -14,7 +14,42 @@ body {
 	font-family: "Times New Roman", Times, serif;
 }
 
-h1 {
+#headerContainer {
+	float: left;
+	text-align: left;
+	margin-bottom: 10px;
+	display: inline-block;
+}
+
+#headerContainer h1 {
+	margin: 0px;
+}
+
+#headerContainer h4 {
+	margin: 0px;
+}
+
+#instructionsContainer {
+	float: right;
+	width: 45%;
+	margin-bottom: 10px;
+	display: inline-block;
+}
+
+#instructionsContainer h4 {
+	margin: 0px;
+}
+
+#instructionsContainer ol {
+	margin: 0px;
+	padding: 0 0 0 12px;
+}
+
+#instructionsContainer li {
+	font-size: 12px;
+}
+
+/*h1 {
 	text-align: center;
 	font-size: 40px;
 }
@@ -27,7 +62,7 @@ h2 {
 h3 {
 	text-align: center;
 	font-size: 18px;
-}
+}*/
 
 hr {
 	width: 500px;
@@ -66,13 +101,13 @@ figure figcaption {
 }
 
 #mainContainer {
-	width: 1024px;
+	width: 915px;
 	height: 590px;	
 	margin: auto;
 }
 
 #svgContainer {
-	width: 505px;
+	width: 400px;
 	height: 100%;
 	float: left;
 	background-color: green;
@@ -114,7 +149,7 @@ path {
 
 #inspectorContainer {
 	height: 48.8%;
-	width: 505px;
+	width: 500px;
 	display: block;
 	float: right;
 	border: 1px solid var(--sleekGrey-color);

@@ -39,7 +39,7 @@ var quantize = d3.scale.quantile()
 
 var projection = d3.geo.albersUsa()
                  .scale(7000)
-                 .translate([-2100, 1420]);
+                 .translate([-2150, 1410]);
 
 var path = d3.geo.path().projection(projection);
 
