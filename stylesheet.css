@@ -5,7 +5,7 @@
 :root{
     --ornate-color: #AB9353;
     --plum-color: #4D2C3d;
-    --olive-color: #57652A;
+    --olive-color: #123809;
     --sleekGrey-color: #A5A5AF;
     --bluebell-color: #155765;
 }
@@ -14,39 +14,48 @@ body {
 	font-family: "Times New Roman", Times, serif;
 }
 
+#mainContainer {
+	width: 915px;
+	height: 590px;	
+	margin: auto;
+}
+
+#mainHeader {
+	margin: 0px;
+	padding: 2px 2px 2px 5px;
+	color: white;
+	background-color: var(--ornate-color);
+	text-align: center;
+}
+
 #headerContainer {
+	width: 913px;
 	float: left;
 	text-align: left;
-	margin-bottom: 10px;
+	margin: 0 0 10px 0;
 	display: inline-block;
+	border-width: 0 1px 1px 1px;
+	border-style: solid;
+	border-color: var(--sleekGrey-color);
 }
 
-#headerContainer h1 {
+#mainContainer p {
+	color: white;
+	font-style: italic;
 	margin: 0px;
+	padding: 2px 0 2px 0;
+	text-align: center;
+	background-color: var(--plum-color);
 }
 
-#headerContainer h4 {
-	margin: 0px;
-}
-
-#instructionsContainer {
-	float: right;
-	width: 45%;
-	margin-bottom: 10px;
-	display: inline-block;
-}
-
-#instructionsContainer h4 {
-	margin: 0px;
-}
-
-#instructionsContainer ol {
-	margin: 0px;
-	padding: 0 0 0 12px;
-}
-
-#instructionsContainer li {
+#headerContainer ol {
+	width: 70%;
+	margin: 2px;
 	font-size: 12px;
+}
+
+#headerContainer li {
+	margin: 0px;
 }
 
 /*h1 {
@@ -100,17 +109,12 @@ figure figcaption {
     font-size: 8px;
 }
 
-#mainContainer {
-	width: 915px;
-	height: 590px;	
-	margin: auto;
-}
-
 #svgContainer {
 	width: 400px;
 	height: 100%;
 	float: left;
-	background-color: green;
+	background-color: var(--olive-color);
+	margin-bottom: 10px;
 }
 
 path {
@@ -132,7 +136,6 @@ path {
 .map_SVG{
     display: block;
     margin: auto;
-    background-color: #022C02CC;
 }
 
 .town {
@@ -226,7 +229,7 @@ input[type="button"]:hover {
 h5.tableTitle {
 	margin: 0;
 	height: 8%;
-	background-color: var(--plum-color);
+	background-color: var(--ornate-color);
 	padding: 0px 8px;
 }
 
@@ -246,7 +249,7 @@ table{
 }
 .tbl-header{
 	height: 10%;
-  	background-color: var(--ornate-color);
+  	background-color: var(--plum-color);
  }
 .tbl-content{
   height: 92%;
