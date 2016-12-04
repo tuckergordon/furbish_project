@@ -138,8 +138,8 @@ function selectFlora(floraID) {
 	}
 
 	addFlora(floraID);
-	// addFloraToInspector(floraID);
-	// initalizeMap();
+	console.log(floraID);
+
 }
 
 // deselect the flora with ID = floraID
