@@ -34,8 +34,8 @@ var quantize = d3.scale.quantile()
   .range(d3.range(9).map(function(i) { return "q" + i + "-9"; }));
 
 var projection = d3.geo.albersUsa()
-                 .scale(7000)
-                 .translate([-2150, 1410]);
+                 .scale(6800)
+                 .translate([-2080, 1365]);
 
 var path = d3.geo.path().projection(projection);
 
