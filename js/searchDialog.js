@@ -1,3 +1,6 @@
+// make initial call to makeLists() function
+makeLists();
+
 // an array that will hold all the flora that are selected by the 
 // user for displaying on the map
 var selectedFlora = [];
@@ -147,38 +150,53 @@ function deselectFlora(floraID) {
 	// get reference to element
 	var flora = document.getElementById(floraID);
 	// checking to see if floraID is the ID of an element in the searchList
-	// or in the selectedList. If it's in the
+	// or in the selectedList. If it's in the selected list, we need to remove
+	// the "sel" from its id in order to be able to find the corresponding flora
+	// in the search results list
 	if (flora.parentElement.id == 'selectedList') {
 		floraID = floraID.slice(3);
 		flora = document.getElementById(floraID);
 	}
+	// uncheck it
 	flora.setAttribute('checked', 'false');
+	// return it to the unchecked color
 	flora.setAttribute("style", "background-color: #f6f6f6");
+	// find the flora in the selected flora arraylist, and remove it
 	for (var i = 0; i < selectedFlora.length; i++) {
 		if (selectedFlora[i] == floraID) {
 			selectedFlora.splice(i, 1);
 			break;
 		}
 	}
+	// hide the flora in the selected list
 	document.getElementById('sel' + floraID).style.display = 'none';
 }
 
+// selects all flora
 function selectAll() {
+	// for every flora in the dataset
 	for (var key in dataset) {
+		// remove quotes from the scientific name to get the correct id for the flora
 		var floraID = removeQuotes(dataset[key].sciName);
 		var flora = document.getElementById(floraID);
+		// if it's not already selected, add it to the arraylist of selected flora
 		if (!isChecked(flora)) {
 			selectedFlora.push(floraID);
 		}
+		// mark it as checked, change it to display green, and show it in the selected
+		// flora list
 		flora.setAttribute('checked', 'true');
 		flora.setAttribute("style", "background-color: palegreen");
 		document.getElementById('sel' + floraID).style.display = 'block';
 	}
 }
 
+// deselects all flora
 function deselectAll() {
+	// iterate through the selected flora arraylist and remove all of them
 	for (var i = 0; i < selectedFlora.length; i++) {
 		var flora = document.getElementById(selectedFlora[i]);
+		// uncheck, return background color to original, and hide in selected flora list
 		flora.setAttribute('checked', 'false');
 		flora.setAttribute("style", "background-color: #f6f6f6");
 		document.getElementById('sel' + selectedFlora[i]).style.display = 'none';
@@ -190,11 +208,9 @@ function isChecked(flora) {
 	return flora.getAttribute('checked') == 'true';
 }
 
+// removes all single and double quotes from a string.
+// function adopted from:
 // http://stackoverflow.com/questions/19156148/i-want-to-remove-double-quotes-from-a-string
 function removeQuotes(string) {
 	return string.replace(/['"]+/g, '');
 }
-
-makeLists();
-// start with the scientific search tab open
-// document.getElementById("defaultOpen").click();
