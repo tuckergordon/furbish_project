@@ -22,7 +22,7 @@ var allTowns = {};  //empty dictionary to hold all town names as keys, and all v
 
 
 //establishing map element
-var map_svg = d3.select(".map_SVG").attr("style", "outline: thick solid black"),
+var map_svg = d3.select(".map_SVG"),
 width = map_svg.attr("width"),
 height = map_svg.attr("height");
 
@@ -39,7 +39,7 @@ var quantize = d3.scale.quantile()
 
 var projection = d3.geo.albersUsa()
                  .scale(7000)
-                 .translate([-2100, 1420]);
+                 .translate([-2150, 1410]);
 
 var path = d3.geo.path().projection(projection);
 

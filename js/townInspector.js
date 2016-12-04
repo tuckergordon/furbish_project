@@ -2,20 +2,91 @@ var floraList;
 
 initInspector();
 
+// var towns = [];
+
+// function addFlora(sciName){
+
+//     var flora = dataset[sciName];
+
+//     var curTownName;
+//     var newTown;
+//     for (var i = flora.entries.length - 1; i >= 0; i--) {
+      
+//       //automatically check for fitting in range
+//       var entryYear = flora.entries[i].year;
+//       if(entryYear < minYear || entryYear > maxYear){
+//         break;
+//       }
+
+//       curTownName = flora.entries[i].place;
+
+//       // if(curTownName in selectedTowns){
+
+//       //   var entry = {"year": entryYear, "sci_name": sciName, "volume": flora.volume, "page": flora.page, "comName": flora.comName};
+
+//       //   selectedTowns[curTownName].selectedEntries.push(entry);
+
+//       // }
+//       // //need a new town entry
+//       // else{
+//         newTown = {};
+
+//         newTown["townName"] = curTownName;
+//         newTown["selectedEntries"] = [];
+
+//         var entry = {"year": entryYear, "sciName": sciName, "volume": flora.volume, "page": flora.page, "comName": flora.comName};
+
+//         newTown["selectedEntries"].push(entry);
+
+//         towns.push(newTown);
+//       }
+//     }
+
+// addFlora("Cardamine bellidifolia L");
+
+// inspectTown(towns[0]);
+
 function initInspector() {
 	floraList = document.getElementById('floraTableBody');
 }
 
-function addFloraToInspector(flora) {
-	var lastRow = $('#floraTableBody:last');
-	var tr = document.createElement("TR");
-	var tdComName = document.createElement("TD");
-	var tdSciName = document.createElement("TD");
-	var tdDate = document.createElement("TD");
-	var tdVolume = document.createElement("TD");
-	var tdPage = document.createElement("TD");
+function inspectTown(town) {
 
-	tdComName.appendChild(document.createTextNode(flora));
-	tr.appendChild(tdComName);
-	$(tr).insertBefore(lastRow);
+	$(".tableTitle").find('span').text("Town: " + town.townName);
+
+	var lastRow = $('#floraTableBody:last');
+
+	for (var key in town.selectedEntries) {
+		var entry = town.selectedEntries[key];
+
+		var tr = $('<tr></tr>');
+		var tdComName = $('<td>' + entry.comName + '</td>');
+		var tdSciName = $('<td>' + entry.sciName + '</td>');
+		var tdYear = $('<td>' + entry.year + '</td>');
+		var tdVolume = $('<td>' + entry.volume + '</td>');
+		var tdPage = $('<td>' + entry.page + '</td>');
+
+		$(tr).append(tdComName)
+		$(tr).append(tdSciName)
+		$(tr).append(tdYear)
+		$(tr).append(tdVolume)
+		$(tr).append(tdPage);
+
+		$(lastRow).append(tr);
+		lastRow = tr;
+	}
 }
+
+// function addFloraToInspector(sciName) {
+	var lastRow = $('#floraTableBody:last');
+	var tr = $('<tr></tr>');
+	var tdComName = $('<td></td>');
+	var tdSciName = $('<td></td>');
+	var tdDate = $('<td></td>');
+	var tdVolume = $('<td></td>');
+	var tdPage = $('<td></td>');
+
+// 	$(tdSciName).text(sciName);
+// 	$(tr).append(tdSciName);
+// 	$(tr).insertBefore(lastRow);
+// }

@@ -14,6 +14,17 @@
 <body>
 
 <div id="mainContainer">
+	<h1 id="mainHeader">Bowdoin's Kate Furbish Collection: Visualized</h1>
+	<p>Sophie Ardell, Marcus Christiansen, Tucker Gordon | Bowdoin College | CSCI 3665</p>
+	<div id="headerContainer">
+		<ol>
+			<li>Specify a year, or range of years by adjusting the time scale.</li>
+			<li>Use the search bar to find flora by scientific name or common name. To see the towns where Furbish found that flora on the map, click its name in the left pane under the search bar.</li>
+			<li>Click on a town's dot to see all of the selected flora found in that town within the specified time period.</li>
+			<li>Deselect a flora by clicking its name in the right pane under the search bar</li>
+		</ol>
+	</div>
+	
 	<div id="svgContainer">
 		<svg class="map_SVG" width="100%" height="100%"></svg>
 	</div>
@@ -35,35 +46,32 @@
 	</div>
 
 	<div id="inspectorContainer">
-		<h5 class="tableTitle"><span>Town:</h5>
+		<h5 class="tableTitle"><span>Town:</span></h5>
 		
-  <div class="tbl-content">
-    <table cellpadding="0" cellspacing="0" border="0">
-    <thead class="tbl-header">
-        <tr>
-          <th>Common Name</th>
-          <th>Scientific Name</th>
-          <th>Entry Date</th>
-          <th>Volume</th>
-          <th>Page</th>
-        </tr>
-      </thead>
-      <tbody id="floraTableBody">
-        <tr>
-          <td>American Water-horehound</td>
-          <td>Lycopus americanus Muhl Ex W Bart</td>
-          <td>12/12/1999</td>
-          <td>14</td>
-          <td>-247</td>
-        </tr>
-        <!-- Dummy row that prevents all of the rows above it from expanding to fill the table -->
-        <tr style="height: 100%;"></tr>
-      </tbody>
-    </table>
+	  <div class="tbl-content">
+	    <table cellpadding="0" cellspacing="0" border="0">
+	    <thead class="tbl-header">
+	        <tr>
+	          <th>Common Name</th>
+	          <th>Scientific Name</th>
+	          <th>Entry Date</th>
+	          <th>Volume</th>
+	          <th>Page</th>
+	        </tr>
+	      </thead>
+	      <tbody id="floraTableBody">
+	      </tbody>
+	    </table>
+		</div>
 	</div>
+
+	<p style="clear: both">
+		For more information on our project, and on Bowdoin's Kate Furbish collection, <a href="./FPDocs/fp11.html">click here</a>.
+	</p>
 
 	<script type="text/javascript" src="js/searchDialog.js"></script>
 	<script type="text/javascript" src="js/townInspector.js"></script>
 </div>
+
 </body>
 </html>
