@@ -175,7 +175,6 @@ path {
 	width: 400px;
 	height: 5%;
 	float: left;
-	clear: left;
 	background-color: var(--ornate-color);
 	margin-bottom: 10px;
 }

@@ -15,9 +15,8 @@
 //    -entries: an arraylist where each element contains the town and data of one Furbish's entries
 //          for that flora
 
-var dataset = 
-{
-  "Rhamnus anifolia L'Hér": {
+var dataset = {
+  "Rhamnus anifolia LHér": {
     "volume": "3",
     "page": "13",
     "sciName": "Rhamnus anifolia L'Hér",
@@ -12057,7 +12056,7 @@ var dataset =
       }
     ]
   },
-  "Erodium cicutarium (L) L'HÃ©r": {
+  "Erodium cicutarium (L) LHÃ©r": {
     "volume": "3",
     "page": "5",
     "sciName": "Erodium cicutarium (L) L'HÃ©r",

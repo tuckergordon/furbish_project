@@ -67,7 +67,10 @@ function parseData() {
 
 		// check to see if the map already contains a flora with that name
 		// (this indicates that we have more entries to add to that flora's object)
-		if (sciName in floraObjects) {
+		if (removeQuotes(sciName) in floraObjects) {
+
+			sciName = removeQuotes(sciName);
+
 			// loop through places and year columns until there
 			// are no more place left in that row
 			var colIndex = 1;
@@ -141,7 +144,7 @@ function parseData() {
 			flora["entries"] = entries;	
 
 			// add the flora object to the map
-			floraObjects[sciName] = flora;
+			floraObjects[removeQuotes(sciName)] = flora;
 		}
 	}
 
@@ -169,7 +172,7 @@ function parseData() {
 	for (var i = 0; i < floraObjectsArray.length; i++) {
 		var flora = floraObjectsArray[i];
 		// var keyedOjbect = {key: flora.sciName, value: flora};
-		floraObjects[flora.sciName] = flora;
+		floraObjects[removeQuotes(flora.sciName)] = flora;
 	}
 
 	// export the JSON string to a .txt file because it's too big to be printed to the console.
@@ -194,4 +197,11 @@ function toTitleCase(str)
 // http://stackoverflow.com/questions/9364400/remove-not-alphanumeric-characters-from-string-having-trouble-with-the-char
 function removeNonAlphanumeric(str) {
 	return str.replace(/[^0-9a-z]/gi, '')
+}
+
+// removes all single and double quotes from a string.
+// function adopted from:
+// http://stackoverflow.com/questions/19156148/i-want-to-remove-double-quotes-from-a-string
+function removeQuotes(string) {
+	return string.replace(/['"]+/g, '');
 }
