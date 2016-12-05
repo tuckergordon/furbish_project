@@ -152,17 +152,24 @@ function drawMap() {
           .data(presentTowns)
           .enter()
           .append("circle")
-          .attr("fill", "red")
+          .attr("class", "townDot")
           .attr("cx", function(d) {
-          return d[0];
+              return d[0];
           })
-            .attr("cy", function(d) {
-          return d[1];
+          .attr("cy", function(d) {
+            return d[1];
           })
-            .attr("r",2)
+          .attr("r", function(d) {
+            if (d[2] in selectedTowns) {
+              return 2 * selectedTowns[d[2]].selectedEntries.length;
+            }
+            return 2;
+          })
           .on("click", function(d) {
             console.log(d[2])
+            inspectTown(selectedTowns[d[2]]);
           });
+
     }
 
     drawDots();
@@ -212,7 +219,7 @@ function addFlora(sciName){
       newTown["selectedEntries"] = [];
 
       var entry = { "year": entryYear, 
-                    "sci_name": sciName, 
+                    "sciName": sciName, 
                     "volume": flora.volume, 
                     "page": flora.page, 
                     "comName": flora.comName

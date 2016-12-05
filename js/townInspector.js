@@ -74,7 +74,7 @@ function inspectTown(town) {
 		$(tr).append(tdVolume)
 		$(tr).append(tdPage);
 
-		$(lastRow).append(tr);
+		$(lastRow).after(tr);
 		lastRow = tr;
 	}
 }
