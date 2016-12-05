@@ -171,11 +171,22 @@ path {
 	fill: none;
 }
 
+.townDot {
+	fill: red;
+	opacity: 0.5;
+	stroke: orange;
+	stroke-width: .5px;
+}
+
+.townDot:hover {
+	fill: var(--bluebell-color);
+	cursor: pointer;
+}
+
 #scaleContainer {
 	width: 400px;
 	height: 5%;
 	float: left;
-	clear: left;
 	background-color: var(--ornate-color);
 	margin-bottom: 10px;
 }

@@ -139,10 +139,9 @@ function selectFlora(floraID) {
 		// display the flora in the selectedList
 		document.getElementById('sel' + floraID).style.display = 'block';
 	}
-
-	// console.log(floraID);
+	// calling the addFlora function in maine_map.js to add
+	// the flora to the map
 	addFlora(floraID);
-
 }
 
 // deselect the flora with ID = floraID

@@ -119,25 +119,6 @@ function drawMap() {
                 presentTowns.push(temp);
               }
             }
-
-            //ALL DOTS
-            // if (!selectedTowns[d.properties.TOWN]) { //Does not exist
-            //   if (d.properties.TOWN != "null" && d.properties.TOWN != null) {
-            //     // if (selectedTowns[d.properties.TOWN] != null){
-            //       selectedTowns[d.properties.TOWN] = 1;
-            //       var temp = [];
-
-            //       // console.log(path.centroid(d)[0]);
-            //       // console.log(path.centroid(d)[1]);
-
-            //       temp.push(path.centroid(d)[0]);
-            //       temp.push(path.centroid(d)[1]);
-            //       temp.push(d.properties.TOWN);
-            //       presentTowns.push(temp);
-            //     // }
-            //   }
-            // }
-
             return path.centroid(d)[0];
           })
           .attr("cy", function(d) {
@@ -151,17 +132,41 @@ function drawMap() {
           .data(presentTowns)
           .enter()
           .append("circle")
-          .attr("fill", "red")
+          .attr("class", "townDot")
           .attr("cx", function(d) {
-          return d[0];
+              return d[0];
           })
-            .attr("cy", function(d) {
-          return d[1];
+          .attr("cy", function(d) {
+            return d[1];
           })
-            .attr("r",2)
+          .attr("r", function(d) {
+            if (d[2] in selectedTowns) {
+              return 2 * selectedTowns[d[2]].selectedEntries.length;
+            }
+            return 2;
+          })
+          .style("stroke-width", .5)
           .on("click", function(d) {
             console.log(d[2])
+            inspectTown(selectedTowns[d[2]])
+          })
+          .on("mouseout", function(){
+            d3.select(this).style("stroke-width", .5);
+            d3.select("#tooltip").classed("hidden", true);
+          })
+          .on("mouseover", function(d){
+            d3.select(this).style("stroke-width", 3);
+            var xPosition = d[0] + toolTipXOffSet;
+            var yPosition = d[1] + toolTipYOffSet;
+            //Update the tooltip position and value
+            var toolTip = d3.select("#tooltip")
+                            .style("left", xPosition + "px")
+                            .style("top", yPosition + "px") ;          
+            toolTip.select("#townName")
+                    .text(selectedTowns[d[2]].townName);
+            d3.select("#tooltip").classed("hidden", false);
           });
+
     }
 
     drawDots();
@@ -183,15 +188,12 @@ d3.select(self.frameElement).style("height", height + "px");
 //First flora in list not defined. Maybe due to ' ?
 function addFlora(sciName){
 
-  console.log(sciName);
-  console.log(dataset[sciName]);
-
   var flora = dataset[sciName];
   var currTownName;
   var newTown;
   for (var i = flora.entries.length - 1; i >= 0; i--) {
     
-    //automatically check for fitting in range
+    // check for fitting in range
     var entryYear = flora.entries[i].year;
     if(entryYear < minYear || entryYear > maxYear){
       break;
@@ -199,30 +201,32 @@ function addFlora(sciName){
 
     currTownName = flora.entries[i].place;
 
-    console.log("Appending ", currTownName, " to map.");
+    if(currTownName in selectedTowns){
+      var entry = {"year": entryYear, "sci_name": sciName, "volume": flora.volume, "page": flora.page, "comName": flora.comName};
+      selectedTowns[currTownName].selectedEntries.push(entry);
+    }
 
-    selectedTowns[currTownName] = 1;
+    //need a new town entry
+    else{
+      newTown = {};
 
-  //   if(currTownName in selectedTowns){
-  //     var entry = {"year": entryYear, "sci_name": sciName, "volume": flora.volume, "page": flora.page, "comName": flora.comName};
-  //     selectedTowns[currTownName].selectedEntries.push(entry);
-  //   }
+      newTown["townName"] = currTownName;
+      newTown["selectedEntries"] = [];
 
-  //   //need a new town entry
-  //   else{
-  //     newTown = {};
+      var entry = { "year": entryYear, 
+                    "sciName": sciName, 
+                    "volume": flora.volume, 
+                    "page": flora.page, 
+                    "comName": flora.comName
+                  };
 
-  //     newTown["townName"] = currTownName;
-  //     newTown["selectedEntries"] = {};
+      newTown["selectedEntries"].push(entry);
 
-  //     var entry = {"year": entryYear, "sci_name": sciName, "volume": flora.volume, "page": flora.page, "comName": flora.comName};
-
-  //     newTown["selectedEntries"].push(entry);
-  //   }
+      selectedTowns[currTownName] = newTown;
+    }
   };
 
   drawMap();
-
 
 }
 
