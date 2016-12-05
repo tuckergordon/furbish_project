@@ -184,15 +184,12 @@ d3.select(self.frameElement).style("height", height + "px");
 //First flora in list not defined. Maybe due to ' ?
 function addFlora(sciName){
 
-  console.log(sciName);
-  console.log(dataset[sciName]);
-
   var flora = dataset[sciName];
   var currTownName;
   var newTown;
   for (var i = flora.entries.length - 1; i >= 0; i--) {
     
-    //automatically check for fitting in range
+    // check for fitting in range
     var entryYear = flora.entries[i].year;
     if(entryYear < minYear || entryYear > maxYear){
       break;
@@ -200,28 +197,34 @@ function addFlora(sciName){
 
     currTownName = flora.entries[i].place;
 
-    selectedTowns[currTownName] = 1;
+    // selectedTowns[currTownName] = 1;
 
-    // if(currTownName in selectedTowns){
-    //   var entry = {"year": entryYear, "sci_name": sciName, "volume": flora.volume, "page": flora.page, "comName": flora.comName};
-    //   selectedTowns[currTownName].selectedEntries.push(entry);
-    // }
+    if(currTownName in selectedTowns){
+      var entry = {"year": entryYear, "sci_name": sciName, "volume": flora.volume, "page": flora.page, "comName": flora.comName};
+      selectedTowns[currTownName].selectedEntries.push(entry);
+    }
 
-    // //need a new town entry
-    // else{
-    //   newTown = {};
+    //need a new town entry
+    else{
+      newTown = {};
 
-    //   newTown["townName"] = currTownName;
-    //   newTown["selectedEntries"] = {};
+      newTown["townName"] = currTownName;
+      newTown["selectedEntries"] = [];
 
-    //   var entry = {"year": entryYear, "sci_name": sciName, "volume": flora.volume, "page": flora.page, "comName": flora.comName};
+      var entry = { "year": entryYear, 
+                    "sci_name": sciName, 
+                    "volume": flora.volume, 
+                    "page": flora.page, 
+                    "comName": flora.comName
+                  };
 
-    //   newTown["selectedEntries"].push(entry);
-    // }
+      newTown["selectedEntries"].push(entry);
+
+      selectedTowns[currTownName] = newTown;
+    }
   };
 
   drawMap();
-
 
 }
 
