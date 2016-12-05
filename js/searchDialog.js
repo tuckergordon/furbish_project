@@ -140,8 +140,8 @@ function selectFlora(floraID) {
 		document.getElementById('sel' + floraID).style.display = 'block';
 	}
 
+	// console.log(floraID);
 	addFlora(floraID);
-	console.log(floraID);
 
 }
 

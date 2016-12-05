@@ -84,7 +84,7 @@ function drawMap() {
         })
         .on("mouseover", function(d){
           d3.select(this).style("stroke-width", 3);
-          d3.select(this).style("fill", "#AB9353");
+          d3.select(this).style("fill", "#155765");
           var xPosition = path.centroid(d)[0] + toolTipXOffSet;
           var yPosition = path.centroid(d)[1] + toolTipYOffSet;
           //Update the tooltip position and value
@@ -119,7 +119,6 @@ function drawMap() {
                 presentTowns.push(temp);
               }
             }
-
 
             //ALL DOTS
             // if (!selectedTowns[d.properties.TOWN]) { //Does not exist
@@ -200,24 +199,26 @@ function addFlora(sciName){
 
     currTownName = flora.entries[i].place;
 
+    console.log("Appending ", currTownName, " to map.");
+
     selectedTowns[currTownName] = 1;
 
-    // if(currTownName in selectedTowns){
-    //   var entry = {"year": entryYear, "sci_name": sciName, "volume": flora.volume, "page": flora.page, "comName": flora.comName};
-    //   selectedTowns[currTownName].selectedEntries.push(entry);
-    // }
+  //   if(currTownName in selectedTowns){
+  //     var entry = {"year": entryYear, "sci_name": sciName, "volume": flora.volume, "page": flora.page, "comName": flora.comName};
+  //     selectedTowns[currTownName].selectedEntries.push(entry);
+  //   }
 
-    // //need a new town entry
-    // else{
-    //   newTown = {};
+  //   //need a new town entry
+  //   else{
+  //     newTown = {};
 
-    //   newTown["townName"] = currTownName;
-    //   newTown["selectedEntries"] = {};
+  //     newTown["townName"] = currTownName;
+  //     newTown["selectedEntries"] = {};
 
-    //   var entry = {"year": entryYear, "sci_name": sciName, "volume": flora.volume, "page": flora.page, "comName": flora.comName};
+  //     var entry = {"year": entryYear, "sci_name": sciName, "volume": flora.volume, "page": flora.page, "comName": flora.comName};
 
-    //   newTown["selectedEntries"].push(entry);
-    // }
+  //     newTown["selectedEntries"].push(entry);
+  //   }
   };
 
   drawMap();
