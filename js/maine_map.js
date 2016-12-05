@@ -161,7 +161,7 @@ function drawMap() {
           })
           .attr("r", function(d) {
             if (d[2] in selectedTowns) {
-              return 2 * selectedTowns[d[2]].selectedEntries.length;
+              return selectedTowns[d[2]].selectedEntries.length;
             }
             return 2;
           })
