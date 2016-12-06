@@ -224,7 +224,7 @@ function addFlora(sciName){
     currTownName = flora.entries[i].place;
 
     if(currTownName in selectedTowns){
-      var entry = {"year": entryYear, "sci_name": sciName, "volume": flora.volume, "page": flora.page, "comName": flora.comName};
+      var entry = {"year": entryYear, "sciName": sciName, "volume": flora.volume, "page": flora.page, "comName": flora.comName};
       selectedTowns[currTownName].selectedEntries.push(entry);
     }
 
@@ -267,47 +267,52 @@ function removeFlora(sciName){
     
     //get which year, town occured in
     entryYear = flora.entries[i].year;
-    currTownName = flora.entries[i].place;
-    console.log(currTownName);
+    currTown = selectedTowns[flora.entries[i].place];
 
-    //need this to compare entries later to delete
-    var entry = { "year": entryYear, 
-                  "sciName": sciName, 
-                  "volume": flora.volume, 
-                  "page": flora.page, 
-                  "comName": flora.comName
-                };
+    // //need this to compare entries later to delete
+    // var entry = { "year": entryYear, 
+    //               "sciName": sciName, 
+    //               "volume": flora.volume, 
+    //               "page": flora.page, 
+    //               "comName": flora.comName
+    //             };
 
     //find out town length to know whether to remove town from selectedTowns (only one entry is town dictionary),
     //or just entry from the town dictionary held in selectedTowns
-    townEntryLength = Object.keys(selectedTowns[currTownName].selectedEntries).length;
+    // townEntryLength = Object.keys(selectedTowns[currTownName].selectedEntries).length;
 
     // console.log(currTownName);
     //console.log(Object.keys(selectedTowns[currTownName].selectedEntries));
     // console.log(townEntryLength);
 
     //if this is the only active sample for a town, don't need to keep town in selectedTowns
-    if (townEntryLength == 1){
-      delete selectedTowns[currTownName];
+    if (currTown.selectedEntries.length == 1){
+      delete selectedTowns[currTown.townName];
       console.log(selectedTowns);
-    }
-
-    //otherwise, remove this entry from the array of entries for this town 
-    else{
-      for (var j = townEntryLength - 1; j >= 0; j--) {
-        
-        if (selectedTowns[currTownName].selectedEntries[j] == entry){
-          selectedTowns[currTownName].selectedEntries.splice(j, 1);
-          console.log("theoretically deleted things");
-          break;
+    } else {
+      for (var j = 0; j < currTown.selectedEntries.length; j++) {
+        if (currTown.selectedEntries[j].sciName == flora.sciName) {
+          currTown.selectedEntries.splice(j, 1);
         }
-
-      };
-      console.log(selectedTowns);
-
+      }
     }
 
+    drawMap();
 
+    // //otherwise, remove this entry from the array of entries for this town 
+    // else{
+    //   for (var j = townEntryLength - 1; j >= 0; j--) {
+        
+    //     if (selectedTowns[currTownName].selectedEntries[j] == entry){
+    //       selectedTowns[currTownName].selectedEntries.splice(j, 1);
+    //       console.log("theoretically deleted things");
+    //       break;
+    //     }
+
+    //   };
+    //   console.log(selectedTowns);
+
+    // }
   }
 
 }
