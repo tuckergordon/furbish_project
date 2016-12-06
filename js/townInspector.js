@@ -2,51 +2,7 @@ var floraList;
 
 initInspector();
 
-var currentTown = "";
-
-// var towns = [];
-
-// function addFlora(sciName){
-
-//     var flora = dataset[sciName];
-
-//     var curTownName;
-//     var newTown;
-//     for (var i = flora.entries.length - 1; i >= 0; i--) {
-      
-//       //automatically check for fitting in range
-//       var entryYear = flora.entries[i].year;
-//       if(entryYear < minYear || entryYear > maxYear){
-//         break;
-//       }
-
-//       curTownName = flora.entries[i].place;
-
-//       // if(curTownName in selectedTowns){
-
-//       //   var entry = {"year": entryYear, "sci_name": sciName, "volume": flora.volume, "page": flora.page, "comName": flora.comName};
-
-//       //   selectedTowns[curTownName].selectedEntries.push(entry);
-
-//       // }
-//       // //need a new town entry
-//       // else{
-//         newTown = {};
-
-//         newTown["townName"] = curTownName;
-//         newTown["selectedEntries"] = [];
-
-//         var entry = {"year": entryYear, "sciName": sciName, "volume": flora.volume, "page": flora.page, "comName": flora.comName};
-
-//         newTown["selectedEntries"].push(entry);
-
-//         towns.push(newTown);
-//       }
-//     }
-
-// addFlora("Cardamine bellidifolia L");
-
-// inspectTown(towns[0]);
+var currInspectedTown = "";
 
 function initInspector() {
 	floraList = document.getElementById('floraTableBody');
@@ -54,14 +10,18 @@ function initInspector() {
 
 function inspectTown(town) {
 
-	if (currentTown == town) { return; }
-	else { currentTown = town; }
+	if (currInspectedTown == town) { 
+		return; 
+	}
+	else { 
+		currInspectedTown = town; 
+	}
 
 	clearInspector();
 
 	$(".tableTitle").find('span').text("Town: " + town.townName);
 
-
+	if (town == '') { return; }
 
 	var lastRow;
 
@@ -76,11 +36,15 @@ function inspectTown(town) {
 		var tdVolume = $('<td>' + entry.volume + '</td>');
 		var tdPage = $('<td>' + entry.page + '</td>');
 
+		tdSciName.attr('class', 'tdSciName')
+
 		$(tr).append(tdComName)
 		$(tr).append(tdSciName)
 		$(tr).append(tdYear)
 		$(tr).append(tdVolume)
 		$(tr).append(tdPage);
+
+		$(tr).attr('class', 'inspectorRow')
 
 		if ($('#floraTableBody tr').length != 0) {
 			$(lastRow).after(tr);
@@ -89,6 +53,22 @@ function inspectTown(town) {
 		}
 
 		lastRow = tr;
+	}
+}
+
+function getCurrInspectedTown() {
+	return currInspectedTown;
+}
+
+function removeFloraFromInspector(sciName) {
+	$('.inspectorRow').each(function() {
+		var row = $(this).find('.tdSciName')[0];
+		if (row.innerHTML == sciName) {
+			this.remove();
+		}
+	})
+	if ($('#floraTableBody tr').length == 0) {
+		$(".tableTitle").find('span').text("Town:");
 	}
 }
 

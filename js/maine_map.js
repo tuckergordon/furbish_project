@@ -259,61 +259,31 @@ function addFlora(sciName){
 function removeFlora(sciName){
 
   var flora = dataset[sciName];
-  var currTownName;
-  var entryYear;
-  var townEntryLength;
+
+  var needToUpdateInspector = false;
+
+  if (getCurrInspectedTown().townName in selectedTowns) {
+    needToUpdateInspector = true;
+  }
 
   for (var i = flora.entries.length - 1; i >= 0; i--) {
-    
-    //get which year, town occured in
-    entryYear = flora.entries[i].year;
+  
     currTown = selectedTowns[flora.entries[i].place];
 
-    // //need this to compare entries later to delete
-    // var entry = { "year": entryYear, 
-    //               "sciName": sciName, 
-    //               "volume": flora.volume, 
-    //               "page": flora.page, 
-    //               "comName": flora.comName
-    //             };
-
-    //find out town length to know whether to remove town from selectedTowns (only one entry is town dictionary),
-    //or just entry from the town dictionary held in selectedTowns
-    // townEntryLength = Object.keys(selectedTowns[currTownName].selectedEntries).length;
-
-    // console.log(currTownName);
-    //console.log(Object.keys(selectedTowns[currTownName].selectedEntries));
-    // console.log(townEntryLength);
-
-    //if this is the only active sample for a town, don't need to keep town in selectedTowns
     if (currTown.selectedEntries.length == 1){
       delete selectedTowns[currTown.townName];
       console.log(selectedTowns);
-    } else {
+    } 
+    else {
       for (var j = 0; j < currTown.selectedEntries.length; j++) {
         if (currTown.selectedEntries[j].sciName == flora.sciName) {
           currTown.selectedEntries.splice(j, 1);
         }
       }
     }
-
-    drawMap();
-
-    // //otherwise, remove this entry from the array of entries for this town 
-    // else{
-    //   for (var j = townEntryLength - 1; j >= 0; j--) {
-        
-    //     if (selectedTowns[currTownName].selectedEntries[j] == entry){
-    //       selectedTowns[currTownName].selectedEntries.splice(j, 1);
-    //       console.log("theoretically deleted things");
-    //       break;
-    //     }
-
-    //   };
-    //   console.log(selectedTowns);
-
-    // }
   }
-
+  drawMap();
+  
+  removeFloraFromInspector(sciName);
 }
 
