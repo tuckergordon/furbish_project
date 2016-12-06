@@ -339,6 +339,39 @@ function uniqueTownsInDataset(){
 
 }
 
+uniqueTownsInDataset();
 
+
+function uniqueTownsInDataset(){
+
+  var totalTowns = {};
+
+  console.log(Object.keys(dataset).length);
+
+  // for (var i = 0; i < Object.keys(dataset).length; i++){
+
+  //   console.log("hi");
+
+  // }
+
+  var flora;
+
+  for (key in dataset){
+    //console.log(key);
+
+      flora = dataset[key];
+
+      for (var i = 0; i < flora.entries.length; i++){
+          var currTownName = flora.entries[i].place;
+
+          if (!(currTownName in totalTowns)) {
+              totalTowns[currTownName] = 0;
+          }
+      }
+  }
+
+  console.log(Object.keys(totalTowns).length);
+
+}
 
 
