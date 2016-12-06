@@ -102,80 +102,96 @@ function drawMap() {
         .attr("d", path);
       }
 
-    // function drawDots() {
+    function drawDots() {
 
-    //   var presentTowns = [];
+      var presentTowns = [];
 
-    //   map_svg.selectAll("circle").remove();
+      map_svg.selectAll("circle").remove();
 
-    //   map_svg.selectAll("circle")
-    //       .data(METOWNS_POLY.features)
-    //       .enter()
-    //       .append("cirle")
-    //       .attr("fill", "red")
-    //       .attr("cx", function(d) {
+      map_svg.selectAll("circle")
+          .data(METOWNS_POLY.features)
+          .enter()
+          .append("cirle")
+          .attr("fill", "red")
+          .attr("cx", function(d) {
 
-    //         //Only add dots if they exist in selectedTowns
-    //         if (selectedTowns[d.properties.TOWN]) {
-    //           if (d.properties.TOWN != "null" && d.properties.TOWN != null) {
-    //             var temp = [];
-    //             temp.push(path.centroid(d)[0]);
-    //             temp.push(path.centroid(d)[1]);
-    //             temp.push(d.properties.TOWN);
-    //             presentTowns.push(temp);
-    //           }
-    //         }
-    //         return path.centroid(d)[0];
-    //       })
-    //       .attr("cy", function(d) {
-    //         return path.centroid(d)[1];
-    //       })
-    //       .attr("r", 5);
+            //Only add dots if they exist in selectedTowns
+            if (selectedTowns[d.properties.TOWN]) {
+              if (d.properties.TOWN != "null" && d.properties.TOWN != null) {
+                var temp = [];
+                temp.push(path.centroid(d)[0]);
+                temp.push(path.centroid(d)[1]);
+                temp.push(d.properties.TOWN);
+                presentTowns.push(temp);
+              }
+            }
+            return path.centroid(d)[0];
+          })
+          .attr("cy", function(d) {
+            return path.centroid(d)[1];
+          })
+          .attr("r", 5);
 
-    //     // console.log("Length: ", presentTowns.length);
+        // console.log("Length: ", presentTowns.length);
 
-    //     map_svg.selectAll("circle")
-    //       .data(presentTowns)
-    //       .enter()
-    //       .append("circle")
-    //       .attr("class", "townDot")
-    //       .attr("cx", function(d) {
-    //           return d[0];
-    //       })
-    //       .attr("cy", function(d) {
-    //         return d[1];
-    //       })
-    //       .attr("r", function(d) {
-    //         if (d[2] in selectedTowns) {
-    //           return selectedTowns[d[2]].selectedEntries.length;
-    //         }
-    //         return 2;
-    //       })
-    //       .style("stroke-width", .5)
-    //       .on("click", function(d) {
-    //         console.log(d[2])
-    //         inspectTown(selectedTowns[d[2]])
-    //       })
-    //       .on("mouseout", function(){
-    //         d3.select(this).style("stroke-width", .5);
-    //         d3.select("#tooltip").classed("hidden", true);
-    //       })
-    //       .on("mouseover", function(d){
-    //         d3.select(this).style("stroke-width", 3);
-    //         var xPosition = d[0] + toolTipXOffSet;
-    //         var yPosition = d[1] + toolTipYOffSet;
-    //         //Update the tooltip position and value
-    //         var toolTip = d3.select("#tooltip")
-    //                         .style("left", xPosition + "px")
-    //                         .style("top", yPosition + "px") ;          
-    //         toolTip.select("#townName")
-    //                 .text(selectedTowns[d[2]].townName);
-    //         d3.select("#tooltip").classed("hidden", false);
-    //       });
+        function findMax() {
+          var max = 0;
+          for (key in selectedTowns) {
+            if (selectedTowns[key].selectedEntries.length > max) {
+              max = selectedTowns[key].selectedEntries.length;
+            }
+          } 
+          return max;           
+        }
+
+        var dotMax = findMax();
+
+        var rScale = d3.scale.linear() //Median Income
+                           .domain([0, dotMax])
+                           .range([3, 10]);
+
+        map_svg.selectAll("circle")
+          .data(presentTowns)
+          .enter()
+          .append("circle")
+          .attr("class", "townDot")
+          .attr("cx", function(d) {
+              return d[0];
+          })
+          .attr("cy", function(d) {
+            return d[1];
+          })
+          .attr("r", function(d) {
+            if (d[2] in selectedTowns) {
+              return rScale(selectedTowns[d[2]].selectedEntries.length);
+            }
+            return 2;
+          })
+          .style("stroke-width", .5)
+          .on("click", function(d) {
+            console.log(d[2])
+            inspectTown(selectedTowns[d[2]])
+          })
+          .on("mouseout", function(){
+            d3.select(this).style("stroke-width", .5);
+            d3.select("#tooltip").classed("hidden", true);
+          })
+          .on("mouseover", function(d){
+            d3.select(this).style("stroke-width", 3);
+            var xPosition = d[0] + toolTipXOffSet;
+            var yPosition = d[1] + toolTipYOffSet;
+            //Update the tooltip position and value
+            var toolTip = d3.select("#tooltip")
+                            .style("left", xPosition + "px")
+                            .style("top", yPosition + "px") ;          
+            toolTip.select("#townName")
+                    .text(selectedTowns[d[2]].townName);
+            d3.select("#tooltip").classed("hidden", false);
+          });
 
     }
 
-    //drawDots();
+    drawDots();
 
   });
 
@@ -235,7 +251,7 @@ function addFlora(sciName){
   console.log(Object.keys(selectedTowns).length);
   console.log(Object.keys(selectedTowns));
   console.log(selectedTowns);
-  //drawMap();
+  // drawMap();
 
 }
 
@@ -278,10 +294,10 @@ function removeFlora(sciName){
 
     //otherwise, remove this entry from the array of entries for this town 
     else{
-      for (var i = townEntryLength - 1; i >= 0; i--) {
+      for (var j = townEntryLength - 1; j >= 0; j--) {
         
-        if (selectedTowns[currTownName].selectedEntries[i] == entry){
-          selectedTowns[currTownName].selectedEntries.splice(i, 1);
+        if (selectedTowns[currTownName].selectedEntries[j] == entry){
+          selectedTowns[currTownName].selectedEntries.splice(j, 1);
           console.log("theoretically deleted things");
           break;
         }
