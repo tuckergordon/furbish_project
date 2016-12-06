@@ -118,6 +118,11 @@ function drawMap() {
             //Only add dots if they exist in selectedTowns
             if (selectedTowns[d.properties.TOWN]) {
               if (d.properties.TOWN != "null" && d.properties.TOWN != null) {
+
+                if (d.properties.TOWN == "Harpswell") {
+                  console.log("This is Harpswell!");
+                }
+
                 var temp = [];
                 temp.push(path.centroid(d)[0]);
                 temp.push(path.centroid(d)[1]);
@@ -169,8 +174,9 @@ function drawMap() {
           })
           .style("stroke-width", .5)
           .on("click", function(d) {
-            console.log(d[2])
-            inspectTown(selectedTowns[d[2]])
+            // console.log(d[2])
+            // console.log(selectedTowns[d[2]].selectedEntries.length);
+            inspectTown(selectedTowns[d[2]]);
           })
           .on("mouseout", function(){
             d3.select(this).style("stroke-width", .5);
@@ -248,9 +254,9 @@ function addFlora(sciName){
     }
   };
 
-  console.log(Object.keys(selectedTowns).length);
-  console.log(Object.keys(selectedTowns));
-  console.log(selectedTowns);
+  // console.log(Object.keys(selectedTowns).length);
+  // console.log(Object.keys(selectedTowns));
+  // console.log(selectedTowns);
   // drawMap();
 
 }
@@ -268,7 +274,7 @@ function removeFlora(sciName){
     //get which year, town occured in
     entryYear = flora.entries[i].year;
     currTownName = flora.entries[i].place;
-    console.log(currTownName);
+    // console.log(currTownName);
 
     //need this to compare entries later to delete
     var entry = { "year": entryYear, 
@@ -289,7 +295,7 @@ function removeFlora(sciName){
     //if this is the only active sample for a town, don't need to keep town in selectedTowns
     if (townEntryLength == 1){
       delete selectedTowns[currTownName];
-      console.log(selectedTowns);
+      // console.log(selectedTowns);
     }
 
     //otherwise, remove this entry from the array of entries for this town 
@@ -298,12 +304,12 @@ function removeFlora(sciName){
         
         if (selectedTowns[currTownName].selectedEntries[j] == entry){
           selectedTowns[currTownName].selectedEntries.splice(j, 1);
-          console.log("theoretically deleted things");
+          // console.log("theoretically deleted things");
           break;
         }
 
       };
-      console.log(selectedTowns);
+      // console.log(selectedTowns);
 
     }
 
