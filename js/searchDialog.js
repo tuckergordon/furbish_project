@@ -142,6 +142,7 @@ function selectFlora(floraID) {
 	// calling the addFlora function in maine_map.js to add
 	// the flora to the map
 	addFlora(floraID);
+	drawMap();
 }
 
 // deselect the flora with ID = floraID
@@ -169,6 +170,11 @@ function deselectFlora(floraID) {
 	}
 	// hide the flora in the selected list
 	document.getElementById('sel' + floraID).style.display = 'none';
+
+	// calling the addFlora function in maine_map.js to add
+	// the flora to the map
+	removeFlora(floraID);
+
 }
 
 // selects all flora
@@ -187,6 +193,11 @@ function selectAll() {
 		flora.setAttribute('checked', 'true');
 		flora.setAttribute("style", "background-color: palegreen");
 		document.getElementById('sel' + floraID).style.display = 'block';
+
+		// calling the addFlora function in maine_map.js to add
+		// the flora to the map
+		//addFlora(floraID);
+		//drawMap();
 	}
 }
 

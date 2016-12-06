@@ -72,10 +72,14 @@ function drawMap() {
           return quantize(valueToQuantize); 
         })
         .on("click", function(d) {
-          var townName = d.properties.TOWN;
-          if (townName == "null" || townName == null) {
-            townName = "Moosehead Lake";
-          }
+
+          //
+          // NOTE - I don't know why this code is here
+          //
+          // var townName = d.properties.TOWN;
+          // if (townName == "null" || townName == null) {
+          //   townName = "Moosehead Lake";
+          // }
         })
         .on("mouseout", function(){
           d3.select(this).style("stroke-width", .5);
@@ -98,78 +102,80 @@ function drawMap() {
         .attr("d", path);
       }
 
-    function drawDots() {
+    // function drawDots() {
 
-      var presentTowns = [];
+    //   var presentTowns = [];
 
-      map_svg.selectAll("circle")
-          .data(METOWNS_POLY.features)
-          .enter()
-          .append("cirle")
-          .attr("fill", "red")
-          .attr("cx", function(d) {
+    //   map_svg.selectAll("circle").remove();
 
-            //Only add dots if they exist in selectedTowns
-            if (selectedTowns[d.properties.TOWN]) {
-              if (d.properties.TOWN != "null" && d.properties.TOWN != null) {
-                var temp = [];
-                temp.push(path.centroid(d)[0]);
-                temp.push(path.centroid(d)[1]);
-                temp.push(d.properties.TOWN);
-                presentTowns.push(temp);
-              }
-            }
-            return path.centroid(d)[0];
-          })
-          .attr("cy", function(d) {
-            return path.centroid(d)[1];
-          })
-          .attr("r", 5);
+    //   map_svg.selectAll("circle")
+    //       .data(METOWNS_POLY.features)
+    //       .enter()
+    //       .append("cirle")
+    //       .attr("fill", "red")
+    //       .attr("cx", function(d) {
 
-        // console.log("Length: ", presentTowns.length);
+    //         //Only add dots if they exist in selectedTowns
+    //         if (selectedTowns[d.properties.TOWN]) {
+    //           if (d.properties.TOWN != "null" && d.properties.TOWN != null) {
+    //             var temp = [];
+    //             temp.push(path.centroid(d)[0]);
+    //             temp.push(path.centroid(d)[1]);
+    //             temp.push(d.properties.TOWN);
+    //             presentTowns.push(temp);
+    //           }
+    //         }
+    //         return path.centroid(d)[0];
+    //       })
+    //       .attr("cy", function(d) {
+    //         return path.centroid(d)[1];
+    //       })
+    //       .attr("r", 5);
 
-        map_svg.selectAll("circle")
-          .data(presentTowns)
-          .enter()
-          .append("circle")
-          .attr("class", "townDot")
-          .attr("cx", function(d) {
-              return d[0];
-          })
-          .attr("cy", function(d) {
-            return d[1];
-          })
-          .attr("r", function(d) {
-            if (d[2] in selectedTowns) {
-              return selectedTowns[d[2]].selectedEntries.length;
-            }
-            return 2;
-          })
-          .style("stroke-width", .5)
-          .on("click", function(d) {
-            console.log(d[2])
-            inspectTown(selectedTowns[d[2]])
-          })
-          .on("mouseout", function(){
-            d3.select(this).style("stroke-width", .5);
-            d3.select("#tooltip").classed("hidden", true);
-          })
-          .on("mouseover", function(d){
-            d3.select(this).style("stroke-width", 3);
-            var xPosition = d[0] + toolTipXOffSet;
-            var yPosition = d[1] + toolTipYOffSet;
-            //Update the tooltip position and value
-            var toolTip = d3.select("#tooltip")
-                            .style("left", xPosition + "px")
-                            .style("top", yPosition + "px") ;          
-            toolTip.select("#townName")
-                    .text(selectedTowns[d[2]].townName);
-            d3.select("#tooltip").classed("hidden", false);
-          });
+    //     // console.log("Length: ", presentTowns.length);
+
+    //     map_svg.selectAll("circle")
+    //       .data(presentTowns)
+    //       .enter()
+    //       .append("circle")
+    //       .attr("class", "townDot")
+    //       .attr("cx", function(d) {
+    //           return d[0];
+    //       })
+    //       .attr("cy", function(d) {
+    //         return d[1];
+    //       })
+    //       .attr("r", function(d) {
+    //         if (d[2] in selectedTowns) {
+    //           return selectedTowns[d[2]].selectedEntries.length;
+    //         }
+    //         return 2;
+    //       })
+    //       .style("stroke-width", .5)
+    //       .on("click", function(d) {
+    //         console.log(d[2])
+    //         inspectTown(selectedTowns[d[2]])
+    //       })
+    //       .on("mouseout", function(){
+    //         d3.select(this).style("stroke-width", .5);
+    //         d3.select("#tooltip").classed("hidden", true);
+    //       })
+    //       .on("mouseover", function(d){
+    //         d3.select(this).style("stroke-width", 3);
+    //         var xPosition = d[0] + toolTipXOffSet;
+    //         var yPosition = d[1] + toolTipYOffSet;
+    //         //Update the tooltip position and value
+    //         var toolTip = d3.select("#tooltip")
+    //                         .style("left", xPosition + "px")
+    //                         .style("top", yPosition + "px") ;          
+    //         toolTip.select("#townName")
+    //                 .text(selectedTowns[d[2]].townName);
+    //         d3.select("#tooltip").classed("hidden", false);
+    //       });
 
     }
 
-    drawDots();
+    //drawDots();
 
   });
 
@@ -226,8 +232,67 @@ function addFlora(sciName){
     }
   };
 
-  drawMap();
+  console.log(Object.keys(selectedTowns).length);
+  console.log(Object.keys(selectedTowns));
+  console.log(selectedTowns);
+  //drawMap();
 
 }
 
+//function to run when individual flora are deselected
+function removeFlora(sciName){
+
+  var flora = dataset[sciName];
+  var currTownName;
+  var entryYear;
+  var townEntryLength;
+
+  for (var i = flora.entries.length - 1; i >= 0; i--) {
+    
+    //get which year, town occured in
+    entryYear = flora.entries[i].year;
+    currTownName = flora.entries[i].place;
+    console.log(currTownName);
+
+    //need this to compare entries later to delete
+    var entry = { "year": entryYear, 
+                  "sciName": sciName, 
+                  "volume": flora.volume, 
+                  "page": flora.page, 
+                  "comName": flora.comName
+                };
+
+    //find out town length to know whether to remove town from selectedTowns (only one entry is town dictionary),
+    //or just entry from the town dictionary held in selectedTowns
+    townEntryLength = Object.keys(selectedTowns[currTownName].selectedEntries).length;
+
+    // console.log(currTownName);
+    //console.log(Object.keys(selectedTowns[currTownName].selectedEntries));
+    // console.log(townEntryLength);
+
+    //if this is the only active sample for a town, don't need to keep town in selectedTowns
+    if (townEntryLength == 1){
+      delete selectedTowns[currTownName];
+      console.log(selectedTowns);
+    }
+
+    //otherwise, remove this entry from the array of entries for this town 
+    else{
+      for (var i = townEntryLength - 1; i >= 0; i--) {
+        
+        if (selectedTowns[currTownName].selectedEntries[i] == entry){
+          selectedTowns[currTownName].selectedEntries.splice(i, 1);
+          console.log("theoretically deleted things");
+          break;
+        }
+
+      };
+      console.log(selectedTowns);
+
+    }
+
+
+  }
+
+}
 
