@@ -122,7 +122,20 @@ function drawMap() {
                 temp.push(path.centroid(d)[0]);
                 temp.push(path.centroid(d)[1]);
                 temp.push(d.properties.TOWN);
-                presentTowns.push(temp);
+                //presentTowns.push(temp);
+
+
+                var inArray = false;
+                for(var k = 0; k < presentTowns.length; k++){
+                  var curTownName = presentTowns[k][2];
+                  if (curTownName == d.properties.TOWN){
+                    inArray = true;
+                  }
+                }
+
+                if (!inArray){
+                  presentTowns.push(temp);
+                }
               }
             }
             return path.centroid(d)[0];
@@ -192,6 +205,10 @@ function drawMap() {
     }
 
     drawDots();
+    //console.log(Object.keys(selectedTowns).length);
+
+    //
+    // ** NOTE ** - need to make method that will print how many towns are actually drawn
 
   });
 
@@ -248,9 +265,9 @@ function addFlora(sciName){
     }
   };
 
-  console.log(Object.keys(selectedTowns).length);
-  console.log(Object.keys(selectedTowns));
-  console.log(selectedTowns);
+  // console.log(Object.keys(selectedTowns).length);
+  // console.log(Object.keys(selectedTowns));
+  // console.log(selectedTowns);
   // drawMap();
 
 }
@@ -286,4 +303,42 @@ function removeFlora(sciName){
   
   removeFloraFromInspector(sciName);
 }
+
+uniqueTownsInDataset();
+
+
+function uniqueTownsInDataset(){
+
+  var totalTowns = {};
+
+  console.log(Object.keys(dataset).length);
+
+  // for (var i = 0; i < Object.keys(dataset).length; i++){
+
+  //   console.log("hi");
+
+  // }
+
+  var flora;
+
+  for (key in dataset){
+    //console.log(key);
+
+      flora = dataset[key];
+
+      for (var i = 0; i < flora.entries.length; i++){
+          var currTownName = flora.entries[i].place;
+
+          if (!(currTownName in totalTowns)) {
+              totalTowns[currTownName] = 0;
+          }
+      }
+  }
+
+  console.log(Object.keys(totalTowns).length);
+
+}
+
+
+
 
