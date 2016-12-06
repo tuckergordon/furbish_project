@@ -72,10 +72,14 @@ function drawMap() {
           return quantize(valueToQuantize); 
         })
         .on("click", function(d) {
-          var townName = d.properties.TOWN;
-          if (townName == "null" || townName == null) {
-            townName = "Moosehead Lake";
-          }
+
+          //
+          // NOTE - I don't know why this code is here
+          //
+          // var townName = d.properties.TOWN;
+          // if (townName == "null" || townName == null) {
+          //   townName = "Moosehead Lake";
+          // }
         })
         .on("mouseout", function(){
           d3.select(this).style("stroke-width", .5);
@@ -101,6 +105,8 @@ function drawMap() {
     function drawDots() {
 
       var presentTowns = [];
+
+      map_svg.selectAll("circle").remove();
 
       map_svg.selectAll("circle")
           .data(METOWNS_POLY.features)
@@ -128,6 +134,22 @@ function drawMap() {
 
         // console.log("Length: ", presentTowns.length);
 
+        function findMax() {
+          var max = 0;
+          for (key in selectedTowns) {
+            if (selectedTowns[key].selectedEntries.length > max) {
+              max = selectedTowns[key].selectedEntries.length;
+            }
+          } 
+          return max;           
+        }
+
+        var dotMax = findMax();
+
+        var rScale = d3.scale.linear() //Median Income
+                           .domain([0, dotMax])
+                           .range([3, 10]);
+
         map_svg.selectAll("circle")
           .data(presentTowns)
           .enter()
@@ -141,7 +163,7 @@ function drawMap() {
           })
           .attr("r", function(d) {
             if (d[2] in selectedTowns) {
-              return selectedTowns[d[2]].selectedEntries.length;
+              return rScale(selectedTowns[d[2]].selectedEntries.length);
             }
             return 2;
           })
@@ -169,7 +191,7 @@ function drawMap() {
 
     }
 
-    // drawDots();
+    drawDots();
 
   });
 
@@ -226,8 +248,67 @@ function addFlora(sciName){
     }
   };
 
-  drawMap();
+  console.log(Object.keys(selectedTowns).length);
+  console.log(Object.keys(selectedTowns));
+  console.log(selectedTowns);
+  // drawMap();
 
 }
 
+//function to run when individual flora are deselected
+function removeFlora(sciName){
+
+  var flora = dataset[sciName];
+  var currTownName;
+  var entryYear;
+  var townEntryLength;
+
+  for (var i = flora.entries.length - 1; i >= 0; i--) {
+    
+    //get which year, town occured in
+    entryYear = flora.entries[i].year;
+    currTownName = flora.entries[i].place;
+    console.log(currTownName);
+
+    //need this to compare entries later to delete
+    var entry = { "year": entryYear, 
+                  "sciName": sciName, 
+                  "volume": flora.volume, 
+                  "page": flora.page, 
+                  "comName": flora.comName
+                };
+
+    //find out town length to know whether to remove town from selectedTowns (only one entry is town dictionary),
+    //or just entry from the town dictionary held in selectedTowns
+    townEntryLength = Object.keys(selectedTowns[currTownName].selectedEntries).length;
+
+    // console.log(currTownName);
+    //console.log(Object.keys(selectedTowns[currTownName].selectedEntries));
+    // console.log(townEntryLength);
+
+    //if this is the only active sample for a town, don't need to keep town in selectedTowns
+    if (townEntryLength == 1){
+      delete selectedTowns[currTownName];
+      console.log(selectedTowns);
+    }
+
+    //otherwise, remove this entry from the array of entries for this town 
+    else{
+      for (var j = townEntryLength - 1; j >= 0; j--) {
+        
+        if (selectedTowns[currTownName].selectedEntries[j] == entry){
+          selectedTowns[currTownName].selectedEntries.splice(j, 1);
+          console.log("theoretically deleted things");
+          break;
+        }
+
+      };
+      console.log(selectedTowns);
+
+    }
+
+
+  }
+
+}
 

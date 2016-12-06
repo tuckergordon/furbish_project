@@ -2,6 +2,8 @@ var floraList;
 
 initInspector();
 
+var currentTown;
+
 // var towns = [];
 
 // function addFlora(sciName){
@@ -51,6 +53,9 @@ function initInspector() {
 }
 
 function inspectTown(town) {
+
+	if (currentTown == town) { return; }
+	else { currentTown = town; }
 
 	clearInspector();
 
