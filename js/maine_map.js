@@ -169,7 +169,7 @@ function drawMap() {
 
     }
 
-    drawDots();
+    // drawDots();
 
   });
 
