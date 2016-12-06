@@ -197,10 +197,9 @@ function selectAll() {
 		// calling the addFlora function in maine_map.js to add
 		// the flora to the map
 		addFlora(floraID);
+		
 	}
-
 	drawMap();
-
 }
 
 // deselects all flora

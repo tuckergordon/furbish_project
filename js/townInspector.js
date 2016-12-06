@@ -2,7 +2,7 @@ var floraList;
 
 initInspector();
 
-var currentTown;
+var currentTown = "";
 
 // var towns = [];
 
@@ -61,9 +61,12 @@ function inspectTown(town) {
 
 	$(".tableTitle").find('span').text("Town: " + town.townName);
 
-	var lastRow = $('#floraTableBody:last');
+
+
+	var lastRow;
 
 	for (var key in town.selectedEntries) {
+
 		var entry = town.selectedEntries[key];
 
 		var tr = $('<tr></tr>');
@@ -79,7 +82,12 @@ function inspectTown(town) {
 		$(tr).append(tdVolume)
 		$(tr).append(tdPage);
 
-		$(lastRow).after(tr);
+		if ($('#floraTableBody tr').length != 0) {
+			$(lastRow).after(tr);
+		} else {
+			$('#floraTableBody').append(tr);
+		}
+
 		lastRow = tr;
 	}
 }
