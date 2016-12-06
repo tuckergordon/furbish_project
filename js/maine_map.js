@@ -122,7 +122,20 @@ function drawMap() {
                 temp.push(path.centroid(d)[0]);
                 temp.push(path.centroid(d)[1]);
                 temp.push(d.properties.TOWN);
-                presentTowns.push(temp);
+                //presentTowns.push(temp);
+
+
+                var inArray = false;
+                for(var k = 0; k < presentTowns.length; k++){
+                  var curTownName = presentTowns[k][2];
+                  if (curTownName == d.properties.TOWN){
+                    inArray = true;
+                  }
+                }
+
+                if (!inArray){
+                  presentTowns.push(temp);
+                }
               }
             }
             return path.centroid(d)[0];
