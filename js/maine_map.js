@@ -9,7 +9,7 @@ var mapInitialized = false;
 var selectedTowns = {};  //empty dictionary to hold all town names as keys, and all values
                     //default to 0, will be counters of how many entries
 
-var townsNotIncluded = {};  //tool for debugging
+//var townsNotIncluded = {};  //tool for debugging
 
 var toolTipXOffSet = 200,
     toolTipYOffSet = 140;
@@ -138,9 +138,9 @@ function drawMap() {
                 }
 
                 //makes it so town is no longer considered unlisted
-                if(d.properties.TOWN in townsNotIncluded){
-                  delete townsNotIncluded[d.properties.TOWN];
-                }
+                // if(d.properties.TOWN in townsNotIncluded){
+                //   delete townsNotIncluded[d.properties.TOWN];
+                // }
 
                 if (!inArray){
                   presentTowns.push(temp);
@@ -211,20 +211,20 @@ function drawMap() {
             d3.select("#tooltip").classed("hidden", false);
           });
 
-          if (Object.keys(townsNotIncluded).length != 237){
-            var totalMissed = 0;
-            for(key in townsNotIncluded){
-              console.log(key + ": " + townsNotIncluded[key]);
+          // if (Object.keys(townsNotIncluded).length != 237){
+          //   var totalMissed = 0;
+          //   for(key in townsNotIncluded){
+          //     console.log(key + ": " + townsNotIncluded[key]);
 
-              totalMissed += townsNotIncluded[key];
-            }
+          //     totalMissed += townsNotIncluded[key];
+          //   }
 
-            console.log("total missed data points: " + totalMissed);
-          }
+          //   console.log("total missed data points: " + totalMissed);
+          // }
 
     }
 
-    uniqueTownsInDataset();
+    //uniqueTownsInDataset();
 
     drawDots();
 
@@ -368,38 +368,38 @@ function removeAllFlora() {
   drawMap();
 }
 
-uniqueTownsInDataset();
+//uniqueTownsInDataset();
 
 
 
-function uniqueTownsInDataset(){
+// function uniqueTownsInDataset(){
 
-  var totalTowns = {};
+//   var totalTowns = {};
 
-  var flora;
+//   var flora;
 
-  for (key in dataset){
-    //console.log(key);
+//   for (key in dataset){
+//     //console.log(key);
 
-      flora = dataset[key];
+//       flora = dataset[key];
 
-      for (var i = 0; i < flora.entries.length; i++){
-          var currTownName = flora.entries[i].place;
+//       for (var i = 0; i < flora.entries.length; i++){
+//           var currTownName = flora.entries[i].place;
 
-          if (!(currTownName in totalTowns)) {
-              totalTowns[currTownName] = 1;
-          }
-          else {
-            totalTowns[currTownName] += 1;
-          }
-      }
-  }
+//           if (!(currTownName in totalTowns)) {
+//               totalTowns[currTownName] = 1;
+//           }
+//           else {
+//             totalTowns[currTownName] += 1;
+//           }
+//       }
+//   }
 
-  //console.log(Object.keys(totalTowns).length);
+//   //console.log(Object.keys(totalTowns).length);
 
 
-  townsNotIncluded = totalTowns;
-}
+//   townsNotIncluded = totalTowns;
+// }
 
 
 
