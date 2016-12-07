@@ -241,7 +241,7 @@ function drawMap() {
       // - The size of the 'step' taken by the handle when the user shifts it.
       // - The max and min values that the range slider can have.
       // - The starting min and max values of the slider handles.
-      d3.select('#scaleContainer').call(d3.slider().axis(d3.svg.axis().orient("vertical").ticks(10)).step(1).min(sliderMin).max(sliderMax).value( [ sliderStartMin, sliderStartMax ] )
+      d3.select('#scaleContainer').call(d3.slider().axis(d3.svg.axis().orient("horizontal").ticks(10)).step(1).min(sliderMin).max(sliderMax).value( [ sliderStartMin, sliderStartMax ] )
         .on("slide", function(evt, value) {
 
           //When the user clicks on one of the handles and shifts it, the values of the either the start and end index will change (based on which handle is moved), and thus
