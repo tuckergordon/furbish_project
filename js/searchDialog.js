@@ -5,6 +5,10 @@ makeLists();
 // user for displaying on the map
 var selectedFlora = [];
 
+$(document).ready(function() {
+	$(searchBar).val('');
+})
+
 // add all of the flora as <li> elements to the search results (searchList) and 
 // selected flora list (selectedList). All of the flora will be hidden in the
 // selected list until they are selected
