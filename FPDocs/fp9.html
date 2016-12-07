@@ -73,13 +73,19 @@
 			Made presentation
 		</li>
 		<li>
-			Figured out how many entries we're missing in our visualization because of places that appear in the dataset, but not in the geoJSON SOPHIE CAN YOU ADD THOSE NUMBERS HERE
+			Figured out that 953 of the total 3525 Furbish entries are not our visualization. This is because these places that appear in the dataset are often counties, names of existing towns with cardinal directions included (e.g. North Brunswick), geographic landmarks (e.g. Mount Katahdin), or just mysterious (e.g. "The Island" is an actual logged location), all of which do not occur in the geoJSON.
+			<ul>
+				<li>We attempted to reduce this number by parsing out cardinal directions, which led to more bugs, as these are also included in actual town names. We deemed this, at least currently, out of the scope of our project.</li>
+			</ul>
+		</li>
+		<li>
+			Discovered GitHub had overwritten some important code during automatic merges and recovered all of it.
 		</li>
 	</ul>
 	<hr/>
 	<h3>New Questions/Issues:</h3>
 	<ul>
-		<li>FROM LAST WEEK, BUT STILL AN ISSUE: The town names in the geojson file do not line up with the place names in our data. Our data has more places (most of the "extra" ones are significant geographic points or counties), and we need to adjust our parsing to remove spaces and punctuation</li>
+		<li>UNRESOLVED FROM LAST WEEK: The place names in our dataset's town names do not completely line up with town names in the geoJSON file. The majority of our data's "extra" places need to be examined individually, as most aren't conflicts we can resolve with parsing.</li>
 		<li>There's some problems with town dots overlapping. This might be solved by zooming, and/or by somehow making sure that smaller dots are always drawn after bigger dots.</li>
 	</ul>
 	<hr/>
@@ -118,9 +124,9 @@
 		</tr>
 		<tr>
 			<td>Making dots appear when selecting flora</td>
-			<td></td>
-			<td></td>
-			<td></td>
+			<td>25%</td>
+			<td>75%</td>
+			<td>0%</td>
 		</tr>
 		<tr>
 			<td>Making dots increase in size (and scale) for multiple flora entries</td>
@@ -159,15 +165,15 @@
 			<td>100%</td>
 		</tr>
 		<tr>
-			<td>Determining how many towns we're missing</td>
+			<td>Determining which and how many towns we're missing</td>
 			<td>100%</td>
 			<td>0%</td>
 			<td>0%</td>
 		</tr>
 		<tr>
-			<td>Town & Dot Tooltips</td>
-			<td>0%</td>
+			<td>Unraveling GitHub-based bugs</td>
 			<td>100%</td>
+			<td>0%</td>
 			<td>0%</td>
 		</tr>
 		<tr>
@@ -181,6 +187,24 @@
 			<td>0%</td>
 			<td>100%</td>
 			<td>0%</td>
+		</tr>
+		<tr>
+			<td>Range Slider</td>
+			<td>0%</td>
+			<td>100%</td>
+			<td>0%</td>
+		</tr>
+		<tr>
+			<td>Creating slide show</td>
+			<td>45%</td>
+			<td>45%</td>
+			<td>10%</td>
+		</tr>
+		<tr>
+			<td>Writing FP9</td>
+			<td>15%</td>
+			<td>15%</td>
+			<td>70%</td>
 		</tr>
 	</table>
 </body>
