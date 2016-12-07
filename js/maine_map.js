@@ -14,10 +14,10 @@ var selectedTowns = {};  //empty dictionary to hold all town names as keys, and 
 var toolTipXOffSet = 200,
     toolTipYOffSet = 140;
 
-var   sliderMin = 1, //Setting the minimum and maximum range values of the range slider
-      sliderMax = 10,
-      sliderStartMin = 1, //Setting the starting minimum and maximum values of the range slider when the page first loads.
-      sliderStartMax = 3;
+var   sliderMin = 1870, //Setting the minimum and maximum range values of the range slider
+      sliderMax = 1909,
+      sliderStartMin = 1870, //Setting the starting minimum and maximum values of the range slider when the page first loads.
+      sliderStartMax = 1909;
 
 // **
 //	NOTE -

@@ -330,12 +330,12 @@ tbody td {
 }
 
 .d3-slider {
-    position: absolute;
+    position: relative;
     font-family: Verdana,Arial,sans-serif;
-    font-size: 1.1em;
-    border: 1px solid #aaaaaa;
-    top: 500px;
-    left: 500px;
+    font-size: 0.6em;
+    border: 0px solid #AB9353;
+  /*  top: 500px;
+    left: 500px;*/
     z-index: 2;
 }
 
@@ -344,7 +344,7 @@ tbody td {
 }  
 
 .d3-slider-range {
-  background:green;
+  background:#4D2C3d;
   left:0px;
   right:0px;
   height: 0.8em;
@@ -417,11 +417,4 @@ tbody td {
     left: -.25em;
     margin-left: 0;
     margin-bottom: -.6em;      
-}
-
-#slider3 {
-	z-index: 2;
-	top: 770px;
-	left: 340px;
-	color: white;
 }
