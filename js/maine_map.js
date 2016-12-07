@@ -183,7 +183,7 @@ function drawMap() {
 
         var rScale = d3.scale.linear() //Median Income
                            .domain([0, dotMax])
-                           .range([3, 10]);
+                           .range([3, 15]);
 
         map_svg.selectAll("circle")
           .data(presentTowns)

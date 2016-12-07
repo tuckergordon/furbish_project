@@ -202,6 +202,6 @@ function removeNonAlphanumeric(str) {
 // removes all single and double quotes from a string.
 // function adopted from:
 // http://stackoverflow.com/questions/19156148/i-want-to-remove-double-quotes-from-a-string
-function removeQuotes(string) {
-	return string.replace(/['"]+/g, '');
+function removeQuotes(str) {
+	return str.replace(/['"]+/g, '');
 }
