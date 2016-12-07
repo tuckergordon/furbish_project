@@ -222,6 +222,17 @@ function drawMap() {
           //   console.log("total missed data points: " + totalMissed);
           // }
 
+          //only activated when SelectAll has been used, includes all towns in geoJSON
+          //and Furbish data
+          if (Object.keys(selectedTowns).length == 237){
+            var totalIncluded = 0;
+            for(key in selectedTowns){
+              totalIncluded += selectedTowns[key].selectedEntries.length;
+            }
+
+            console.log("Total included data points: " + totalIncluded);
+          }
+
     }
 
     //uniqueTownsInDataset();
