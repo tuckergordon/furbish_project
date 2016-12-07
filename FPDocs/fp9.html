@@ -1,0 +1,169 @@
+<html>
+<head>
+	<meta charset="utf-8">
+	<title>FP9: Final Project Progress Report</title>
+	<link rel="stylesheet" type="text/css" href="stylesheet.css">
+	<script type="text/javascript" src="d3/d3.v3.js"></script>
+</head>
+<body>
+	<h1>CSCI 3665: Interactive Data Visualization</h1>
+	<h2>FP9: Final Project Progress Report</h2>
+	<h3>Sophia Ardell, Marcus Christiansen, Tucker Gordon</h3>
+	<h3>December 1, 2016</h3>
+	<h3>Kate Furbish Collection</h3>
+	<hr/>
+	<h3>Goals for Completing the Project:</h3>
+	<strong>Week 4 (Dec. 4-10)</strong>
+			<ul>
+				<li>Prepare presentation</li>
+				<li>Add time scale slider</li>
+			</ul>		
+		<br>
+		<strong>Week 5 (Dec. 11-18)</strong>
+		<ul>
+			<li>Implement feedback from classmates</li>
+			<li>Fully implement time scale slider</li>
+			<li>Add zooming functionality</li>
+			<li>Debug and clean code</li>
+			<li>Make everything look better!</li>
+		</ul>
+	<hr/>
+	<h3>Progress on Goals:</h3>
+	<p>
+		The focus of this week was getting everything connected: the search dialog now talks to the map which talks to the inspector. They're all connected. Here is a more specific description of the connections that we built:
+	</p>
+	<ul>
+		<li>
+			Connected the search dialog with the map
+			<ul>
+				<li>
+					Now if you select a flora, the map will update to reflect the locations of the samples for that flora. If there are no previous entries for a town, a dot will appear there. If there's already a dot at that location, it will grow in size. The dot scale is always updating, so dots don't get too big or small. This means that if you only have one flora selected, a town will have the same size as the largest town when all are selected. It's all relative to the others. We felt as though this made it easier for the user to process the data being displayed.
+				</li>
+				<li>
+					This also works for the Select All button
+				</li>
+				<li>
+					We also implmented deselection. If you click on either a highlighted (green) result in the search results list (on the left), or a flora in the selected flora list (on the right), it will remove all entries of the flora from the map. This means that dots will get smaller, and some might even disappear.
+				</li>
+				<li>
+					The same works for the Deselect All Button
+				</li>
+			</ul>
+		</li>
+		<li>
+			Connected the map with the town inspector
+			<ul>
+				<li>
+					Now if you click a town dot, that town and all of the entries (which have been selected in the search dialog) will appear in the inspector. This displays the town name, and information for every flora entry there, such as its names, the year of entry, and the volume and page(s) where it can be found in the collection.
+				</li>
+			</ul>
+		</li>
+		<li>
+			Connected all three
+			<ul>
+				<li>
+					Let's say you have 1 flora selected, which has an entry in Brunswick. You click on the Brunswick dot, and Brunswick pops up in the inspector, and contains that one entry. Now, let's say you select another flora, which also has a Brunswick entry. Not only will the dot adjust it's size, but now, as you still have Brunswick up in the inspector, that new flora entry will appear in the inspector.
+				</li>
+				<li>
+					Similarly, if you deselect a flora, it will remove all entries of that flora from the inspector (if there are any). If this leaves the inspector empty (i.e. there are no more flora entries for that town to display), the inspector will clear and reset so that it's not displaying any town (and that town's dot disappears from the map).
+				</li>
+			</ul>
+		</li>
+		<li>
+			Made presentation
+		</li>
+		<li>
+			Figured out how many entries we're missing in our visualization because of places that appear in the dataset, but not in the geoJSON SOPHIE CAN YOU ADD THOSE NUMBERS HERE
+		</li>
+	</ul>
+	<hr/>
+	<h3>New Questions/Issues:</h3>
+	<ul>
+		<li>FROM LAST WEEK, BUT STILL AN ISSUE: The town names in the geojson file do not line up with the place names in our data. Our data has more places (most of the "extra" ones are significant geographic points or counties), and we need to adjust our parsing to remove spaces and punctuation</li>
+		<li>There's some problems with town dots overlapping. This might be solved by zooming, and/or by somehow making sure that smaller dots are always drawn after bigger dots.</li>
+	</ul>
+	<hr/>
+	<h3>Most Immediate Goals for the Following Week:</h3>
+	<ul>
+		<li>
+			Fully implement a time scale slider
+		</li>
+		<li>
+			Implement zooming feature
+		</li>
+		<li>
+			Implement edits suggested by class
+		</li>
+		<li>
+			Build a landing page
+		</li>
+		<li>
+			Add a better description of the project to the site
+		</li>
+		<li>
+			Make things look nicer
+		</li>
+		<li>
+			Make sure code is clean, tidy, and well-commented
+		</li>
+	</ul>
+	<hr/>
+	<h3>Accounting for Individual Contributions:</h3>
+	<table>
+		<tr>
+			<th>Task</th>
+			<th>Sophie</th>
+			<th>Marcus</th>
+			<th>Tucker</th>
+		</tr>
+		<tr>
+			<td>Making dots appear when selecting flora</td>
+			<td></td>
+			<td></td>
+			<td></td>
+		</tr>
+		<tr>
+			<td>Making dots increase in size (and scale) for multiple flora entries</td>
+			<td>25%</td>
+			<td>50%</td>
+			<td>25%</td>
+		</tr>
+		<tr>
+			<td>Select all populates map</td>
+			<td>40%</td>
+			<td>20%</td>
+			<td>20%</td>
+		</tr>
+		<tr>
+			<td>Deselecting flora adjusts map</td>
+			<td>40%</td>
+			<td>0%</td>
+			<td>60%</td>
+		</tr>
+		<tr>
+			<td>Deselect all flora</td>
+			<td>0%</td>
+			<td>0%</td>
+			<td>100%</td>
+		</tr>
+		<tr>
+			<td>Populate town inspector when town dot selected</td>
+			<td>10%</td>
+			<td>10%</td>
+			<td>80%</td>
+		</tr>
+		<tr>
+			<td>Deselecting flora updates town inspector</td>
+			<td>0%</td>
+			<td>0%</td>
+			<td>100%</td>
+		</tr>
+		<tr>
+			<td>Determining how many towns we're missing</td>
+			<td>100%</td>
+			<td>0%</td>
+			<td>0%</td>
+		</tr>
+	</table>
+</body>
+</html>
