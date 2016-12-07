@@ -360,6 +360,14 @@ function removeFlora(sciName){
 }
 
 
+function removeAllFlora() {
+  selectedTowns = {};
+  drawMap();
+}
+
+uniqueTownsInDataset();
+
+
 
 function uniqueTownsInDataset(){
 
