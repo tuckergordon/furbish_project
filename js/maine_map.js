@@ -285,7 +285,7 @@ function addFlora(sciName){
     currTownName = flora.entries[i].place;
 
     if(currTownName in selectedTowns){
-      var entry = {"year": entryYear, "sci_name": sciName, "volume": flora.volume, "page": flora.page, "comName": flora.comName};
+      var entry = {"year": entryYear, "sciName": sciName, "volume": flora.volume, "page": flora.page, "comName": flora.comName};
       selectedTowns[currTownName].selectedEntries.push(entry);
     }
 
