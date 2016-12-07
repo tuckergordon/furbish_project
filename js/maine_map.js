@@ -9,6 +9,8 @@ var mapInitialized = false;
 var selectedTowns = {};  //empty dictionary to hold all town names as keys, and all values
                     //default to 0, will be counters of how many entries
 
+//var townsNotIncluded = {};  //tool for debugging
+
 var toolTipXOffSet = 200,
     toolTipYOffSet = 140;
 
@@ -127,7 +129,27 @@ function drawMap() {
                 temp.push(path.centroid(d)[0]);
                 temp.push(path.centroid(d)[1]);
                 temp.push(d.properties.TOWN);
-                presentTowns.push(temp);
+
+
+                //need to check to see if town is already considered
+                //previously had issue with repeats
+                var inArray = false;
+                //walk through all town vectors already in selected towns
+                for(var k = 0; k < presentTowns.length; k++){
+                  var curTownName = presentTowns[k][2];
+                  if (curTownName == d.properties.TOWN){
+                    inArray = true;
+                  }
+                }
+
+                //makes it so town is no longer considered unlisted
+                // if(d.properties.TOWN in townsNotIncluded){
+                //   delete townsNotIncluded[d.properties.TOWN];
+                // }
+
+                if (!inArray){
+                  presentTowns.push(temp);
+                }
               }
             }
             return path.centroid(d)[0];
@@ -195,9 +217,48 @@ function drawMap() {
             d3.select("#tooltip").classed("hidden", false);
           });
 
+          // if (Object.keys(townsNotIncluded).length != 237){
+          //   var totalMissed = 0;
+          //   for(key in townsNotIncluded){
+          //     console.log(key + ": " + townsNotIncluded[key]);
+
+          //     totalMissed += townsNotIncluded[key];
+          //   }
+
+          //   console.log("total missed data points: " + totalMissed);
+          // }
+
+          //only activated when SelectAll has been used, includes all towns in geoJSON
+          //and Furbish data
+          // if (Object.keys(selectedTowns).length == 237){
+          //   var totalIncluded = 0;
+          //   for(key in selectedTowns){
+          //     totalIncluded += selectedTowns[key].selectedEntries.length;
+          //   }
+
+          //   console.log("Total included data points: " + totalIncluded);
+          // }
+
     }
 
+    //uniqueTownsInDataset();
+
     drawDots();
+
+    //console.log(townsNotIncluded);
+
+    // if (Object.keys(townsNotIncluded).length != 237){
+    //   for(key in townsNotIncluded){
+    //     console.log(key);
+    //   }
+    // }
+
+
+
+    //console.log(Object.keys(selectedTowns).length);
+
+    //
+    // ** NOTE ** - need to make method that will print how many towns are actually drawn
 
   });
 
@@ -317,4 +378,46 @@ function removeFlora(sciName){
   }
 
 }
+
+
+function removeAllFlora() {
+  selectedTowns = {};
+  drawMap();
+}
+
+//uniqueTownsInDataset();
+
+
+
+// function uniqueTownsInDataset(){
+
+//   var totalTowns = {};
+
+//   var flora;
+
+//   for (key in dataset){
+//     //console.log(key);
+
+//       flora = dataset[key];
+
+//       for (var i = 0; i < flora.entries.length; i++){
+//           var currTownName = flora.entries[i].place;
+
+//           if (!(currTownName in totalTowns)) {
+//               totalTowns[currTownName] = 1;
+//           }
+//           else {
+//             totalTowns[currTownName] += 1;
+//           }
+//       }
+//   }
+
+//   //console.log(Object.keys(totalTowns).length);
+
+
+//   townsNotIncluded = totalTowns;
+// }
+
+
+
 

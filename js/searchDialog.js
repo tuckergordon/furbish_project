@@ -5,6 +5,10 @@ makeLists();
 // user for displaying on the map
 var selectedFlora = [];
 
+$(document).ready(function() {
+	$(searchBar).val('');
+})
+
 // add all of the flora as <li> elements to the search results (searchList) and 
 // selected flora list (selectedList). All of the flora will be hidden in the
 // selected list until they are selected
@@ -138,11 +142,13 @@ function selectFlora(floraID) {
 		selectedFlora.push(floraID);
 		// display the flora in the selectedList
 		document.getElementById('sel' + floraID).style.display = 'block';
+
+		// calling the addFlora function in maine_map.js to add
+		// the flora to the map
+		addFlora(floraID);
+		drawMap();
 	}
-	// calling the addFlora function in maine_map.js to add
-	// the flora to the map
-	addFlora(floraID);
-	drawMap();
+	
 }
 
 // deselect the flora with ID = floraID
@@ -171,10 +177,7 @@ function deselectFlora(floraID) {
 	// hide the flora in the selected list
 	document.getElementById('sel' + floraID).style.display = 'none';
 
-	// calling the addFlora function in maine_map.js to add
-	// the flora to the map
 	removeFlora(floraID);
-
 }
 
 // selects all flora
@@ -213,6 +216,9 @@ function deselectAll() {
 		document.getElementById('sel' + selectedFlora[i]).style.display = 'none';
 	}
 	selectedFlora.length = 0;
+
+	removeAllFlora();
+	resetInspectorHeader();
 }
 
 function isChecked(flora) {
