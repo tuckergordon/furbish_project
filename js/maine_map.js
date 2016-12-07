@@ -15,10 +15,10 @@ var toolTipXOffSet = 200,
     toolTipYOffSet = 140;
 
 // **
-//	NOTE -
-//		Dataset already read in from js file: js/parsedFurbishData.js
-//		simply called dataset
-//	**
+//  NOTE -
+//    Dataset already read in from js file: js/parsedFurbishData.js
+//    simply called dataset
+//  **
 //
 
 /////////////////////////////////////////////////////////////////////
@@ -137,7 +137,7 @@ function drawMap() {
                   }
                 }
 
-                //makes it so town is no longer considered unlisted
+                // //makes it so town is no longer considered unlisted
                 // if(d.properties.TOWN in townsNotIncluded){
                 //   delete townsNotIncluded[d.properties.TOWN];
                 // }
@@ -211,40 +211,20 @@ function drawMap() {
             d3.select("#tooltip").classed("hidden", false);
           });
 
-          // if (Object.keys(townsNotIncluded).length != 237){
-          //   var totalMissed = 0;
-          //   for(key in townsNotIncluded){
-          //     console.log(key + ": " + townsNotIncluded[key]);
-
-          //     totalMissed += townsNotIncluded[key];
-          //   }
-
-          //   console.log("total missed data points: " + totalMissed);
-          // }
-
-          //only activated when SelectAll has been used, includes all towns in geoJSON
-          //and Furbish data
-          // if (Object.keys(selectedTowns).length == 237){
-          //   var totalIncluded = 0;
-          //   for(key in selectedTowns){
-          //     totalIncluded += selectedTowns[key].selectedEntries.length;
-          //   }
-
-          //   console.log("Total included data points: " + totalIncluded);
-          // }
+          //return townsNotIncluded;
 
     }
 
-    //uniqueTownsInDataset();
-
     drawDots();
 
-    //console.log(townsNotIncluded);
+    // uniqueTownsInDataset();
 
-    // if (Object.keys(townsNotIncluded).length != 237){
-    //   for(key in townsNotIncluded){
-    //     console.log(key);
-    //   }
+    // townsNotIncluded = drawDots();
+
+    // console.log(townsNotIncluded);
+
+    // for(key in townsNotIncluded){
+    //   console.log(key);
     // }
 
 
@@ -309,6 +289,8 @@ function addFlora(sciName){
     }
   };
 
+  console.log(selectedTowns);
+
   // console.log(Object.keys(selectedTowns).length);
   // console.log(Object.keys(selectedTowns));
   // console.log(selectedTowns);
@@ -320,66 +302,74 @@ function addFlora(sciName){
 function removeFlora(sciName){
 
   var flora = dataset[sciName];
-  var currTownName;
-  var entryYear;
-  var townEntryLength;
 
-  for (var i = flora.entries.length - 1; i >= 0; i--) {
-    
-    //get which year, town occured in
-    entryYear = flora.entries[i].year;
-    currTownName = flora.entries[i].place;
-    console.log(currTownName);
+  var needToUpdateInspector = false;
 
-    //need this to compare entries later to delete
-    var entry = { "year": entryYear, 
-                  "sciName": sciName, 
-                  "volume": flora.volume, 
-                  "page": flora.page, 
-                  "comName": flora.comName
-                };
-
-    //find out town length to know whether to remove town from selectedTowns (only one entry is town dictionary),
-    //or just entry from the town dictionary held in selectedTowns
-    townEntryLength = Object.keys(selectedTowns[currTownName].selectedEntries).length;
-
-    // console.log(currTownName);
-    //console.log(Object.keys(selectedTowns[currTownName].selectedEntries));
-    // console.log(townEntryLength);
-
-    //if this is the only active sample for a town, don't need to keep town in selectedTowns
-    if (townEntryLength == 1){
-      delete selectedTowns[currTownName];
-      console.log(selectedTowns);
-    }
-
-    //otherwise, remove this entry from the array of entries for this town 
-    else{
-      for (var j = townEntryLength - 1; j >= 0; j--) {
-        
-        if (selectedTowns[currTownName].selectedEntries[j] == entry){
-          selectedTowns[currTownName].selectedEntries.splice(j, 1);
-          console.log("theoretically deleted things");
-          break;
-        }
-
-      };
-      console.log(selectedTowns);
-
-    }
-
-
+  if (getCurrInspectedTown().townName in selectedTowns) {
+    needToUpdateInspector = true;
   }
 
-}
+  for (var i = flora.entries.length - 1; i >= 0; i--) {
+  
+    var currTown = selectedTowns[flora.entries[i].place];
 
+    if (currTown.selectedEntries.length == 1){
+      delete selectedTowns[currTown.townName];
+      console.log(selectedTowns);
+    } 
+    else {
+      for (var j = 0; j < currTown.selectedEntries.length; j++) {
+        if (currTown.selectedEntries[j].sciName == flora.sciName) {
+          currTown.selectedEntries.splice(j, 1);
+        }
+      }
+      console.log(selectedTowns);
+    }
+  }
+  drawMap();
+  
+  removeFloraFromInspector(sciName);
+}
 
 function removeAllFlora() {
   selectedTowns = {};
   drawMap();
 }
 
-//uniqueTownsInDataset();
+// uniqueTownsInDataset();
+
+
+// function uniqueTownsInDataset(){
+
+//   var totalTowns = {};
+
+//   console.log(Object.keys(dataset).length);
+
+//   // for (var i = 0; i < Object.keys(dataset).length; i++){
+
+//   //   console.log("hi");
+
+//   // }
+
+//   var flora;
+
+//   for (key in dataset){
+//     //console.log(key);
+
+//       flora = dataset[key];
+
+//       for (var i = 0; i < flora.entries.length; i++){
+//           var currTownName = flora.entries[i].place;
+
+//           if (!(currTownName in totalTowns)) {
+//               totalTowns[currTownName] = 0;
+//           }
+//       }
+//   }
+
+//   console.log(Object.keys(totalTowns).length);
+
+// }
 
 
 
@@ -398,10 +388,7 @@ function removeAllFlora() {
 //           var currTownName = flora.entries[i].place;
 
 //           if (!(currTownName in totalTowns)) {
-//               totalTowns[currTownName] = 1;
-//           }
-//           else {
-//             totalTowns[currTownName] += 1;
+//               totalTowns[currTownName] = 0;
 //           }
 //       }
 //   }
@@ -411,7 +398,3 @@ function removeAllFlora() {
 
 //   townsNotIncluded = totalTowns;
 // }
-
-
-
-
