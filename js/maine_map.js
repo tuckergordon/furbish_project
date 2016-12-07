@@ -212,11 +212,14 @@ function drawMap() {
           });
 
           if (Object.keys(townsNotIncluded).length != 237){
+            var totalMissed = 0;
             for(key in townsNotIncluded){
               console.log(key + ": " + townsNotIncluded[key]);
+
+              totalMissed += townsNotIncluded[key];
             }
 
-            //print missing 
+            console.log("total missed data points: " + totalMissed);
           }
 
     }
