@@ -138,11 +138,13 @@ function selectFlora(floraID) {
 		selectedFlora.push(floraID);
 		// display the flora in the selectedList
 		document.getElementById('sel' + floraID).style.display = 'block';
+
+		// calling the addFlora function in maine_map.js to add
+		// the flora to the map
+		addFlora(floraID);
+		drawMap();
 	}
-	// calling the addFlora function in maine_map.js to add
-	// the flora to the map
-	addFlora(floraID);
-	drawMap();
+	
 }
 
 // deselect the flora with ID = floraID
@@ -171,10 +173,7 @@ function deselectFlora(floraID) {
 	// hide the flora in the selected list
 	document.getElementById('sel' + floraID).style.display = 'none';
 
-	// calling the addFlora function in maine_map.js to add
-	// the flora to the map
 	removeFlora(floraID);
-
 }
 
 // selects all flora
@@ -215,6 +214,7 @@ function deselectAll() {
 	selectedFlora.length = 0;
 
 	removeAllFlora();
+	resetInspectorHeader();
 }
 
 function isChecked(flora) {

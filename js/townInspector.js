@@ -68,10 +68,11 @@ function removeFloraFromInspector(sciName) {
 		}
 	})
 	if ($('#floraTableBody tr').length == 0) {
-		$(".tableTitle").find('span').text("Town:");
+		clearInspector();
 	}
 }
 
 function clearInspector() {
+	$(".tableTitle").find('span').text("Town:");
 	$('#floraTableBody').empty();
 }
