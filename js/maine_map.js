@@ -14,6 +14,11 @@ var selectedTowns = {};  //empty dictionary to hold all town names as keys, and 
 var toolTipXOffSet = 200,
     toolTipYOffSet = 140;
 
+var   sliderMin = 1, //Setting the minimum and maximum range values of the range slider
+      sliderMax = 10,
+      sliderStartMin = 1, //Setting the starting minimum and maximum values of the range slider when the page first loads.
+      sliderStartMax = 3;
+
 // **
 //	NOTE -
 //		Dataset already read in from js file: js/parsedFurbishData.js
@@ -102,6 +107,9 @@ function drawMap() {
           d3.select("#tooltip").classed("hidden", false);
         })
         .attr("d", path);
+
+        addSlider();
+
       }
 
     function drawDots() {
@@ -121,9 +129,9 @@ function drawMap() {
             if (selectedTowns[d.properties.TOWN]) {
               if (d.properties.TOWN != "null" && d.properties.TOWN != null) {
 
-                if (d.properties.TOWN == "Harpswell") {
-                  console.log("This is Harpswell!");
-                }
+                // if (d.properties.TOWN == "Harpswell") {
+                //   console.log("This is Harpswell!");
+                // }
 
                 var temp = [];
                 temp.push(path.centroid(d)[0]);
@@ -243,6 +251,67 @@ function drawMap() {
 
     //uniqueTownsInDataset();
 
+    
+    //Implemented the d3 slider written Bjorn Sandvik.
+    function addSlider() {
+      //The slider was inserted into the div created in the html file.
+      //We specified several of the parameters of the slider such as:
+      // - Orientation.
+      // - Number of ticks.
+      // - The size of the 'step' taken by the handle when the user shifts it.
+      // - The max and min values that the range slider can have.
+      // - The starting min and max values of the slider handles.
+      d3.select('#scaleContainer').call(d3.slider().axis(d3.svg.axis().orient("vertical").ticks(10)).step(1).min(sliderMin).max(sliderMax).value( [ sliderStartMin, sliderStartMax ] )
+        .on("slide", function(evt, value) {
+
+          //When the user clicks on one of the handles and shifts it, the values of the either the start and end index will change (based on which handle is moved), and thus
+          //the number of schools to be displayed changes. All of these variables are updated according to the current position of the slider handles.
+        // startIndex = value[0] - 1;
+        // endIndex = value[1] - 1;
+
+        //Once the user lets go of the slider handle, the user has chosen a new range that they wish to see on the graph, and thus, the bars on the graph are redrawn.
+          d3.select('#slider3').on("mouseup", function(evt, value) {
+              redrawOnSlider();
+          });
+      }));
+    }
+
+    // function redrawOnSlider() {
+
+    //     barPadding = (h - axisMargin - margin * 2) * 0.6 / numSchoolsToDisplay;
+    //     barHeight = (h - barPadding) / numSchoolsToDisplay - barPadding;
+        
+    //     schools = [];
+
+    //     //All schools within the range specified by the user are appended to the schools array, which is the array of schools to be displayed.
+    //     for (var i = 0; i < 50; i++) {
+    //       if (i >= startIndex && i <= endIndex) {
+    //         schools.push(data[i]);
+    //       }
+    //     }
+
+    //     //All current bars, text and buttons are removed
+    //     d3.select("#svgSchools").selectAll("text").remove();
+    //     d3.select("#svgBar").selectAll("rect").remove();
+    //     d3.selectAll(".button").remove();
+    //     d3.select("#svgBar").selectAll("g").remove();
+
+    //     //The bars,text and buttons are redrawn.
+    //     addSchoolListSvg();
+    //     addSortOptionButtons();
+    //     drawAxes();
+    //     drawBars();
+    //     d3.select("#chartTitle").remove();
+
+    //     //chart title
+    //     svgBar.append("text")
+    //       .attr("class", "label")
+    //       .attr("id", "chartTitle")
+    //       .attr("transform", "translate(" + (w / 2) + "," + axisMargin + ")")
+    //       .text("TOP " + numSchoolsToDisplay + " SCHOOLS WITH " + valueOrder + " ACCEPTANCE RATE BY " + (sortOption ? "VALUE" : "NAME"));
+
+    //   }
+
     drawDots();
 
     //console.log(townsNotIncluded);
@@ -291,7 +360,7 @@ function addFlora(sciName){
     currTownName = flora.entries[i].place;
 
     if(currTownName in selectedTowns){
-      var entry = {"year": entryYear, "sci_name": sciName, "volume": flora.volume, "page": flora.page, "comName": flora.comName};
+      var entry = {"year": entryYear, "sciName": sciName, "volume": flora.volume, "page": flora.page, "comName": flora.comName};
       selectedTowns[currTownName].selectedEntries.push(entry);
     }
 
