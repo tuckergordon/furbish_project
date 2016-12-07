@@ -213,6 +213,8 @@ function deselectAll() {
 		document.getElementById('sel' + selectedFlora[i]).style.display = 'none';
 	}
 	selectedFlora.length = 0;
+
+	removeAllFlora();
 }
 
 function isChecked(flora) {

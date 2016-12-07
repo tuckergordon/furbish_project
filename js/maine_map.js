@@ -304,6 +304,11 @@ function removeFlora(sciName){
   removeFloraFromInspector(sciName);
 }
 
+function removeAllFlora() {
+  selectedTowns = {};
+  drawMap();
+}
+
 uniqueTownsInDataset();
 
 
