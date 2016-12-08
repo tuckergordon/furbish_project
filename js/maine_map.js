@@ -330,31 +330,43 @@ d3.select(self.frameElement).style("height", height + "px");
 /*funciton will take individual scientific names of flora after user selects on search engine*/
 
 
-//First flora in list not defined. Maybe due to ' ?
+// Add the flora with the given scientific name to the map
 function addFlora(sciName){
 
+  // find the flor ain the dataset
   var flora = dataset[sciName];
   var currTownName;
   var newTown;
+
+  // loop through the place/year entries in the flora, and add them to the 
+  // selectedTowns object
   for (var i = flora.entries.length - 1; i >= 0; i--) {
     
-    // check for fitting in range
+    // check for fitting in year range
     var entryYear = flora.entries[i].year;
     if(entryYear < minYear || entryYear > maxYear){
       break;
     }
 
+    // get name of town in entry
     currTownName = flora.entries[i].place;
 
+    // if the current town is already in the selectedTowns object,
+    // we just need to add another flora entry to it
     if(currTownName in selectedTowns){
-      var entry = {"year": entryYear, "sciName": sciName, "volume": flora.volume, "page": flora.page, "comName": flora.comName};
+      var entry = { "year": entryYear, 
+                    "sciName": sciName, 
+                    "volume": flora.volume, 
+                    "page": flora.page, 
+                    "comName": flora.comName
+                  };
       selectedTowns[currTownName].selectedEntries.push(entry);
     }
 
-    //need a new town entry
+    // else, we need a new town entry
     else{
+      // build a new entry (town object)
       newTown = {};
-
       newTown["townName"] = currTownName;
       newTown["selectedEntries"] = [];
 
@@ -365,6 +377,7 @@ function addFlora(sciName){
                     "comName": flora.comName
                   };
 
+      // add the entry to selectedEntries of that town
       newTown["selectedEntries"].push(entry);
 
       selectedTowns[currTownName] = newTown;
@@ -380,40 +393,49 @@ function addFlora(sciName){
 
 }
 
-//function to run when individual flora are deselected
+// remove flora with the specified scientific name from 
+// all relevant towns in the map
 function removeFlora(sciName){
 
+  // find flora in the dataset
   var flora = dataset[sciName];
 
+  // check if the town inspector is looking at a town that contains
+  // the flora that needs to be removed. If so, we're going to need to
+  // update the inpsector
   var needToUpdateInspector = false;
-
   if (getCurrInspectedTown().townName in selectedTowns) {
     needToUpdateInspector = true;
   }
 
+  // loop through all the the place/year entries in the flora object, and
+  // remove them from the map
   for (var i = flora.entries.length - 1; i >= 0; i--) {
-  
+    
     var currTown = selectedTowns[flora.entries[i].place];
-
+    // if this flora is the only entry in the town, we can 
+    // delete the town from selectedTowns
     if (currTown.selectedEntries.length == 1){
       delete selectedTowns[currTown.townName];
-      console.log(selectedTowns);
     } 
+    // otherwise, we need to delete only the relevant entries from that town
     else {
       for (var j = 0; j < currTown.selectedEntries.length; j++) {
         if (currTown.selectedEntries[j].sciName == flora.sciName) {
           currTown.selectedEntries.splice(j, 1);
         }
       }
-      console.log(selectedTowns);
     }
   }
+  // update the map
   drawMap();
-  
+  // update the inspector
   removeFloraFromInspector(sciName);
 }
 
+// remove all flora from the map
 function removeAllFlora() {
+  // clear selected towns, and update the map
   selectedTowns = {};
   drawMap();
 }
