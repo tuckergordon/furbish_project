@@ -1,3 +1,8 @@
+// Sophie Ardell, Marcus Christiansen, and Tucker Gordon
+// CSCI 3665
+// Project 2: Kate Furbish Collection
+// maine_map.js
+
 //////////////////////////////////////////////////////////////////////
 // Global variables
 

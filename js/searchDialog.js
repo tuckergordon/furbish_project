@@ -1,3 +1,13 @@
+// Sophie Ardell, Marcus Christiansen, and Tucker Gordon
+// CSCI 3665
+// Project 2: Kate Furbish Collection
+// searchDialog.js
+
+// This script controls all of the behavior for the searchDialog,
+// including an initial call of the makeLists() function, which generates
+// the contents of the search results list (on the left), and the selected flora 
+// list (on the right)
+
 // make initial call to makeLists() function
 makeLists();
 
@@ -177,6 +187,8 @@ function deselectFlora(floraID) {
 	// hide the flora in the selected list
 	document.getElementById('sel' + floraID).style.display = 'none';
 
+	// calling the removeFlora function in maine_map.js to
+	// remove the flora from the map
 	removeFlora(floraID);
 }
 
@@ -217,10 +229,13 @@ function deselectAll() {
 	}
 	selectedFlora.length = 0;
 
+	// maine_map.js: remove all flora from the map
 	removeAllFlora();
+	// townInspector.js: remove its contents, and reset the header
 	clearInspector();
 }
 
+// true if flora is checked (selected)
 function isChecked(flora) {
 	return flora.getAttribute('checked') == 'true';
 }
