@@ -218,7 +218,7 @@ function deselectAll() {
 	selectedFlora.length = 0;
 
 	removeAllFlora();
-	resetInspectorHeader();
+	clearInspector();
 }
 
 function isChecked(flora) {
