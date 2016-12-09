@@ -108,7 +108,7 @@ function drawMap() {
                           .style("left", xPosition + "px")
                           .style("top", yPosition + "px") ;          
           toolTip.select("#townName")
-                  .text(d.properties.TOWN);
+                  .text(divideTownName(d.properties.TOWN));
           d3.select("#tooltip").classed("hidden", false);
         })
         .attr("d", path);
@@ -116,6 +116,35 @@ function drawMap() {
         addSlider();
 
       }
+
+    function divideTownName(townName) {
+
+      if (townName == null) {
+        return;
+      }
+
+      if (townName.charAt(0) == 'T' && !isNaN(townName.charAt(1))) {
+        return townName;
+      } 
+
+      var i = 1; //Don't want a space at the start of the town name
+      var character = '';
+      var finalString = townName.charAt(0);
+
+      while (i < townName.length) {
+        character = townName.charAt(i);
+
+        if (character == character.toUpperCase()) {
+          finalString+=' ';
+        }
+
+        finalString+=townName.charAt(i)
+        i++;
+      }
+
+      return finalString;
+
+    }
 
     function drawDots() {
 
@@ -226,7 +255,7 @@ function drawMap() {
                             .style("left", xPosition + "px")
                             .style("top", yPosition + "px") ;          
             toolTip.select("#townName")
-                    .text(selectedTowns[d[2]].townName);
+                    .text(divideTownName(selectedTowns[d[2]].townName) + " (" + selectedTowns[d[2]].selectedEntries.length +")");
             d3.select("#tooltip").classed("hidden", false);
           });
 
