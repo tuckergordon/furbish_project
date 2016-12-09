@@ -34,9 +34,9 @@ var   sliderMin = 1870, //Setting the minimum and maximum range values of the ra
 /////////////////////////////////////////////////////////////////////
 
 //establishing map element
-var map_svg = d3.select(".map_SVG"),
-width = map_svg.attr("width"),
-height = map_svg.attr("height");
+var map_svg = d3.select(".map_SVG").append("svg");
+var mapWidth = 400;
+var mapHeight = mapWidth * 0.95;
 
 //for dictionaries that will hold information about towns
 var totalFlowers = d3.map();
@@ -57,13 +57,15 @@ drawMap();
 
 function drawMap() {
 
+  var centered;
+
   d3.json("METOWNS_POLY.geojson", function(error, METOWNS_POLY) {
 
     if (!mapInitialized) {
       mapInitialized = true;
       initializeMap();
     }
-    
+
     function initializeMap() {
       quantize.domain([0,1,2]);
       map_svg.append("g")
@@ -162,16 +164,10 @@ function drawMap() {
             //Only add dots if they exist in selectedTowns
             if (selectedTowns[d.properties.TOWN]) {
               if (d.properties.TOWN != "null" && d.properties.TOWN != null) {
-
-                // if (d.properties.TOWN == "Harpswell") {
-                //   console.log("This is Harpswell!");
-                // }
-
                 var temp = [];
                 temp.push(path.centroid(d)[0]);
                 temp.push(path.centroid(d)[1]);
                 temp.push(d.properties.TOWN);
-
 
                 //need to check to see if town is already considered
                 //previously had issue with repeats
@@ -200,8 +196,6 @@ function drawMap() {
             return path.centroid(d)[1];
           })
           .attr("r", 5);
-
-        // console.log("Length: ", presentTowns.length);
 
         function findMax() {
           var max = 0;
@@ -238,9 +232,10 @@ function drawMap() {
           })
           .style("stroke-width", .5)
           .on("click", function(d) {
-            // console.log(d[2])
-            // console.log(selectedTowns[d[2]].selectedEntries.length);
             inspectTown(selectedTowns[d[2]]);
+          })
+          .on("dblclick", function(d) {
+            dotClicked(d);
           })
           .on("mouseout", function(){
             d3.select(this).style("stroke-width", .5);
@@ -250,14 +245,49 @@ function drawMap() {
             d3.select(this).style("stroke-width", 3);
             var xPosition = d[0] + toolTipXOffSet;
             var yPosition = d[1] + toolTipYOffSet;
-            //Update the tooltip position and value
+            // Update the tooltip position and value
             var toolTip = d3.select("#tooltip")
                             .style("left", xPosition + "px")
                             .style("top", yPosition + "px") ;          
             toolTip.select("#townName")
-                    .text(divideTownName(selectedTowns[d[2]].townName) + " (" + selectedTowns[d[2]].selectedEntries.length +")");
+                    .text(divideTownName(d[2]) + " (" + selectedTowns[d[2]].selectedEntries.length +")");
             d3.select("#tooltip").classed("hidden", false);
           });
+
+          function dotClicked(townObject) {
+
+            var x, y, z;
+
+            if (centered != townObject[2]) {
+              centered = townObject[2];
+              x = townObject[0];
+              y = townObject[1];
+              z = 6;
+            }
+
+            else {
+              x = mapWidth / 2;
+              y = mapHeight / 2;
+              z = 1;
+              centered = null;
+            }
+
+            // if (centered) {
+            //   map_svg.selectAll("circle").remove();
+
+            // }
+
+            // else {
+            //   drawDots();
+            // }
+
+            map_svg.transition()
+               .duration(750)
+               .ease("linear")         
+               .attr("transform", "translate(" + mapWidth / 2 + "," + mapHeight / 2 + ")scale(" + z + ")translate(" + -x + "," + -y + ")")
+               .style("stroke-width", 1.5 / z + "px");
+
+          }
 
           //return townsNotIncluded;
 
@@ -354,7 +384,7 @@ function drawMap() {
 //*NOTE* - guys this a rogue line of code without a function, we should find it a home
 //
 //
-d3.select(self.frameElement).style("height", height + "px");
+d3.select(self.frameElement).style("height", mapHeight + "px");
 
 /*funciton will take individual scientific names of flora after user selects on search engine*/
 
