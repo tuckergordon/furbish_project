@@ -85,16 +85,6 @@ function drawMap() {
           // this maps from US JSON data into id-value data
           return quantize(valueToQuantize); 
         })
-        .on("click", function(d) {
-
-          //
-          // NOTE - I don't know why this code is here
-          //
-          // var townName = d.properties.TOWN;
-          // if (townName == "null" || townName == null) {
-          //   townName = "Moosehead Lake";
-          // }
-        })
         .on("mouseout", function(){
           d3.select(this).style("stroke-width", .5);
           d3.select("#tooltip").classed("hidden", true);
@@ -270,6 +260,7 @@ function drawMap() {
               y = mapHeight / 2;
               z = 1;
               centered = null;
+              // zoomOut();
             }
 
             // if (centered) {
@@ -287,7 +278,100 @@ function drawMap() {
                .attr("transform", "translate(" + mapWidth / 2 + "," + mapHeight / 2 + ")scale(" + z + ")translate(" + -x + "," + -y + ")")
                .style("stroke-width", 1.5 / z + "px");
 
+            drawRingChart(townObject);
+
           }
+
+          // function zoomOut() {
+
+          //   var x, y, z;
+
+          //   x = mapWidth / 2;
+          //   // console.log(x);
+          //   y = mapHeight / 2;
+          //   // console.log(y);
+          //   z = 1;
+          //   // console.log(z);
+          //   centered = null;
+
+          //   map_svg.transition()
+          //      .duration(750)
+          //      .ease("linear")         
+          //      .attr("transform", "translate(" + mapWidth / 2 + "," + mapHeight / 2 + ")scale(" + z + ")translate(" + -x + "," + -y + ")")
+          //      .style("stroke-width", 1.5 / z + "px");
+
+          // }
+
+          // function drawRingChart(townObject) {
+
+          //   var townEntries = selectedTowns[townObject[2]].selectedEntries;
+          //   var floraNumbers = {};
+          //   var dataset = [];
+          //   var i = 0;
+
+          //   while (selectedTowns[townObject[2]].selectedEntries[i]) {
+
+          //     var sampleName = selectedTowns[townObject[2]].selectedEntries[i].sciName;
+
+          //     //Already in map.
+          //     if (sampleName in floraNumbers) {
+          //       floraNumbers[sampleName] += 1;
+          //     }
+          //     //Not in map.
+          //     else {
+          //       floraNumbers[sampleName] = 1;
+          //     }
+          //     i++;
+          //   }
+
+          //   for (key in floraNumbers) {
+          //     // var dataPoint = [key, floraNumbers[key]];
+          //     // dataset.push(dataPoint);
+          //     dataset.push(floraNumbers[key]);
+          //   }
+
+          //   var w = 50;
+
+          //   var outerRadius = w / 2;
+          //   var innerRadius = 0;
+          //   var arc = d3.svg.arc()
+          //           .innerRadius(innerRadius)
+          //           .outerRadius(outerRadius);
+            
+          //   var pie = d3.layout.pie();
+            
+          //   //Easy colors accessible via a 10-step ordinal scale
+          //   var color = d3.scale.category10();
+            
+          //   //Set up groups
+          //   var arcs = map_svg.selectAll("g.arc")
+          //           .data(pie(dataset))
+          //           .enter()
+          //           .append("g")
+          //           .attr("class", "arc")
+          //           .attr("transform", "translate(" + townObject[0] + "," + townObject[1] + ")")
+          //           .on("click", zoomOut());
+            
+          //   //Draw arc paths
+          //   arcs.append("path")
+          //       .attr("fill", function(d, i) {
+          //         return color(i);
+          //       })
+          //       .attr("d", arc);
+            
+          //   //Labels
+          //   arcs.append("text")
+          //       .attr("transform", function(d) {
+          //         return "translate(" + arc.centroid(d) + ")";
+          //       })
+          //       .attr("text-anchor", "middle")
+          //       .on("click", dotClicked(townObject))
+          //       .text(function(d) {
+          //         return d.value;
+          //       });
+
+
+          // }
 
           //return townsNotIncluded;
 
@@ -463,7 +547,7 @@ function removeFlora(sciName) {
   // the flora that needs to be removed. If so, we're going to need to
   // update the inpsector
   var needToUpdateInspector = false;
-  if (getCurrInspectedTown().townName in selectedTowns) {
+  if (getCurrInspectedTown().townName in selectedTowns) {  //getCurrInspectedTown is undefined!
     needToUpdateInspector = true;
   }
 
