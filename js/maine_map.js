@@ -523,7 +523,7 @@ function addFlora(sciName){
 
 // remove flora with the specified scientific name from 
 // all relevant towns in the map
-function removeFlora(sciName){
+function removeFlora(sciName) {
 
   // find flora in the dataset
   var flora = dataset[sciName];
@@ -567,66 +567,3 @@ function removeAllFlora() {
   selectedTowns = {};
   drawMap();
 }
-
-// uniqueTownsInDataset();
-
-
-// function uniqueTownsInDataset(){
-
-//   var totalTowns = {};
-
-//   console.log(Object.keys(dataset).length);
-
-//   // for (var i = 0; i < Object.keys(dataset).length; i++){
-
-//   //   console.log("hi");
-
-//   // }
-
-//   var flora;
-
-//   for (key in dataset){
-//     //console.log(key);
-
-//       flora = dataset[key];
-
-//       for (var i = 0; i < flora.entries.length; i++){
-//           var currTownName = flora.entries[i].place;
-
-//           if (!(currTownName in totalTowns)) {
-//               totalTowns[currTownName] = 0;
-//           }
-//       }
-//   }
-
-//   console.log(Object.keys(totalTowns).length);
-
-// }
-
-
-
-// function uniqueTownsInDataset(){
-
-//   var totalTowns = {};
-
-//   var flora;
-
-//   for (key in dataset){
-//     //console.log(key);
-
-//       flora = dataset[key];
-
-//       for (var i = 0; i < flora.entries.length; i++){
-//           var currTownName = flora.entries[i].place;
-
-//           if (!(currTownName in totalTowns)) {
-//               totalTowns[currTownName] = 0;
-//           }
-//       }
-//   }
-
-//   //console.log(Object.keys(totalTowns).length);
-
-
-//   townsNotIncluded = totalTowns;
-// }
