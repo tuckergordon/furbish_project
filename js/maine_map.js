@@ -57,7 +57,7 @@ drawMap();
 
 function drawMap() {
 
-  var centered;
+  var centered = null;
 
   d3.json("METOWNS_POLY.geojson", function(error, METOWNS_POLY) {
 
@@ -91,17 +91,19 @@ function drawMap() {
           d3.select(this).style("fill", "white");
         })
         .on("mouseover", function(d){
-          d3.select(this).style("stroke-width", 3);
-          d3.select(this).style("fill", "#155765");
-          var xPosition = path.centroid(d)[0] + toolTipXOffSet;
-          var yPosition = path.centroid(d)[1] + toolTipYOffSet;
-          //Update the tooltip position and value
-          var toolTip = d3.select("#tooltip")
-                          .style("left", xPosition + "px")
-                          .style("top", yPosition + "px") ;          
-          toolTip.select("#townName")
-                  .text(divideTownName(d.properties.TOWN));
-          d3.select("#tooltip").classed("hidden", false);
+
+            d3.select(this).style("stroke-width", 3);
+            d3.select(this).style("fill", "#155765");
+            var xPosition = path.centroid(d)[0] + toolTipXOffSet;
+            var yPosition = path.centroid(d)[1] + toolTipYOffSet;
+            //Update the tooltip position and value
+            var toolTip = d3.select("#tooltip")
+                            .style("left", xPosition + "px")
+                            .style("top", yPosition + "px") ;          
+            toolTip.select("#townName")
+                    .text(divideTownName(d.properties.TOWN));
+            d3.select("#tooltip").classed("hidden", false);
+
         })
         .attr("d", path);
 
@@ -201,7 +203,7 @@ function drawMap() {
 
         var rScale = d3.scale.linear() //Median Income
                            .domain([0, dotMax])
-                           .range([3, 15]);
+                           .range([3, 10]);
 
         map_svg.selectAll("circle")
           .data(presentTowns)
@@ -232,27 +234,32 @@ function drawMap() {
             d3.select("#tooltip").classed("hidden", true);
           })
           .on("mouseover", function(d){
-            d3.select(this).style("stroke-width", 3);
-            var xPosition = d[0] + toolTipXOffSet;
-            var yPosition = d[1] + toolTipYOffSet;
-            // Update the tooltip position and value
-            var toolTip = d3.select("#tooltip")
-                            .style("left", xPosition + "px")
-                            .style("top", yPosition + "px") ;          
-            toolTip.select("#townName")
-                    .text(divideTownName(d[2]) + " (" + selectedTowns[d[2]].selectedEntries.length +")");
-            d3.select("#tooltip").classed("hidden", false);
+
+            // if (!centered) {
+              d3.select(this).style("stroke-width", 3);
+              var xPosition = d[0] + toolTipXOffSet;
+              var yPosition = d[1] + toolTipYOffSet;
+              // Update the tooltip position and value
+              var toolTip = d3.select("#tooltip")
+                              .style("left", xPosition + "px")
+                              .style("top", yPosition + "px") ;          
+              toolTip.select("#townName")
+                      .text(divideTownName(d[2]) + " (" + selectedTowns[d[2]].selectedEntries.length +")");
+              d3.select("#tooltip").classed("hidden", false);
+            // }
+
           });
 
           function dotClicked(townObject) {
 
-            var x, y, z;
+            var x, y, z, dir;
 
             if (centered != townObject[2]) {
               centered = townObject[2];
               x = townObject[0];
               y = townObject[1];
               z = 6;
+              dir = 1; //zooming in;
             }
 
             else {
@@ -260,17 +267,8 @@ function drawMap() {
               y = mapHeight / 2;
               z = 1;
               centered = null;
-              // zoomOut();
+              dir = 0; //zooming out
             }
-
-            // if (centered) {
-            //   map_svg.selectAll("circle").remove();
-
-            // }
-
-            // else {
-            //   drawDots();
-            // }
 
             map_svg.transition()
                .duration(750)
@@ -278,100 +276,87 @@ function drawMap() {
                .attr("transform", "translate(" + mapWidth / 2 + "," + mapHeight / 2 + ")scale(" + z + ")translate(" + -x + "," + -y + ")")
                .style("stroke-width", 1.5 / z + "px");
 
-            drawRingChart(townObject);
+            drawRingChart(townObject, dir);
 
           }
 
-          // function zoomOut() {
+          function drawRingChart(townObject, direction) {
 
-          //   var x, y, z;
+            if (!direction) {
+              map_svg.selectAll("g.arc").remove();
+            }
 
-          //   x = mapWidth / 2;
-          //   // console.log(x);
-          //   y = mapHeight / 2;
-          //   // console.log(y);
-          //   z = 1;
-          //   // console.log(z);
-          //   centered = null;
+            else {
 
-          //   map_svg.transition()
-          //      .duration(750)
-          //      .ease("linear")         
-          //      .attr("transform", "translate(" + mapWidth / 2 + "," + mapHeight / 2 + ")scale(" + z + ")translate(" + -x + "," + -y + ")")
-          //      .style("stroke-width", 1.5 / z + "px");
+              map_svg.selectAll("g.arc").remove();
 
-          // }
+              var townEntries = selectedTowns[townObject[2]].selectedEntries;
+              var floraNumbers = {};
+              var dataset = [];
+              var i = 0;
 
-          // function drawRingChart(townObject) {
+              while (selectedTowns[townObject[2]].selectedEntries[i]) {
 
-          //   var townEntries = selectedTowns[townObject[2]].selectedEntries;
-          //   var floraNumbers = {};
-          //   var dataset = [];
-          //   var i = 0;
+                var sampleName = selectedTowns[townObject[2]].selectedEntries[i].sciName;
 
-          //   while (selectedTowns[townObject[2]].selectedEntries[i]) {
+                //Already in map.
+                if (sampleName in floraNumbers) {
+                  floraNumbers[sampleName] += 1;
+                }
+                //Not in map.
+                else {
+                  floraNumbers[sampleName] = 1;
+                }
+                i++;
+              }
 
-          //     var sampleName = selectedTowns[townObject[2]].selectedEntries[i].sciName;
+              for (key in floraNumbers) {
+                var dataPoint = [{label: key, value:floraNumbers[key]}];
+                dataset.push(dataPoint);
+              }
 
-          //     //Already in map.
-          //     if (sampleName in floraNumbers) {
-          //       floraNumbers[sampleName] += 1;
-          //     }
-          //     //Not in map.
-          //     else {
-          //       floraNumbers[sampleName] = 1;
-          //     }
-          //     i++;
-          //   }
+              var div = d3.select("body").append("div").attr("class", "toolTip");
 
-          //   for (key in floraNumbers) {
-          //     // var dataPoint = [key, floraNumbers[key]];
-          //     // dataset.push(dataPoint);
-          //     dataset.push(floraNumbers[key]);
-          //   }
+              var w = 50;
+              var outerRadius = w / 2;
+              var innerRadius = w/3;
+              var arc = d3.svg.arc()
+                      .innerRadius(innerRadius)
+                      .outerRadius(outerRadius);
+              
+              var pie = d3.layout.pie()
+                  .sort(null)
+                  .value(function(d) { return d[0].value; });
+              
+              var color = d3.scale.category20();
 
-          //   var w = 50;
-
-          //   var outerRadius = w / 2;
-          //   var innerRadius = 0;
-          //   var arc = d3.svg.arc()
-          //           .innerRadius(innerRadius)
-          //           .outerRadius(outerRadius);
-            
-          //   var pie = d3.layout.pie();
-            
-          //   //Easy colors accessible via a 10-step ordinal scale
-          //   var color = d3.scale.category10();
-            
-          //   //Set up groups
-          //   var arcs = map_svg.selectAll("g.arc")
-          //           .data(pie(dataset))
-          //           .enter()
-          //           .append("g")
-          //           .attr("class", "arc")
-          //           .attr("transform", "translate(" + townObject[0] + "," + townObject[1] + ")")
-          //           .on("click", zoomOut());
-            
-          //   //Draw arc paths
-          //   arcs.append("path")
-          //       .attr("fill", function(d, i) {
-          //         return color(i);
-          //       })
-          //       .attr("d", arc);
-            
-          //   //Labels
-          //   arcs.append("text")
-          //       .attr("transform", function(d) {
-          //         return "translate(" + arc.centroid(d) + ")";
-          //       })
-          //       .attr("text-anchor", "middle")
-          //       .on("click", dotClicked(townObject))
-          //       .text(function(d) {
-          //         return d.value;
-          //       });
+              var arcs = map_svg.selectAll("g.arc")
+                      .data(pie(dataset))
+                      .enter()
+                      .append("g")
+                      .attr("class", "arc")
+                      .attr("transform", "translate(" + townObject[0] + "," + townObject[1] + ")");
+              
+              //Draw arc paths
+              arcs.append("path")
+                  .attr("fill", function(d, i) {
+                    // console.log(color(i));
+                    return color(i);
+                  })
+                  .attr("d", arc)
+                  .on("mousemove", function(d){
+                      div.style("left", d3.event.pageX+10+"px");
+                      div.style("top", d3.event.pageY-25+"px");
+                      div.style("display", "inline-block");
+                      div.html((d.data[0].label)+": "+(d.data[0].value));
+                  })
+                  .on("mouseout", function(d){
+                      div.style("display", "none");
+                  });
 
 
-          // }
+            }
+          }
 
           //return townsNotIncluded;
 
