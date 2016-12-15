@@ -339,8 +339,7 @@ function drawMap() {
               
               //Draw arc paths
               arcs.append("path")
-                  .attr("fill", function(d, i) {
-                    // console.log(color(i));
+                  .style("fill", function(d, i) {
                     return color(i);
                   })
                   .attr("d", arc)
