@@ -2,6 +2,10 @@ README
 Furbish Project
 Sophie Ardell, Marcus Christiansen, Tucker Gordon
 
+ENTRY POINTS:
+-InternalEntryPage.html
+-furbishProject.html 	//public entry page
+
 Files:
 
 d3/
