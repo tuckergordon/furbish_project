@@ -91,6 +91,7 @@ h2 {
 	width: auto;
 	height: auto;
 	padding: 5px;
+	color: white;
 	background-color: var(--plum-color);
 	-webkit-border-radius: 10px;
 	-moz-border-radius: 10px;
