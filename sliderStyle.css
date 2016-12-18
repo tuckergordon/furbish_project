@@ -16,10 +16,10 @@ body {
 }
 
 
-/*#mouse-tracker {
+#mouse-tracker {
   stroke: #E6E7E8;
   stroke-width: 1px;
-}*/
+}
 
 
 .brush .extent {
