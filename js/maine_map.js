@@ -357,206 +357,220 @@ function drawMap() {
             }
           }
 
-          //return townsNotIncluded;
-
     }
 
  
     drawDots();
 
-    // uniqueTownsInDataset();
-
-    // townsNotIncluded = drawDots();
-
-    // console.log(townsNotIncluded);
-
-    // for(key in townsNotIncluded){
-    //   console.log(key);
-    // }
-
-
-
-    //console.log(Object.keys(selectedTowns).length);
-
-    //
-    // ** NOTE ** - need to make method that will print how many towns are actually drawn
 
   });
 
 }
 
-//
-//
-//*NOTE* - guys this a rogue line of code without a function, we should find it a home
-//
-//
 d3.select(self.frameElement).style("height", mapHeight + "px");
-
 
 
 //updates min and max year
 function changeMinMaxYears(newMin, newMax){
-  
-
-  //if there are any values that weren't previously accounted for
-  if ((newMin < minYear) || (newMax > maxYear)){
-
-    var inspectedTown = getCurrInspectedTown();
-    var needToUpdateInspector = false;
-
-    //walk through all selected flora
-    for (var j = 0; j < selectedFlora.length; j++){
-
-      var sciName = selectedFlora[j];
-      var flora = dataset[sciName];
-      var currTownName;
-      var newTown;
-
-      //walk through each entry in specific flora
-      for (var i = flora.entries.length - 1; i >= 0; i--) {
-        
-        // check for fitting in year range
-        var entryYear = flora.entries[i].year;
-
-        //
-        //cases that we don't need to consider:
-        //
-        //if entry year was already accounted for, i.e. fell in original range
-        if((entryYear >= minYear) && (entryYear <= maxYear)){ break; }
-        //if entry is lower than old minYear, and also lower than newMin
-        //then it shouldn't be accounted for
-        if( (newMin < minYear) && (entryYear < newMin) ){ break; }
-        //if entry is larger than old maxYear, and also larger than newMax
-        //then it shouldn't be accounted for
-        if( (newMax > maxYear) && (entryYear > newMax) ){ break; }
-
-
-        // get name of town in entry
-        currTownName = flora.entries[i].place;
-
-        if (inspectedTown.townName in selectedTowns) {  //getCurrInspectedTown is undefined!
-          needToUpdateInspector = true;
-        }
-
-        // if the current town is already in the selectedTowns object,
-        // we just need to add another flora entry to it
-        if(currTownName in selectedTowns){
-          var entry = { "year": entryYear, 
-                        "sciName": sciName, 
-                        "volume": flora.volume, 
-                        "page": flora.page, 
-                        "comName": flora.comName
-                      };
-          selectedTowns[currTownName].selectedEntries.push(entry);
-        }
-
-        // else, we need a new town entry
-        else{
-          // build a new entry (town object)
-          newTown = {};
-          newTown["townName"] = currTownName;
-          newTown["selectedEntries"] = [];
-
-          var entry = { "year": entryYear, 
-                        "sciName": sciName, 
-                        "volume": flora.volume, 
-                        "page": flora.page, 
-                        "comName": flora.comName
-                      };
-
-          // add the entry to selectedEntries of that town
-          newTown["selectedEntries"].push(entry);
-
-          selectedTowns[currTownName] = newTown;
-        }
-      };
-    }
-    // update the inspector
-    if(needToUpdateInspector){
-      //console.log("updating");
-      inspectTown(inspectedTown)
-    }
-  }
-
-
-  //if there are any values that were previously accounted for
-  //that now need to be removed
-  if ((newMin > minYear) || (newMax < maxYear)){
-
-    var inspectedTown = getCurrInspectedTown();
-    var needToUpdateInspector = false;
-
-    //walk through all selected flora
-    for (var j = 0; j < selectedFlora.length; j++){
-
-      var sciName = selectedFlora[j];
-      var flora = dataset[sciName];
-      //var currTownName;
-
-      //walk through each entry in specific flora
-      for (var i = flora.entries.length - 1; i >= 0; i--) {
-        
-        // check for fitting in year range
-        var entryYear = flora.entries[i].year;
-
-        //
-        //cases that we don't need to consider:
-        //
-        //if entry year falls in new range and was already in previous set
-        if((entryYear >= minYear) && (entryYear >= newMin) && (entryYear <= maxYear) && (entryYear <= newMin)){ break; }
 
   
-        //need to see if already had been accounted for, but now out of range
-        if(((newMax < maxYear) && (entryYear > newMax) && (entryYear <= maxYear)) ||
-            (newMin > minYear) && (entryYear < newMin) && (entryYear >= minYear) ) {
-
-
-          // check if the town inspector is looking at a town that contains
-          // the flora that needs to be removed. If so, we're going to need to
-          // update the inpsector
-
-         // console.log(inspectedTown);
-          
-          if (inspectedTown.townName in selectedTowns) {  //getCurrInspectedTown is undefined!
-            needToUpdateInspector = true;
-          }
-            
-          if(flora.entries[i].place in selectedTowns){
-            var currTown = selectedTowns[flora.entries[i].place];
-          }
-          else{
-            break;
-          }
-          // if this flora is the only entry in the town, we can 
-          // delete the town from selectedTowns
-          if (currTown.selectedEntries.length == 1){
-            delete selectedTowns[currTown.townName];
-          } 
-          // otherwise, we need to delete only the relevant entries from that town
-          else {
-            for (var k = 0; k < currTown.selectedEntries.length; k++) {
-              if ((currTown.selectedEntries[k].sciName == flora.sciName) && (currTown.selectedEntries[k].year == entryYear)) {
-                currTown.selectedEntries.splice(k, 1);
-                break;
-              }
-            }
-          }
-        }
-      };
-    }
-    // update the inspector
-    if(needToUpdateInspector){
-      //console.log("updating");
-      removeFloraOutOfRangeFromInspector(newMin, newMax);
-    }
-  }
-
-
+  var inspectedTown = getCurrInspectedTown();
+  clearInspector();
+  removeAllFlora();
   minYear = newMin;
   maxYear = newMax;
+
+
+  for (var i = 0; i < selectedFlora.length; i++){
+
+    addFlora(selectedFlora[i]);
+
+  }
+
   drawMap();
+  if (typeof inspectedTown !== 'undefined'){
+    console.log("success?");
+    removeFloraOutOfRangeFromInspector(minYear, maxYear);
+    inspectTown(inspectedTown);
+  }
+
 
 }
+
+
+// //updates min and max year
+// function changeMinMaxYears(newMin, newMax){
+  
+//    // if ((newMin > minYear) || (newMax < maxYear)){
+//    //      removeAllFlora();
+//    // }
+
+
+
+//   //recalculate additions
+//   //if ((newMin < minYear) || (newMax > maxYear)){
+
+//     var inspectedTown = getCurrInspectedTown();
+//     var needToUpdateInspector = false;
+
+//     //walk through all selected flora
+//     for (var j = 0; j < selectedFlora.length; j++){
+
+//       var sciName = selectedFlora[j];
+//       var flora = dataset[sciName];
+//       var currTownName;
+//       var newTown;
+
+//       //walk through each entry in specific flora
+//       for (var i = flora.entries.length - 1; i >= 0; i--) {
+        
+//         // check for fitting in year range
+//         var entryYear = flora.entries[i].year;
+
+//         //
+//         //cases that we don't need to consider:
+//         //
+//         //if entry year was already accounted for, i.e. fell in original range
+//        // if((entryYear >= minYear) && (entryYear <= maxYear)){ break; }
+//         //if entry is lower than old minYear, and also lower than newMin
+//         //then it shouldn't be accounted for
+//         if( (newMin < minYear) && (entryYear < newMin) ){ break; }
+//         //if entry is larger than old maxYear, and also larger than newMax
+//         //then it shouldn't be accounted for
+//         if( (newMax > maxYear) && (entryYear > newMax) ){ break; }
+
+
+//         // get name of town in entry
+//         currTownName = flora.entries[i].place;
+
+
+//         // if the current town is already in the selectedTowns object,
+//         // we just need to add another flora entry to it
+//         if(currTownName in selectedTowns){
+//           var entry = { "year": entryYear, 
+//                         "sciName": sciName, 
+//                         "volume": flora.volume, 
+//                         "page": flora.page, 
+//                         "comName": flora.comName
+//                       };
+//           selectedTowns[currTownName].selectedEntries.push(entry);
+//         }
+
+//         // else, we need a new town entry
+//         else{
+//           // build a new entry (town object)
+//           newTown = {};
+//           newTown["townName"] = currTownName;
+//           newTown["selectedEntries"] = [];
+
+//           var entry = { "year": entryYear, 
+//                         "sciName": sciName, 
+//                         "volume": flora.volume, 
+//                         "page": flora.page, 
+//                         "comName": flora.comName
+//                       };
+
+//           // add the entry to selectedEntries of that town
+//           newTown["selectedEntries"].push(entry);
+
+//           selectedTowns[currTownName] = newTown;
+//         }
+//       };
+//     }
+//     // update the inspector
+//     if (!(typeof inspectedTown === 'undefined' || !inspectedTown)) {
+//       if (inspectedTown.townName in selectedTowns) { 
+//         inspectTown(inspectedTown);
+//       }
+//     }
+//   //}
+
+
+//   //if there are any values that were previously accounted for
+//   //that now need to be removed
+//   // if ((newMin > minYear) || (newMax < maxYear)){
+
+//   //   var inspectedTown = getCurrInspectedTown();
+//   //   var needToUpdateInspector = false;
+
+//   //   //walk through all selected flora
+//   //   for (var j = 0; j < selectedFlora.length; j++){
+
+//   //     var sciName = selectedFlora[j];
+//   //     var flora = dataset[sciName];
+//   //     //var currTownName;
+
+//   //     //walk through each entry in specific flora
+//   //     for (var i = flora.entries.length - 1; i >= 0; i--) {
+        
+//   //       // check for fitting in year range
+//   //       var entryYear = flora.entries[i].year;
+
+//   //       //
+//   //       //cases that we don't need to consider:
+//   //       //
+//   //       //if entry year falls in new range and was already in previous set
+//   //       if((entryYear >= minYear) && (entryYear >= newMin) && (entryYear <= maxYear) && (entryYear <= newMin)){ break; }
+
+  
+//   //       //need to see if already had been accounted for, but now out of range
+//   //       if(((newMax < maxYear) && (entryYear > newMax) && (entryYear <= maxYear)) ||
+//   //           (newMin > minYear) && (entryYear < newMin) && (entryYear >= minYear) ) {
+
+
+//   //         // check if the town inspector is looking at a town that contains
+//   //         // the flora that needs to be removed. If so, we're going to need to
+//   //         // update the inpsector
+//   //         // update the inspector
+//   //  //       if (!(typeof inspectedTown === 'undefined' || !inspectedTown)) {
+//   //           if(inspectedTown in selectedTowns){
+//   //             console.log("updating");
+//   //             removeFloraOutOfRangeFromInspector(newMin, newMax);
+//   //           }
+//   //       //  }
+
+//   //        // console.log(inspectedTown);
+          
+          
+            
+//   //         if(flora.entries[i].place in selectedTowns){
+//   //           var currTown = selectedTowns[flora.entries[i].place];
+//   //         }
+//   //         else{
+//   //           break;
+//   //         }
+//   //         // if this flora is the only entry in the town, we can 
+//   //         // delete the town from selectedTowns
+//   //         if (currTown.selectedEntries.length == 1){
+//   //           delete selectedTowns[currTown.townName];
+//   //         } 
+//   //         // otherwise, we need to delete only the relevant entries from that town
+//   //         else {
+//   //           for (var k = 0; k < currTown.selectedEntries.length; k++) {
+//   //             if ((currTown.selectedEntries[k].sciName == flora.sciName) && (currTown.selectedEntries[k].year == entryYear)) {
+//   //               currTown.selectedEntries.splice(k, 1);
+//   //               break;
+//   //             }
+//   //           }
+//   //         }
+//   //       }
+//   //     };
+//   //   }
+
+//   //   if (needToUpdateInspector){
+//   //     removeFloraOutOfRangeFromInspector(newMin, newMax);
+//   //   }
+//   // }
+
+
+//   minYear = newMin;
+//   maxYear = newMax;
+//   drawMap();
+
+//   console.log("redrew");
+//   console.log("min: " + minYear + " max: " + maxYear);
+
+// }
 
 
 

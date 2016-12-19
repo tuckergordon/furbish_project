@@ -45,8 +45,6 @@ function inspectTown(town) {
 
 	// for each entry in the town, add it to the table
 	for (var key in town.selectedEntries) {
-		console.log("wft");
-
 		var entry = town.selectedEntries[key];
 
 		// build the contents new row, using all of the information in the entry
@@ -125,6 +123,8 @@ function removeFloraOutOfRangeFromInspector(minYear, maxYear) {
 		// use the '.tdYear' class to find the <td> that contains
 		// the scientific name of the flora in that row
 		var year = $(this).find('.tdYear')[0];
+
+		console.log("year" + year);
 
 
 		if(year.innerHTML <= minYear) {

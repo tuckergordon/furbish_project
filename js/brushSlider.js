@@ -144,8 +144,8 @@ function brushed() {
 		curMaxYear = Math.round(maxX);
 	}
 
-	// console.log("curMinYear: " + curMinYear);
-	// console.log("curMaxYear: " + curMaxYear);
+	console.log("curMinYear: " + curMinYear);
+	console.log("curMaxYear: " + curMaxYear);
 
 	changeMinMaxYears(curMinYear, curMaxYear);
 
