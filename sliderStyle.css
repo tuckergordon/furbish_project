@@ -1,0 +1,44 @@
+body {
+  font: 10px sans-serif;
+}
+
+.axis path,
+.axis line, 
+.axis1 path,
+.axis1 line {
+  fill: none;
+  stroke: #E6E7E8;
+  shape-rendering: crispEdges;
+}
+
+.x.axis path, .x.axis1 path {
+  display: none;
+}
+
+
+#mouse-tracker {
+  stroke: #E6E7E8;
+  stroke-width: 1px;
+}
+
+
+.brush .extent {
+  stroke: #FFF;
+  shape-rendering: crispEdges;
+}
+
+
+#scaleContainer {
+  width: 400px;
+  height: 29.5px;
+  float: left;
+}
+
+.slider_SVG{
+    display: block;
+    margin: auto;
+}
+
+.area { fill: #4ca3bd; }
+
+svg { border: 1px solid #dedede; }

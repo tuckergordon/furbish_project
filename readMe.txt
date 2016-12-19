@@ -24,6 +24,7 @@ img/
 -Image files used in our documents (e.g. sketches)
 
 js/
+-brushSlider.js 		//builds and controls time frame slider
 -jquery-3.1.1.min.js 	// jquery library
 -list.min.js	  	// list library
 -maine_map.js		// builds and controls svg map of Maine
@@ -32,6 +33,7 @@ js/
 -searchDialog.js	// builds and controls the search dialog
 
 other files:
+-sophieSlider.html 	//site used to debug slider as it is produced
 -menu.html		// links to all parts of this assignment
 -METOWNS_POLY.geojson	// geojson data for Maine map and towns
 -parseTest.html		// html file used for running parse.js

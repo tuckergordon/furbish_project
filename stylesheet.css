@@ -92,6 +92,7 @@ h2 {
 	height: auto;
 	padding: 5px;
 	background-color: var(--plum-color);
+	color: white;
 	-webkit-border-radius: 10px;
 	-moz-border-radius: 10px;
 	border-radius: 10px;
@@ -223,13 +224,6 @@ path {
 	cursor: pointer;
 }
 
-#scaleContainer {
-	width: 400px;
-	height: 5%;
-	float: left;
-	background-color: var(--ornate-color);
-	margin-bottom: 10px;
-}
 
 #searchContainer {
 	height: 50%;
@@ -369,16 +363,62 @@ tbody td {
 	height: 5px;
 }
 
-.d3-slider {
+
+.axis path,
+.axis line, 
+.axis1 path,
+.axis1 line {
+  fill: none;
+  stroke: #E6E7E8;
+  shape-rendering: crispEdges;
+}
+
+.x.axis path, .x.axis1 path {
+  display: none;
+}
+
+
+#mouse-tracker {
+  stroke: #E6E7E8;
+  stroke-width: 1px;
+}
+
+
+.brush .extent {
+  stroke: #FFF;
+  shape-rendering: crispEdges;
+}
+
+
+#scaleContainer {
+  width: 400px;
+  height: 29.5px;
+  float: left;
+}
+
+.slider_SVG{
+    display: block;
+    margin: auto;
+}
+
+.area { fill: #4ca3bd; }
+
+svg { border: 1px solid #dedede; }
+
+
+
+
+
+/*.d3-slider {
     position: relative;
     font-family: Verdana,Arial,sans-serif;
     font-size: 0.6em;
     border: 0px solid #AB9353;
-  /*  top: 500px;
-    left: 500px;*/
+  	top: 500px;
+    left: 500px;
     z-index: 2;
-}
-
+}*/
+/*
 .d3-slider-horizontal {
     height: .8em;
 }  
@@ -458,3 +498,4 @@ tbody td {
     margin-left: 0;
     margin-bottom: -.6em;      
 }
+*/
