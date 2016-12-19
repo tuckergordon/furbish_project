@@ -7,7 +7,7 @@ var width = 400,
 	height = 29.5,
 	verticalPadding = height * .2,
 	horizontalPadding = width * .02,
-	containerHeight = height * .2,
+	containerHeight = height * .4,
 	containerWidth = width -  2 * horizontalPadding;
 
 //for range of container, need constant values of min and max years
@@ -57,11 +57,6 @@ var xScale = d3.scale.linear()
 	.range([horizontalPadding, containerWidth + horizontalPadding])
 	.domain([absMinYear, absMaxYear]);
 
-//for actual slider
-//initially, it covers all years
-// var xScaleSlider = d3.scale.linear()
-// 	.range([horizontalPadding, containerWidth])
-// 	.domain([curMinYear, curMaxYear]);
 
 //height of slider and container
 var yScale = d3.scale.linear()
@@ -72,7 +67,7 @@ var yScale = d3.scale.linear()
 var xAxis = d3.svg.axis()
     .scale(xScale)
     .orient("bottom")
-    .ticks(allYears.length / 2)
+    .ticks(allYears.length / 3)
     .tickFormat(d3.format("d"));  // <-- gets rid of commas in years
 
 
@@ -103,8 +98,7 @@ svg.append("g")
 
 svg.select(".x.axis")
   .selectAll("text")
-  .attr("transform"," translate(-10,8.5) rotate(-65)") // To rotate the texts on x axis. Translate y position a little bit to prevent overlapping on axis line.
-  .style("font-size","6px"); //To change the font size of texts
+  .style("font-size","8px"); //To change the font size of texts
 
 
 
@@ -150,8 +144,10 @@ function brushed() {
 		curMaxYear = Math.round(maxX);
 	}
 
-	console.log("curMinYear: " + curMinYear);
-	console.log("curMaxYear: " + curMaxYear);
+	// console.log("curMinYear: " + curMinYear);
+	// console.log("curMaxYear: " + curMaxYear);
+
+	changeMinMaxYears(curMinYear, curMaxYear);
 
 	//call for map to be redrawn, curmin and max will automatically be considered
 

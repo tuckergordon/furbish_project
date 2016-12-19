@@ -11884,10 +11884,6 @@ var dataset = {
         "year": "1898"
       },
       {
-        "place": "Brunswick",
-        "year": "Jul 1870"
-      },
-      {
         "place": "Rangeley",
         "year": "1881"
       }

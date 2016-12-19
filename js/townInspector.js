@@ -18,16 +18,19 @@ var currInspectedTown;
 // for the selected years) in the inspector
 function inspectTown(town) {
 	
-	// check if already inspecting that town, else update the currInspectedTown
-	if (currInspectedTown == town) { 
-		return; 
-	}
-	else { 
-		currInspectedTown = town; 
-	}
+	// // check if already inspecting that town, else update the currInspectedTown
+	// if (currInspectedTown == town) { 
+	// 	return; 
+	// }
+	// else { 
+	// 	currInspectedTown = town; 
+	// }
 
+	currInspectedTown = town; 
 	// clear out the current contents (to avoid adding duplicates)
 	clearInspector();
+
+	console.log(town);
 
 	// set the header to "Town: <town name>" i.e. "Town: Brunswick"
 	$(".tableTitle").find('span').text("Town: " + town.townName);
@@ -42,6 +45,7 @@ function inspectTown(town) {
 
 	// for each entry in the town, add it to the table
 	for (var key in town.selectedEntries) {
+		console.log("wft");
 
 		var entry = town.selectedEntries[key];
 
@@ -57,6 +61,12 @@ function inspectTown(town) {
 		// table later by scientific name, we can easily find the <td> element that
 		// contains the scientific name
 		tdSciName.attr('class', 'tdSciName')
+
+
+		// give the tdYear <td> a class so that when we want to remove flora from the
+		// table later by being out of range we can easily find the <td> element that
+		// contains the year of collection
+		tdYear.attr('class', 'tdYear')
 
 		// add the contents of the row
 		$(tr).append(tdComName)
@@ -99,6 +109,32 @@ function removeFloraFromInspector(sciName) {
 			this.remove();
 		}
 	})
+	// if removing this flora leaves the inspector empty, then reset the header
+	if ($('#floraTableBody tr').length == 0) {
+		clearInspector();
+	}
+}
+
+
+//removes flora from the inspector with the given scientific name that
+//did not fit in year bounds
+function removeFloraOutOfRangeFromInspector(minYear, maxYear) {
+	
+	//look through each row for the specified flora
+	$('.inspectorRow').each(function() {
+		// use the '.tdYear' class to find the <td> that contains
+		// the scientific name of the flora in that row
+		var year = $(this).find('.tdYear')[0];
+
+
+		if(year.innerHTML <= minYear) {
+			this.remove();
+		}
+		else if (year.innerHTML >= maxYear){
+			this.remove();
+		}
+	})
+
 	// if removing this flora leaves the inspector empty, then reset the header
 	if ($('#floraTableBody tr').length == 0) {
 		clearInspector();

@@ -6,8 +6,8 @@
 //////////////////////////////////////////////////////////////////////
 // Global variables
 
-var minYear; //to make search have lower bound
-var maxYear; //to make search have upper bound
+var minYear = 1870; //to make search have lower bound
+var maxYear = 1909; //to make search have upper bound
 
 var mapInitialized = false;
 
@@ -107,7 +107,7 @@ function drawMap() {
         })
         .attr("d", path);
 
-        addSlider();
+        // addSlider();
 
       }
 
@@ -361,69 +361,7 @@ function drawMap() {
 
     }
 
-    //uniqueTownsInDataset();
-
-    
-    //Implemented the d3 slider written Bjorn Sandvik.
-    function addSlider() {
-      //The slider was inserted into the div created in the html file.
-      //We specified several of the parameters of the slider such as:
-      // - Orientation.
-      // - Number of ticks.
-      // - The size of the 'step' taken by the handle when the user shifts it.
-      // - The max and min values that the range slider can have.
-      // - The starting min and max values of the slider handles.
-      d3.select('#scaleContainer').call(d3.slider().axis(d3.svg.axis().orient("horizontal").ticks(10)).step(1).min(sliderMin).max(sliderMax).value( [ sliderStartMin, sliderStartMax ] )
-        .on("slide", function(evt, value) {
-
-          //When the user clicks on one of the handles and shifts it, the values of the either the start and end index will change (based on which handle is moved), and thus
-          //the number of schools to be displayed changes. All of these variables are updated according to the current position of the slider handles.
-        // startIndex = value[0] - 1;
-        // endIndex = value[1] - 1;
-
-        //Once the user lets go of the slider handle, the user has chosen a new range that they wish to see on the graph, and thus, the bars on the graph are redrawn.
-          d3.select('#slider3').on("mouseup", function(evt, value) {
-              redrawOnSlider();
-          });
-      }));
-    }
-
-    // function redrawOnSlider() {
-
-    //     barPadding = (h - axisMargin - margin * 2) * 0.6 / numSchoolsToDisplay;
-    //     barHeight = (h - barPadding) / numSchoolsToDisplay - barPadding;
-        
-    //     schools = [];
-
-    //     //All schools within the range specified by the user are appended to the schools array, which is the array of schools to be displayed.
-    //     for (var i = 0; i < 50; i++) {
-    //       if (i >= startIndex && i <= endIndex) {
-    //         schools.push(data[i]);
-    //       }
-    //     }
-
-    //     //All current bars, text and buttons are removed
-    //     d3.select("#svgSchools").selectAll("text").remove();
-    //     d3.select("#svgBar").selectAll("rect").remove();
-    //     d3.selectAll(".button").remove();
-    //     d3.select("#svgBar").selectAll("g").remove();
-
-    //     //The bars,text and buttons are redrawn.
-    //     addSchoolListSvg();
-    //     addSortOptionButtons();
-    //     drawAxes();
-    //     drawBars();
-    //     d3.select("#chartTitle").remove();
-
-    //     //chart title
-    //     svgBar.append("text")
-    //       .attr("class", "label")
-    //       .attr("id", "chartTitle")
-    //       .attr("transform", "translate(" + (w / 2) + "," + axisMargin + ")")
-    //       .text("TOP " + numSchoolsToDisplay + " SCHOOLS WITH " + valueOrder + " ACCEPTANCE RATE BY " + (sortOption ? "VALUE" : "NAME"));
-
-    //   }
-
+ 
     drawDots();
 
     // uniqueTownsInDataset();
@@ -454,9 +392,176 @@ function drawMap() {
 //
 d3.select(self.frameElement).style("height", mapHeight + "px");
 
+
+
+//updates min and max year
+function changeMinMaxYears(newMin, newMax){
+  
+
+  //if there are any values that weren't previously accounted for
+  if ((newMin < minYear) || (newMax > maxYear)){
+
+    var inspectedTown = getCurrInspectedTown();
+    var needToUpdateInspector = false;
+
+    //walk through all selected flora
+    for (var j = 0; j < selectedFlora.length; j++){
+
+      var sciName = selectedFlora[j];
+      var flora = dataset[sciName];
+      var currTownName;
+      var newTown;
+
+      //walk through each entry in specific flora
+      for (var i = flora.entries.length - 1; i >= 0; i--) {
+        
+        // check for fitting in year range
+        var entryYear = flora.entries[i].year;
+
+        //
+        //cases that we don't need to consider:
+        //
+        //if entry year was already accounted for, i.e. fell in original range
+        if((entryYear >= minYear) && (entryYear <= maxYear)){ break; }
+        //if entry is lower than old minYear, and also lower than newMin
+        //then it shouldn't be accounted for
+        if( (newMin < minYear) && (entryYear < newMin) ){ break; }
+        //if entry is larger than old maxYear, and also larger than newMax
+        //then it shouldn't be accounted for
+        if( (newMax > maxYear) && (entryYear > newMax) ){ break; }
+
+
+        // get name of town in entry
+        currTownName = flora.entries[i].place;
+
+        if (inspectedTown.townName in selectedTowns) {  //getCurrInspectedTown is undefined!
+          needToUpdateInspector = true;
+        }
+
+        // if the current town is already in the selectedTowns object,
+        // we just need to add another flora entry to it
+        if(currTownName in selectedTowns){
+          var entry = { "year": entryYear, 
+                        "sciName": sciName, 
+                        "volume": flora.volume, 
+                        "page": flora.page, 
+                        "comName": flora.comName
+                      };
+          selectedTowns[currTownName].selectedEntries.push(entry);
+        }
+
+        // else, we need a new town entry
+        else{
+          // build a new entry (town object)
+          newTown = {};
+          newTown["townName"] = currTownName;
+          newTown["selectedEntries"] = [];
+
+          var entry = { "year": entryYear, 
+                        "sciName": sciName, 
+                        "volume": flora.volume, 
+                        "page": flora.page, 
+                        "comName": flora.comName
+                      };
+
+          // add the entry to selectedEntries of that town
+          newTown["selectedEntries"].push(entry);
+
+          selectedTowns[currTownName] = newTown;
+        }
+      };
+    }
+    // update the inspector
+    if(needToUpdateInspector){
+      //console.log("updating");
+      inspectTown(inspectedTown)
+    }
+  }
+
+
+  //if there are any values that were previously accounted for
+  //that now need to be removed
+  if ((newMin > minYear) || (newMax < maxYear)){
+
+    var inspectedTown = getCurrInspectedTown();
+    var needToUpdateInspector = false;
+
+    //walk through all selected flora
+    for (var j = 0; j < selectedFlora.length; j++){
+
+      var sciName = selectedFlora[j];
+      var flora = dataset[sciName];
+      //var currTownName;
+
+      //walk through each entry in specific flora
+      for (var i = flora.entries.length - 1; i >= 0; i--) {
+        
+        // check for fitting in year range
+        var entryYear = flora.entries[i].year;
+
+        //
+        //cases that we don't need to consider:
+        //
+        //if entry year falls in new range and was already in previous set
+        if((entryYear >= minYear) && (entryYear >= newMin) && (entryYear <= maxYear) && (entryYear <= newMin)){ break; }
+
+  
+        //need to see if already had been accounted for, but now out of range
+        if(((newMax < maxYear) && (entryYear > newMax) && (entryYear <= maxYear)) ||
+            (newMin > minYear) && (entryYear < newMin) && (entryYear >= minYear) ) {
+
+
+          // check if the town inspector is looking at a town that contains
+          // the flora that needs to be removed. If so, we're going to need to
+          // update the inpsector
+
+         // console.log(inspectedTown);
+          
+          if (inspectedTown.townName in selectedTowns) {  //getCurrInspectedTown is undefined!
+            needToUpdateInspector = true;
+          }
+            
+          if(flora.entries[i].place in selectedTowns){
+            var currTown = selectedTowns[flora.entries[i].place];
+          }
+          else{
+            break;
+          }
+          // if this flora is the only entry in the town, we can 
+          // delete the town from selectedTowns
+          if (currTown.selectedEntries.length == 1){
+            delete selectedTowns[currTown.townName];
+          } 
+          // otherwise, we need to delete only the relevant entries from that town
+          else {
+            for (var k = 0; k < currTown.selectedEntries.length; k++) {
+              if ((currTown.selectedEntries[k].sciName == flora.sciName) && (currTown.selectedEntries[k].year == entryYear)) {
+                currTown.selectedEntries.splice(k, 1);
+                break;
+              }
+            }
+          }
+        }
+      };
+    }
+    // update the inspector
+    if(needToUpdateInspector){
+      //console.log("updating");
+      removeFloraOutOfRangeFromInspector(newMin, newMax);
+    }
+  }
+
+
+  minYear = newMin;
+  maxYear = newMax;
+  drawMap();
+
+}
+
+
+
+
 /*funciton will take individual scientific names of flora after user selects on search engine*/
-
-
 // Add the flora with the given scientific name to the map
 function addFlora(sciName){
 
@@ -510,13 +615,6 @@ function addFlora(sciName){
       selectedTowns[currTownName] = newTown;
     }
   };
-
-  // console.log(selectedTowns);
-
-  // console.log(Object.keys(selectedTowns).length);
-  // console.log(Object.keys(selectedTowns));
-  // console.log(selectedTowns);
-  // drawMap();
 
 }
 
