@@ -2,6 +2,9 @@ README
 Furbish Project
 Sophie Ardell, Marcus Christiansen, Tucker Gordon
 
+Link to final project data visualization:
+http://www.bowdoin.edu/~sardell/furbish_project/furbishProject.html (to be opened in Firefox)
+
 ENTRY POINTS:
 -InternalEntryPage.html
 -furbishProject.html 	//public entry page
