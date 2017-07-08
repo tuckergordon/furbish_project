@@ -61,7 +61,6 @@ var svg = d3.select(".slider_SVG").append("svg")
 
 //
 // * NOTE - I belive this is where the scaling bug is.
-//			I will examine this once I sleep for the first time in 2 days.
 //
 
 //for container of slider
